@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17069712_20180228.xml' country='EC' doc-number='SP17069712' kind='A' date-published='20180228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17069712' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17069712</doc-number><kind>A</kind><date>20180228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>A61K31/4439(2006.01),A61P25/00(2006.01),A61P25/15(2006.01),A61P25/28(2006.01)</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201769712</doc-number><date>20171018</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>2015-055532</doc-number><date>20150319</date><country>JP</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>KYOWA HAKKO KIRIN CO., LTD.</name><address><street>1-6-1, Ohtemachi, Chiyoda-ku, Tokyo, 100-8185 (JP)</street><country>JP</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>HORITA, Takako</name><address><street>c/o Head Office, KYOWA HAKKO KIRIN CO., LTD., 1-6-1, Ohtemachi, Chiyo-da-ku, Tokyo (JP)</street><country>JP</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>Zambrano Albuja, Margarita Rosa</name><address><street>Av. 6 de Diciembre No. 2816 y Paúl Rivet, Edificio Josueth González 10mo. Piso, Quito - Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>AGENTE TERAPÉUTICO PARA DISFUNCIÓN DEL LÓBULO FRONTAL </invention-title>
+</bibliographic-data>
+<abstract lang='es'>La presente invención proporciona un agente terapéutico y/o preventivo, por ejemplo, para disfunción del lóbulo frontal (por ejemplo, alteración cognitiva (por ejemplo, alteración cognitiva en enfermedad de Parkinson, alteración cognitiva causada por estrés crónico, demencia con cuerpos de Lewy, parálisis supranuclear progresiva, demencia frontotemporal, y similares), y otros), enfermedad de cuerpos de Lewy (por ejemplo, alteración cognitiva en enfermedad de Parkinson, enfermedad difusa de cuerpos de Lewy, demencia con cuerpos de Lewy, trastorno del movimiento asociado con enfermedad de cuerpos de Lewy, y similares), y otros, que contiene un compuesto representado por la fórmula (I) o una de sus sales farmacéuticamente aceptables como un ingrediente activo. </abstract>
+</ec-patent-document>

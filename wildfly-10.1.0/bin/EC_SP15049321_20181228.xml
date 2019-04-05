@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP15049321_20181228.xml' country='EC' doc-number='SP15049321' kind='A' date-published='20181228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP15049321' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP15049321</doc-number><kind>A</kind><date>20181228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>A01G9/00</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201549321</doc-number><date>20151125</date></document-id></application-reference>
+<priority-claims>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>UNIVERSIDAD DE GUAYAQUIL</name><address><street>Ciudadela Universitaria</street><country>EC</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>Rómulo Abelardo Rodríguez Castro</name><address><street>calle Padre Solano 2005 y Tungurahua</street><country>EC</country></address></addressbook></inventor>
+</inventors><agents>
+</agents></parties>
+<invention-title lang='es'>Gancho metalico de uso múltiple para fijar elementos estructurales de bambú a uniones metálicas</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Gancho metálico de uso múltiple para unir elementos estructurales de bambú a uniones metálicas</abstract>
+</ec-patent-document>

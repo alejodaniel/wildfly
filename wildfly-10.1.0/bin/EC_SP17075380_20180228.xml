@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17075380_20180228.xml' country='EC' doc-number='SP17075380' kind='A' date-published='20180228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17075380' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17075380</doc-number><kind>A</kind><date>20180228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C07K14/735(2006.01),A61K39/00(2006.01),C12N15/62(2006.01)</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201775380</doc-number><date>20171113</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>62/146,559</doc-number><date>20150413</date><country>US</country></priority-claim>
+<priority-claim sequence='2' kind='National'><doc-number>62/243,397</doc-number><date>20151019</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>ADURO BIOTECH, INC. </name><address><street>740 Heinz Avenue,  Berkeley, CA 94710, Estados Unidos de América</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>LAUER, Peter M.</name><address><street>1003 Solano Avenue, Albany, CA 94706, Estados Unidos de América</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>HANSON, William G.</name><address><street>101 Camrose Place, Walnut Creek, CA 94596, Estados Unidos de América</street><country>US</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>Mandakovic Falconi, Sasha </name><address><street>Av. Amazonas N21-147 y Roca, Edif. Río Amazonas, Of. 900, Quito  - Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>FUSIONES DE VARIANTE III DEL RECEPTOR DE FACTOR DE CRECIMIENTO EPIDÉRMICO-MESOTELINA Y MÉTODOS PARA USAR LOS MISMOS</invention-title>
+</bibliographic-data>
+<abstract lang='es'>En el presente documento se proporcionan composiciones y métodos para desencadenar una respuesta inmunitaria en un sujeto. En particular, la presente divulgación se refiere a proteínas de fusión que comprenden un polipéptido de la variante III del receptor de factor de crecimiento epidérmico (EGFRvIII) y un polipéptido de mesotelina, y a métodos para desencadenar una respuesta inmunitaria usando células hospedadoras que comprenden moléculas de ácido nucleico que codifican dichas proteínas de fusión. En algunas realizaciones, las moléculas de ácido nucleico pueden codificar una proteína de fusión EGFRvIII-mesotelina que comprende una secuencia de aminoácidos que es al menos i) un 90% idéntica, ii) un 95% idéntica, o iii) un 99% idéntica a EGFRvIIIx5-mesotelina35-622 tal como se expone en la SEQ ID NO: 8.</abstract>
+</ec-patent-document>

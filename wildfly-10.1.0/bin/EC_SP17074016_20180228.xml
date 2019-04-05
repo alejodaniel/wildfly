@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17074016_20180228.xml' country='EC' doc-number='SP17074016' kind='A' date-published='20180228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17074016' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17074016</doc-number><kind>A</kind><date>20180228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C12N7/00,C12N15/864,C12N5/10,A61K48/00</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201774016</doc-number><date>20171108</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>62/144,862</doc-number><date>20150408</date><country>US</country></priority-claim>
+<priority-claim sequence='2' kind='National'><doc-number>62/220,067</doc-number><date>20150917</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>GENZYME CORPORATION</name><address><street>500 Kendall Street, Cambrdige, Massachusetts 02142, US</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>SOUZA, David</name><address><street>c/o Sanofi, 55 Corporate Drive - Mail Code: 55A-505A, Bridgewater, NJ 08807, US</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>VINCENT, Karen</name><address><street>c/o Sanofi, 55 Corporate Drive - Mail Code: 55A-505A, Bridgewater, NJ 08807, US</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>KYOSTIO-MOORE, Sirkka</name><address><street>c/o Sanofi, 55 Corporate Drive - Mail Code: 55A-505A, Bridgewater, NJ 08807, US</street><country>US</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>ALFREDO PACÍFICO GALLEGOS BANDERAS</name><address><street>Av. 12 de Octubre y Lincoln</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>PRODUCCIÓN DE VECTORES ADENO-ASOCIADOS DE GRAN TAMAÑO</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Se proporcionan en el presente documento métodos para producir una partícula de virus adenoasociado (AAV) que contiene un genoma de AAV recombinante de gran tamaño (por ejemplo, mayor de 4,7 kb). En algunos aspectos, la invención proporciona partículas AAV y vectores de AAV que comprenden genomas de rAAV de gran tamaño. También se proporcionan líneas celulares productoras para producir partículas AAV que comprenden genomas de gran tamaño.</abstract>
+</ec-patent-document>

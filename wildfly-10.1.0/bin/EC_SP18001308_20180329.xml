@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP18001308_20180329.xml' country='EC' doc-number='SP18001308' kind='A' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP18001308' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP18001308</doc-number><kind>A</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C07D401/14_C07D413/14_C07D401/10_C07D413/10_A61K31/4439_A61P9/00_A61P27/02</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI20181308</doc-number><date>20180108</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>15176099.8</doc-number><date>20150709</date><country>EF</country></priority-claim>
+<priority-claim sequence='2' kind='National'><doc-number>16157350.6</doc-number><date>20160225</date><country>EF</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>BAYER PHARMA AKTIENGESELLSCHAFT</name><address><street>Müllerstraße 178, 13353 Berlin (DE).</street><country>DE</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>TERSTEEGEN, Adrian</name><address><street>Rübezahlweg 8, 42111 Wuppertal (DE).</street><country>DE</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>STAMPFUSS, Jan</name><address><street>Zur Weide 83, 40470 Düsseldorf (DE).</street><country>DE</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>HEITMEIER, Stefan</name><address><street>Am Wasserturm 56, 42489 Wülfrath (DE).</street><country>DE</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>HILLISCH, Alexander</name><address><street>Stöckerberg 3, 42651 Solingen (DE).</street><country>AT</country></address></addressbook></inventor>
+<inventor sequence='5' designation='all'><addressbook><name>ACKERSTAFF, Jens</name><address><street>Christophstr. 27, 40225 Düsseldorf (DE).</street><country>DE</country></address></addressbook></inventor>
+<inventor sequence='6' designation='all'><addressbook><name>JIMENEZ NUNEZ, Eloisa</name><address><street>Jägerhäuslerweg 49, 79104 Freiburg im Breisgau (DE).</street><country>ES</country></address></addressbook></inventor>
+<inventor sequence='7' designation='all'><addressbook><name>LANG, Dieter</name><address><street>Wimmersberger Str. 60, 42553 Velbert (DE).</street><country>DE</country></address></addressbook></inventor>
+<inventor sequence='8' designation='all'><addressbook><name>MEIER, Katharina</name><address><street>Seerosenstrasse 3, 40822 Mettmann (DE).</street><country>DE</country></address></addressbook></inventor>
+<inventor sequence='9' designation='all'><addressbook><name>MEIBOM, Daniel</name><address><street>In den Birken 62b, 42113 Wuppertal (DE).</street><country>DE</country></address></addressbook></inventor>
+<inventor sequence='10' designation='all'><addressbook><name>RÖHRIG, Susanne</name><address><street>Dietrich-Bonhoeffer-Straße 66, 40724 Hilden (DE).</street><country>DE</country></address></addressbook></inventor>
+<inventor sequence='11' designation='all'><addressbook><name>ELLERBROCK, Pascal</name><address><street>Jahnstraße 13B, 40215 Düsseldorf (DE).</street><country>DE</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>Romoleroux Armijos, María Cecilia </name><address><street>Robles E4-136 y Av. Amazonas, Edif. Proinco Calisto, piso 11, Quito - Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>DERIVADOS DE OXOPIRIDINA SUSTITUIDOS</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La invención se refiere a derivados de oxopiridina sustituidos y a procesos para su preparación, y también a su uso para preparar medicamentos para el tratamiento y/o profilaxis de enfermedades, en particular enfermedades cardiovasculares, preferentemente trastornos trombóticos o tromboembólicos, y edemas, y también trastornos oftálmicos.</abstract>
+</ec-patent-document>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP15049317_20181228.xml' country='EC' doc-number='SP15049317' kind='A' date-published='20181228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP15049317' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP15049317</doc-number><kind>A</kind><date>20181228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>E04B1/00</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201549317</doc-number><date>20151125</date></document-id></application-reference>
+<priority-claims>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>universidad de guayaquil</name><address><street>Av. Delta - Ciudadela Universitaria</street><country>EC</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>Rómulo Abelardo Rodríguez Castro</name><address><street>calle Padre Solano 2005 y Tungurahua</street><country>EC</country></address></addressbook></inventor>
+</inventors><agents>
+</agents></parties>
+<invention-title lang='es'>Elemento metálico tipo esfera de 18 puntos para uniones estructurales con bambú </invention-title>
+</bibliographic-data>
+<abstract lang='es'>Es un elemento metálico de acero laminado de 5.100 kg/cm2 de forma esférica, multiuso,  caracterizado por tener 18 cuadrados de lados iguales de 7.5 cm por lado, con espesor de 7.3 mm, con un orificio al centro de cada uno, en el cual penetra un perno roscado de hasta 16 mm de diámetro que es parte de un terminal igualmente de acero que forma parte del elemento estructural de bambú.</abstract>
+</ec-patent-document>

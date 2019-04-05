@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP16061176_20180329.xml' country='EC' doc-number='SP16061176' kind='A' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP16061176' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP16061176</doc-number><kind>A</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>B66F11/14</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201661176</doc-number><date>20160718</date></document-id></application-reference>
+<priority-claims>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>MOISÉS CASTRO SALINAS</name><address><street>Calle San José Manzana 7, lote 15, número 30 Col. Jardines de San José Coacalco de Berriozabal 55717 Estado de México MÉXICO</street><country>MX</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>MOISÉS CASTRO SALINAS</name><address><street>Calle San José Manzana 7, lote 15, número 30 Col. Jardines de San José Coacalco de Berriozabal 55717 Estado de México MÉXICO</street><country>MX</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>FABIÁN MOISÉS CASTRO VARGAS</name><address><street>Calle San José Manzana 7, lote 15, número 30 Col. Jardines de San José Coacalco de Berriozabal 55717 Estado de México</street><country>MX</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>César Vicente Molina Novillo</name><address><street>Calle del Establo y Calle E. Edificio Site Center, Torre I, Oficina 301</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>SISTEMA NIVELADOR DE COLUMNA</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Un sistema para la nivelación de la columna de una grúa articulada de canastilla, que comprende un cilindro hidráulico, puntos de apoyo para dicho cilindro ubicados en una subestructura y un pedestal, y un punto de giro para el pedestal que permite colocar a la columna de la grúa y a una tornamesa a 0° con respecto al plano horizontal, aumentando con esto el rango de desnivel de trabajo tanto en sentido frontal como posterior  hasta 20° con respecto al chasis del vehículo portante.</abstract>
+</ec-patent-document>

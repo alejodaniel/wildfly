@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SMU18008434_20180228.xml' country='EC' doc-number='SMU18008434' kind='U' date-published='20180228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SMU18008434' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SMU18008434</doc-number><kind>U</kind><date>20180228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>A61H</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI20188434</doc-number><date>20180205</date></document-id></application-reference>
+<priority-claims>
+</priority-claims>
+<parties><applicants>
+</applicants>
+<inventors>
+</inventors><agents>
+</agents></parties>
+<invention-title lang='es'>EQUIPO MECATRÓNICO COADYUVANTE PARA EL TRATAMIENTO DEL PIE DIABETICO</invention-title>
+</bibliographic-data>
+<abstract lang='es'>El  equipo mecatrónico coadyuvante para el tratamiento del pie diabético es un sistema mecatrónico que consta de dos manipuladores robóticos que  pueden mover los pies de manera simultánea e independiente,  con rutinas que aplican métodos médicos para promover una mayor circulación sanguínea, contribuyendo así a la mejor condición de salud del pie de pacientes diabéticos. 
+Los manipuladores pueden desplazarse sobre rieles cuya distancia paralela puede ser regulada, y al mismo tiempo tienen sistemas de fijación al soporte sobre el que van las piernas del paciente.  Esto hace que el equipo sea independiente y autónomo del medio utilizado para colocar al paciente. El equipo posee control electrónico que  puede ser fácilmente utilizado por el usuario para aplicar las terapias médicas coadyuvantes que se encuentran programadas en los sistemas microprocesados del sistema. 
+</abstract>
+</ec-patent-document>

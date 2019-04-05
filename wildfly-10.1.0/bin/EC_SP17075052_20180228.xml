@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17075052_20180228.xml' country='EC' doc-number='SP17075052' kind='A' date-published='20180228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17075052' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17075052</doc-number><kind>A</kind><date>20180228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>A61K9/20(2006.10)</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201775052</doc-number><date>20171110</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>US No. 62/148,240</doc-number><date>20150413</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>NOVARTIS AG</name><address><street> 4002 Basel, Switzerland.</street><country>CH</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>Arnaud GRANDEURY</name><address><street>c/o Novartis Pharma AG  Postfach 4002 Basel Switzerland</street><country>FR</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>Rui COSTA</name><address><street>c/o Novartis Pharma AG  Postfach 4002 Basel Switzerland</street><country>PT</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>Bindhumadhavan GURURAJAN</name><address><street>c/o Novartis Pharma AG  Postfach 4002 Basel Switzerland</street><country>GB</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>Esteban Riofrio Correa </name><address><street>Av. 12 de Octubre y Abrahan Lincoln</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>Tableta de Ribociclib</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La presente descripción esta dirigida al comprimido oral de ribociclib incluyendo su(s) sal(es). Una forma de realización de la presente descripción se dirige al comprimido de ribociclib con alta carga de fármaco con un perfil de liberación inmediata. Una realización de la presente descripción se refiere a un comprimido de ribociclib recubierto. Otra realización de la presente descripción se refiere a un comprimido de ribociclib recubierto donde el revestimiento es una avanzada barrera contra la humedad (por ejemplo, el recubrimiento Opadry® amb II donde el recubrimiento se basa en PVA).</abstract>
+</ec-patent-document>

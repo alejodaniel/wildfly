@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17073004_20180228.xml' country='EC' doc-number='SP17073004' kind='A' date-published='20180228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17073004' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17073004</doc-number><kind>A</kind><date>20180228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>A61K31/575(2006.01),C07J43/00(2006.01),C07J9/00(2006.01),A61K51/00(2006.01)</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201773004</doc-number><date>20171101</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>62/144,040 (US)</doc-number><date>20150407</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>Intercept Pharmaceuticals, Inc.</name><address><street>10 Hudson Yards, 37th Floor New York, NY 10001, Estados Unidos de América</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>PRUZANSKI, Mark</name><address><street>421 Hudson Street, New York, NY 10014, Estados Unidos de América</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>ADORINI, LUCIANO</name><address><street>Via Bronzino 8, 20133 Milano, Italia</street><country>IT</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>Teodomiro Ribadeneira Molestina</name><address><street>Av. De los Shyris N32-40 y Av. 6 de Diciembre- Edif. Aveiro- Piso 5- Oficina 501</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>COMPOSICIONES FARMACÉUTICAS PARA TERAPIAS COMBINADAS</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Una composición farmacéutica que comprende una combinación de un agonista del FXR y por lo menos un agente terapéutico adicional que reduce el nivel de glucosa en sangre, estimula la secreción de insulina y/o aumenta la sensibilidad a la insulina. También se relaciona con el uso de la composición farmacéutica para el tratamiento o la prevención de una enfermedad o condición mediada por FXR, como por ejemplo NAFLD y NASH, una enfermedad o condición relacionada con un nivel elevado de glucosa en sangre, una la reducción de la secreción de insulina y/o la reducción de la sensibilidad a la insulina, tal como hiperglucemia, diabetes, obesidad y resistencia a la insulina, o para disminuir el nivel de glucosa en sangre, estimular la secreción de insulina y/o aumentar la sensibilidad a la insulina. </abstract>
+</ec-patent-document>

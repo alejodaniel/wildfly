@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17021097_20180228.xml' country='EC' doc-number='SP17021097' kind='A' date-published='20180228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17021097' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17021097</doc-number><kind>A</kind><date>20180228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C07D401/14,C07D405/14,C07D401/12,A61K31/454,A61K31/4545,A61P35/00,A61P43/00</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201721097</doc-number><date>20170406</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>62/060,724</doc-number><date>20141007</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>ELI LILLY AND COMPANY</name><address><street>Lilly Corporate Center, Indianapolis, Indiana 46285, Estados Unidos de America</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>COATES, David Andrew</name><address><street>c/o ELI LILLY AND COMPANY, P.O. BOX 6288, Indianapolis, IN 46206-6288, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>WOLFANGEL, Craig D.</name><address><street>c/o Eli Lilly Company, Indianapolis, IN 46206-6288</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>DOLS INDUSTRIAL DE PELUQUERIA, S.A.</name><address><street>Calle Arag?n, 208-210, 5, 5, ES-08011, Barcelona, Espa?a</street><country>ES</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>SAWYER, Jason Scott</name><address><street>c/o Eli Lilly and Company, P.O.Box 6288, Indianapolis, Indiana 46206-6288, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='5' designation='all'><addressbook><name>ELI LILLY AND COMPANY</name><address><street>Lilly Corporate Center, Indianapolis, Indiana 46285, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='6' designation='all'><addressbook><name>MCMILLEN, William T.</name><address><street>c/o Eli Lilly and Company, P.O.Box 6288, Indianapolis, Indiana 46206-6288, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='7' designation='all'><addressbook><name>JOSEPH, Sajan</name><address><street>c/o Eli Lilly and Company, P.O.Box 6288, Indianapolis, Indiana 46206-6288, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='8' designation='all'><addressbook><name>BEIGHT, Douglas W.</name><address><street>c/o Eli Lilly and Company, P.O.Box 6288, Indianapolis, Indiana 46206-6288, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='9' designation='all'><addressbook><name>MERCK KGaA</name><address><street>Frankfurter Strasse 250, 64293 Darmstadt - Alemania</street><country>DE</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>DR. JUAN M. QUEVEDO</name><address><street>Av. 12 de Octubre N26-97 y Lincoln, Quito, Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>COMPUESTOS DE AMINOPIRIDILOXIPIRAZOL</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La presente invención se refiere a compuestos novedosos de aminopiridiloxipirazol que inhiben la actividad del receptor 1 del factor del crecimiento transformante beta (TGF&#946;R1), composiciones farmacéuticas que comprenden los compuestos y métodos para utilizar los compuestos para tratar cáncer, preferentemente cáncer de colon, melanoma, carcinoma hepatocelular, cáncer renal, glioblastoma, cáncer de páncreas, síndrome mielodisplásico, cáncer de pulmón y cáncer gástrico y/o fibrosis, preferentemente fibrosis hepática y enfermedad renal crónica.</abstract>
+</ec-patent-document>

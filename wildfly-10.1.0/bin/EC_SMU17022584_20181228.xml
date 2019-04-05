@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SMU17022584_20181228.xml' country='EC' doc-number='SMU17022584' kind='U' date-published='20181228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SMU17022584' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SMU17022584</doc-number><kind>U</kind><date>20181228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>E04B1/344</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201722584</doc-number><date>20170412</date></document-id></application-reference>
+<priority-claims>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>Ernesto Cárdenas Avilés</name><address><street>Urb. Oasis, calle Santa Mónica S3-612</street><country>EC</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>Ernesto Cárdenas Avilés</name><address><street>Urb. Oasis, calle Santa Mónica S3-612</street><country>EC</country></address></addressbook></inventor>
+</inventors><agents>
+</agents></parties>
+<invention-title lang='es'>Módulo Habitable Multiuso Desplegable Móvil</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Módulo Habitable Multiuso Desplegable Móvil. Se refiere a un espacio previamente construido en taller, de producción industrializada, de uso inmediato y con nivel de autonomia pre-visto de acuerdo al sitio de implantación. </abstract>
+</ec-patent-document>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17080844_20180329.xml' country='EC' doc-number='SP17080844' kind='A' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17080844' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17080844</doc-number><kind>A</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>A61K38/16_A61K38/48_C12N9/52</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201780844</doc-number><date>20171207</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>62/172,557 (US)</doc-number><date>20150608</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>THE REGENTS OF THE UNIVERSITY OF CALIFORNIA</name><address><street>1111 Franklin Street, Twelfth Floor, Oakland, CA 94607-5200, Estados Unidos</street><country>US</country></address></addressbook></applicant>
+<applicant sequence='2' designation='all' app-type='applicant'><addressbook><name>UNIVERSITY OF WASHIGTON</name><address><street>4311 11th Avenue NE, Suite 500, Seattle, WA 98105-4608, Estados Unidos</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>STEWART, Lance</name><address><street>c/o University of Washington, 4311 11th Avenue NE, Suite 500, Seattle, WA 98105-4608, Estados Unidos</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>TINBERG, Christine, Elaine</name><address><street>c/o University of Washington, 4311 11th Avenue NE, Suite 500, Seattle, WA 98105-4608, Estados Unidos</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>BAKER, David</name><address><street>c/o University of Washington, 4311 11th Avenue NE, Suite 500, Seattle, WA 98105-4608, Estados Unidos</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>PULTZ, Ingrid, Swanson</name><address><street>c/o University of Washington, 4311 11th Avenue NE, Suite 500, Seattle, WA 98105-4608, Estados Unidos</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='5' designation='all'><addressbook><name>SIEGEL, Justin, Bloomfield</name><address><street>c/o University of Washington, 4311 11th Avenue NE, Suite 500, Seattle, WA 98105-4608, Estados Unidos</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='6' designation='all'><addressbook><name>WOLF, Clancey</name><address><street>c/o University of Washington, 4311 11th Avenue NE, Suite 500, Seattle, WA 98105-4608, Estados Unidos</street><country>US</country></address></addressbook></inventor>
+</inventors><agents>
+</agents></parties>
+<invention-title lang='es'>COMPOSICIONES Y MÉTODOS PARA TRATAR LA ENFERMEDAD CELIACA</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Los polipéptidos y métodos para su uso, se divulgan teniendo la secuencia de aminoácido por lo menos 75% idéntica a la secuencia de aminoácido de la SEQ ID NO:1, se proporcionan, en donde (a) el polipéptido degrada un PFQPQLPY (SEQ ID NO: 140) péptido y/o un PFPQPQQPF (SEQ ID NO: 68) a pH 4; (b) residuo 467 es Ser, residuo 267 es Glu y residuo 271 es Asp; y (c) el polipéptido comprende un cambio del aminoácido de la SEQ ID NO: 1 en uno o más residuos seleccionado del grupo que consistente en 221, 262E, 268, 269, 270, 319A, 320, 354E/Q/R/Y, 358S/Q/T, 368F/Q, 399, 402, 406, 424, 449, 461, 463, 105, 171, 172, 173, 174 y 456.</abstract>
+</ec-patent-document>

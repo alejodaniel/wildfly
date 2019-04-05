@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP16062174_20181228.xml' country='EC' doc-number='SP16062174' kind='A' date-published='20181228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP16062174' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP16062174</doc-number><kind>A</kind><date>20181228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C07D493/08_C07D493/22_C07D519/00_C07K14/575_C07K16/26</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201662174</doc-number><date>20160720</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>61/920,674</doc-number><date>20131224</date><country>US</country></priority-claim>
+<priority-claim sequence='2' kind='National'><doc-number>61/935,240</doc-number><date>20140203</date><country>US</country></priority-claim>
+<priority-claim sequence='3' kind='National'><doc-number>61/993,329</doc-number><date>20140515</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>PRESIDENT AND FELLOWS OF HARVARD COLLEGE</name><address><street>17 Quincy Street Cambridge, Massachusetts 02138- UNITED STATES OF AMERICA</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>Brian Bor-Jen LIAU</name><address><street>50 Fletcher Road Belmont, MA 02478  United States of America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>Henry Efrem PELISH</name><address><street>24 Stiles Terrace Newton,  MA 02459  United States of America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>Juergen RAMHARTER</name><address><street>Kaasgrabengasse 56/5 A-1190  Vienna Austria</street><country>AT</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>Jae Young AHN</name><address><street>20 Chapel St., C501 Brookline,  MA 02446 United States of America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='5' designation='all'><addressbook><name>Matthew D. SHAIR</name><address><street>6 Stratham Road Lexington,  MA 02421  United States of America</street><country>US</country></address></addressbook></inventor>
+</inventors><agents>
+</agents></parties>
+<invention-title lang='es'>ANÁLOGOS DE CORTISTATINA Y SÍNTESIS Y USOS DE LOS MISMOS</invention-title>
+</bibliographic-data>
+<abstract lang='es'>[0001]    	Se proporcionan en la presente nuevos análogos de cortistatina de la fórmula (A), (B) y (C), y sales farmacéuticamente aceptables, sales de amina cuaternaria, y N-óxidos de los mismos, sintetizados, en parte, por aminación reductiva de una cetona de la Fórmula (B) para proporcionar el producto aminado de la fórmula (A), como se representa en el Esquema 1, opcionalmente a través de un intermedio de imina de la fórmula (C).  
+[0002]    	Además, se proporcionan nuevos análogos de cortistatina preparados por reducción de la cetona de la fórmula (B) para proporcionar un compuesto C3-hidroxilo de la Fórmula (D). Además se proporciona un compuesto de la fórmula (E), preparado por sustitución del compuesto de la Fórmula (D). Tales compuestos también se pueden convertir en un compuesto de la Fórmula (A) por tratamiento con una amina en condiciones adecuadas. 
+[0003]    	Se ha encontrado sorprendentemente que los isómeros beta de la Fórmula (A), que se conoce como la Fórmula (A-1), se han encontrado como equipotentes, o más potentes, que la cortistatina A en la inhibición de la actividad de la quinasa CDK8 y la proliferación de las células AML, y también se ha encontrado que los isómeros alfa correspondientes de la fórmula (A), que se refiere como la Fórmula (A-2), también son muy potentes. Además, se ha descubierto que los compuestos de la Fórmula (B) se han encontrado activos contra el crecimiento de líneas celulares AML en cultivo y actividad de la quinasa CDK8 en las c</abstract>
+</ec-patent-document>

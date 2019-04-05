@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP18082279_20181228.xml' country='EC' doc-number='SP18082279' kind='A' date-published='20181228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP18082279' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP18082279</doc-number><kind>A</kind><date>20181228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>H01R11/15</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>SENADI201882279</doc-number><date>20181031</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>62/330,377</doc-number><date>20160502</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>QUANTA ASSOCIATES, L.P.</name><address><street>2800 Post Oak Boulevard, Suite 2600 Houston, Texas, 77056, ESTADOS UNIDOS DE AMERICA </street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>WABNEGGER, David, Karl</name><address><street>5363-273A Street, Langley, BC V4W 3Z4, Canada</street><country>CA</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>QUAEDVLIEG, Phillip, Howard</name><address><street>5363-273A Street Langley, BC V4W 3Z4, 	Canadá</street><country>CA</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>TOTH, Janos, Csaba</name><address><street>6355 Salish Drive Vancouver, BC V6N 4C2, 	   </street><country>CA</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>O'CONNELL, Daniel, Neil</name><address><street>7388 Tucelnuit Drive Oliver, BC V0H 1T2 Cana</street><country>CA</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>BUSTAMANTE   BUSTAMANTE PATENTES Y MARCAS CIA. LTDA.</name><address><street>AV. AMAZONAS Y PATRIA, EDIF. COFIEC, PISO 4, QUITO - ECUADOR</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>ABRAZADERA CON BLOQUEO DE CONEXIÓN A TIERRA</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Una abrazadera de conexión a tierra incluye un bloqueo de seguridad que bloquea el funcionamiento de la abrazadera en ausencia de una pértiga. Un elemento de sujeción coopera con un marco que tiene un brazo y es selectivamente desplazable por un usuario para trasladar el elemento de sujeción con respecto al marco para sujetar un conductor entre el elemento de sujeción y el brazo. El bloqueo coopera con el elemento de sujeción para evitar la traslación del elemento de sujeción a menos que una herramienta aislante esté presente, como por ejemplo, una pértiga.</abstract>
+</ec-patent-document>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17073743_20180329.xml' country='EC' doc-number='SP17073743' kind='A' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17073743' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17073743</doc-number><kind>A</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>A61K31/44_A61K31/445_A61K31/451_A61K31/4462</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201773743</doc-number><date>20171106</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>62/157,915</doc-number><date>20150506</date><country>US</country></priority-claim>
+<priority-claim sequence='2' kind='National'><doc-number>62/158,356</doc-number><date>20150507</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>THE REGENTS OF THE UNIVERSITY OF CALIFORNIA</name><address><street>1111 Franklin Street, Twelfth Floor, Oakland, CA 94607-5200, Estados Unidos</street><country>US</country></address></addressbook></applicant>
+<applicant sequence='2' designation='all' app-type='applicant'><addressbook><name>LEIDOS BIOMEDICAL RESEARCH, INC.</name><address><street>P.O. Box B, 1050 Boyles Street, Frederick, Maryland 21702 (US).</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>MCCORMICK, Frank</name><address><street>5 Bernice St, San Francisco, CA 94103 (US).</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>MACIAG, Anna, E.</name><address><street>9214 Charterhouse Rd., Frederick, MD 21704 (US).</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>CHERTOV, Oleg</name><address><street>9005 Mountainberry Court, Frederick, MD 21702 (US).</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>TURNER, David</name><address><street>1560 3rd St, Apt. 406A, San Francisco, CA 94158 (US).</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='5' designation='all'><addressbook><name>RENSLO, Adam, R.</name><address><street>5359 Shafter Ave., Oakland, CA 94618 (US).</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='6' designation='all'><addressbook><name>GYSIN, Stephan</name><address><street>Reiterstrasse 55, 4054 Basel (CH).</street><country>CH</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>Romoleroux Armijos, María Cecilia </name><address><street>Robles E4-136 y Av. Amazonas, Edif. Proinco Calisto, piso 11, Quito - Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>MODULADORES DE K-RAS</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Se proporcionan en la presente, entre otros, métodos y compuestos para la inhibición de K-Ras y para el tratamiento del cáncer.</abstract>
+</ec-patent-document>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17071769_20180228.xml' country='EC' doc-number='SP17071769' kind='A' date-published='20180228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17071769' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17071769</doc-number><kind>A</kind><date>20180228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C07D513/04,A61K31/542,A61P25/28</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201771769</doc-number><date>20171027</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>62/154,242</doc-number><date>20150429</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>ELI LILLY AND COMPANY</name><address><street>Lilly Corporate Center, Indianapolis, Indiana 46285, Estados Unidos de America</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>SANDERSON, Adam Jan</name><address><street>c/o Eli Lilly and Company, P.O. Box 6288, Indianapolis, Indiana 46206-6288, Estados Unidos de America</street><country>GB</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>RICHARDS, Simon James</name><address><street>c/o Eli Lilly and Company, P.O. Box 6288, Indianapolis, Indiana 46206-6288, Estados Unidos de America</street><country>GB</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>REMICK, David Michael</name><address><street>c/o Eli Lilly and Company, P.O. Box 6288, Indianapolis, Indiana 46206-6288, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>DR. JUAN M. QUEVEDO</name><address><street>Av. 12 de Octubre N26-97 y Lincoln, Quito, Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>DERIVADOS DE AMINOHIDROTIAZINA FUSIONADOS CON TETRAHIDROFURANO LOS CUALES SON ÚTILES EN EL TRATAMIENTO DE LA ENFERMEDAD DE ALZHEIMER</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La presente invención se refiere a un compuesto de la Fórmula I:
+
+o una sal farmacéuticamente aceptable del mismo. 
+</abstract>
+</ec-patent-document>

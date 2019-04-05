@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SDI18072549_20181228.xml' country='EC' doc-number='SDI18072549' kind='S' date-published='20181228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SDI18072549' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SDI18072549</doc-number><kind>S</kind><date>20181228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>12-08</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>SENADI201872549</doc-number><date>20180926</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>201830114821.7</doc-number><date>20180327</date><country>CN</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>DFSK Motor Limited Company Chongqing Branch Company</name><address><street>Jiujiang Avenue, Shuangfu New District, Jiangjin District, Chongqing 402260, China.</street><country>CN</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>CHEN, Yiming</name><address><street>Jiujiang Avenue, Shuangfu New District, Jiangjin District, Chongqing 402260, China.</street><country>CN</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>ZHANG, Zhidong</name><address><street>Jiujiang Avenue, Shuangfu New District, Jiangjin District, Chongqing 402260, China.</street><country>CN</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>ZHOU, Lin</name><address><street>Jiujiang Avenue, Shuangfu New District, Jiangjin District, Chongqing 402260, China.</street><country>CN</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>Romoleroux Armijos, María Cecilia </name><address><street>Robles E4-136 y Av. Amazonas, Edif. Proinco Calisto, piso 11, Quito - Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>AUTOMÓVIL</invention-title>
+</bibliographic-data>
+<abstract lang='es'>El presente diseño industrial consiste en un AUTOMÓVIL, cuyas características especiales se describen a continuación según los dibujos que forman parte integral de esta presentación en donde:
+La Fig. 1 es una vista superior del automóvil;
+La Fig. 2 es una vista lateral izquierda del automóvil; 
+La Fig. 3 es una vista posterior del automóvil;
+La Fig. 4 es una vista en perspectiva posterior y lateral izquierda del automóvil; 
+La Fig. 5 es una vista en perspectiva frontal y lateral izquierda del automóvil;
+La Fig. 6 es una vista lateral derecha del automóvil; 
+La Fig. 7 es una vista frontal del automóvil;
+La Fig. 8 es una vista superior del automóvil;
+La Fig. 9 es una vista lateral izquierda del automóvil; 
+La Fig. 10 es una vista posterior del automóvil;
+La Fig. 11 es una vista en perspectiva posterior y lateral izquierda del automóvil; 
+La Fig. 12 es una vista en perspectiva frontal y lateral izquierda del automóvil;
+La Fig. 13 es una vista lateral derecha del automóvil; y
+La Fig. 14 es una vista frontal del automóvil.</abstract>
+</ec-patent-document>

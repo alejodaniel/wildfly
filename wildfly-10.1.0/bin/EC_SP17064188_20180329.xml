@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17064188_20180329.xml' country='EC' doc-number='SP17064188' kind='A' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17064188' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17064188</doc-number><kind>A</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>A61K31/137_A61K9/00</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201764188</doc-number><date>20170926</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>15161487.2</doc-number><date>20150327</date><country>EF</country></priority-claim>
+<priority-claim sequence='2' kind='National'><doc-number>15169730.7</doc-number><date>20150528</date><country>EF</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>HODGSON, Simon Teanby</name><address><street>Orchard House, The Avenue, Ampthill, Bedfordshire MK45 2NR, Reino Unido</street><country>GB</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>WULSTEN, Eva Cornelia</name><address><street>Bonnenring 188 47877 Willich, Alemania</street><country>DE</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>STRAUB, Stefanie</name><address><street>Erzweg 8a Bad Vilbel 61118, Alemania</street><country>DE</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>REINHOLD, Ulrich</name><address><street>I. Rote-Haag Weg 44a 52076, Aachen, Alemania</street><country>DE</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>SCHILLER, Marc</name><address><street>Max-Pechstein-Strabe 4 52078, Aachen, Alemania</street><country>DE</country></address></addressbook></inventor>
+<inventor sequence='5' designation='all'><addressbook><name>VAN HEMELRIJCK, Carlos</name><address><street>Theaterstrabe 49 52062, Aachen, Alemania</street><country>DE</country></address></addressbook></inventor>
+<inventor sequence='6' designation='all'><addressbook><name>BERTRAM, Ulrike</name><address><street>Schönrathstrasse 82 52066, Aachen, Alemania</street><country>DE</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>BUSTAMANTE   BUSTAMANTE PATENTES Y MARCAS CIA. LTDA.</name><address><street>AV. AMAZONAS Y PATRIA, EDIF. COFIEC, PISO 4, QUITO - ECUADOR</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>FORMULACIÓN ESTABLE PARA ADMINISTRACIÓN PARENTERAL DE TAPENTADOL</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La invención se relaciona con una composición farmacéutica acuosa para administración parenteral que comprende Tapentadol o un sal fisiológicamente aceptable del mismo, en donde la concentración de Tapentadol queda dentro de la variación de 0.10 hasta 8.00 mg/mL, con base en el peso de la base libre de Tapentadol y con base en el volumen total de la composición; y en donde el valor de pH de la composición se amortigua y queda dentro de la variación de 4.0 hasta 6.0. La invención también se relaciona con un recipiente que comprende la composición farmacéutica y un proceso para la preparación del mismo. La invención también se relaciona con un kit que comprende el contenido de acuerdo con la invención en un empaque. La composición farmacéutica de acuerdo con la invención es particularmente útil para tratar dolor, en especial dolor agudo, de preferencia en pacientes pediátricos.</abstract>
+</ec-patent-document>

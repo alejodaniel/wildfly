@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP18077068_20181228.xml' country='EC' doc-number='SP18077068' kind='A' date-published='20181228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP18077068' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP18077068</doc-number><kind>A</kind><date>20181228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>A61K9/16_A61K47/02_A61K9/06_A61K47/42_A61K33/26</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>SENADI201877068</doc-number><date>20181012</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>16160539.9</doc-number><date>20160315</date><country>EF</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>SOLVOTRIN THERAPEUTICS LTD</name><address><street>Inchera Little Island, Cork, Co Cork</street><country>IE</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>GABOR, Radics</name><address><street>18 Coldricks Pass, Dunshaughlin, Co Meath, Irlanda</street><country>IE</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>O´FLYNN, Pat</name><address><street>Redoaks Maryborough Orchard, Douglas, Co Cork, Irlanda</street><country>IE</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>LEDWIDGE, Pat</name><address><street>14 Maryborough Orchard, Douglas, Co Cork</street><country>IE</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>WANG, Jun</name><address><street>6 Claremont Avenue Honey Park, Dun Laoghaire, Co Dublin, Irlanda</street><country>IE</country></address></addressbook></inventor>
+<inventor sequence='5' designation='all'><addressbook><name>WHELEHAN, Michael</name><address><street>46 St. Mobhi Road Newtown, Rathangan, Co Meath, Irlanda</street><country>IE</country></address></addressbook></inventor>
+<inventor sequence='6' designation='all'><addressbook><name>GILMER, John</name><address><street>Redgap, Rathcoole, Co Dublin, Irlanda</street><country>IE</country></address></addressbook></inventor>
+</inventors><agents>
+</agents></parties>
+<invention-title lang='es'>COMPOSICIONES Y MÉTODOS PARA AUMENTAR LA INGESTA DE HIERRO EN UN MAMÍFERO</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Se ha preparado composiciones que contienen hierro, amortiguador y proteína desnaturalizada capaces de elevar el hierro sérico en un individuo.  Por ejemplo, se ha preparado microperlas con contenido de hierro mediante el secado por atomización, contenidas en una matriz proteica y de hierro no fijado en una composición amortiguada que ofrece un efecto de protección gástrica, que conserva el hierro en forma de Fe 2+ con mayor disponibilidad y que mejora la biodisponibilidad de hierro en los seres humanos en relación con los vehículos conocidos previamente para proporcionar hierro a un individuo.</abstract>
+</ec-patent-document>

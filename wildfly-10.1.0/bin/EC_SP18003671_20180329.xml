@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP18003671_20180329.xml' country='EC' doc-number='SP18003671' kind='A' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP18003671' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP18003671</doc-number><kind>A</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>A61K31/517_A61K31/5377_A61P35/00</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI20183671</doc-number><date>20180118</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>15 57412</doc-number><date>20150731</date><country>FR</country></priority-claim>
+<priority-claim sequence='2' kind='National'><doc-number>PCT/FR2016/051976</doc-number><date>20160729</date><country>FR</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>LES LABORATOIRES SERVIER</name><address><street>35 rue de Verdun, 92284 Suresnes Cedex - FRANCIA</street><country>FR</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>JACQUET-BESCOND ANNE</name><address><street>9 rue du Carreau, 92350 Le Plessis- Robinson - FRANCE</street><country>FR</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>CATTAN VALERIE</name><address><street>51 A avenue de Segur, 75007 Paris - FRANCE</street><country>FR</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>BURBRIDGE MICHAEL FRANK</name><address><street>13 rue Emile Zola, 78480 Verneuil sur Seine - FRANCE</street><country>FR</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>JULIO C. GUERRERO B. S.A.</name><address><street>Mariano Aguilera E7-262 y Av. Diego de Almagro, Doctorados FLACSO, piso 2, Quito - Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>NUEVA ASOCIACIÓN ENTRE LA  3-[(3-{[4-(4-MORFOLINILMETIL)-1H-PIRROL-2-IL]METILEN}-2-OXO-2,3-DIHIDRO-1H-INDOL-5-IL)METIL]-1,3-TIAZOLIDINA-2,4-DIONA Y UN INHIBIDOR DE LA TYR QUINASA DEL EGFR</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Asociación entre la 3-[(3-{[4-(4-morfolinilmetil)-1H-pirrol-2-il]metilen}-2-oxo-2,3-dihidro-1H-indol-5-il)metil]-1,3-tiazolidina-2,4-diona de fórmula (I): (VEASE LA FORMULA EN LA MEMORIA TECNICA) o uno de sus isómeros Z o E y/o sales de adición a un ácido o a una base farmacéuticamente aceptable, y un inhibidor de tirosina quinasa del receptor del factor de crecimiento epidérmico humano (EGFR).
+Medicamentos.</abstract>
+</ec-patent-document>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SDI18002334_20180329.xml' country='EC' doc-number='SDI18002334' kind='S' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SDI18002334' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SDI18002334</doc-number><kind>S</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>09-03</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI20182334</doc-number><date>20180111</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>29/615,293</doc-number><date>20170828</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>OWENS-BROCKWAY GLASS CONTAINER INC.</name><address><street>One Michael Owens Way, Perrysburg, Ohio 43551 (US).</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>JIMENEZ, Andrés</name><address><street>Calle 20A, Sur 22 E-84, Bogotá 110411 (CO).</street><country>CO</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>DÍAZ, Martín</name><address><street>Carrera 27, Sur 35 E-175, Bogotá 111951 (CO).</street><country>CO</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>Romoleroux Armijos, María Cecilia </name><address><street>Robles E4-136 y Av. Amazonas, Edif. Proinco Calisto, piso 11, Quito - Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>CONTENEDOR</invention-title>
+</bibliographic-data>
+<abstract lang='es'>El presente diseño industrial se refiere a una nueva Configuración aplicada a un CONTENEDOR, totalmente diferente de los conocidos, caracterizándose por su forma especial y ornato que le proporcionan un aspecto peculiar y propio.
+El diseño industrial de Contenedor se encuentra ilustrado en las figuras anexas, en donde:
+La Figura 1, es una vista en perspectiva de una primera modalidad del diseño industrial de Contenedor.
+La Figura 2, es una vista plana en elevación frontal del diseño de la Figura 1, dicha vista es idéntica para las vistas lateral derecha, izquierda y posterior.
+La Figura 3, es una vista plana superior del diseño de la Figura 1. 
+La Figura 4, es una vista plana inferior del diseño de la Figura 1. 
+</abstract>
+</ec-patent-document>

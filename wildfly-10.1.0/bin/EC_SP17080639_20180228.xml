@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17080639_20180228.xml' country='EC' doc-number='SP17080639' kind='A' date-published='20180228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17080639' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17080639</doc-number><kind>A</kind><date>20180228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>A61K39/395(2006.01),A61P31/00(2006.01),A61P35/00(2006.01),C07K16/28(2006.01)</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201780639</doc-number><date>20171207</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>62/172,277 (US)</doc-number><date>20150608</date><country>US</country></priority-claim>
+<priority-claim sequence='2' kind='National'><doc-number>62/255,094 (US)</doc-number><date>20151113</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>MACROGENICS, INC.</name><address><street>9704 Medical Center Drive, Rockville, MD 20850, Estados Unidos</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>LA MOTTE-MOHS, Ross</name><address><street>16000 Schaeffer Road, Boyds, MD 20841, Estados Unidos</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>SHAH, Kalpana</name><address><street>13013 Ethel Rose Way, Boyds, MD 20841, Estados Unidos</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>KOENIG, Scott</name><address><street>10901 Ralston Road, Rockville, MD 20852, Estados Unidos</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>JOHNSON, Leslie, S.</name><address><street>14411 Poplar Hill Road, Darnestown, MD 20874, Estados Unidos</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='5' designation='all'><addressbook><name>BONVINI, Ezio</name><address><street>11136 Powder Horn Drive, Potomac, MD 20854, Estados Unidos</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='6' designation='all'><addressbook><name>SMITH, Douglas, H.</name><address><street>429 W. Hillsdale Boulevard, San Mateo, CA 94403, Estados Unidos</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='7' designation='all'><addressbook><name>MOORE, Paul, A.</name><address><street>10 Turley Court, North Potomac, MD 20878, Estados Unidos</street><country>GB</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>ROMERO ROSALES, ANA MARGARITA</name><address><street>Av. La Coruña E25-58 y Av. 12 de Octubre, Edificio Altana Plaza, Piso 3, Oficina 304</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>MOLÉCULAS DE UNIÓN A LAG-3 Y MÉTODOS DE USO DE LAS MISMAS</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La presente invención se dirige a los anticuerpos anti-LAG-3, mAb 1 de LAG-3, mAb 2 de LAG-3, mAb 4 de LAG-3, mAb 5 de LAG-3 y mAb 6 de LAG-3, y a versiones humanizadas y quiméricas de tales anticuerpos. La invención pertenece adicionalmente a las moléculas de unión a LAG-3 que comprenden los fragmentos de unión a LAG-3 de tales anticuerpos anti-LAG-3, inmunoconjugados, y a moléculas biespecíficas, que incluyen diacuerpos, BiTES, anticuerpos biespecíficos, etc., que comprenden (i) tales fragmentos de unión a LAG-3, y (ii) un dominio capaz de unir un epítopo de una molécula implicada en regular un punto de control inmune presente en la superficie de células inmunes. La presente invención también pertenece a métodos para detectar LAG-3, así como también métodos para utilizar moléculas que unen LAG-3 para estimular respuestas inmunes.</abstract>
+</ec-patent-document>

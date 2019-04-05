@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SMU15049310_20181228.xml' country='EC' doc-number='SMU15049310' kind='U' date-published='20181228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SMU15049310' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SMU15049310</doc-number><kind>U</kind><date>20181228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>E04B1/00</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201549310</doc-number><date>20151125</date></document-id></application-reference>
+<priority-claims>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>universidad de guayaquil</name><address><street>Av. Delta - Ciudadela Universitaria</street><country>EC</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>Rómulo Abelardo Rodríguez Castro</name><address><street>calle Padre Solano 2005 y Tungurahua</street><country>EC</country></address></addressbook></inventor>
+</inventors><agents>
+</agents></parties>
+<invention-title lang='es'>Elemento metálico tipo octógono de 8 puntos para uniones estructurales con bambú </invention-title>
+</bibliographic-data>
+<abstract lang='es'>ELEMENTOS DE ACERO PARA UNIONES ESTRUCTURALES MULTIUSO CON BAMBU MULTIUSO DE ACERO
+RESUMEN
+En el mundo millones de personas habitan en casas hechas con bambú, de ellas hay un muy buen porcentaje que son de ingresos económicos limitados que las construyen mediante autogestión y autoconstrucción; no tienen conocimientos técnicos de ninguna índole, pero aspiran una vivienda económica, durable, confortable.
+Construidas correctamente las viviendas con bambú bien pueden satisfacer estas necesidades, siendo la prefabricación y standarización muy importantes para ejercer un buen control de calidad; se las puede construir masivamente y hacer las partes de manera previa para disminuir el trabajo en el sitio de construcción, sin que sean necesarios mayores conocimientos técnicos.
+La ciudad de Guayaquil está entre las primeras del mundo en la cual se utiliza el bambú en la construcción de viviendas aún sin servicios básicos por su creciente déficit habitacional, siendo muy conocido como material de construcción, particularmente utilizado por los sectores económicamente deprimidos.
+En esta ciudad es conocida la ONG privada Hogar de Cristo como promotora de construcciones con bambú para sectores deprimidos económicamente, pero violenta la gran capacidad de resistencia estructural y antisísmica que tiene el bambú, limitando su uso a solo 4-5 años, por cuanto sobre el 90 % de su uso es mediante la llamada caña picada, que debilita su durabilidad y buena resistencia antisísmica al exponerla</abstract>
+</ec-patent-document>

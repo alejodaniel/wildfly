@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17083245_20180228.xml' country='EC' doc-number='SP17083245' kind='A' date-published='20180228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17083245' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17083245</doc-number><kind>A</kind><date>20180228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C08L33/24(2006.01),C08F22/38(2006.01),C08F220/56(2006.01),C09K8/68(2006.01),C10G33/04(2006.01),C08F220/54(2006.01)</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201783245</doc-number><date>20171218</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>PCT/US2016/037871</doc-number><date>20160616</date><country>US</country></priority-claim>
+<priority-claim sequence='2' kind='National'><doc-number>62/181,647</doc-number><date>20150618</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>ECOLAB USA INC.</name><address><street>1 Ecolab Place, St. Paul, Minnesota 55102, Estados Unidos de América</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>BALSAMO DE HERNANDEZ, Vittoria</name><address><street>c/o Nalco Champion, 7701 Highway 90-A, Sugar Land, Texas 77478 (US)</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>KURIAN, Pious</name><address><street>c/o Nalco Champion, 7705 Highway 90-A, Sugar Land, Texas 77478 (US)</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>PHAN, Jenny L.</name><address><street>c/o Nalco Champion, 7705 Highway 90-A, Sugar Land, Texas 77478 (US)</street><country>US</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>BERMEO   BERMEO C. LTDA.</name><address><street>Av. 12 de Octubre N24-528 y Cordero, Edf. World Trade Center, Torre B, Piso 12, Quito. P.O. BOX 17-12-881, Quito - Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>COPOLÍMEROS DE ROMPEDORES DE EMULSIÓN INVERSA</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La presente invención generalmente se refiere a métodos para resolver las emulsiones de agua y aceite en el fluido producido de un sistema de producción de petróleo que comprende la adición de un rompedor de emulsión inversa de copolímero estructurado al fluido producido del sistema de producción de petróleo crudo en una cantidad efectiva para resolver una emulsión de aceite en agua. En particular, estos métodos para resolver una emulsión de aceite en agua se pueden usar en los procesos de separación en los que el petróleo y los sólidos en el fluido producido se separan del agua producida en el fluido producido.</abstract>
+</ec-patent-document>

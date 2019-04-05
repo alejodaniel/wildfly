@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SDI17041000_20181228.xml' country='EC' doc-number='SDI17041000' kind='S' date-published='20181228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SDI17041000' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SDI17041000</doc-number><kind>S</kind><date>20181228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>09-01</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201741000</doc-number><date>20170630</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>MX/f//2016/003120</doc-number><date>20161010</date><country>MX</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>JOSE MARCO SALINAS GARCIA</name><address><street>Av. de la Alborada número 124, piso 13, Colonia Parques del Pedregal, C.P.14010, Delegación Tlalpan, Ciudad de México.</street><country>MX</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>JOSE MARCO SALINAS GARCIA</name><address><street>Av. de la Alborada número 124, piso 13, Colonia Parques del Pedregal, C.P.14010, Delegación Tlalpan, Ciudad de México.</street><country>MX</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>ALVARO VALLADARES ALDAS</name><address><street>Av. 6 de Diciembre y la Niña, Edificio Multicentro, oficina 606, Quito, Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>Diseño Industrial Envase</invention-title>
+</bibliographic-data>
+<abstract lang='es'>El presente diseño industrial se refiere a un envase totalmente diferente de los conocidos y que se encuentran en el mercado. Este envase se caracteriza por su forma tridimensional novedosa que sirve de patrón para su fabricación y que tiene una apariencia del todo original y exclusiva. Envase que será de aplicación industrial y que se dispone a transporte de compuestos químicos de ayuda para soldaduras.
+
+Lo anterior se puede evidenciar y apreciar con mayor detalle en los dibujos que se acompañan. Que se explica de la siguiente manera:
+
+La figura 1 es la vista en perspectiva derecha frontal y superior del envase mostrando el nuevo modelo;
+
+La figura 2 es una vista frontal del envase;
+
+La figura 3 es una vista lateral derecha del envase;
+
+La figura 4 es una vista superior en planta del envase;
+
+La figura 5 es una vista interior en planta del envase.
+</abstract>
+</ec-patent-document>

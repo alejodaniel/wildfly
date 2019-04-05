@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SMU17084925_20181228.xml' country='EC' doc-number='SMU17084925' kind='U' date-published='20181228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SMU17084925' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SMU17084925</doc-number><kind>U</kind><date>20181228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>A01G9/02_E04D13/147_E04D13/16
+</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201784925</doc-number><date>20171227</date></document-id></application-reference>
+<priority-claims>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>INSTITUTO NACIONAL DE EFICIENCIA ENERGETICA Y ENERGIAS RENOVABLES</name><address><street>Calle Iñaquito N35-37 y Juan Pablo Sanz, Edificio Colegio de Economistas, 4to piso</street><country>EC</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>LUÍS FELIPE GODOY VACA</name><address><street>SIMÓN CARDENAS Y JUAN PAREJA</street><country>EC</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>EVELYN CATALINA VALLEJO CORAL</name><address><street>ALFREDO CARPIO 53-242 Y DE LOS PINOS</street><country>EC</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>GEOVANNA PATRICIA VILLACRESES RIVADENEIRA</name><address><street>CALLE S/N Y ASCAZUBI, CASA A05 CONJUNTO DENIA, ARMENIA 1</street><country>EC</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>ANDREA PATRICIA LOBATO CORDERO</name><address><street>LORENZO PIEDRA 1-141 Y REMIGIO ROMERO</street><country>EC</country></address></addressbook></inventor>
+</inventors><agents>
+</agents></parties>
+<invention-title lang='es'>Sistema aislante natural exterior para superficies</invention-title>
+</bibliographic-data>
+<abstract lang='es'>El siguiente modelo de utilidad consiste en un sistema aislante natural para diferentes tipos de cubiertas inclinadas, Este sistema reduce la transmisión de agentes físicos  como: calor, humedad, ruido, entre otros del ambiente exterior al interior de la edificación. El sistema está compuesto por una malla tejida con fibras que promuevan  el crecimiento de especies vegetales ubicada al exterior de la superficie.</abstract>
+</ec-patent-document>

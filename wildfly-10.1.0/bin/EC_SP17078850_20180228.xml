@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17078850_20180228.xml' country='EC' doc-number='SP17078850' kind='A' date-published='20180228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17078850' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17078850</doc-number><kind>A</kind><date>20180228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>D21H27/00(2006.01),A61K8/02(2006.01),D21H27/30(2006.01),D21H27/38(2006.01)</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201778850</doc-number><date>20171128</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>PCT/EP2015/059326</doc-number><date>20150429</date><country>EF</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>SCA HYGIENE PRODUCTS AB</name><address><street>405 03 Göteborg, Suecia</street><country>SE</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>SANDSTRÖM, Peter</name><address><street>Jungfrudansen 12, S171 56 Solna (SE)</street><country>SE</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>LJUSEGREN, Ingela</name><address><street>SE-405 03 Göteborg, Suecia</street><country>SE</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>RAUM, Stefan</name><address><street>Am Emplkeller 16, 85435 Erding (DE)</street><country>DE</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>MAULER, Dirk </name><address><street>Weinheimer Strasse 32, 68549 Ilvesheim (DE)</street><country>DE</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>BERMEO   BERMEO C. LTDA.</name><address><street>Av. 12 de Octubre N24-528 y Cordero, Edf. World Trade Center, Torre B, Piso 12, Quito. P.O. BOX 17-12-881, Quito - Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>PAPEL TISÚ QUE COMPRENDE FIBRAS DE PULPA QUE SE ORIGINAN DE MISCANTHUS Y PROCESO PARA LA ELABORACIÓN DEL MISMO</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La presente invención se refiere a una trama de papel tisú compuesta de uno o más estratos en donde al menos un estrato comprende fibras de pulpa que se originan de al menos una planta perteneciente al género Miscanthus, en donde las fibras de pulpa se seleccionan a partir de fibras de pulpa químicas, fibras de pulpa mecánicas sujetas a pre-tratamiento químico y mezclas de las mismas. El uso de fibras de pulpa Miscanthus de acuerdo con la presente invención puede conducir a un importante incremento absoluto en resistencia a la tracción junto con buenos valores de suavidad.</abstract>
+</ec-patent-document>

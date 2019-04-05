@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SMU17012584_20180329.xml' country='EC' doc-number='SMU17012584' kind='U' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SMU17012584' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SMU17012584</doc-number><kind>U</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>A47J36/02</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201712584</doc-number><date>20170301</date></document-id></application-reference>
+<priority-claims>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>Jimenez Oviedo, Carlos Eduardo</name><address><street>Urb Guayaquil Tenis Edificio Bilmore Dpto 2A</street><country>EC</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>Jimenez Oviedo, Carlos Eduardo</name><address><street>Urb Guayaquil Tenis Edificio Bilmore Dpto 2A</street><country>EC</country></address></addressbook></inventor>
+</inventors><agents>
+</agents></parties>
+<invention-title lang='es'>OLLA CANGREJERA FUNDIDA DE ALUMINIO CON BASE REDONDA PARA INDUCCION Y VITROCERÁMICA</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Existen ollas utilizadas tanto en negocios como en el hogar hechos de diversos materiales. Hay evidencia de ollas hechas de hierros fundido y/o acero inoxidable, otros materiales utilizados son el zinc, latón, barro y cobre. Tanto el hierro fundido como el acero inoxidable magnético son materiales que pueden ser utilizados en cocinas a gas, eléctricas, incluso parrillas y/o carbón; no menos importante utilizados en cocinas de inducción y/o vitrocerámica. El diseño que se propone en esta patente está hecha a partir de la fundición de aluminio con un disco de acero inoxidable magnético incrustado en la base
+La descripción incluye el objeto de la invención. El sector de la técnica. Los antecedentes técnicos y la descripción de la invención
+Se reivindica el diseño de la olla cangrejera con la base redonda fundida, con el disco de acero inoxidable magnético incrustado
+Los dibujos muestran la olla de base redonda fundida con el disco de acero inoxidable magnético incrustado en la base</abstract>
+</ec-patent-document>

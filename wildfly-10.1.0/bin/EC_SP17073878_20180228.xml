@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17073878_20180228.xml' country='EC' doc-number='SP17073878' kind='A' date-published='20180228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17073878' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17073878</doc-number><kind>A</kind><date>20180228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C07D471/08,C07D487/08,C07D209/04,C07D513/08</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201773878</doc-number><date>20171107</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>15166900.9</doc-number><date>20150508</date><country>EF</country></priority-claim>
+<priority-claim sequence='2' kind='National'><doc-number>16163342.5</doc-number><date>20160331</date><country>EF</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>JANSSEN PHARMACEUTICALS, INC.</name><address><street>1125 Trenton-Harbourton Road, Titusville, New Jersey 08560, Estados Unidos de America</street><country>US</country></address></addressbook></applicant>
+<applicant sequence='2' designation='all' app-type='applicant'><addressbook><name>KATHOLIEKE UNIVERSITEIT LEUVEN</name><address><street>KU Leuven Research   Development, Waaistraat 6, bus 5105, 3000 Leuven, Belgica</street><country>BE</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>BARDIOT Dorothée Alice Marie-Eve</name><address><street>c/o Cistim Leuven vzw, Gaston Geenslaan 2, 3001 Leuven (Heverlee), Belgica</street><country>BE</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>JONCKERS, Tim Hugo Maria</name><address><street>c/o Janssen Pharmaceutica NV, Turnhoutseweg 30, 2340 Beerse, Belgica</street><country>BE</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>MARCHAND Arnaud Didier M.</name><address><street>c/o Cistim Leuven vzw, Gaston Geenslaan 2, 3001 Leuven (Heverlee), Belgica</street><country>BE</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>BONFANTI Jean-François</name><address><street>c/o Janssen-Cilag, 1 rue Camille Desmoulins, TSA 91003, 92787 Issy-les-Moulineaux, Cedex 9, Francia</street><country>FR</country></address></addressbook></inventor>
+<inventor sequence='5' designation='all'><addressbook><name>RABOISSON, Pierre Jean-Marie Bernard</name><address><street>c/o Janssen Pharmaceutica NV, Turnhoutseweg 30, 2340 Beerse, Belgica</street><country>BE</country></address></addressbook></inventor>
+<inventor sequence='6' designation='all'><addressbook><name>KESTELEYN Bart Rudolf Romanie</name><address><street>c/o Janssen Pharmaceutica NV, Turnhoutseweg 30, 2340 Beerse, Belgica</street><country>BE</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>DR. SANTIAGO GUARDERAS IZQUIERDO</name><address><street>Ave. 12 de Octubre N26-97 y Lincoln</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>DERIVADOS DE INDOL MONO O DISUSTITUIDOS COMO INHIBIDORES DE LA REPLICACIÓN VIRAL DEL DENGUE</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La presente invención se refiere a compuestos de indol mono o disustituidos, a métodos para prevenir o tratar infecciones virales por dengue usando dichos compuestos y también se refiere a dichos compuestos para su uso como un medicamento, más preferiblemente para su uso como una medicina para tratar o prevenir infecciones virales por dengue.  La presente invención se refiere adicionalmente a composiciones farmacéuticas o preparaciones de combinación de los compuestos, a las composiciones o preparaciones para su uso como un medicamento, más preferiblemente para la prevención o tratamiento de infecciones virales por dengue.  La invención también se refiere a procesos para la preparación de los compuestos.</abstract>
+</ec-patent-document>

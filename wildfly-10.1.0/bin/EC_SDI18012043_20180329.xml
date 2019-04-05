@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SDI18012043_20180329.xml' country='EC' doc-number='SDI18012043' kind='S' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SDI18012043' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SDI18012043</doc-number><kind>S</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>12-11</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201812043</doc-number><date>20180216</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>2017-018847</doc-number><date>20170831</date><country>JP</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>HONDA MOTOR CO., LTD.</name><address><street>1-1, Minami-Aoyama 2-chome, Minato-ku, Tokyo 107-8556 Japon</street><country>JP</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>Hirofumi YAEGASHI</name><address><street>c/o HONDA R D CO., LTD. 4-1, Chuo 1-chome, Wako-shi, Saitama, 351-0193 Japon</street><country>JP</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>Ayumu TSUJI</name><address><street>c/o HONDA R D CO., LTD. 4-1, Chuo 1-chome, Wako-shi, Saitama, 351-0193 Japon</street><country>JP</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>BUSTAMANTE   BUSTAMANTE PATENTES Y MARCAS CIA. LTDA.</name><address><street>AV. AMAZONAS Y PATRIA, EDIF. COFIEC, PISO 4, QUITO - ECUADOR</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>MOTOR SCOOTER</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Se solicita el diseño de una Motor Scooter conforme a las características descritas y dibujos adjuntos.</abstract>
+</ec-patent-document>

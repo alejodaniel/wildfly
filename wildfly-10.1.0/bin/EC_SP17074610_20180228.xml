@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17074610_20180228.xml' country='EC' doc-number='SP17074610' kind='A' date-published='20180228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17074610' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17074610</doc-number><kind>A</kind><date>20180228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C09K8/528,C02F5/10,E21B37/06</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201774610</doc-number><date>20171110</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>62/160,686</doc-number><date>20150513</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>DOW GLOBAL TECHNOLOGIES LLC</name><address><street>2040 Dow Center, Midland, Michigan 48674, Estados Unidos de America</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>PADILLA-ACEVEDO Angela I.</name><address><street>2301 N. Brazosport Blvd., B1820, Office 163, Freeport, Texas 77541, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>PONCE MARTINEZ, ALEJANDRO</name><address><street>AV. 12 DE OCTUBRE Y LINCOLN, TORRE 1492</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>COMPOSICIONES TERMALMENTE ESTABLES E INHIBIDORAS DE RESIDUOS</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La presente invención se refiere a las composiciones poliméricas termalmente estables e inhibidoras de residuos y uso de las mismas. Preferiblemente, el inhibidor polimérico de residuos es un copolímero de ácido policarboxílico que comprende un grupo de ácido de estireno sulfónico. Las composiciones poliméricas e inhibidoras de residuos de la presente invención son particularmente adecuadas para el tratamiento de inhibición de residuos a alta presión o alta temperatura de pozos de producción de petróleo y gas y/o formaciones subterráneas.</abstract>
+</ec-patent-document>

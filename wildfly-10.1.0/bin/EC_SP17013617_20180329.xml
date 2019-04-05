@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17013617_20180329.xml' country='EC' doc-number='SP17013617' kind='A' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17013617' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17013617</doc-number><kind>A</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>A61K31/137_A61K31/192_A61K31/196_A61K29/00</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201713617</doc-number><date>20170306</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>06008850.7</doc-number><date>20060428</date><country>DE</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>Grunenthal GmbH</name><address><street>Zieglerstrasse 6, 52078 Aachen, GERMANY</street><country>DE</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>BLOMS-FUNKE, Petra</name><address><street>Gerhart-Hauptmann-Strasse 36, 52146 Würselen, Alemania</street><country>DE</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>SCHIENE, Klaus</name><address><street>Mindener Str. 13, 40227 Düsseldorf, Alemania</street><country>DE</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>FABARA VERA, MARIA ROSA </name><address><street>AV. REPUBLICA 481 Y PASAJE CARRIÓN. QUITO, ECUADOR</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>COMBINACIÓN FARMACÉUTICA QUE COMPRENDE  3-(3-DIMETILAMINO-1-ETIL-2-METIL-PROPIL)-FENOL Y NSAID</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La presente invención se refiere a una combinación que comprende como componentes (a) el compuesto 3- (3-Dimetilamino-1-etil-2-metil-propil) -fenol, y (b) uno o más fármacos antiinflamatorios no esteroideos; una sal farmacéutica que comprende dichos componentes; un compuesto derivado de dichos componentes; una formulación farmacéutica y una forma de dosificación que comprende dicha combinación, sal o compuesto; así como un método para tratar el dolor crónico o agudo, en un mamífero caracterizado porque los componentes (a) y (b) se administran simultánea o secuencialmente a un mamífero, donde el componente (a) puede administrarse antes o después del componente (b) y en el que los componentes (a) o (B) se administran al mamífero ya sea a través de la misma o de una vía de administración diferente.</abstract>
+</ec-patent-document>

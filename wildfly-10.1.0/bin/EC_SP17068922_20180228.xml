@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17068922_20180228.xml' country='EC' doc-number='SP17068922' kind='A' date-published='20180228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17068922' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17068922</doc-number><kind>A</kind><date>20180228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>A61K33/34(2006.01),A61K33/24(2006.01),A61P17/02(2006.01),A61P17/00(2006.01)</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201768922</doc-number><date>20171017</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>PCT/CN2015/077136</doc-number><date>20150422</date><country>CN</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>INNOLIFE CO., LTD</name><address><street>846 South Tianfu Avenue Chengdu, Sichuan 610000 (CN)</street><country>CN</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>KANG, Yujian James</name><address><street>846, South Tianfu Avenue, Chengdu, Sichuan 610000, CN</street><country>CN</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>FABARA VERA, MARIA ROSA </name><address><street>AV. DIEGO DE ALMAGRO N30-118 Y AV. REPUBLICA. QUITO - ECUADOR </street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>MÉTODOS DE REPARACIÓN Y REGENERACIÓN TISULAR</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La divulgación proporciona el suministro local de un elemento traza en un sitio de daño tisular, que desencadena el mecanismo de reparación tisular inherente del cuerpo. El suministro local de cobre en el sitio de la lesión induce la migración (es decir, la migración dirigida) de células madre hacia el sitio de la lesión, desencadena la diferenciación de células madre en el sitio de la lesión, induce la regeneración tisular en el sitio de la lesión, induce moléculas de señalización que desencadenan la regeneración tisular, revierte el daño en el sitio de la lesión y/o reconstruye el microambiente de células neurofibrilares y células neurosecretoras en el sitio de la lesión. En otro aspecto, se desvela el suministro de un elemento traza (por ejemplo, cobre) directamente en el sitio de la lesión y los métodos asociados.</abstract>
+</ec-patent-document>

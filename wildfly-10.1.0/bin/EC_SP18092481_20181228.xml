@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP18092481_20181228.xml' country='EC' doc-number='SP18092481' kind='A' date-published='20181228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP18092481' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP18092481</doc-number><kind>A</kind><date>20181228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C07D403/12_C07D401/14_C07D405/14_C07D413/14_C07D403/14_C07D409/14_C07D417/14_C07D487/04_C07D491/20_C07D498/04_A61K31/506_A61K31/5365_A61K31/519_A61K31/5377_A61P25/00_A61P25/16_A61P25/28_A61P25/14_A61P35/00_A61P29/00</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>SENADI201892481</doc-number><date>20181214</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>62/350,876</doc-number><date>20160616</date><country>US</country></priority-claim>
+<priority-claim sequence='2' kind='National'><doc-number>62/417,151</doc-number><date>20161103</date><country>US</country></priority-claim>
+<priority-claim sequence='3' kind='National'><doc-number>62/476,581 </doc-number><date>20170324</date><country>US</country></priority-claim>
+<priority-claim sequence='4' kind='National'><doc-number>62/510,711</doc-number><date>20170524</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>DENALI THERAPEUTICS INC. </name><address><street>151 Oyster Point Blvd., 2nd Floor, South San Francisco, California 94080 (US).</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>SWEENEY, Zachary K.</name><address><street>c/o Denali Therapeutics Inc., 151 Oyster Point Blvd., 2nd Floor, South San Francisco, California 94080 (US).</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>ESTRADA, Anthony A.</name><address><street> c/o Denali Therapeutics Inc., 151 Oyster Point Blvd., 2nd Floor, South San Francisco, California 94080 (US).</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>LYSSIKATOS, Joseph P.</name><address><street>c/o Denali Therapeutics Inc., 151 Oyster Point Blvd., 2nd Floor, South San Francisco, California 94080 (US).</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>DE VICENTE FIDALGO, Javier</name><address><street>c/o Denali Therapeutics Inc., 151 Oyster Point Blvd., 2nd Floor, South San Francisco, California 94080 (US).</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='5' designation='all'><addressbook><name>FENG, Jianwen A.</name><address><street>c/o Denali Therapeutics Inc., 151 Oyster Point Blvd., 2nd Floor, South San Francisco, California 94080 (US).</street><country>US</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>Romoleroux Armijos, María Cecilia </name><address><street>Robles E4-136 y Av. Amazonas, Edif. Proinco Calisto, piso 11, Quito - Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>PIRIMIDIN-2-ILAMINO-1H-PIRAZOLES COMO INHIBIDORES DE LRRK2 PARA EL USO EN EL TRATAMIENTO DE TRASTORNOS NEURODEGENERATIVOS</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La presente revelación se refiere en general a inhibidores de LRRK2 o una de sus sales, análogos deuterados, profármacos, tautómeros, estereoisómeros farmacéuticamente aceptables o mezcla de sus estereoisómeros y sus métodos de preparación y de uso. </abstract>
+</ec-patent-document>

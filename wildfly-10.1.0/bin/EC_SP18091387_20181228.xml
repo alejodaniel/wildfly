@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP18091387_20181228.xml' country='EC' doc-number='SP18091387' kind='A' date-published='20181228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP18091387' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP18091387</doc-number><kind>A</kind><date>20181228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>G06K9/00_G06F3/02
+</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>SENADI201891387</doc-number><date>20181210</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>16173961.0</doc-number><date>20160610</date><country>EF</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>SICPA HOLDING SA</name><address><street>Avenue de Florissant 41, 1008 Prilly (CH).</street><country>CH</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>DECOUX, Eric</name><address><street>Rue du Jura 8, 1800 Vevey (CH).</street><country>FR</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>Romoleroux Armijos, María Cecilia </name><address><street>Robles E4-136 y Av. Amazonas, Edif. Proinco Calisto, piso 11, Quito - Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>MÉTODOS, APARATOS Y PROGRAMAS DE COMPUTADORA PARA GENERAR UNA MEDICIÓN DE AUTENTICIDAD DE UN OBJETO</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La invención notablemente se refiere a generar una medición de autenticidad de un objeto que comprende una superficie que comprende o está cubierto por una capa preexistente no uniforme. Se ha impreso un marcaje sobre la superficie de manera que una propiedad de la capa preexistente es detectable a través de al menos parte del marcaje. El marcaje comprende una representación legible por máquina de un código. El método comprende generar la imagen del marcaje; leer el código representado por la imagen del marcaje; generar una firma con base en la propiedad de la capa preexistente conforme a lo detectado por el dispositivo de generación de imagen a través de al menos parte de la representación legible por máquina en imagen del código; y generar una medición de autenticidad del objeto con base en el código de lectura y la firma generada; la invención también se refiere a aparatos, sistemas y programas de computadora para ese propósito. </abstract>
+</ec-patent-document>

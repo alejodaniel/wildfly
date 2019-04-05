@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SMU17057623_20181228.xml' country='EC' doc-number='SMU17057623' kind='U' date-published='20181228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SMU17057623' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SMU17057623</doc-number><kind>U</kind><date>20181228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>A61K31/00</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201757623</doc-number><date>20171115</date></document-id></application-reference>
+<priority-claims>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>RESTUCCIA GIOVANNI</name><address><street>Av. El Inca E13-130 y Pasaje Los Alisos - Quito - Ecuador</street><country>EC</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>RESTUCCIA GIOVANNI</name><address><street>Av. El Inca E13-130 y Pasaje Los Alisos - Quito - Ecuador</street><country>EC</country></address></addressbook></inventor>
+</inventors><agents>
+</agents></parties>
+<invention-title lang='es'>APARATO INHIBIDOR DE HUMEDAD ASCENDENTE CAPILAR CON FRECUENCIA MODULADA </invention-title>
+</bibliographic-data>
+<abstract lang='es'>Este modelo de utilidad describe un Aparato Inhibidor de Humedad Ascendente Capilar con Frecuencia Programable que, en comparación a la competencia, aporta las siguientes mejoras técnicas:
+
+Programación:
+El aparato al fin de optimizar sus recursos científicos tiene la facultad de ser programado en el modo más convenientes según de los parámetros transmitidos y de la geometría del lugar, para lograr la mayor eficacia y el desecamiento más rápido y efectivo. 
+
+Medición:
+El aparato consta de un sensor inteligente interno y externo inventado con el fin de medir en tiempo real y desde cualquier parte del mundo, la situación del problema de humedad en la zona afectada.
+
+Eficacia:
+El aparato tiene la posibilidad de modular y programar su frecuencia, en tiempo, longitud y potencia, disminuyendo drásticamente el tiempo de desecación de la pared en comparación con la competencia.
+
+Monitoreo:
+Se implementó en el aparato un display de cristal líquido que muestra indicadores de humedad y temperatura, tanto del aire como de la pared afectada por la humedad ascendente capilar. Esta información permite al cliente medir la eficacia del aparato en tiempo real.
+
+En fin, el aparato construido con tecnología de punta en Ecuador, permite una serie de acciones, no solo inexistente en los aparatos en el comercio si no realmente impensable hasta hoy, con aplicaciones todas destinadas a la optimización de su funcionamiento</abstract>
+</ec-patent-document>

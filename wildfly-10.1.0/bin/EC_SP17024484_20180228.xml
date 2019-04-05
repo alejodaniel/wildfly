@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17024484_20180228.xml' country='EC' doc-number='SP17024484' kind='A' date-published='20180228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17024484' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17024484</doc-number><kind>A</kind><date>20180228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C21D8/12(2006.01),C22C38/38(2006.01),C22C38/00(2006.01),H01F1/16(2006.01),C22C38/06(2006.01)</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201724484</doc-number><date>20170420</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>PCT/IB2014/002174</doc-number><date>20141020</date><country>CH</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>ARCELORMITTAL</name><address><street>24-26, Boulevard d'Avranches LUXEMBURGO, L-1160 LUXEMBURGO</street><country>LU</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>VAN DE PUTTE Tom</name><address><street>Wilgenstraat 1B SINAAI, B-9112 BÉLGICA</street><country>BE</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>JACOBS Sigrid</name><address><street>Hoorndriesstraat 123 MERELBEKE, B-9820 BÉLGICA</street><country>BE</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>LEUNIS Elke</name><address><street>Jozef Van De Veldestraat 10 KALKEN, B-9270 BÉLGICA</street><country>BE</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>SAIKALY Wahib</name><address><street>Rue des Hiboux, 75 WOLUWE-SAINT-PIERRE, B-1150 BÉLGICA</street><country>BE</country></address></addressbook></inventor>
+</inventors><agents>
+</agents></parties>
+<invention-title lang='es'>MÉTODO DE PRODUCCIÓN DE HOJALATA CONTENIENDO UNA LÁMINA DE ACERO DE SILICIO DE GRANO NO ORIENTADO, LÁMINA DE ACERO OBTENIDA Y USO DE ÉSTA</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La presente invención está dirigida a un método de producción de lámina de acero Fe-Si de grano no orientado. El método comprende las etapas de fundir una composición de acero que contiene en porcentaje en peso: C &#8804; 0,006; 2,0 &#8804;; Si &#8804; 5,0; 0,1 &#8804; Al &#8804; 3,0; 0,1 &#8804; Mn &#8804; 3,0; N &#8804; 0,006; 0,04 &#8804; Sn &#8804; 0,2; S &#8804; 0,005; P &#8804; 0,2; Ti &#8804; 0,01; siendo el resto Fe y otras impurezas inevitables, moldear dicha masa fundida en una losa, recalentar dicha losa, laminar en caliente dicha losa, enrollar dicho acero laminado en caliente, opcionalmente recocer el acero laminado en caliente, recocer y enfriar el acero laminado en frío hasta temperatura ambiente</abstract>
+</ec-patent-document>

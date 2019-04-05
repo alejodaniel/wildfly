@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP15017056_20180329.xml' country='EC' doc-number='SP15017056' kind='A' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP15017056' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP15017056</doc-number><kind>A</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>B01J20/00</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201517056</doc-number><date>20150429</date></document-id></application-reference>
+<priority-claims>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>JOSE EDGAR RODRIGUEZ WEBSTER</name><address><street>CDLA.BELLAVISTA MZ-5 VILLA 23</street><country>EC</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>JOSE EDGAR RODRIGUEZ WEBSTER</name><address><street>CDLA.BELLAVISTA MZ-5 VILLA 23</street><country>EC</country></address></addressbook></inventor>
+</inventors><agents>
+</agents></parties>
+<invention-title lang='es'>PRODUCTO ADSORBENTE UNIVERSAL E IDENTIFICADOR POR COLOR, PARA DERRAMES DE PRODUCTOS QUIMICOS</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Producto adsorbente universal e identificador  por color; para controlar e identificar los derrames de productos químicos, mediante el uso de una sustancia inerte, activada por (fisi - quimi sorción); y mejorado su comportamiento por la adición de sustancias tenso activas no reactivas, y de reactivos químicos cromóforos, que permiten variar el color inicial del producto según  el químico sujeto a recuperación desde el momento del derrame.</abstract>
+</ec-patent-document>

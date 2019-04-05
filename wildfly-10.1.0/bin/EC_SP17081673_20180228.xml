@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17081673_20180228.xml' country='EC' doc-number='SP17081673' kind='A' date-published='20180228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17081673' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17081673</doc-number><kind>A</kind><date>20180228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>A61K31/53(2006.01),A61K31/505(2006.01),A61P33/02(2006.01)</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201781673</doc-number><date>20171211</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>PCT/IB2015/053459</doc-number><date>20150511</date><country>MX</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>GRUPO INDUSTRIAL PECUARIO, S.A. DE C.V.</name><address><street>MaÍz No. 18, Col. Granjas Esmeralda, Del. Iztapalapa, Ciudad de MÉxico, 09810 (MX)</street><country>MX</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>LOZANO-DUBERNARD, Bernardo</name><address><street>Circuito Diamantes No. 127, Col. Joyas del Pedregal, Del. Coyoacán, 04660 México, D.F., 04660 (MX)</street><country>MX</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>SOTO-PRIANTE, Ernesto</name><address><street>Cerrada Colina No. 113, Col. Jardines del Pedregal, 01900 México, D.F.(MX)</street><country>MX</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>SARFATI-MIZRAHI, David</name><address><street>Parque de los Pirineos No. 30, Fracc. Parques de la Herradura, 52773 Huixquilucan, Estado de México, 52773 (MX)</street><country>MX</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>ROJAS-CASTELLANOS, Arturo</name><address><street>Bartolache No. 1862, 1er. Piso Col. del Valle, 03100 México, D.F. (MX)</street><country>MX</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>Zambrano Albuja, Margarita Rosa</name><address><street>Av. 6 de Diciembre No. 2816 y Paúl Rivet, Edificio Josueth González 10mo. Piso, Quito - Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>COMPOSICIÓN PARA EL TRATAMIENTO DE PARASITOSIS POR GREGARINAS EN CAMARONES</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Se ha inventado una composición para el tratamiento en contra de la parasitosis por gregarinas en camarones, caracterizada porque comprende un compuesto activo que se selecciona entre lasolacida, salinomicina, narasina, maduramicina, semduramicina, ácido 3-nitro fenil arsónico, ácido arsanílico, amprolio, decoquinato, diclazuril, etopabato, halofuginona, lasalocid, maduramicina, metilclorpindol, monensina, narasin, nicarbacina, robenidina,
+50 salinomicina sódica, semduramicina sódica, toltrazuril (1-metil-3-[3-metil-4-[4-(trifluorometil)tio)fenoxil]fenil]-1,3,5-triazina(1H,3H,5H)-2,4,6-triona), o trimetoprim (5-[(3,4,5-trimetoxifenil)metil]pirimidin-2,4-diamina), y opcionalmente otros compuestos o excipientes. Se encontró que con esta composición se logra el tratamiento seguro y eficaz de parasitosis por gregarinas en camarones.</abstract>
+</ec-patent-document>

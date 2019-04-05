@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP18075337_20181228.xml' country='EC' doc-number='SP18075337' kind='A' date-published='20181228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP18075337' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP18075337</doc-number><kind>A</kind><date>20181228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C03B9/353</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>SENADI201875337</doc-number><date>20181005</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>PCT/MX2016/000025</doc-number><date>20160310</date><country>MX</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>VITRO, S.A.B. de C.V.</name><address><street>Keramos 225 Poniente, Col. Del Prado, Monterrey, Nuevo León 64410 (MX).</street><country>MX</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>TIJERINA RAMOS, Víctor</name><address><street>Aldama Sur No. 415, Departamento 7, Col. Centro, Monterrey, Nuevo León, 64000 (MX).</street><country>MX</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>Romoleroux Armijos, María Cecilia </name><address><street>Robles E4-136 y Av. Amazonas, Edif. Proinco Calisto, piso 11, Quito - Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>MÉTODO Y MECANISMO DE ABRE CIERRA MOLDES PARA UNA MÁQUINA FORMADORA DE ARTÍCULOS DE VIDRIO</invention-title>
+</bibliographic-data>
+<abstract lang='es'>"La presente invención se refiere a un mecanismo de apertura y cierre de moldes para una máquina formadora de artículos de vidrio del tipo que incluye, al menos un molde dividido en dos mitades que se abren y cierran para el formado de los artículos, las mitades de moldes siendo acopladas en un par de brazos de soporte, cada brazo siendo montado independientemente uno frente al otro y separados paralelamente con respecto a una estructura de soporte. Medios de sincronización de moldes montados para movimiento con los brazos de soporte de molde, los medios de sincronización de moldes siendo montados para moverse con un movimiento hacia adentro o hacia afuera para la apertura y cierre de los moldes. Medios de palanca teniendo un primer extremo conectado articuladamente a los medios de sincronización y, un segundo extremo conectado a la estructura de soporte, los medios de palanca y el par de brazos de soporte transmitiendo un movimiento articulado hacia adentro o hacía afuera a los medios de sincronización, para el cierre o apertura de los moldes. Medios de impulsión acoplados a la estructura de soporte para proveer un movimiento de apertura y cierre a los brazos de soporte; y, un sistema de cierre de doble eslabonamiento conectado articuladamente e independientemente por cada uno de los brazos de soporte y medios de impulsión, en donde, mediante un primer movimiento de rotación de los medios de impulsión, los brazos de soporte y medios de sincronización se mueven a una ...</abstract>
+</ec-patent-document>

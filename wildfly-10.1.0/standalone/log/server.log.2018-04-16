@@ -1,0 +1,1639 @@
+2018-04-16 15:37:38,840 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2018-04-16 15:37:41,983 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2018-04-16 15:37:42,366 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2018-04-16 15:37:42,367 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/lparedes/Documentos/wildfly-10.1.0.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-8-openjdk-amd64/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 1.8.0_162-8u162-b12-0ubuntu0.16.04.2-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_162
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.162-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final
+	jboss.host.name = iepi
+	jboss.modules.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = iepi
+	jboss.qualified.host.name = iepi
+	jboss.server.base.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone
+	jboss.server.config.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/configuration
+	jboss.server.data.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/data
+	jboss.server.deploy.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/data/content
+	jboss.server.log.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/log
+	jboss.server.name = iepi
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/configuration/logging.properties
+	module.path = /home/lparedes/Documentos/wildfly-10.1.0.Final/modules
+	org.jboss.boot.log.file = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.4.0-119-generic
+	path.separator = :
+	program.name = JBossTools: WildFly 10.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp /home/lparedes/Documentos/wildfly-10.1.0.Final/modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=/home/lparedes/Documentos/wildfly-10.1.0.Final/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = EC
+	user.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/bin
+	user.home = /home/lparedes
+	user.language = es
+	user.name = lparedes
+	user.timezone = America/Guayaquil
+2018-04-16 15:37:42,368 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -Dprogram.name=JBossTools: WildFly 10.x -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=/home/lparedes/Documentos/wildfly-10.1.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 
+2018-04-16 15:37:53,800 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ov.ear in deployment directory. To trigger deployment create a file called ov.ear.dodeploy
+2018-04-16 15:37:53,801 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found busquedas-titular.ear in deployment directory. To trigger deployment create a file called busquedas-titular.ear.dodeploy
+2018-04-16 15:37:53,801 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found files.war in deployment directory. To trigger deployment create a file called files.war.dodeploy
+2018-04-16 15:37:53,801 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found captcha.ear in deployment directory. To trigger deployment create a file called captcha.ear.dodeploy
+2018-04-16 15:37:54,086 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-04-16 15:37:54,296 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-04-16 15:37:54,300 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.4.0.Final
+2018-04-16 15:37:54,306 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2018-04-16 15:37:54,338 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2018-04-16 15:37:54,334 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2018-04-16 15:37:54,346 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2018-04-16 15:37:54,351 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-04-16 15:37:54,355 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.4.0.Final
+2018-04-16 15:37:54,355 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2018-04-16 15:37:54,386 INFO  [org.jboss.as.naming] (MSC service thread 1-1) WFLYNAM0003: Starting Naming Service
+2018-04-16 15:37:54,387 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-04-16 15:37:54,412 INFO  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2018-04-16 15:37:54,413 INFO  [org.jboss.as.security] (MSC service thread 1-6) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2018-04-16 15:37:54,545 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 4.0.21.Final
+2018-04-16 15:37:54,717 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2018-04-16 15:37:54,719 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-04-16 15:37:54,725 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0003: Undertow 1.4.0.Final starting
+2018-04-16 15:37:55,919 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2018-04-16 15:37:55,920 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = mysql
+2018-04-16 15:37:56,217 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path '/home/lparedes/Documentos/wildfly-10.1.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-04-16 15:37:56,224 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0012: Started server default-server.
+2018-04-16 15:37:56,225 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0018: Host default-host starting
+2018-04-16 15:37:56,331 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.3)
+2018-04-16 15:37:56,437 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = postgres
+2018-04-16 15:37:56,538 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2018-04-16 15:37:56,565 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2018-04-16 15:37:56,566 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2018-04-16 15:37:56,588 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class com.microsoft.sqlserver.jdbc.SQLServerDriver (version 3.0)
+2018-04-16 15:37:56,589 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = sqlserver
+2018-04-16 15:37:56,711 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepiCasilleros
+2018-04-16 15:37:56,711 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepi_sipigaceta
+2018-04-16 15:37:56,726 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepiFormularios
+2018-04-16 15:37:56,730 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepi_sipigaceta2
+2018-04-16 15:37:56,730 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepiProcesos
+2018-04-16 15:37:56,730 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepiadmin
+2018-04-16 15:37:56,731 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/cpi]
+2018-04-16 15:37:56,731 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/modificacionesDs]
+2018-04-16 15:37:56,731 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepidepurar
+2018-04-16 15:37:56,731 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/auth]
+2018-04-16 15:37:56,731 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/jBossJaasPostgres]
+2018-04-16 15:37:56,733 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/secobSeguimientoDs]
+2018-04-16 15:37:56,733 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2018-04-16 15:37:56,733 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/autenticacion]
+2018-04-16 15:37:56,734 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/secretaria-tramites]
+2018-04-16 15:37:56,734 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/iepi]
+2018-04-16 15:37:56,734 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:/datasources/MSSQLDS]
+2018-04-16 15:37:56,734 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/iepi3]
+2018-04-16 15:37:56,734 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/obtencionesVegetales]
+2018-04-16 15:37:56,734 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/OMPI]
+2018-04-16 15:37:56,910 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-2) WFLYDM0111: Keystore /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-04-16 15:37:56,922 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "captcha.ear" (runtime-name: "captcha.ear")
+2018-04-16 15:37:56,924 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "ov.ear" (runtime-name: "ov.ear")
+2018-04-16 15:37:56,933 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) WFLYDS0013: Started FileSystemDeploymentService for directory /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/deployments
+2018-04-16 15:37:56,933 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "busquedas-titular.ear" (runtime-name: "busquedas-titular.ear")
+2018-04-16 15:37:56,934 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "postgresql-9.3-1102-jdbc41.jar" (runtime-name: "postgresql-9.3-1102-jdbc41.jar")
+2018-04-16 15:37:56,935 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "files.war" (runtime-name: "files.war")
+2018-04-16 15:37:57,081 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0207: Starting subdeployment (runtime-name: "ov-ejb.jar")
+2018-04-16 15:37:57,081 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0207: Starting subdeployment (runtime-name: "ov-web.war")
+2018-04-16 15:37:57,111 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2018-04-16 15:37:57,584 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-6) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2018-04-16 15:37:57,603 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-04-16 15:37:57,603 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 66) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-04-16 15:37:57,604 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 66) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-04-16 15:37:57,605 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 65) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-04-16 15:37:57,606 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 65) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-04-16 15:37:57,608 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-04-16 15:37:57,637 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0207: Starting subdeployment (runtime-name: "captcha-ejb.jar")
+2018-04-16 15:37:57,638 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0207: Starting subdeployment (runtime-name: "captcha-web.war")
+2018-04-16 15:37:57,716 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0207: Starting subdeployment (runtime-name: "busquedas-titular-ejb.jar")
+2018-04-16 15:37:57,716 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0207: Starting subdeployment (runtime-name: "busquedas-titular-web.war")
+2018-04-16 15:37:59,648 INFO  [org.jboss.ws.common.management] (MSC service thread 1-7) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2018-04-16 15:38:00,130 WARN  [org.jboss.as.connector] (MSC service thread 1-4) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2018-04-16 15:38:00,262 WARN  [org.jboss.as.connector] (MSC service thread 1-7) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2018-04-16 15:38:00,429 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.3)
+2018-04-16 15:38:00,439 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = postgresql-9.3-1102-jdbc41.jar
+2018-04-16 15:38:00,672 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for primary
+2018-04-16 15:38:00,673 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for primary
+2018-04-16 15:38:00,766 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/ovDS]
+2018-04-16 15:38:00,767 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/captchaDS]
+2018-04-16 15:38:00,865 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 64) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'captcha.ear/captcha-ejb.jar#primary'
+2018-04-16 15:38:00,870 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 58) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-16 15:38:00,868 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment ov.ear
+2018-04-16 15:38:00,870 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment captcha.ear
+2018-04-16 15:38:01,036 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 58) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2018-04-16 15:38:01,043 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 64) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2018-04-16 15:38:01,083 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-8) HV000001: Hibernate Validator 5.2.4.Final
+2018-04-16 15:38:01,436 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment ov-web.war
+2018-04-16 15:38:01,444 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment captcha-web.war
+2018-04-16 15:38:01,450 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment ov-ejb.jar
+2018-04-16 15:38:01,450 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment captcha-ejb.jar
+2018-04-16 15:38:01,547 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'MemberRegistration' in deployment unit 'subdeployment "captcha-ejb.jar" of deployment "captcha.ear"' are as follows:
+
+	java:global/captcha/captcha-ejb/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:app/captcha-ejb/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:module/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:global/captcha/captcha-ejb/MemberRegistration
+	java:app/captcha-ejb/MemberRegistration
+	java:module/MemberRegistration
+
+2018-04-16 15:38:01,547 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'MemberRegistration' in deployment unit 'subdeployment "ov-ejb.jar" of deployment "ov.ear"' are as follows:
+
+	java:global/ov/ov-ejb/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:app/ov-ejb/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:module/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:global/ov/ov-ejb/MemberRegistration
+	java:app/ov-ejb/MemberRegistration
+	java:module/MemberRegistration
+
+2018-04-16 15:38:01,588 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 65) WFLYUT0021: Registered web context: /files
+2018-04-16 15:38:01,742 INFO  [org.jboss.weld.Version] (MSC service thread 1-8) WELD-000900: 2.3.5 (Final)
+2018-04-16 15:38:01,881 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 65) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-04-16 15:38:01,881 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 65) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-04-16 15:38:02,060 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 58) HHH000412: Hibernate Core {5.0.10.Final}
+2018-04-16 15:38:02,062 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 58) HHH000206: hibernate.properties not found
+2018-04-16 15:38:02,063 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 58) HHH000021: Bytecode provider name : javassist
+2018-04-16 15:38:02,345 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 64) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-16 15:38:02,509 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 65) WFLYCLINF0002: Started client-mappings cache from ejb container
+2018-04-16 15:38:02,853 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 58) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'captcha.ear/captcha-ejb.jar#primary'
+2018-04-16 15:38:02,853 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 64) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-16 15:38:04,116 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 64) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-04-16 15:38:04,116 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 58) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-04-16 15:38:04,124 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 58) HHH000431: Unable to determine H2 database version, certain features may not work
+2018-04-16 15:38:04,124 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 64) HHH000431: Unable to determine H2 database version, certain features may not work
+2018-04-16 15:38:04,335 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 58) Envers integration enabled? : true
+2018-04-16 15:38:04,335 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 64) Envers integration enabled? : true
+2018-04-16 15:38:06,016 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 64) HHH000227: Running hbm2ddl schema export
+2018-04-16 15:38:06,016 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 58) HHH000227: Running hbm2ddl schema export
+2018-04-16 15:38:06,021 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 58) HHH000476: Executing import script '/import.sql'
+2018-04-16 15:38:06,023 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 64) HHH000476: Executing import script '/import.sql'
+2018-04-16 15:38:06,024 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 64) HHH000230: Schema export complete
+2018-04-16 15:38:06,042 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 58) HHH000230: Schema export complete
+2018-04-16 15:38:07,203 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 65) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/captcha-web'
+2018-04-16 15:38:07,299 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 64) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/ov-web'
+2018-04-16 15:38:09,162 WARN  [org.jboss.as.connector] (MSC service thread 1-3) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2018-04-16 15:38:09,203 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for iepiPU2
+2018-04-16 15:38:09,203 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for iepiUsuarioPU
+2018-04-16 15:38:09,231 WARN  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0081: The deployment busquedas-titular-web.war will not be distributable because this feature is disabled in web-fragment.xml of the module omnifaces-2.0.jar.
+2018-04-16 15:38:09,618 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 58) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'busquedas-titular.ear/busquedas-titular-ejb.jar#iepiPU2'
+2018-04-16 15:38:09,620 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 58) HHH000204: Processing PersistenceUnitInfo [
+	name: iepiPU2
+	...]
+2018-04-16 15:38:09,618 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 60) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'busquedas-titular.ear/busquedas-titular-ejb.jar#iepiUsuarioPU'
+2018-04-16 15:38:09,625 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 60) HHH000204: Processing PersistenceUnitInfo [
+	name: iepiUsuarioPU
+	...]
+2018-04-16 15:38:09,626 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/busquedas-titularDS]
+2018-04-16 15:38:09,734 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment busquedas-titular.ear
+2018-04-16 15:38:09,766 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment busquedas-titular-ejb.jar
+2018-04-16 15:38:09,768 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'ServicioPpdiResolucion' in deployment unit 'subdeployment "busquedas-titular-ejb.jar" of deployment "busquedas-titular.ear"' are as follows:
+
+	java:global/busquedas-titular/busquedas-titular-ejb/ServicioPpdiResolucion!ec.gob.iepi.interfaces.IPpdiResolucion
+	java:app/busquedas-titular-ejb/ServicioPpdiResolucion!ec.gob.iepi.interfaces.IPpdiResolucion
+	java:module/ServicioPpdiResolucion!ec.gob.iepi.interfaces.IPpdiResolucion
+	java:global/busquedas-titular/busquedas-titular-ejb/ServicioPpdiResolucion
+	java:app/busquedas-titular-ejb/ServicioPpdiResolucion
+	java:module/ServicioPpdiResolucion
+
+2018-04-16 15:38:09,769 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'ServicioPpdiSolicitudSignoDistintivo' in deployment unit 'subdeployment "busquedas-titular-ejb.jar" of deployment "busquedas-titular.ear"' are as follows:
+
+	java:global/busquedas-titular/busquedas-titular-ejb/ServicioPpdiSolicitudSignoDistintivo!ec.gob.iepi.interfaces.IPpdiSolicitudSignoDistintivo
+	java:app/busquedas-titular-ejb/ServicioPpdiSolicitudSignoDistintivo!ec.gob.iepi.interfaces.IPpdiSolicitudSignoDistintivo
+	java:module/ServicioPpdiSolicitudSignoDistintivo!ec.gob.iepi.interfaces.IPpdiSolicitudSignoDistintivo
+	java:global/busquedas-titular/busquedas-titular-ejb/ServicioPpdiSolicitudSignoDistintivo
+	java:app/busquedas-titular-ejb/ServicioPpdiSolicitudSignoDistintivo
+	java:module/ServicioPpdiSolicitudSignoDistintivo
+
+2018-04-16 15:38:09,771 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 64) RESTEASY002225: Deploying javax.ws.rs.core.Application: class ec.gob.iepi.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2018-04-16 15:38:09,772 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 65) RESTEASY002225: Deploying javax.ws.rs.core.Application: class ec.gob.iepi.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2018-04-16 15:38:09,772 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'ServicioPpdiPersonaSolicitudSignoDistintivo1' in deployment unit 'subdeployment "busquedas-titular-ejb.jar" of deployment "busquedas-titular.ear"' are as follows:
+
+	java:global/busquedas-titular/busquedas-titular-ejb/ServicioPpdiPersonaSolicitudSignoDistintivo1!ec.gob.iepi.interfaces.IPpdiPersonaSolicitudSignoDistintivo1
+	java:app/busquedas-titular-ejb/ServicioPpdiPersonaSolicitudSignoDistintivo1!ec.gob.iepi.interfaces.IPpdiPersonaSolicitudSignoDistintivo1
+	java:module/ServicioPpdiPersonaSolicitudSignoDistintivo1!ec.gob.iepi.interfaces.IPpdiPersonaSolicitudSignoDistintivo1
+	java:global/busquedas-titular/busquedas-titular-ejb/ServicioPpdiPersonaSolicitudSignoDistintivo1
+	java:app/busquedas-titular-ejb/ServicioPpdiPersonaSolicitudSignoDistintivo1
+	java:module/ServicioPpdiPersonaSolicitudSignoDistintivo1
+
+2018-04-16 15:38:09,773 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'ServicioPpdiTituloSignoDistintivo' in deployment unit 'subdeployment "busquedas-titular-ejb.jar" of deployment "busquedas-titular.ear"' are as follows:
+
+	java:global/busquedas-titular/busquedas-titular-ejb/ServicioPpdiTituloSignoDistintivo!ec.gob.iepi.interfaces.IPpdiTituloSignoDistintivo
+	java:app/busquedas-titular-ejb/ServicioPpdiTituloSignoDistintivo!ec.gob.iepi.interfaces.IPpdiTituloSignoDistintivo
+	java:module/ServicioPpdiTituloSignoDistintivo!ec.gob.iepi.interfaces.IPpdiTituloSignoDistintivo
+	java:global/busquedas-titular/busquedas-titular-ejb/ServicioPpdiTituloSignoDistintivo
+	java:app/busquedas-titular-ejb/ServicioPpdiTituloSignoDistintivo
+	java:module/ServicioPpdiTituloSignoDistintivo
+
+2018-04-16 15:38:09,773 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'ServicioUsuario' in deployment unit 'subdeployment "busquedas-titular-ejb.jar" of deployment "busquedas-titular.ear"' are as follows:
+
+	java:global/busquedas-titular/busquedas-titular-ejb/ServicioUsuario!ec.gob.iepi.interfaces.autenticacion.IUsuario
+	java:app/busquedas-titular-ejb/ServicioUsuario!ec.gob.iepi.interfaces.autenticacion.IUsuario
+	java:module/ServicioUsuario!ec.gob.iepi.interfaces.autenticacion.IUsuario
+	java:global/busquedas-titular/busquedas-titular-ejb/ServicioUsuario
+	java:app/busquedas-titular-ejb/ServicioUsuario
+	java:module/ServicioUsuario
+
+2018-04-16 15:38:09,773 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'ServicioPpdiPersona' in deployment unit 'subdeployment "busquedas-titular-ejb.jar" of deployment "busquedas-titular.ear"' are as follows:
+
+	java:global/busquedas-titular/busquedas-titular-ejb/ServicioPpdiPersona!ec.gob.iepi.interfaces.IPpdiPersona
+	java:app/busquedas-titular-ejb/ServicioPpdiPersona!ec.gob.iepi.interfaces.IPpdiPersona
+	java:module/ServicioPpdiPersona!ec.gob.iepi.interfaces.IPpdiPersona
+	java:global/busquedas-titular/busquedas-titular-ejb/ServicioPpdiPersona
+	java:app/busquedas-titular-ejb/ServicioPpdiPersona
+	java:module/ServicioPpdiPersona
+
+2018-04-16 15:38:09,773 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'ServicioPpdiPersonaSolicitudSignoDistintivo' in deployment unit 'subdeployment "busquedas-titular-ejb.jar" of deployment "busquedas-titular.ear"' are as follows:
+
+	java:global/busquedas-titular/busquedas-titular-ejb/ServicioPpdiPersonaSolicitudSignoDistintivo!ec.gob.iepi.interfaces.IPpdiPersonaSolicitudSignoDistintivo
+	java:app/busquedas-titular-ejb/ServicioPpdiPersonaSolicitudSignoDistintivo!ec.gob.iepi.interfaces.IPpdiPersonaSolicitudSignoDistintivo
+	java:module/ServicioPpdiPersonaSolicitudSignoDistintivo!ec.gob.iepi.interfaces.IPpdiPersonaSolicitudSignoDistintivo
+	java:global/busquedas-titular/busquedas-titular-ejb/ServicioPpdiPersonaSolicitudSignoDistintivo
+	java:app/busquedas-titular-ejb/ServicioPpdiPersonaSolicitudSignoDistintivo
+	java:module/ServicioPpdiPersonaSolicitudSignoDistintivo
+
+2018-04-16 15:38:09,818 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment busquedas-titular-web.war
+2018-04-16 15:38:09,893 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 65) WFLYUT0021: Registered web context: /captcha-web
+2018-04-16 15:38:09,899 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 64) WFLYUT0021: Registered web context: /ov-web
+2018-04-16 15:38:10,085 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 64) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'busquedas-titular.ear/busquedas-titular-ejb.jar#iepiUsuarioPU'
+2018-04-16 15:38:10,085 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 65) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'busquedas-titular.ear/busquedas-titular-ejb.jar#iepiPU2'
+2018-04-16 15:38:10,217 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 65) IJ000407: No lazy enlistment available for iepi3
+2018-04-16 15:38:10,218 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 64) IJ000407: No lazy enlistment available for autenticacion
+2018-04-16 15:38:10,219 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 65) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2018-04-16 15:38:10,220 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 64) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+2018-04-16 15:38:10,446 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 64) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-04-16 15:38:10,458 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 64) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@ec5e099
+2018-04-16 15:38:10,469 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 64) Envers integration enabled? : true
+2018-04-16 15:38:10,699 WARN  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0003: Unable to instantiate driver class "org.olap4j.driver.xmla.XmlaOlap4jDriver": java.lang.NoSuchMethodException: org.olap4j.driver.xmla.XmlaOlap4jDriver.<init>()
+2018-04-16 15:38:11,417 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 65) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-04-16 15:38:11,427 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 65) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@ec5e099
+2018-04-16 15:38:11,428 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 65) Envers integration enabled? : true
+2018-04-16 15:38:11,919 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 64) HHH000397: Using ASTQueryTranslatorFactory
+2018-04-16 15:38:11,921 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 65) HHH000397: Using ASTQueryTranslatorFactory
+2018-04-16 15:38:12,477 INFO  [org.jboss.weld.Event] (MSC service thread 1-2) WELD-000411: Observer method [BackedAnnotatedMethod] public org.omnifaces.VetoAnnotatedTypeExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+2018-04-16 15:38:12,904 INFO  [org.omnifaces.ApplicationInitializer] (ServerService Thread Pool -- 69) Using OmniFaces version 2.0
+2018-04-16 15:38:12,912 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 69) Initializing AtmosphereFramework
+2018-04-16 15:38:12,923 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 69) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/busquedas-titular-web'
+2018-04-16 15:38:14,073 INFO  [net.bootsfaces.listeners.AddResourcesListener] (ServerService Thread Pool -- 69) This application is running on BootsFaces1.1.1-
+2018-04-16 15:38:14,158 WARNING [javax.enterprise.resource.webcontainer.jsf.managedbean] (ServerService Thread Pool -- 69) JSF1074: ya se ha registrado el bean administrado denominado 'now'.  Sustituyendo el tipo de clase de bean administrado java.util.Date existente por java.util.Date.
+2018-04-16 15:38:14,805 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 69) Running on PrimeFaces 6.1
+2018-04-16 15:38:14,806 INFO  [org.primefaces.extensions.application.PostConstructApplicationEventListener] (ServerService Thread Pool -- 69) Running on PrimeFaces Extensions 3.2.0
+2018-04-16 15:38:14,810 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 69) WFLYUT0021: Registered web context: /busquedas-titular-web
+2018-04-16 15:38:14,911 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "files.war" (runtime-name : "files.war")
+2018-04-16 15:38:14,912 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "postgresql-9.3-1102-jdbc41.jar" (runtime-name : "postgresql-9.3-1102-jdbc41.jar")
+2018-04-16 15:38:14,912 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "ov.ear" (runtime-name : "ov.ear")
+2018-04-16 15:38:14,912 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "busquedas-titular.ear" (runtime-name : "busquedas-titular.ear")
+2018-04-16 15:38:14,912 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "captcha.ear" (runtime-name : "captcha.ear")
+2018-04-16 15:38:15,093 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-04-16 15:38:15,094 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-04-16 15:38:15,094 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 39004ms - Started 1435 of 1731 services (515 services are lazy, passive or on-demand)
+2018-04-16 15:41:15,388 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 72) WFLYUT0022: Unregistered web context: /ov-web
+2018-04-16 15:41:15,409 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 73) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-16 15:41:15,410 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 73) HHH000227: Running hbm2ddl schema export
+2018-04-16 15:41:15,423 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 73) HHH000230: Schema export complete
+2018-04-16 15:41:15,426 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 74) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-16 15:41:15,435 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:jboss/datasources/ovDS]
+2018-04-16 15:41:15,442 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0208: Stopped subdeployment (runtime-name: ov-web.war) in 70ms
+2018-04-16 15:41:15,443 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0208: Stopped subdeployment (runtime-name: ov-ejb.jar) in 70ms
+2018-04-16 15:41:15,444 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment ov.ear (runtime-name: ov.ear) in 71ms
+2018-04-16 15:41:15,445 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "ov.ear" (runtime-name: "ov.ear")
+2018-04-16 15:41:15,449 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0207: Starting subdeployment (runtime-name: "ov-web.war")
+2018-04-16 15:41:15,449 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0207: Starting subdeployment (runtime-name: "ov-ejb.jar")
+2018-04-16 15:41:15,452 WARN  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2018-04-16 15:41:15,459 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for primary
+2018-04-16 15:41:15,470 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment ov.ear
+2018-04-16 15:41:15,471 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/ovDS]
+2018-04-16 15:41:15,475 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment ov-ejb.jar
+2018-04-16 15:41:15,477 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'MemberRegistration' in deployment unit 'subdeployment "ov-ejb.jar" of deployment "ov.ear"' are as follows:
+
+	java:global/ov/ov-ejb/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:app/ov-ejb/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:module/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:global/ov/ov-ejb/MemberRegistration
+	java:app/ov-ejb/MemberRegistration
+	java:module/MemberRegistration
+
+2018-04-16 15:41:15,480 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 74) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-16 15:41:15,481 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 74) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2018-04-16 15:41:15,481 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment ov-web.war
+2018-04-16 15:41:15,529 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 74) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-16 15:41:15,532 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 74) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-04-16 15:41:15,533 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 74) HHH000431: Unable to determine H2 database version, certain features may not work
+2018-04-16 15:41:15,538 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 74) Envers integration enabled? : true
+2018-04-16 15:41:15,579 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 74) HHH000227: Running hbm2ddl schema export
+2018-04-16 15:41:15,580 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 74) HHH000476: Executing import script '/import.sql'
+2018-04-16 15:41:15,581 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 74) HHH000230: Schema export complete
+2018-04-16 15:41:15,811 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 74) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/ov-web'
+2018-04-16 15:41:16,014 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 74) RESTEASY002225: Deploying javax.ws.rs.core.Application: class ec.gob.iepi.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2018-04-16 15:41:16,021 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 74) WFLYUT0021: Registered web context: /ov-web
+2018-04-16 15:41:16,073 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "ov.ear" with deployment "ov.ear"
+2018-04-16 15:42:56,270 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-8) HHH000397: Using ASTQueryTranslatorFactory
+2018-04-16 16:07:07,357 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 78) WFLYUT0022: Unregistered web context: /ov-web
+2018-04-16 16:07:07,381 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 81) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-16 16:07:07,381 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 81) HHH000227: Running hbm2ddl schema export
+2018-04-16 16:07:07,384 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 81) HHH000230: Schema export complete
+2018-04-16 16:07:07,389 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 81) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-16 16:07:07,400 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/datasources/ovDS]
+2018-04-16 16:07:07,408 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0208: Stopped subdeployment (runtime-name: ov-web.war) in 60ms
+2018-04-16 16:07:07,409 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0208: Stopped subdeployment (runtime-name: ov-ejb.jar) in 60ms
+2018-04-16 16:07:07,409 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment ov.ear (runtime-name: ov.ear) in 61ms
+2018-04-16 16:07:07,410 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "ov.ear" (runtime-name: "ov.ear")
+2018-04-16 16:07:07,414 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0207: Starting subdeployment (runtime-name: "ov-web.war")
+2018-04-16 16:07:07,415 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0207: Starting subdeployment (runtime-name: "ov-ejb.jar")
+2018-04-16 16:07:07,421 WARN  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2018-04-16 16:07:07,436 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for primary
+2018-04-16 16:07:07,450 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/ovDS]
+2018-04-16 16:07:07,451 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 81) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-16 16:07:07,451 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 81) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2018-04-16 16:07:07,453 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment ov.ear
+2018-04-16 16:07:07,459 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment ov-web.war
+2018-04-16 16:07:07,462 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment ov-ejb.jar
+2018-04-16 16:07:07,465 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'MemberRegistration' in deployment unit 'subdeployment "ov-ejb.jar" of deployment "ov.ear"' are as follows:
+
+	java:global/ov/ov-ejb/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:app/ov-ejb/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:module/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:global/ov/ov-ejb/MemberRegistration
+	java:app/ov-ejb/MemberRegistration
+	java:module/MemberRegistration
+
+2018-04-16 16:07:07,500 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 81) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-16 16:07:07,502 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 81) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-04-16 16:07:07,502 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 81) HHH000431: Unable to determine H2 database version, certain features may not work
+2018-04-16 16:07:07,506 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 81) Envers integration enabled? : true
+2018-04-16 16:07:07,527 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 81) HHH000227: Running hbm2ddl schema export
+2018-04-16 16:07:07,536 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 81) HHH000476: Executing import script '/import.sql'
+2018-04-16 16:07:07,537 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 81) HHH000230: Schema export complete
+2018-04-16 16:07:07,734 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 82) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/ov-web'
+2018-04-16 16:07:07,894 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 82) RESTEASY002225: Deploying javax.ws.rs.core.Application: class ec.gob.iepi.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2018-04-16 16:07:07,907 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 82) WFLYUT0021: Registered web context: /ov-web
+2018-04-16 16:07:07,929 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "ov.ear" with deployment "ov.ear"
+2018-04-16 16:07:47,956 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found ovconsulta-1.0-SNAPSHOT.war in deployment directory. To trigger deployment create a file called ovconsulta-1.0-SNAPSHOT.war.dodeploy
+2018-04-16 16:07:47,958 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "ovconsulta-1.0-SNAPSHOT.war" (runtime-name: "ovconsulta-1.0-SNAPSHOT.war")
+2018-04-16 16:07:47,992 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 84) WFLYUT0021: Registered web context: /ovconsulta-1.0-SNAPSHOT
+2018-04-16 16:07:48,003 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "ovconsulta-1.0-SNAPSHOT.war" (runtime-name : "ovconsulta-1.0-SNAPSHOT.war")
+2018-04-16 16:08:48,084 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 90) WFLYUT0022: Unregistered web context: /ov-web
+2018-04-16 16:08:48,097 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 89) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-16 16:08:48,098 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 89) HHH000227: Running hbm2ddl schema export
+2018-04-16 16:08:48,100 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 89) HHH000230: Schema export complete
+2018-04-16 16:08:48,102 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 89) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-16 16:08:48,108 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:jboss/datasources/ovDS]
+2018-04-16 16:08:48,117 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0208: Stopped subdeployment (runtime-name: ov-web.war) in 38ms
+2018-04-16 16:08:48,117 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0208: Stopped subdeployment (runtime-name: ov-ejb.jar) in 38ms
+2018-04-16 16:08:48,117 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment ov.ear (runtime-name: ov.ear) in 39ms
+2018-04-16 16:08:48,118 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "ov.ear" (runtime-name: "ov.ear")
+2018-04-16 16:08:48,118 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 89) WFLYUT0022: Unregistered web context: /ovconsulta-1.0-SNAPSHOT
+2018-04-16 16:08:48,122 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0207: Starting subdeployment (runtime-name: "ov-ejb.jar")
+2018-04-16 16:08:48,122 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0207: Starting subdeployment (runtime-name: "ov-web.war")
+2018-04-16 16:08:48,130 WARN  [org.jboss.as.connector] (MSC service thread 1-5) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2018-04-16 16:08:48,130 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment ovconsulta-1.0-SNAPSHOT.war (runtime-name: ovconsulta-1.0-SNAPSHOT.war) in 12ms
+2018-04-16 16:08:48,134 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "ovconsulta-1.0-SNAPSHOT.war" (runtime-name: "ovconsulta-1.0-SNAPSHOT.war")
+2018-04-16 16:08:48,138 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) WFLYJPA0002: Read persistence.xml for primary
+2018-04-16 16:08:48,165 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/ovDS]
+2018-04-16 16:08:48,171 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 86) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-16 16:08:48,172 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 86) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2018-04-16 16:08:48,174 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment ov.ear
+2018-04-16 16:08:48,182 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment ov-ejb.jar
+2018-04-16 16:08:48,182 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment ov-web.war
+2018-04-16 16:08:48,183 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'MemberRegistration' in deployment unit 'subdeployment "ov-ejb.jar" of deployment "ov.ear"' are as follows:
+
+	java:global/ov/ov-ejb/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:app/ov-ejb/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:module/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:global/ov/ov-ejb/MemberRegistration
+	java:app/ov-ejb/MemberRegistration
+	java:module/MemberRegistration
+
+2018-04-16 16:08:48,220 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 86) WFLYUT0021: Registered web context: /ovconsulta-1.0-SNAPSHOT
+2018-04-16 16:08:48,232 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 86) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-16 16:08:48,234 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 86) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-04-16 16:08:48,234 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 86) HHH000431: Unable to determine H2 database version, certain features may not work
+2018-04-16 16:08:48,237 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 86) Envers integration enabled? : true
+2018-04-16 16:08:48,254 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 86) HHH000227: Running hbm2ddl schema export
+2018-04-16 16:08:48,255 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 86) HHH000476: Executing import script '/import.sql'
+2018-04-16 16:08:48,256 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 86) HHH000230: Schema export complete
+2018-04-16 16:08:48,411 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 86) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/ov-web'
+2018-04-16 16:08:48,556 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 86) RESTEASY002225: Deploying javax.ws.rs.core.Application: class ec.gob.iepi.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2018-04-16 16:08:48,562 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 86) WFLYUT0021: Registered web context: /ov-web
+2018-04-16 16:08:48,572 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "ovconsulta-1.0-SNAPSHOT.war" with deployment "ovconsulta-1.0-SNAPSHOT.war"
+2018-04-16 16:08:48,572 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "ov.ear" with deployment "ov.ear"
+2018-04-16 16:28:59,638 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ovconsultas-web.war in deployment directory. To trigger deployment create a file called ovconsultas-web.war.dodeploy
+2018-04-16 16:31:39,797 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 93) WFLYUT0022: Unregistered web context: /ov-web
+2018-04-16 16:31:39,815 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 95) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-16 16:31:39,816 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 95) HHH000227: Running hbm2ddl schema export
+2018-04-16 16:31:39,823 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 95) HHH000230: Schema export complete
+2018-04-16 16:31:39,824 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 95) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-16 16:31:39,827 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:jboss/datasources/ovDS]
+2018-04-16 16:31:39,830 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0208: Stopped subdeployment (runtime-name: ov-web.war) in 37ms
+2018-04-16 16:31:39,830 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0208: Stopped subdeployment (runtime-name: ov-ejb.jar) in 37ms
+2018-04-16 16:31:39,830 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment ov.ear (runtime-name: ov.ear) in 38ms
+2018-04-16 16:31:39,831 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "ov.ear" (runtime-name: "ov.ear")
+2018-04-16 16:31:39,831 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "ovconsultas-web.war" (runtime-name: "ovconsultas-web.war")
+2018-04-16 16:31:39,835 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0207: Starting subdeployment (runtime-name: "ov-web.war")
+2018-04-16 16:31:39,835 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0207: Starting subdeployment (runtime-name: "ov-ejb.jar")
+2018-04-16 16:31:39,839 WARN  [org.jboss.as.connector] (MSC service thread 1-3) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2018-04-16 16:31:39,840 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment ovconsultas-web.war
+2018-04-16 16:31:39,850 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for primary
+2018-04-16 16:31:39,867 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment ov.ear
+2018-04-16 16:31:39,876 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/ovDS]
+2018-04-16 16:31:39,876 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 95) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-16 16:31:39,876 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 95) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2018-04-16 16:31:39,882 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment ov-ejb.jar
+2018-04-16 16:31:39,891 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'MemberRegistration' in deployment unit 'subdeployment "ov-ejb.jar" of deployment "ov.ear"' are as follows:
+
+	java:global/ov/ov-ejb/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:app/ov-ejb/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:module/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:global/ov/ov-ejb/MemberRegistration
+	java:app/ov-ejb/MemberRegistration
+	java:module/MemberRegistration
+
+2018-04-16 16:31:39,892 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment ov-web.war
+2018-04-16 16:31:39,923 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 95) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-16 16:31:39,928 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 4) WELD-000119: Not generating any bean definitions from ec.gob.iepi.controller.MemberController because of underlying class loading error: Type MemberRegistration from [Module "deployment.ovconsultas-web.war:main" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2018-04-16 16:31:39,932 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 95) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-04-16 16:31:39,932 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 95) HHH000431: Unable to determine H2 database version, certain features may not work
+2018-04-16 16:31:39,938 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 95) Envers integration enabled? : true
+2018-04-16 16:31:39,962 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 95) HHH000227: Running hbm2ddl schema export
+2018-04-16 16:31:39,987 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 95) HHH000476: Executing import script '/import.sql'
+2018-04-16 16:31:39,988 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 95) HHH000230: Schema export complete
+2018-04-16 16:31:40,123 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 95) WFLYUT0021: Registered web context: /ovconsultas-web
+2018-04-16 16:31:40,216 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 95) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/ov-web'
+2018-04-16 16:31:40,344 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 95) RESTEASY002225: Deploying javax.ws.rs.core.Application: class ec.gob.iepi.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2018-04-16 16:31:40,350 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 95) WFLYUT0021: Registered web context: /ov-web
+2018-04-16 16:31:40,358 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "ovconsultas-web.war" (runtime-name : "ovconsultas-web.war")
+2018-04-16 16:31:40,359 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "ov.ear" with deployment "ov.ear"
+2018-04-16 16:32:31,661 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-38) HHH000397: Using ASTQueryTranslatorFactory
+2018-04-16 16:47:01,262 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 97) WFLYUT0022: Unregistered web context: /ov-web
+2018-04-16 16:47:01,282 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 98) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-16 16:47:01,283 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 98) HHH000227: Running hbm2ddl schema export
+2018-04-16 16:47:01,286 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 98) HHH000230: Schema export complete
+2018-04-16 16:47:01,288 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 98) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-16 16:47:01,295 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:jboss/datasources/ovDS]
+2018-04-16 16:47:01,301 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0208: Stopped subdeployment (runtime-name: ov-ejb.jar) in 41ms
+2018-04-16 16:47:01,301 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0208: Stopped subdeployment (runtime-name: ov-web.war) in 41ms
+2018-04-16 16:47:01,301 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment ov.ear (runtime-name: ov.ear) in 41ms
+2018-04-16 16:47:01,303 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "ov.ear" (runtime-name: "ov.ear")
+2018-04-16 16:47:01,303 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 98) WFLYUT0022: Unregistered web context: /ovconsultas-web
+2018-04-16 16:47:01,309 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0207: Starting subdeployment (runtime-name: "ov-ejb.jar")
+2018-04-16 16:47:01,309 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0207: Starting subdeployment (runtime-name: "ov-web.war")
+2018-04-16 16:47:01,312 WARN  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2018-04-16 16:47:01,324 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for primary
+2018-04-16 16:47:01,332 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/ovDS]
+2018-04-16 16:47:01,332 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 98) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-16 16:47:01,332 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 98) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2018-04-16 16:47:01,333 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment ov.ear
+2018-04-16 16:47:01,340 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment ov-ejb.jar
+2018-04-16 16:47:01,341 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'MemberRegistration' in deployment unit 'subdeployment "ov-ejb.jar" of deployment "ov.ear"' are as follows:
+
+	java:global/ov/ov-ejb/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:app/ov-ejb/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:module/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:global/ov/ov-ejb/MemberRegistration
+	java:app/ov-ejb/MemberRegistration
+	java:module/MemberRegistration
+
+2018-04-16 16:47:01,341 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment ov-web.war
+2018-04-16 16:47:01,359 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment ovconsultas-web.war (runtime-name: ovconsultas-web.war) in 56ms
+2018-04-16 16:47:01,359 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "ovconsultas-web.war" (runtime-name: "ovconsultas-web.war")
+2018-04-16 16:47:01,394 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment ovconsultas-web.war
+2018-04-16 16:47:01,409 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 98) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-16 16:47:01,411 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 98) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-04-16 16:47:01,411 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 98) HHH000431: Unable to determine H2 database version, certain features may not work
+2018-04-16 16:47:01,415 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 98) Envers integration enabled? : true
+2018-04-16 16:47:01,447 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 2) WELD-000119: Not generating any bean definitions from ec.gob.iepi.controller.MemberController because of underlying class loading error: Type ec.gob.iepi.service.MemberRegistration from [Module "deployment.ovconsultas-web.war:main" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2018-04-16 16:47:01,452 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 98) HHH000227: Running hbm2ddl schema export
+2018-04-16 16:47:01,454 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 98) HHH000476: Executing import script '/import.sql'
+2018-04-16 16:47:01,456 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 98) HHH000230: Schema export complete
+2018-04-16 16:47:01,616 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 98) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/ovconsultas-web'
+2018-04-16 16:47:01,713 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 97) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/ov-web'
+2018-04-16 16:47:01,777 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 98) WFLYUT0021: Registered web context: /ovconsultas-web
+2018-04-16 16:47:01,878 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 97) RESTEASY002225: Deploying javax.ws.rs.core.Application: class ec.gob.iepi.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2018-04-16 16:47:01,885 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 97) WFLYUT0021: Registered web context: /ov-web
+2018-04-16 16:47:01,892 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "ovconsultas-web.war" with deployment "ovconsultas-web.war"
+2018-04-16 16:47:01,893 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "ov.ear" with deployment "ov.ear"
+2018-04-16 16:48:27,006 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 103) WFLYUT0022: Unregistered web context: /ov-web
+2018-04-16 16:48:27,031 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 104) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-16 16:48:27,032 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 104) HHH000227: Running hbm2ddl schema export
+2018-04-16 16:48:27,034 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 104) HHH000230: Schema export complete
+2018-04-16 16:48:27,037 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 104) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-16 16:48:27,039 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:jboss/datasources/ovDS]
+2018-04-16 16:48:27,043 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0208: Stopped subdeployment (runtime-name: ov-ejb.jar) in 40ms
+2018-04-16 16:48:27,043 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0208: Stopped subdeployment (runtime-name: ov-web.war) in 40ms
+2018-04-16 16:48:27,044 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment ov.ear (runtime-name: ov.ear) in 40ms
+2018-04-16 16:48:27,044 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "ov.ear" (runtime-name: "ov.ear")
+2018-04-16 16:48:27,048 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 104) WFLYUT0022: Unregistered web context: /ovconsultas-web
+2018-04-16 16:48:27,052 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0207: Starting subdeployment (runtime-name: "ov-ejb.jar")
+2018-04-16 16:48:27,051 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0207: Starting subdeployment (runtime-name: "ov-web.war")
+2018-04-16 16:48:27,059 WARN  [org.jboss.as.connector] (MSC service thread 1-1) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2018-04-16 16:48:27,075 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) WFLYJPA0002: Read persistence.xml for primary
+2018-04-16 16:48:27,096 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/ovDS]
+2018-04-16 16:48:27,096 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 104) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-16 16:48:27,096 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment ovconsultas-web.war (runtime-name: ovconsultas-web.war) in 51ms
+2018-04-16 16:48:27,096 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 104) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2018-04-16 16:48:27,097 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "ovconsultas-web.war" (runtime-name: "ovconsultas-web.war")
+2018-04-16 16:48:27,097 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment ov.ear
+2018-04-16 16:48:27,103 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment ov-web.war
+2018-04-16 16:48:27,122 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment ov-ejb.jar
+2018-04-16 16:48:27,123 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'MemberRegistration' in deployment unit 'subdeployment "ov-ejb.jar" of deployment "ov.ear"' are as follows:
+
+	java:global/ov/ov-ejb/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:app/ov-ejb/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:module/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:global/ov/ov-ejb/MemberRegistration
+	java:app/ov-ejb/MemberRegistration
+	java:module/MemberRegistration
+
+2018-04-16 16:48:27,128 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment ovconsultas-web.war
+2018-04-16 16:48:27,177 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 3) WELD-000119: Not generating any bean definitions from ec.gob.iepi.controller.MemberController because of underlying class loading error: Type ec.gob.iepi.service.MemberRegistration from [Module "deployment.ovconsultas-web.war:main" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2018-04-16 16:48:27,187 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 104) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-16 16:48:27,192 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 104) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-04-16 16:48:27,192 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 104) HHH000431: Unable to determine H2 database version, certain features may not work
+2018-04-16 16:48:27,214 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 104) Envers integration enabled? : true
+2018-04-16 16:48:27,243 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 104) HHH000227: Running hbm2ddl schema export
+2018-04-16 16:48:27,250 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 104) HHH000476: Executing import script '/import.sql'
+2018-04-16 16:48:27,251 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 104) HHH000230: Schema export complete
+2018-04-16 16:48:27,292 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 104) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/ovconsultas-web'
+2018-04-16 16:48:27,496 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 105) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/ov-web'
+2018-04-16 16:48:27,496 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 104) WFLYUT0021: Registered web context: /ovconsultas-web
+2018-04-16 16:48:27,626 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 105) RESTEASY002225: Deploying javax.ws.rs.core.Application: class ec.gob.iepi.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2018-04-16 16:48:27,630 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 105) WFLYUT0021: Registered web context: /ov-web
+2018-04-16 16:48:27,638 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "ovconsultas-web.war" with deployment "ovconsultas-web.war"
+2018-04-16 16:48:27,638 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "ov.ear" with deployment "ov.ear"
+2018-04-16 16:49:05,783 ERROR [io.undertow.request] (default task-2) UT005023: Exception handling request to /ov-web/index.jsf: javax.servlet.ServletException: /index.xhtml @7,48 <ui:composition template="/WEB-INF/templates/default.xhtml"> Invalid path : /WEB-INF/templates/default.xhtml
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:805)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.faces.view.facelets.TagAttributeException: /index.xhtml @7,48 <ui:composition template="/WEB-INF/templates/default.xhtml"> Invalid path : /WEB-INF/templates/default.xhtml
+	at com.sun.faces.facelets.tag.ui.CompositionHandler.apply(CompositionHandler.java:179)
+	at com.sun.faces.facelets.compiler.NamespaceHandler.apply(NamespaceHandler.java:93)
+	at com.sun.faces.facelets.compiler.EncodingHandler.apply(EncodingHandler.java:87)
+	at com.sun.faces.facelets.impl.DefaultFacelet.apply(DefaultFacelet.java:161)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.buildView(FaceletViewHandlingStrategy.java:1006)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:99)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:659)
+	... 38 more
+
+2018-04-16 16:51:41,381 ERROR [io.undertow.request] (default task-13) UT005023: Exception handling request to /ov-web/index.jsf: javax.servlet.ServletException: /index.xhtml @7,48 <ui:composition template="/WEB-INF/templates/default.xhtml"> Invalid path : /WEB-INF/templates/default.xhtml
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:805)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.faces.view.facelets.TagAttributeException: /index.xhtml @7,48 <ui:composition template="/WEB-INF/templates/default.xhtml"> Invalid path : /WEB-INF/templates/default.xhtml
+	at com.sun.faces.facelets.tag.ui.CompositionHandler.apply(CompositionHandler.java:179)
+	at com.sun.faces.facelets.compiler.NamespaceHandler.apply(NamespaceHandler.java:93)
+	at com.sun.faces.facelets.compiler.EncodingHandler.apply(EncodingHandler.java:87)
+	at com.sun.faces.facelets.impl.DefaultFacelet.apply(DefaultFacelet.java:161)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.buildView(FaceletViewHandlingStrategy.java:1006)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:99)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:659)
+	... 38 more
+
+2018-04-16 16:51:42,150 ERROR [io.undertow.request] (default task-14) UT005023: Exception handling request to /ov-web/index.jsf: javax.servlet.ServletException: /index.xhtml @7,48 <ui:composition template="/WEB-INF/templates/default.xhtml"> Invalid path : /WEB-INF/templates/default.xhtml
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:805)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.faces.view.facelets.TagAttributeException: /index.xhtml @7,48 <ui:composition template="/WEB-INF/templates/default.xhtml"> Invalid path : /WEB-INF/templates/default.xhtml
+	at com.sun.faces.facelets.tag.ui.CompositionHandler.apply(CompositionHandler.java:179)
+	at com.sun.faces.facelets.compiler.NamespaceHandler.apply(NamespaceHandler.java:93)
+	at com.sun.faces.facelets.compiler.EncodingHandler.apply(EncodingHandler.java:87)
+	at com.sun.faces.facelets.impl.DefaultFacelet.apply(DefaultFacelet.java:161)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.buildView(FaceletViewHandlingStrategy.java:1006)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:99)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:659)
+	... 38 more
+
+2018-04-16 16:51:42,319 ERROR [io.undertow.request] (default task-15) UT005023: Exception handling request to /ov-web/index.jsf: javax.servlet.ServletException: /index.xhtml @7,48 <ui:composition template="/WEB-INF/templates/default.xhtml"> Invalid path : /WEB-INF/templates/default.xhtml
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:805)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.faces.view.facelets.TagAttributeException: /index.xhtml @7,48 <ui:composition template="/WEB-INF/templates/default.xhtml"> Invalid path : /WEB-INF/templates/default.xhtml
+	at com.sun.faces.facelets.tag.ui.CompositionHandler.apply(CompositionHandler.java:179)
+	at com.sun.faces.facelets.compiler.NamespaceHandler.apply(NamespaceHandler.java:93)
+	at com.sun.faces.facelets.compiler.EncodingHandler.apply(EncodingHandler.java:87)
+	at com.sun.faces.facelets.impl.DefaultFacelet.apply(DefaultFacelet.java:161)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.buildView(FaceletViewHandlingStrategy.java:1006)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:99)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:659)
+	... 38 more
+
+2018-04-16 16:51:42,507 ERROR [io.undertow.request] (default task-19) UT005023: Exception handling request to /ov-web/index.jsf: javax.servlet.ServletException: /index.xhtml @7,48 <ui:composition template="/WEB-INF/templates/default.xhtml"> Invalid path : /WEB-INF/templates/default.xhtml
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:805)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.faces.view.facelets.TagAttributeException: /index.xhtml @7,48 <ui:composition template="/WEB-INF/templates/default.xhtml"> Invalid path : /WEB-INF/templates/default.xhtml
+	at com.sun.faces.facelets.tag.ui.CompositionHandler.apply(CompositionHandler.java:179)
+	at com.sun.faces.facelets.compiler.NamespaceHandler.apply(NamespaceHandler.java:93)
+	at com.sun.faces.facelets.compiler.EncodingHandler.apply(EncodingHandler.java:87)
+	at com.sun.faces.facelets.impl.DefaultFacelet.apply(DefaultFacelet.java:161)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.buildView(FaceletViewHandlingStrategy.java:1006)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:99)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:659)
+	... 38 more
+
+2018-04-16 16:51:42,656 ERROR [io.undertow.request] (default task-20) UT005023: Exception handling request to /ov-web/index.jsf: javax.servlet.ServletException: /index.xhtml @7,48 <ui:composition template="/WEB-INF/templates/default.xhtml"> Invalid path : /WEB-INF/templates/default.xhtml
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:805)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.faces.view.facelets.TagAttributeException: /index.xhtml @7,48 <ui:composition template="/WEB-INF/templates/default.xhtml"> Invalid path : /WEB-INF/templates/default.xhtml
+	at com.sun.faces.facelets.tag.ui.CompositionHandler.apply(CompositionHandler.java:179)
+	at com.sun.faces.facelets.compiler.NamespaceHandler.apply(NamespaceHandler.java:93)
+	at com.sun.faces.facelets.compiler.EncodingHandler.apply(EncodingHandler.java:87)
+	at com.sun.faces.facelets.impl.DefaultFacelet.apply(DefaultFacelet.java:161)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.buildView(FaceletViewHandlingStrategy.java:1006)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:99)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:659)
+	... 38 more
+
+2018-04-16 16:51:42,823 ERROR [io.undertow.request] (default task-22) UT005023: Exception handling request to /ov-web/index.jsf: javax.servlet.ServletException: /index.xhtml @7,48 <ui:composition template="/WEB-INF/templates/default.xhtml"> Invalid path : /WEB-INF/templates/default.xhtml
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:805)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.faces.view.facelets.TagAttributeException: /index.xhtml @7,48 <ui:composition template="/WEB-INF/templates/default.xhtml"> Invalid path : /WEB-INF/templates/default.xhtml
+	at com.sun.faces.facelets.tag.ui.CompositionHandler.apply(CompositionHandler.java:179)
+	at com.sun.faces.facelets.compiler.NamespaceHandler.apply(NamespaceHandler.java:93)
+	at com.sun.faces.facelets.compiler.EncodingHandler.apply(EncodingHandler.java:87)
+	at com.sun.faces.facelets.impl.DefaultFacelet.apply(DefaultFacelet.java:161)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.buildView(FaceletViewHandlingStrategy.java:1006)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:99)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:659)
+	... 38 more
+
+2018-04-16 16:51:43,007 ERROR [io.undertow.request] (default task-24) UT005023: Exception handling request to /ov-web/index.jsf: javax.servlet.ServletException: /index.xhtml @7,48 <ui:composition template="/WEB-INF/templates/default.xhtml"> Invalid path : /WEB-INF/templates/default.xhtml
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:805)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.faces.view.facelets.TagAttributeException: /index.xhtml @7,48 <ui:composition template="/WEB-INF/templates/default.xhtml"> Invalid path : /WEB-INF/templates/default.xhtml
+	at com.sun.faces.facelets.tag.ui.CompositionHandler.apply(CompositionHandler.java:179)
+	at com.sun.faces.facelets.compiler.NamespaceHandler.apply(NamespaceHandler.java:93)
+	at com.sun.faces.facelets.compiler.EncodingHandler.apply(EncodingHandler.java:87)
+	at com.sun.faces.facelets.impl.DefaultFacelet.apply(DefaultFacelet.java:161)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.buildView(FaceletViewHandlingStrategy.java:1006)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:99)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:659)
+	... 38 more
+
+2018-04-16 16:51:43,549 ERROR [io.undertow.request] (default task-26) UT005023: Exception handling request to /ov-web/index.jsf: javax.servlet.ServletException: /index.xhtml @7,48 <ui:composition template="/WEB-INF/templates/default.xhtml"> Invalid path : /WEB-INF/templates/default.xhtml
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:805)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.faces.view.facelets.TagAttributeException: /index.xhtml @7,48 <ui:composition template="/WEB-INF/templates/default.xhtml"> Invalid path : /WEB-INF/templates/default.xhtml
+	at com.sun.faces.facelets.tag.ui.CompositionHandler.apply(CompositionHandler.java:179)
+	at com.sun.faces.facelets.compiler.NamespaceHandler.apply(NamespaceHandler.java:93)
+	at com.sun.faces.facelets.compiler.EncodingHandler.apply(EncodingHandler.java:87)
+	at com.sun.faces.facelets.impl.DefaultFacelet.apply(DefaultFacelet.java:161)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.buildView(FaceletViewHandlingStrategy.java:1006)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:99)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:659)
+	... 38 more
+
+2018-04-16 16:51:43,783 ERROR [io.undertow.request] (default task-28) UT005023: Exception handling request to /ov-web/index.jsf: javax.servlet.ServletException: /index.xhtml @7,48 <ui:composition template="/WEB-INF/templates/default.xhtml"> Invalid path : /WEB-INF/templates/default.xhtml
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:805)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.faces.view.facelets.TagAttributeException: /index.xhtml @7,48 <ui:composition template="/WEB-INF/templates/default.xhtml"> Invalid path : /WEB-INF/templates/default.xhtml
+	at com.sun.faces.facelets.tag.ui.CompositionHandler.apply(CompositionHandler.java:179)
+	at com.sun.faces.facelets.compiler.NamespaceHandler.apply(NamespaceHandler.java:93)
+	at com.sun.faces.facelets.compiler.EncodingHandler.apply(EncodingHandler.java:87)
+	at com.sun.faces.facelets.impl.DefaultFacelet.apply(DefaultFacelet.java:161)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.buildView(FaceletViewHandlingStrategy.java:1006)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:99)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:659)
+	... 38 more
+
+2018-04-16 16:51:46,158 ERROR [io.undertow.request] (default task-30) UT005023: Exception handling request to /ov-web/index.jsf: javax.servlet.ServletException: /index.xhtml @7,48 <ui:composition template="/WEB-INF/templates/default.xhtml"> Invalid path : /WEB-INF/templates/default.xhtml
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:805)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.faces.view.facelets.TagAttributeException: /index.xhtml @7,48 <ui:composition template="/WEB-INF/templates/default.xhtml"> Invalid path : /WEB-INF/templates/default.xhtml
+	at com.sun.faces.facelets.tag.ui.CompositionHandler.apply(CompositionHandler.java:179)
+	at com.sun.faces.facelets.compiler.NamespaceHandler.apply(NamespaceHandler.java:93)
+	at com.sun.faces.facelets.compiler.EncodingHandler.apply(EncodingHandler.java:87)
+	at com.sun.faces.facelets.impl.DefaultFacelet.apply(DefaultFacelet.java:161)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.buildView(FaceletViewHandlingStrategy.java:1006)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:99)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:659)
+	... 38 more
+
+2018-04-16 16:51:46,357 ERROR [io.undertow.request] (default task-32) UT005023: Exception handling request to /ov-web/index.jsf: javax.servlet.ServletException: /index.xhtml @7,48 <ui:composition template="/WEB-INF/templates/default.xhtml"> Invalid path : /WEB-INF/templates/default.xhtml
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:805)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.faces.view.facelets.TagAttributeException: /index.xhtml @7,48 <ui:composition template="/WEB-INF/templates/default.xhtml"> Invalid path : /WEB-INF/templates/default.xhtml
+	at com.sun.faces.facelets.tag.ui.CompositionHandler.apply(CompositionHandler.java:179)
+	at com.sun.faces.facelets.compiler.NamespaceHandler.apply(NamespaceHandler.java:93)
+	at com.sun.faces.facelets.compiler.EncodingHandler.apply(EncodingHandler.java:87)
+	at com.sun.faces.facelets.impl.DefaultFacelet.apply(DefaultFacelet.java:161)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.buildView(FaceletViewHandlingStrategy.java:1006)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:99)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:659)
+	... 38 more
+
+2018-04-16 16:51:46,508 ERROR [io.undertow.request] (default task-34) UT005023: Exception handling request to /ov-web/index.jsf: javax.servlet.ServletException: /index.xhtml @7,48 <ui:composition template="/WEB-INF/templates/default.xhtml"> Invalid path : /WEB-INF/templates/default.xhtml
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:805)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.faces.view.facelets.TagAttributeException: /index.xhtml @7,48 <ui:composition template="/WEB-INF/templates/default.xhtml"> Invalid path : /WEB-INF/templates/default.xhtml
+	at com.sun.faces.facelets.tag.ui.CompositionHandler.apply(CompositionHandler.java:179)
+	at com.sun.faces.facelets.compiler.NamespaceHandler.apply(NamespaceHandler.java:93)
+	at com.sun.faces.facelets.compiler.EncodingHandler.apply(EncodingHandler.java:87)
+	at com.sun.faces.facelets.impl.DefaultFacelet.apply(DefaultFacelet.java:161)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.buildView(FaceletViewHandlingStrategy.java:1006)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:99)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:659)
+	... 38 more
+
+2018-04-16 16:54:18,019 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 108) WFLYUT0022: Unregistered web context: /ov-web
+2018-04-16 16:54:18,034 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 110) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-16 16:54:18,034 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 110) HHH000227: Running hbm2ddl schema export
+2018-04-16 16:54:18,040 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 110) HHH000230: Schema export complete
+2018-04-16 16:54:18,042 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 109) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-16 16:54:18,049 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:jboss/datasources/ovDS]
+2018-04-16 16:54:18,050 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0208: Stopped subdeployment (runtime-name: ov-web.war) in 34ms
+2018-04-16 16:54:18,051 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0208: Stopped subdeployment (runtime-name: ov-ejb.jar) in 34ms
+2018-04-16 16:54:18,051 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment ov.ear (runtime-name: ov.ear) in 34ms
+2018-04-16 16:54:18,051 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "ov.ear" (runtime-name: "ov.ear")
+2018-04-16 16:54:18,052 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 109) WFLYUT0022: Unregistered web context: /ovconsultas-web
+2018-04-16 16:54:18,060 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0207: Starting subdeployment (runtime-name: "ov-web.war")
+2018-04-16 16:54:18,060 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0207: Starting subdeployment (runtime-name: "ov-ejb.jar")
+2018-04-16 16:54:18,064 WARN  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2018-04-16 16:54:18,072 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) WFLYJPA0002: Read persistence.xml for primary
+2018-04-16 16:54:18,075 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment ovconsultas-web.war (runtime-name: ovconsultas-web.war) in 23ms
+2018-04-16 16:54:18,075 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "ovconsultas-web.war" (runtime-name: "ovconsultas-web.war")
+2018-04-16 16:54:18,088 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/ovDS]
+2018-04-16 16:54:18,089 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 111) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-16 16:54:18,089 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 111) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2018-04-16 16:54:18,090 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment ov.ear
+2018-04-16 16:54:18,096 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment ovconsultas-web.war
+2018-04-16 16:54:18,100 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment ov-ejb.jar
+2018-04-16 16:54:18,101 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'MemberRegistration' in deployment unit 'subdeployment "ov-ejb.jar" of deployment "ov.ear"' are as follows:
+
+	java:global/ov/ov-ejb/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:app/ov-ejb/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:module/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:global/ov/ov-ejb/MemberRegistration
+	java:app/ov-ejb/MemberRegistration
+	java:module/MemberRegistration
+
+2018-04-16 16:54:18,103 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment ov-web.war
+2018-04-16 16:54:18,146 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 111) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-16 16:54:18,153 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 111) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-04-16 16:54:18,153 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 111) HHH000431: Unable to determine H2 database version, certain features may not work
+2018-04-16 16:54:18,156 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 111) Envers integration enabled? : true
+2018-04-16 16:54:18,162 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 5) WELD-000119: Not generating any bean definitions from ec.gob.iepi.controller.MemberController because of underlying class loading error: Type ec.gob.iepi.service.MemberRegistration from [Module "deployment.ovconsultas-web.war:main" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2018-04-16 16:54:18,170 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 111) HHH000227: Running hbm2ddl schema export
+2018-04-16 16:54:18,171 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 111) HHH000476: Executing import script '/import.sql'
+2018-04-16 16:54:18,172 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 111) HHH000230: Schema export complete
+2018-04-16 16:54:18,300 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 106) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/ovconsultas-web'
+2018-04-16 16:54:18,473 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 106) WFLYUT0021: Registered web context: /ovconsultas-web
+2018-04-16 16:54:18,475 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 111) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/ov-web'
+2018-04-16 16:54:18,560 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 111) RESTEASY002225: Deploying javax.ws.rs.core.Application: class ec.gob.iepi.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2018-04-16 16:54:18,564 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 111) WFLYUT0021: Registered web context: /ov-web
+2018-04-16 16:54:18,570 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "ovconsultas-web.war" with deployment "ovconsultas-web.war"
+2018-04-16 16:54:18,571 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "ov.ear" with deployment "ov.ear"
+2018-04-16 16:54:32,941 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-36) HHH000397: Using ASTQueryTranslatorFactory
+2018-04-16 17:00:43,919 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 114) WFLYUT0022: Unregistered web context: /ov-web
+2018-04-16 17:00:43,928 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 117) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-16 17:00:43,928 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 117) HHH000227: Running hbm2ddl schema export
+2018-04-16 17:00:43,931 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 117) HHH000230: Schema export complete
+2018-04-16 17:00:43,935 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 117) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-16 17:00:43,938 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/datasources/ovDS]
+2018-04-16 17:00:43,941 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0208: Stopped subdeployment (runtime-name: ov-web.war) in 26ms
+2018-04-16 17:00:43,941 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0208: Stopped subdeployment (runtime-name: ov-ejb.jar) in 26ms
+2018-04-16 17:00:43,946 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment ov.ear (runtime-name: ov.ear) in 31ms
+2018-04-16 17:00:43,946 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "ov.ear" (runtime-name: "ov.ear")
+2018-04-16 17:00:43,949 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0207: Starting subdeployment (runtime-name: "ov-web.war")
+2018-04-16 17:00:43,950 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0207: Starting subdeployment (runtime-name: "ov-ejb.jar")
+2018-04-16 17:00:43,950 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 117) WFLYUT0022: Unregistered web context: /ovconsultas-web
+2018-04-16 17:00:43,954 WARN  [org.jboss.as.connector] (MSC service thread 1-5) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2018-04-16 17:00:43,959 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) WFLYJPA0002: Read persistence.xml for primary
+2018-04-16 17:00:43,974 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment ovconsultas-web.war (runtime-name: ovconsultas-web.war) in 27ms
+2018-04-16 17:00:43,975 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "ovconsultas-web.war" (runtime-name: "ovconsultas-web.war")
+2018-04-16 17:00:43,982 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment ov.ear
+2018-04-16 17:00:43,985 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/ovDS]
+2018-04-16 17:00:43,987 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment ov-web.war
+2018-04-16 17:00:43,990 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 117) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-16 17:00:43,990 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 117) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2018-04-16 17:00:43,997 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment ov-ejb.jar
+2018-04-16 17:00:43,998 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'MemberRegistration' in deployment unit 'subdeployment "ov-ejb.jar" of deployment "ov.ear"' are as follows:
+
+	java:global/ov/ov-ejb/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:app/ov-ejb/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:module/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:global/ov/ov-ejb/MemberRegistration
+	java:app/ov-ejb/MemberRegistration
+	java:module/MemberRegistration
+
+2018-04-16 17:00:43,999 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment ovconsultas-web.war
+2018-04-16 17:00:44,033 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 117) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-16 17:00:44,034 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 117) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-04-16 17:00:44,035 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 117) HHH000431: Unable to determine H2 database version, certain features may not work
+2018-04-16 17:00:44,046 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 117) Envers integration enabled? : true
+2018-04-16 17:00:44,080 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 117) HHH000227: Running hbm2ddl schema export
+2018-04-16 17:00:44,089 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 5) WELD-000119: Not generating any bean definitions from ec.gob.iepi.controller.MemberController because of underlying class loading error: Type ec.gob.iepi.service.MemberRegistration from [Module "deployment.ovconsultas-web.war:main" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2018-04-16 17:00:44,097 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 117) HHH000476: Executing import script '/import.sql'
+2018-04-16 17:00:44,098 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 117) HHH000230: Schema export complete
+2018-04-16 17:00:44,224 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 116) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/ovconsultas-web'
+2018-04-16 17:00:44,355 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 112) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/ov-web'
+2018-04-16 17:00:44,404 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 116) WFLYUT0021: Registered web context: /ovconsultas-web
+2018-04-16 17:00:44,489 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 112) RESTEASY002225: Deploying javax.ws.rs.core.Application: class ec.gob.iepi.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2018-04-16 17:00:44,493 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 112) WFLYUT0021: Registered web context: /ov-web
+2018-04-16 17:00:44,501 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "ovconsultas-web.war" with deployment "ovconsultas-web.war"
+2018-04-16 17:00:44,501 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "ov.ear" with deployment "ov.ear"
+2018-04-16 17:00:56,498 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-46) HHH000397: Using ASTQueryTranslatorFactory
+2018-04-16 17:07:19,903 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 119) WFLYUT0022: Unregistered web context: /ov-web
+2018-04-16 17:07:19,915 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 121) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-16 17:07:19,915 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 121) HHH000227: Running hbm2ddl schema export
+2018-04-16 17:07:19,916 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 121) HHH000230: Schema export complete
+2018-04-16 17:07:19,919 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 121) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-16 17:07:19,920 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:jboss/datasources/ovDS]
+2018-04-16 17:07:19,924 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0208: Stopped subdeployment (runtime-name: ov-web.war) in 23ms
+2018-04-16 17:07:19,924 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0208: Stopped subdeployment (runtime-name: ov-ejb.jar) in 23ms
+2018-04-16 17:07:19,924 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment ov.ear (runtime-name: ov.ear) in 23ms
+2018-04-16 17:07:19,925 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "ov.ear" (runtime-name: "ov.ear")
+2018-04-16 17:07:19,925 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 121) WFLYUT0022: Unregistered web context: /ovconsultas-web
+2018-04-16 17:07:19,931 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0207: Starting subdeployment (runtime-name: "ov-ejb.jar")
+2018-04-16 17:07:19,931 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0207: Starting subdeployment (runtime-name: "ov-web.war")
+2018-04-16 17:07:19,934 WARN  [org.jboss.as.connector] (MSC service thread 1-6) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2018-04-16 17:07:19,942 INFO  [org.jboss.as.jpa] (MSC service thread 1-6) WFLYJPA0002: Read persistence.xml for primary
+2018-04-16 17:07:19,942 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment ovconsultas-web.war (runtime-name: ovconsultas-web.war) in 17ms
+2018-04-16 17:07:19,943 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "ovconsultas-web.war" (runtime-name: "ovconsultas-web.war")
+2018-04-16 17:07:19,956 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/ovDS]
+2018-04-16 17:07:19,957 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment ov.ear
+2018-04-16 17:07:19,959 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 120) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-16 17:07:19,960 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 120) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2018-04-16 17:07:19,961 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment ovconsultas-web.war
+2018-04-16 17:07:19,962 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment ov-web.war
+2018-04-16 17:07:19,967 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment ov-ejb.jar
+2018-04-16 17:07:19,967 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'MemberRegistration' in deployment unit 'subdeployment "ov-ejb.jar" of deployment "ov.ear"' are as follows:
+
+	java:global/ov/ov-ejb/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:app/ov-ejb/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:module/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:global/ov/ov-ejb/MemberRegistration
+	java:app/ov-ejb/MemberRegistration
+	java:module/MemberRegistration
+
+2018-04-16 17:07:19,997 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 2) WELD-000119: Not generating any bean definitions from ec.gob.iepi.controller.MemberController because of underlying class loading error: Type ec.gob.iepi.service.MemberRegistration from [Module "deployment.ovconsultas-web.war:main" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2018-04-16 17:07:19,998 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 3) WELD-000119: Not generating any bean definitions from ec.gob.iepi.rest.MemberResourceRESTService because of underlying class loading error: Type ec.gob.iepi.data.MemberRepository from [Module "deployment.ovconsultas-web.war:main" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2018-04-16 17:07:20,013 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 120) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-16 17:07:20,014 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 120) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-04-16 17:07:20,015 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 120) HHH000431: Unable to determine H2 database version, certain features may not work
+2018-04-16 17:07:20,017 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 120) Envers integration enabled? : true
+2018-04-16 17:07:20,036 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 120) HHH000227: Running hbm2ddl schema export
+2018-04-16 17:07:20,038 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 120) HHH000476: Executing import script '/import.sql'
+2018-04-16 17:07:20,038 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 120) HHH000230: Schema export complete
+2018-04-16 17:07:20,104 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 119) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/ovconsultas-web'
+2018-04-16 17:07:20,213 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 122) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/ov-web'
+2018-04-16 17:07:20,330 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 122) RESTEASY002225: Deploying javax.ws.rs.core.Application: class ec.gob.iepi.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2018-04-16 17:07:20,330 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 119) RESTEASY002225: Deploying javax.ws.rs.core.Application: class ec.gob.iepi.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2018-04-16 17:07:20,331 ERROR [org.jboss.msc.service.fail] (ServerService Thread Pool -- 119) MSC000001: Failed to start service jboss.undertow.deployment.default-server.default-host./ovconsultas-web: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./ovconsultas-web: java.lang.NoClassDefFoundError: ec/gob/iepi/model/Member
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:85)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:320)
+Caused by: java.lang.NoClassDefFoundError: ec/gob/iepi/model/Member
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.privateGetPublicMethods(Class.java:2902)
+	at java.lang.Class.getMethods(Class.java:1615)
+	at org.jboss.resteasy.spi.metadata.ResourceBuilder.fromAnnotations(ResourceBuilder.java:756)
+	at org.jboss.resteasy.spi.metadata.ResourceBuilder.rootResourceFromAnnotations(ResourceBuilder.java:709)
+	at org.jboss.resteasy.plugins.server.resourcefactory.POJOResourceFactory.<init>(POJOResourceFactory.java:30)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addPerRequestResource(ResourceMethodRegistry.java:76)
+	at org.jboss.resteasy.spi.ResteasyDeployment.registration(ResteasyDeployment.java:409)
+	at org.jboss.resteasy.spi.ResteasyDeployment.start(ResteasyDeployment.java:250)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.init(ServletContainerDispatcher.java:113)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.init(HttpServletDispatcher.java:36)
+	at io.undertow.servlet.core.LifecyleInterceptorInvocation.proceed(LifecyleInterceptorInvocation.java:117)
+	at org.wildfly.extension.undertow.security.RunAsLifecycleInterceptor.init(RunAsLifecycleInterceptor.java:78)
+	at io.undertow.servlet.core.LifecyleInterceptorInvocation.proceed(LifecyleInterceptorInvocation.java:103)
+	at io.undertow.servlet.core.ManagedServlet$DefaultInstanceStrategy.start(ManagedServlet.java:250)
+	at io.undertow.servlet.core.ManagedServlet.createServlet(ManagedServlet.java:133)
+	at io.undertow.servlet.core.DeploymentManagerImpl$2.call(DeploymentManagerImpl.java:546)
+	at io.undertow.servlet.core.DeploymentManagerImpl$2.call(DeploymentManagerImpl.java:517)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:42)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.core.DeploymentManagerImpl.start(DeploymentManagerImpl.java:559)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:101)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:82)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: ec.gob.iepi.model.Member from [Module "deployment.ovconsultas-web.war:main" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:198)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:363)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:351)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:93)
+	... 35 more
+
+2018-04-16 17:07:20,337 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 122) WFLYUT0021: Registered web context: /ov-web
+2018-04-16 17:07:20,344 ERROR [org.jboss.as.controller.management-operation] (DeploymentScanner-threads - 1) WFLYCTL0013: Operation ("full-replace-deployment") failed - address: ([]) - failure description: {
+    "WFLYCTL0080: Failed services" => {"jboss.undertow.deployment.default-server.default-host./ovconsultas-web" => "org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./ovconsultas-web: java.lang.NoClassDefFoundError: ec/gob/iepi/model/Member
+    Caused by: java.lang.NoClassDefFoundError: ec/gob/iepi/model/Member
+    Caused by: java.lang.ClassNotFoundException: ec.gob.iepi.model.Member from [Module \"deployment.ovconsultas-web.war:main\" from Service Module Loader]"},
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.undertow.deployment.default-server.default-host./ovconsultas-web"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => undefined
+}
+2018-04-16 17:07:20,350 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "ovconsultas-web.war" with deployment "ovconsultas-web.war"
+2018-04-16 17:07:20,350 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "ov.ear" with deployment "ov.ear"
+2018-04-16 17:07:20,350 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 1) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service jboss.undertow.deployment.default-server.default-host./ovconsultas-web: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./ovconsultas-web: java.lang.NoClassDefFoundError: ec/gob/iepi/model/Member
+
+2018-04-16 17:08:35,443 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 125) WFLYUT0022: Unregistered web context: /ov-web
+2018-04-16 17:08:35,454 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 127) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-16 17:08:35,455 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 127) HHH000227: Running hbm2ddl schema export
+2018-04-16 17:08:35,457 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 127) HHH000230: Schema export complete
+2018-04-16 17:08:35,458 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 127) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-16 17:08:35,460 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/datasources/ovDS]
+2018-04-16 17:08:35,463 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0208: Stopped subdeployment (runtime-name: ov-ejb.jar) in 27ms
+2018-04-16 17:08:35,463 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0208: Stopped subdeployment (runtime-name: ov-web.war) in 28ms
+2018-04-16 17:08:35,463 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment ov.ear (runtime-name: ov.ear) in 28ms
+2018-04-16 17:08:35,464 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "ov.ear" (runtime-name: "ov.ear")
+2018-04-16 17:08:35,468 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0207: Starting subdeployment (runtime-name: "ov-web.war")
+2018-04-16 17:08:35,468 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0207: Starting subdeployment (runtime-name: "ov-ejb.jar")
+2018-04-16 17:08:35,472 WARN  [org.jboss.as.connector] (MSC service thread 1-5) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2018-04-16 17:08:35,476 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment ovconsultas-web.war (runtime-name: ovconsultas-web.war) in 12ms
+2018-04-16 17:08:35,478 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "ovconsultas-web.war" (runtime-name: "ovconsultas-web.war")
+2018-04-16 17:08:35,489 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) WFLYJPA0002: Read persistence.xml for primary
+2018-04-16 17:08:35,503 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment ov.ear
+2018-04-16 17:08:35,504 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/ovDS]
+2018-04-16 17:08:35,504 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 127) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-16 17:08:35,504 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 127) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2018-04-16 17:08:35,504 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment ovconsultas-web.war
+2018-04-16 17:08:35,509 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment ov-ejb.jar
+2018-04-16 17:08:35,511 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'MemberRegistration' in deployment unit 'subdeployment "ov-ejb.jar" of deployment "ov.ear"' are as follows:
+
+	java:global/ov/ov-ejb/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:app/ov-ejb/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:module/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:global/ov/ov-ejb/MemberRegistration
+	java:app/ov-ejb/MemberRegistration
+	java:module/MemberRegistration
+
+2018-04-16 17:08:35,511 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment ov-web.war
+2018-04-16 17:08:35,559 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 3) WELD-000119: Not generating any bean definitions from ec.gob.iepi.controller.MemberController because of underlying class loading error: Type ec.gob.iepi.service.MemberRegistration from [Module "deployment.ovconsultas-web.war:main" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2018-04-16 17:08:35,560 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 1) WELD-000119: Not generating any bean definitions from ec.gob.iepi.rest.MemberResourceRESTService because of underlying class loading error: Type ec.gob.iepi.data.MemberRepository from [Module "deployment.ovconsultas-web.war:main" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2018-04-16 17:08:35,590 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 127) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-16 17:08:35,593 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 127) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-04-16 17:08:35,593 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 127) HHH000431: Unable to determine H2 database version, certain features may not work
+2018-04-16 17:08:35,596 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 127) Envers integration enabled? : true
+2018-04-16 17:08:35,613 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 127) HHH000227: Running hbm2ddl schema export
+2018-04-16 17:08:35,621 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 127) HHH000476: Executing import script '/import.sql'
+2018-04-16 17:08:35,622 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 127) HHH000230: Schema export complete
+2018-04-16 17:08:35,731 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 127) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/ovconsultas-web'
+2018-04-16 17:08:35,836 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 124) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/ov-web'
+2018-04-16 17:08:35,973 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 127) RESTEASY002225: Deploying javax.ws.rs.core.Application: class ec.gob.iepi.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2018-04-16 17:08:35,974 ERROR [org.jboss.msc.service.fail] (ServerService Thread Pool -- 127) MSC000001: Failed to start service jboss.undertow.deployment.default-server.default-host./ovconsultas-web: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./ovconsultas-web: java.lang.NoClassDefFoundError: ec/gob/iepi/model/Member
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:85)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:320)
+Caused by: java.lang.NoClassDefFoundError: ec/gob/iepi/model/Member
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.privateGetPublicMethods(Class.java:2902)
+	at java.lang.Class.getMethods(Class.java:1615)
+	at org.jboss.resteasy.spi.metadata.ResourceBuilder.fromAnnotations(ResourceBuilder.java:756)
+	at org.jboss.resteasy.spi.metadata.ResourceBuilder.rootResourceFromAnnotations(ResourceBuilder.java:709)
+	at org.jboss.resteasy.plugins.server.resourcefactory.POJOResourceFactory.<init>(POJOResourceFactory.java:30)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addPerRequestResource(ResourceMethodRegistry.java:76)
+	at org.jboss.resteasy.spi.ResteasyDeployment.registration(ResteasyDeployment.java:409)
+	at org.jboss.resteasy.spi.ResteasyDeployment.start(ResteasyDeployment.java:250)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.init(ServletContainerDispatcher.java:113)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.init(HttpServletDispatcher.java:36)
+	at io.undertow.servlet.core.LifecyleInterceptorInvocation.proceed(LifecyleInterceptorInvocation.java:117)
+	at org.wildfly.extension.undertow.security.RunAsLifecycleInterceptor.init(RunAsLifecycleInterceptor.java:78)
+	at io.undertow.servlet.core.LifecyleInterceptorInvocation.proceed(LifecyleInterceptorInvocation.java:103)
+	at io.undertow.servlet.core.ManagedServlet$DefaultInstanceStrategy.start(ManagedServlet.java:250)
+	at io.undertow.servlet.core.ManagedServlet.createServlet(ManagedServlet.java:133)
+	at io.undertow.servlet.core.DeploymentManagerImpl$2.call(DeploymentManagerImpl.java:546)
+	at io.undertow.servlet.core.DeploymentManagerImpl$2.call(DeploymentManagerImpl.java:517)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:42)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.core.DeploymentManagerImpl.start(DeploymentManagerImpl.java:559)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:101)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:82)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: ec.gob.iepi.model.Member from [Module "deployment.ovconsultas-web.war:main" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:198)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:363)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:351)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:93)
+	... 35 more
+
+2018-04-16 17:08:36,010 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 124) RESTEASY002225: Deploying javax.ws.rs.core.Application: class ec.gob.iepi.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2018-04-16 17:08:36,017 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 124) WFLYUT0021: Registered web context: /ov-web
+2018-04-16 17:08:36,020 ERROR [org.jboss.as.controller.management-operation] (DeploymentScanner-threads - 2) WFLYCTL0013: Operation ("full-replace-deployment") failed - address: ([]) - failure description: {
+    "WFLYCTL0080: Failed services" => {"jboss.undertow.deployment.default-server.default-host./ovconsultas-web" => "org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./ovconsultas-web: java.lang.NoClassDefFoundError: ec/gob/iepi/model/Member
+    Caused by: java.lang.NoClassDefFoundError: ec/gob/iepi/model/Member
+    Caused by: java.lang.ClassNotFoundException: ec.gob.iepi.model.Member from [Module \"deployment.ovconsultas-web.war:main\" from Service Module Loader]"},
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.undertow.deployment.default-server.default-host./ovconsultas-web"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => undefined
+}
+2018-04-16 17:08:36,027 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "ovconsultas-web.war" with deployment "ovconsultas-web.war"
+2018-04-16 17:08:36,027 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "ov.ear" with deployment "ov.ear"
+2018-04-16 17:08:36,027 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.deployment.unit."ovconsultas-web.war".component."com.sun.faces.config.ConfigureListener".START (unavailable) dependents: [service jboss.deployment.unit."ovconsultas-web.war".deploymentCompleteService] 
+      service jboss.deployment.unit."ovconsultas-web.war".component."javax.faces.webapp.FacetTag".START (unavailable) dependents: [service jboss.deployment.unit."ovconsultas-web.war".deploymentCompleteService] 
+      service jboss.deployment.unit."ovconsultas-web.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (unavailable) dependents: [service jboss.deployment.unit."ovconsultas-web.war".deploymentCompleteService] 
+      service jboss.deployment.unit."ovconsultas-web.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (unavailable) dependents: [service jboss.deployment.unit."ovconsultas-web.war".deploymentCompleteService] 
+      service jboss.deployment.unit."ovconsultas-web.war".component."org.jboss.weld.servlet.WeldInitialListener".START (unavailable) dependents: [service jboss.deployment.unit."ovconsultas-web.war".deploymentCompleteService] 
+      service jboss.deployment.unit."ovconsultas-web.war".component."org.jboss.weld.servlet.WeldTerminalListener".START (unavailable) dependents: [service jboss.deployment.unit."ovconsultas-web.war".deploymentCompleteService] 
+      service jboss.undertow.deployment.default-server.default-host./ovconsultas-web (unavailable) dependents: [service jboss.deployment.unit."ovconsultas-web.war".deploymentCompleteService] 
+WFLYCTL0186:   Services which failed to start:      service jboss.undertow.deployment.default-server.default-host./ovconsultas-web
+      service jboss.undertow.deployment.default-server.default-host./ovconsultas-web: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./ovconsultas-web: java.lang.NoClassDefFoundError: ec/gob/iepi/model/Member
+
+2018-04-16 17:08:52,895 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-60) HHH000397: Using ASTQueryTranslatorFactory

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP16078100_20180329.xml' country='EC' doc-number='SP16078100' kind='A' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP16078100' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP16078100</doc-number><kind>A</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>A61K31/166_A61P31/00</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201678100</doc-number><date>20160930</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>1406115.4</doc-number><date>20140404</date><country>GB</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>EMERAMED LIMITED</name><address><street>7/8 Wilton Terrace Dublin 2 (IE)</street><country>IE</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>HALEY, Boyd Eugene</name><address><street>119 Burnside Drive, Nicholasville, Kentucky 40356, US.</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>KLINGBERG, Ragnar Axel Theodor</name><address><street>Brantingsgatan 42, S-115 35 Stockholm, SE</street><country>SE</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>FABARA VERA, MARIA ROSA </name><address><street>AV. REPUBLICA 481 Y PASAJE CARRIÓN. QUITO, ECUADOR</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>NUEVO USO DE N,N -2-BIS- MERCAPTOETIL ISOFTALAMIDA</invention-title>
+</bibliographic-data>
+<abstract lang='es'>De acuerdo con la invención, se proporciona N,N-bis-2-mercaptoetil isoftalamida, o una sal o derivado farmacéuticamente aceptable de la misma, para su uso en la regeneración de ascorbato sistémicamente y, por lo tanto, en el tratamiento terapéutico de la enfermedad pulmonar obstructiva crónica.
+
+</abstract>
+</ec-patent-document>

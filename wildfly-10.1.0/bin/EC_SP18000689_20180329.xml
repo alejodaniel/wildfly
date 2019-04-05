@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP18000689_20180329.xml' country='EC' doc-number='SP18000689' kind='A' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP18000689' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP18000689</doc-number><kind>A</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>A61K9/14_A61K9/20_A61K9/24_A61K31/454_A61K31/498_A61P31/14</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI2018689</doc-number><date>20180108</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>62/185,145</doc-number><date>20150626</date><country>US</country></priority-claim>
+<priority-claim sequence='2' kind='National'><doc-number>62/186,154</doc-number><date>20150629</date><country>US</country></priority-claim>
+<priority-claim sequence='3' kind='National'><doc-number>62/193,639</doc-number><date>20150717</date><country>US</country></priority-claim>
+<priority-claim sequence='4' kind='National'><doc-number>62/295,309</doc-number><date>20160215</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>AbbVie Inc.</name><address><street>1 North Waukegan Road, North Chicago, IL 60064, USA</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>GARRETT, Colleen</name><address><street>4510 Greenview Avenue, Chicago, Illinois 60640, USA</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>ASMUS, Katherina</name><address><street>Hambacher St. 7, D-67434 Neustadt a.d.w., Alemania</street><country>DE</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>HACH, Harald</name><address><street>Weibenssurgenstr 2, 76889 Oberotterbach, Alemania</street><country>DE</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>OBERMILLER, Constanze</name><address><street>Kurfuersten-Anlage 45, 68115 Heidelberg, Alemania</street><country>DE</country></address></addressbook></inventor>
+<inventor sequence='5' designation='all'><addressbook><name>REUL, Regina</name><address><street>Seckenheimer, Str. 23, 68165 Mannheim, Alemania</street><country>DE</country></address></addressbook></inventor>
+<inventor sequence='6' designation='all'><addressbook><name>MUELLER, Thomas</name><address><street>Max-Planck-Ring 2a 65205, Wiesbaden, Alemania</street><country>DE</country></address></addressbook></inventor>
+<inventor sequence='7' designation='all'><addressbook><name>LANDER, Ute</name><address><street>Rotsteig 1, 67814, Dannenfels, Alemania</street><country>DE</country></address></addressbook></inventor>
+<inventor sequence='8' designation='all'><addressbook><name>WESTEDT, Ulrich</name><address><street>Weinheimber Str. 2, 69198  Schriesheim, Alemania</street><country>DE</country></address></addressbook></inventor>
+<inventor sequence='9' designation='all'><addressbook><name>SEVER, Nancy</name><address><street>1912 Alexandra Ct., Northbrook, Illinois 60062, USA</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='10' designation='all'><addressbook><name>GAO, Yi</name><address><street>210 East Baltusrol Drive, Vernon Hills, IL 60061, USA</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='11' designation='all'><addressbook><name>NARIS, Marius</name><address><street>1471 Wood Avenue, Downers Grove, Illinois 60515, USA</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='12' designation='all'><addressbook><name>ZHU, Donghua</name><address><street>259 W. Aspen Pointe Road, Vernon Hills, Illinois 60048, USA</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='13' designation='all'><addressbook><name>TONG, Ping</name><address><street>1 Charbourg Ct., Potomoc, Maryland 20854, USA</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='14' designation='all'><addressbook><name>KYEREMATENG, Samuel</name><address><street>Kaefertaler Strasse 61, 68167 Mannheim, Alemania</street><country>DE</country></address></addressbook></inventor>
+<inventor sequence='15' designation='all'><addressbook><name>SIMON, Michael</name><address><street>Unterest Rappenfeld 78, 76829 Landau, Alemania</street><country>DE</country></address></addressbook></inventor>
+<inventor sequence='16' designation='all'><addressbook><name>JAYASANKAR, Adivaraha</name><address><street>3504 Rolling Ridge Road, Naperville, Illinois 60564, USA</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='17' designation='all'><addressbook><name>STEITZ, Benedikt</name><address><street>Freinsheimer Strasse, 67169 Kallstadt, Alemania</street><country>DE</country></address></addressbook></inventor>
+<inventor sequence='18' designation='all'><addressbook><name>SCHNEIDER, Katrin</name><address><street>Schwarzwaldstrasse 8, 68163 Mannheim, Alemania</street><country>DE</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>ROQUE ALBUJA IZURIETA</name><address><street>AV. 12 DE OCTUBRE Y LINCOLN, TORRE 1492</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>COMPOSICIONES FARMACÉUTICAS SÓLIDAS PARA EL TRATAMIENTO DEL VHC</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La presente invención presenta composiciones farmacéuticas sólidas que comprenden el Compuesto 1 y el Compuesto 2. En una realización, la composición farmacéutica sólida incluye (1) una primera capa que comprende 100 mg de Compuesto 1, así como un polímero hidrófilo farmacéuticamente aceptable y un tensioactivo farmacéuticamente aceptable, todos los cuales están formulados en dispersión sólida amorfa; y (2) una segunda capa que comprende 40 mg de Compuesto 2, así como un polímero hidrófilo farmacéuticamente aceptable y un tensioactivo farmacéuticamente aceptable, todos los cuales están formulados en una dispersión sólida amorfa.</abstract>
+</ec-patent-document>

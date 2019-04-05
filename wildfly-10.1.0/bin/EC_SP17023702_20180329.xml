@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17023702_20180329.xml' country='EC' doc-number='SP17023702' kind='A' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17023702' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17023702</doc-number><kind>A</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>G10L19/008</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201723702</doc-number><date>20170503</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>PCT/EP2015/075022</doc-number><date>20151028</date><country>DE</country></priority-claim>
+<priority-claim sequence='2' kind='National'><doc-number>62/167,711</doc-number><date>20150528</date><country>US</country></priority-claim>
+<priority-claim sequence='3' kind='National'><doc-number>62/073,462</doc-number><date>20141031</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>Socreat Electronics Technology Limited</name><address><street>6-7F, Building 13A, Taihua Wutong Industrial Park, Gushu, Xixiang, Baoan,Shenzhen,China</street><country>CN</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>ONTEL PRODUCTS CORPORATION</name><address><street>NEW JERSEY 21 Law Drive, Fairfield, New Jersey 07004, United States of America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>PRISA MÚSICA AMÉRICA S.A.S   </name><address><street>Calle 67 No. 7 - 37 Piso 6 CO Bogota, D.C., Colombia</street><country>CO</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>Pizza Hut International, LLC</name><address><street>14841 N. Dallas Parkway, Dallas, Texas 75254, Estados Unidos de América.</street><country>US</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>BERMEO   BERMEO C. LTDA.</name><address><street>Av. 12 de Octubre N24-528 y Cordero, Edf. World Trade Center, Torre B, Piso 12, Quito. P.O. BOX 17-12-881, Quito - Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>MEZCLA PARAMÉTRICA DE SEÑALES DE AUDIO</invention-title>
+</bibliographic-data>
+<abstract lang='es'>En una sección de codificación, una sección de mezcla descendente forma el primer y el segundo canal de una señal de mezcla descendente como combinaciones lineales del primer y el segundo grupo de canales, respectivamente, de una señal de audio del canal M; y una sección de análisis determina los parámetros de mezcla ascendente para la reconstrucción paramétrica de la señal de audio, y los parámetros de mezcla. En una sección de decodificación, una sección de descorrelación produce una señal descorrelacionada en base a la señal de mezcla descendente; y una sección de mezcla determina los coeficientes de mezcla en base a los parámetros de mezcla o los parámetros de mezcla ascendente, y forma una señal de salida del canal k como una combinación lineal de la señal de mezcla descendente y la señal descorrelacionada conforme con los coeficientes de mezcla. Los canales de la señal de salida se aproximan a combinaciones lineales de los grupos k de los canales, respectivamente, de la señal de audio. Los grupos k constituyen una partición diferente de la señal de audio en comparación con el primer grupo y el segundo grupo, y 2 es menor o igual a k que es menor a M.</abstract>
+</ec-patent-document>

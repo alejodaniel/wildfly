@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SDI17001350_20181228.xml' country='EC' doc-number='SDI17001350' kind='S' date-published='20181228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SDI17001350' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SDI17001350</doc-number><kind>S</kind><date>20181228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>12-15</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI20171350</doc-number><date>20170124</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>968713301 (DM/092564)</doc-number><date>20160914</date><country>CH</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>Continental Reifen Deutschland GmbH</name><address><street>Vahrenwalder Str. 9, 30165 Hannover, Alemania.</street><country>DE</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>KRISTEN, FLORIAN</name><address><street>Redenstr. 3, 30171, Hannover, Alemania</street><country>DE</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>BERMEO   BERMEO C. LTDA.</name><address><street>Av. 12 de Octubre N24-528 y Cordero, Edf. World Trade Center, Torre B, Piso 12, Quito. P.O. BOX 17-12-881, Quito - Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>BANDAS DE RODADURA DE NEUMÁTICOS</invention-title>
+</bibliographic-data>
+<abstract lang='es'>DISEÑO DE BANDAS DE RODADURA DE NEUMÁTICOS</abstract>
+</ec-patent-document>

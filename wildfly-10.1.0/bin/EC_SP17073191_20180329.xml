@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17073191_20180329.xml' country='EC' doc-number='SP17073191' kind='A' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17073191' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17073191</doc-number><kind>A</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C07D487/04_C07D519/00_A61K31/519_A61P35/00_A61P35/02</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201773191</doc-number><date>20171101</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>62/142,717</doc-number><date>20150403</date><country>US</country></priority-claim>
+<priority-claim sequence='2' kind='National'><doc-number>62/183,906</doc-number><date>20150624</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>INCYTE CORPORATION </name><address><street>1801 Augustine Cut-Off, Wilmington, Delaware 19803 (US).</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>LI, Zhenwu</name><address><street>3120 Naamans Road, Apt. G009 Wilmington, Delaware 19810. Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>WU, Liangxing</name><address><street>108 Sassafrass Court, Wilmington, Delaware 19808 Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>HE, Chunhong</name><address><street>1801 Augustine Cut-Off, Wilmington, Delaware 19803</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>ZHANG, Fenglei</name><address><street>309 Daniel Drive Ambler, Pennsylvania 19002, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='5' designation='all'><addressbook><name>YAO, Wenqing</name><address><street>45 Magnolia Way, Cadds Ford, Pennsylvania 19317, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>BUSTAMANTE   BUSTAMANTE PATENTES Y MARCAS CIA. LTDA.</name><address><street>AV. AMAZONAS Y PATRIA, EDIF. COFIEC, PISO 4, QUITO - ECUADOR</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>COMPUESTOS HETEROCÍCLICOS COMO INHIBIDORES DE LSD1</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La presente invención se refiere a compuestos de la Fórmula I que son inhibidores de LSD1 útiles en el tratamiento de enfermedades tales como el cáncer.</abstract>
+</ec-patent-document>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SMU16076028_20180228.xml' country='EC' doc-number='SMU16076028' kind='U' date-published='20180228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SMU16076028' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SMU16076028</doc-number><kind>U</kind><date>20180228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>A47J36/02
+H01L35/00
+A47J36/36</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201676028</doc-number><date>20161116</date></document-id></application-reference>
+<priority-claims>
+</priority-claims>
+<parties><applicants>
+</applicants>
+<inventors>
+</inventors><agents>
+</agents></parties>
+<invention-title lang='es'>DISPOSITIVO TERMOELÉCTRICO PARA GENERACIÓN DE ELECTRICIDAD A TRAVÉS DE CALOR RESIDUAL DE UNA OLLA EN UNA COCINA DE INDUCCIÓN</invention-title>
+</bibliographic-data>
+<abstract lang='es'>El equipo presentado consiste en un cinturón de aluminio a ser instalado alrededor de una olla de inducción (ferromagnética) de 15 lados, que será  capaz de utilizar el calor latente proveniente de la misma para generar electricidad basada en el principio termoeléctrico de Seebeck, el dispositivo cuenta con material refrigerante entre la superficie de contacto y el exterior incrementando el gradiente de temperatura en la célula Seebeck. El uso de este refrigerante incrementa la eficiencia del dispositivo para la generación de corriente. El conjunto se sujeta mediante una abrazadera metálica.
+El dispositivo presentado genera electricidad en corriente continua de acuerdo a la temperatura de trabajo que se encuentra la olla, su rango de funcionamiento va desde  los 12°C hasta los 250°C, valor en el cual se produce la mayor generación eléctrica.
+Este sistema consta con un elemento termoeléctrico, un conversor dc-dc y una interfaz de usuario, siendo capaz de entregar energía a cualquier equipo electrónico portátil o baterías recargables. El dispositivo puede funcionar como un enfriador usando la energía almacenada en las baterías recargables para alimentar a los elementos termoeléctricos (efecto peltier) que enfriaran el interior de la olla de acuerdo a la cantidad de corriente que se entregue al sistema.</abstract>
+</ec-patent-document>

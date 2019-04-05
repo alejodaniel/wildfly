@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP18094205_20181228.xml' country='EC' doc-number='SP18094205' kind='A' date-published='20181228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP18094205' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP18094205</doc-number><kind>A</kind><date>20181228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>G07D7/1205_G07D7/202</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>SENADI201894205</doc-number><date>20181219</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>16177272.8</doc-number><date>20160630</date><country>EF</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>SICPA HOLDING SA</name><address><street>Avenue de Florissant 41, 1008 Prilly (CH).</street><country>CH</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>RAEMY, Xavier-Cédric</name><address><street>Route d'Arnier 40, 1092 Belmont-sur-Lausanne (CH).</street><country>CH</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>DINOEV, Todor</name><address><street>Route de la Maladière 4, 1022 Chavannes-près-Renens (CH).</street><country>BG</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>DORIER, Jean-Luc</name><address><street>Chemin de Cocagne 10, 1030 Bussigny (CH).</street><country>CH</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>HALASZ, Edmund</name><address><street>Chemin du Suchet 21B, 1350 Orbe (CH).</street><country>RO</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>Romoleroux Armijos, María Cecilia </name><address><street>Robles E4-136 y Av. Amazonas, Edif. Proinco Calisto, piso 11, Quito - Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>SISTEMAS, MÉTODOS Y PROGRAMAS DE COMPUTADORA PARA GENERAR UNA IMAGEN DE UN OBJETO Y GENERAR UNA MEDICIÓN DE AUTENTICIDAD DEL OBJETO</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Un sistema de generación de imagen (200) para generar una imagen y generar una medición de autenticidad de un objeto (10) comprende una disposición de generación de imagen dispersiva (30) y una disposición del detector de imagen (60). Ellos están posicionados de manera que, cuando la radiación electromagnética (20) del objeto (10) ilumina la disposición de generación de imagen dispersiva (30), la radiación se divide en diferentes direcciones en al menos una parte no dispersada (40) y una parte dispersada (50), y esos son representados por la disposición del detector de imagen (60). El sistema de generación de imagen (200) está configurado para después generar una medición de autenticidad del objeto (10) dependiendo al menos de una relación entre la parte dispersada representada, la parte no dispersada representada, y la información espectral de referencia. La invención también se refiere a métodos de generación de imagen, programas de computadora, productos de programa de computadora, y medios de almacenamiento.</abstract>
+</ec-patent-document>

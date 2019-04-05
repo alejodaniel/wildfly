@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SDI18000695_20180329.xml' country='EC' doc-number='SDI18000695' kind='S' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SDI18000695' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SDI18000695</doc-number><kind>S</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>24-04</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI2018695</doc-number><date>20180104</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>004093565</doc-number><date>20170707</date><country>EF</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>SCA HYGIENE PRODUCTS AB</name><address><street>SE-405 03 Göteborg</street><country>SE</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>Philip Blomström</name><address><street>c/o SCA Hygiene Products AB, SE-405 03 Göteborg, Suecia</street><country>SE</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>Peter Rönnberg</name><address><street>c/o SCA Hygiene Products AB, SE-405 03 Göteborg, Suecia</street><country>SE</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>BERMEO   BERMEO C. LTDA.</name><address><street>Av. 12 de Octubre N24-528 y Cordero, Edf. World Trade Center, Torre B, Piso 12, Quito. P.O. BOX 17-12-881, Quito - Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>TOALLA SANITARIA</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Diseño de una Toalla Sanitaria</abstract>
+</ec-patent-document>

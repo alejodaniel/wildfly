@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP18002929_20180329.xml' country='EC' doc-number='SP18002929' kind='A' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP18002929' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP18002929</doc-number><kind>A</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>A61K38/20_C07K7/08_C07K14/54</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI20182929</doc-number><date>20180115</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>PCT/US15/40658</doc-number><date>20150715</date><country>US</country></priority-claim>
+<priority-claim sequence='2' kind='National'><doc-number>14/800,627 </doc-number><date>20150715</date><country>US</country></priority-claim>
+<priority-claim sequence='3' kind='National'><doc-number>62/264,820</doc-number><date>20151208</date><country>US</country></priority-claim>
+<priority-claim sequence='4' kind='National'><doc-number>62/281,123</doc-number><date>20160120</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>PROTAGONIST THERAPEUTICS, INC.</name><address><street>521 Cottonwood Drive, Suite A, Milpitas, California 95035 (US).</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>LIU, David</name><address><street>201 Ferne Avenue, Palo Alto, California 94306 (US).</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>PATEL, Dinesh V.</name><address><street>45109 Cougar Circle, Fremont, California 94539 (US).</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>ZHANG, Jie</name><address><street>101 Ness Road, Salisbury, Queensland 4107 (AU).</street><country>AU</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>FREDERICK, Brian Troy</name><address><street>8470 Glen Arbor Road, Ben Lomand, California 98005 (US).</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='5' designation='all'><addressbook><name>BHANDARI, Ashok</name><address><street>2629 Lotus Street, Pleasanton, California 94588 (US).</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='6' designation='all'><addressbook><name>CHENG, XiaoLi</name><address><street>263 Lassen Avenue, Mountain View, California 94043 (US).</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='7' designation='all'><addressbook><name>BOURNE, Gregory</name><address><street>29 Moolingal Street, Jindalee, Queensland 4074 (AU).</street><country>AU</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>Romoleroux Armijos, María Cecilia </name><address><street>Robles E4-136 y Av. Amazonas, Edif. Proinco Calisto, piso 11, Quito - Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>INHIBIDORES PEPTÍDICOS DEL RECEPTOR DE INTERLEUCINA 23 Y SU USO PARA TRATAR ENFERMEDADES INFLAMATORIAS</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La presente invención proporciona inhibidores peptídicos novedosos del receptor de interleucina 23 y composiciones y métodos relacionados para utilizar estos inhibidores peptídicos para el tratamiento o la prevención de diversas enfermedades y trastornos, incluidas enfermedades intestinales inflamatorias.</abstract>
+</ec-patent-document>

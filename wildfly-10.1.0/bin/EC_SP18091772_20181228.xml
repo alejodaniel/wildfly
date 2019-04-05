@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP18091772_20181228.xml' country='EC' doc-number='SP18091772' kind='A' date-published='20181228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP18091772' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP18091772</doc-number><kind>A</kind><date>20181228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>A23K50/80_A23K20/105_A23K20/20_A61K31/185</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>SENADI201891772</doc-number><date>20181211</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>2831-2017</doc-number><date>20171226</date><country>PE</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>VITAPRO S.A.</name><address><street>Av. Argentina 4793 Carmen de la Legua Reynoso - Callao, Perú (PE).</street><country>PE</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>TENNISON PADOVANI, Jessica Kathya Alexandra</name><address><street>Avenida Salaverry 3560 Dpto. 501, Lima 27 (PE).</street><country>PE</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>ESPINOZA PARDO, Carlos Manuel</name><address><street>Pasaje Henry Matise 161 Sta. María, Lima 33 (PE).</street><country>PE</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>ROJAS MELÉNDEZ, Pablo César</name><address><street>Avenida La Merced 668 Dpto. 201, Lima 33 (PE).</street><country>PE</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>BOWLER TABOADA, Brenda</name><address><street>Avenida José Pardo 916 Dpto. 1501, Lima 18 (PE).</street><country>PE</country></address></addressbook></inventor>
+<inventor sequence='5' designation='all'><addressbook><name>MONTALVAN MENA, Brenda Denisse</name><address><street>Avenida Alberto del Campo 414 Dpto. 1301, Lima 27 (PE).</street><country>PE</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>Romoleroux Armijos, María Cecilia </name><address><street>Robles E4-136 y Av. Amazonas, Edif. Proinco Calisto, piso 11, Quito - Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>COMPOSICIÓN ALIMENTICIA PARA CAMARONES DE MAR O LANGOSTINO PARA LA PREVENCIÓN DE LA ENFERMEDAD DE LA NECROSIS AGUDA DEL HEPATOPÁNCREAS MEJOR CONOCIDA COMO SÍNDROME DE MORTALIDAD TEMPRANA (EMS) CAUSADA POR VIBRIO PARAHAEMOLYTICUS</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La presente invención está relacionada con el campo técnico de la acuicultura, en particular a composiciones alimenticias para camarones de mar o langostinos, para el tratamiento y prevención del Síndrome de Necrosis Hepatopancreática (AHPND) también conocida como el síndrome de mortalidad temprana (EMS) causada por  determinadas cepas del género Vibrio que poseen toxinas que generan mortalidad acelerada en las primeras etapas del cultivo de camarón. Las composiciones de la invención  previene y trata efectivamente la enfermedad llegando a eliminar la presencia de la bacteria y sus lesiones en el hepatopáncreas una vez que se presenta la enfermedad.</abstract>
+</ec-patent-document>

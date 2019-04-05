@@ -1,0 +1,684 @@
+2018-10-30 10:30:25,696 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2018-10-30 10:30:27,871 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2018-10-30 10:30:28,200 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2018-10-30 10:30:28,218 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	http.nonProxyHosts = localhost,127.0.0.1,IEPI
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/lparedes/Documentos/wildfly-10.1.0.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-8-openjdk-amd64/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 1.8.0_181-8u181-b13-0ubuntu0.16.04.1-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_181
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.181-b13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final
+	jboss.host.name = iepi
+	jboss.http.port = 8080
+	jboss.management.http.port = 9990
+	jboss.modules.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = iepi
+	jboss.qualified.host.name = iepi
+	jboss.server.base.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone
+	jboss.server.config.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/configuration
+	jboss.server.data.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/data
+	jboss.server.deploy.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/data/content
+	jboss.server.log.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/log
+	jboss.server.name = iepi
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/configuration/logging.properties
+	module.path = /home/lparedes/Documentos/wildfly-10.1.0.Final/modules
+	org.jboss.boot.log.file = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.4.0-138-generic
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/lparedes/Documentos/wildfly-10.1.0.Final/jboss-modules.jar -mp /home/lparedes/Documentos/wildfly-10.1.0.Final/modules org.jboss.as.standalone -Djboss.home.dir=/home/lparedes/Documentos/wildfly-10.1.0.Final -Djboss.server.base.dir=/home/lparedes/Documentos/wildfly-10.1.0.Final/standalone -c standalone.xml
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = EC
+	user.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/bin
+	user.home = /home/lparedes
+	user.language = es
+	user.name = lparedes
+	user.timezone = America/Guayaquil
+2018-10-30 10:30:28,221 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -D[Standalone] -Xms128m -Xmx512m -Dhttp.nonProxyHosts=localhost,127.0.0.1,IEPI -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Djboss.management.http.port=9990 -Djboss.http.port=8080 -Dorg.jboss.boot.log.file=/home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/log/server.log -Dlogging.configuration=file:/home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/configuration/logging.properties 
+2018-10-30 10:30:38,238 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ompi-ingresos.ear in deployment directory. To trigger deployment create a file called ompi-ingresos.ear.dodeploy
+2018-10-30 10:30:38,239 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ConsultaCiudadanoWS-1.0-SNAPSHOT.war in deployment directory. To trigger deployment create a file called ConsultaCiudadanoWS-1.0-SNAPSHOT.war.dodeploy
+2018-10-30 10:30:38,239 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found formulccws-web-1.0-SNAPSHOT.war in deployment directory. To trigger deployment create a file called formulccws-web-1.0-SNAPSHOT.war.dodeploy
+2018-10-30 10:30:38,239 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found cons-ciudadano-1.0-SNAPSHOT.war in deployment directory. To trigger deployment create a file called cons-ciudadano-1.0-SNAPSHOT.war.dodeploy
+2018-10-30 10:30:38,239 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found gaceta-ear.ear in deployment directory. To trigger deployment create a file called gaceta-ear.ear.dodeploy
+2018-10-30 10:30:38,240 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found formulccws-web-ws1.war in deployment directory. To trigger deployment create a file called formulccws-web-ws1.war.dodeploy
+2018-10-30 10:30:38,240 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found cons-ciudadano-ws1.war in deployment directory. To trigger deployment create a file called cons-ciudadano-ws1.war.dodeploy
+2018-10-30 10:30:38,240 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found consulta.ear in deployment directory. To trigger deployment create a file called consulta.ear.dodeploy
+2018-10-30 10:30:38,289 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-10-30 10:30:38,542 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.4.0.Final
+2018-10-30 10:30:38,567 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-10-30 10:30:38,575 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.4.0.Final
+2018-10-30 10:30:38,577 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2018-10-30 10:30:38,590 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2018-10-30 10:30:38,607 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2018-10-30 10:30:38,623 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2018-10-30 10:30:38,602 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2018-10-30 10:30:38,652 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-10-30 10:30:38,660 INFO  [org.jboss.as.connector] (MSC service thread 1-4) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2018-10-30 10:30:38,800 INFO  [org.jboss.as.security] (MSC service thread 1-1) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2018-10-30 10:30:39,334 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0003: Undertow 1.4.0.Final starting
+2018-10-30 10:30:39,730 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path '/home/lparedes/Documentos/wildfly-10.1.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-10-30 10:30:39,762 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 4.0.21.Final
+2018-10-30 10:30:39,820 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0012: Started server default-server.
+2018-10-30 10:30:39,821 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0018: Host default-host starting
+2018-10-30 10:30:39,882 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2018-10-30 10:30:39,885 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-10-30 10:30:39,914 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
+2018-10-30 10:30:39,915 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-10-30 10:30:40,228 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2018-10-30 10:30:40,513 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = mysql
+2018-10-30 10:30:40,585 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.3)
+2018-10-30 10:30:40,585 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = postgres
+2018-10-30 10:30:40,855 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2018-10-30 10:30:40,855 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2018-10-30 10:30:40,913 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTP listener default listening on 0.0.0.0:8080
+2018-10-30 10:30:41,089 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class com.microsoft.sqlserver.jdbc.SQLServerDriver (version 3.0)
+2018-10-30 10:30:41,089 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = sqlserver
+2018-10-30 10:30:41,264 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepiPatentes
+2018-10-30 10:30:41,282 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepi_sipigaceta2
+2018-10-30 10:30:41,283 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepi_sipigaceta
+2018-10-30 10:30:41,283 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepiCasilleros
+2018-10-30 10:30:41,283 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepiProcesos
+2018-10-30 10:30:41,288 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepidepurar
+2018-10-30 10:30:41,288 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepiFormularios
+2018-10-30 10:30:41,288 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepiPatente
+2018-10-30 10:30:41,289 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/iepi]
+2018-10-30 10:30:41,289 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/autenticacion]
+2018-10-30 10:30:41,290 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2018-10-30 10:30:41,291 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepiadmin
+2018-10-30 10:30:41,291 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/auth]
+2018-10-30 10:30:41,291 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/cpi]
+2018-10-30 10:30:41,291 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/iepi3]
+2018-10-30 10:30:41,291 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:/datasources/MSSQLDS]
+2018-10-30 10:30:41,296 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/secobSeguimientoDs]
+2018-10-30 10:30:41,296 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/modificacionesDs]
+2018-10-30 10:30:41,295 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/secretaria-tramites]
+2018-10-30 10:30:41,292 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/OMPI]
+2018-10-30 10:30:41,292 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/jBossJaasPostgres]
+2018-10-30 10:30:41,292 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/obtencionesVegetales]
+2018-10-30 10:30:41,668 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) WFLYDS0013: Started FileSystemDeploymentService for directory /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/deployments
+2018-10-30 10:30:41,725 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "cons-ciudadano-ws1.war" (runtime-name: "cons-ciudadano-ws1.war")
+2018-10-30 10:30:41,727 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "formulccws-web-ws1.war" (runtime-name: "formulccws-web-ws1.war")
+2018-10-30 10:30:42,368 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTPS listener https listening on 0.0.0.0:8443
+2018-10-30 10:30:42,688 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-3) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2018-10-30 10:30:42,736 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-10-30 10:30:42,738 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-10-30 10:30:42,740 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 63) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-10-30 10:30:42,741 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 63) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-10-30 10:30:42,742 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-10-30 10:30:42,744 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-10-30 10:30:44,721 INFO  [org.jboss.ws.common.management] (MSC service thread 1-4) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2018-10-30 10:31:03,533 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry xercesImpl.jar in /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/deployments/cons-ciudadano-ws1.war/WEB-INF/lib/xalan-2.6.0.jar  does not point to a valid jar for a Class-Path reference.
+2018-10-30 10:31:03,534 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry xml-apis.jar in /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/deployments/cons-ciudadano-ws1.war/WEB-INF/lib/xalan-2.6.0.jar  does not point to a valid jar for a Class-Path reference.
+2018-10-30 10:31:03,954 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Class Path entry xercesImpl.jar in /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/deployments/formulccws-web-ws1.war/WEB-INF/lib/xalan-2.6.0.jar  does not point to a valid jar for a Class-Path reference.
+2018-10-30 10:31:03,955 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Class Path entry xml-apis.jar in /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/deployments/formulccws-web-ws1.war/WEB-INF/lib/xalan-2.6.0.jar  does not point to a valid jar for a Class-Path reference.
+2018-10-30 10:31:03,976 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for cciudadanoPU
+2018-10-30 10:31:04,640 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 69) WFLYJPA0003: Starting Persistence Unit Service 'cons-ciudadano-ws1.war#cciudadanoPU'
+2018-10-30 10:31:04,788 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for cciudadanoPU
+2018-10-30 10:31:05,172 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 70) WFLYJPA0003: Starting Persistence Unit Service 'formulccws-web-ws1.war#cciudadanoPU'
+2018-10-30 10:31:05,665 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment cons-ciudadano-ws1.war
+2018-10-30 10:31:05,665 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment formulccws-web-ws1.war
+2018-10-30 10:31:05,860 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-4) HV000001: Hibernate Validator 5.2.4.Final
+2018-10-30 10:31:06,624 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2018-10-30 10:31:06,626 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2018-10-30 10:31:06,627 WARN  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0003: Unable to instantiate driver class "org.olap4j.driver.xmla.XmlaOlap4jDriver": java.lang.NoSuchMethodException: org.olap4j.driver.xmla.XmlaOlap4jDriver.<init>()
+2018-10-30 10:31:06,650 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2018-10-30 10:31:06,651 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2018-10-30 10:31:06,653 WARN  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0003: Unable to instantiate driver class "org.olap4j.driver.xmla.XmlaOlap4jDriver": java.lang.NoSuchMethodException: org.olap4j.driver.xmla.XmlaOlap4jDriver.<init>()
+2018-10-30 10:31:06,826 INFO  [org.jboss.weld.Version] (MSC service thread 1-7) WELD-000900: 2.3.5 (Final)
+2018-10-30 10:31:06,893 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = cons-ciudadano-ws1.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2018-10-30 10:31:06,893 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = cons-ciudadano-ws1.war_com.mysql.jdbc.Driver_5_1
+2018-10-30 10:31:06,895 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = formulccws-web-ws1.war_com.mysql.jdbc.Driver_5_1
+2018-10-30 10:31:06,896 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = formulccws-web-ws1.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2018-10-30 10:31:09,931 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 71) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/formulccws-web-ws1'
+2018-10-30 10:31:09,931 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 73) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/cons-ciudadano-ws1'
+2018-10-30 10:31:12,389 INFO  [com.xpert.PostConstructApplicationEventListener] (ServerService Thread Pool -- 71) Running on Xpert-framework 1.8.3-SNAPSHOT
+2018-10-30 10:31:12,389 INFO  [com.xpert.PostConstructApplicationEventListener] (ServerService Thread Pool -- 73) Running on Xpert-framework 1.8.3-SNAPSHOT
+2018-10-30 10:31:12,392 INFO  [com.xpert.Configuration] (ServerService Thread Pool -- 71) xpert-config.xml not found in WEB-INF
+2018-10-30 10:31:12,392 INFO  [com.xpert.Configuration] (ServerService Thread Pool -- 73) xpert-config.xml not found in WEB-INF
+2018-10-30 10:31:12,393 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 71) Running on PrimeFaces 6.2
+2018-10-30 10:31:12,393 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 73) Running on PrimeFaces 6.2
+2018-10-30 10:31:12,417 INFO  [stdout] (ServerService Thread Pool -- 73) [EL Info]: 2018-10-30 10:31:12.411--ServerSession(1101144153)--EclipseLink, version: Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd
+2018-10-30 10:31:12,427 INFO  [stdout] (ServerService Thread Pool -- 71) [EL Info]: 2018-10-30 10:31:12.424--ServerSession(252337755)--EclipseLink, version: Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd
+2018-10-30 10:31:12,717 INFO  [stdout] (ServerService Thread Pool -- 73) [EL Warning]: metadata: 2018-10-30 10:31:12.717--ServerSession(1101144153)--Reverting the lazy setting on the OneToOne or ManyToOne attribute [provinces] for the entity class [class ec.gob.iepi.ccws.model.Cities] since weaving was not enabled or did not occur.
+2018-10-30 10:31:12,718 INFO  [stdout] (ServerService Thread Pool -- 71) [EL Warning]: metadata: 2018-10-30 10:31:12.717--ServerSession(252337755)--Reverting the lazy setting on the OneToOne or ManyToOne attribute [provinces] for the entity class [class ec.gob.iepi.ccws.model.Cities] since weaving was not enabled or did not occur.
+2018-10-30 10:31:12,742 INFO  [stdout] (ServerService Thread Pool -- 71) [EL Info]: connection: 2018-10-30 10:31:12.742--ServerSession(252337755)--vfs:/home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/deployments/formulccws-web-ws1.war/WEB-INF/classes/_cciudadanoPU login successful
+2018-10-30 10:31:12,745 INFO  [stdout] (ServerService Thread Pool -- 73) [EL Info]: connection: 2018-10-30 10:31:12.745--ServerSession(1101144153)--vfs:/home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/deployments/cons-ciudadano-ws1.war/WEB-INF/classes/_cciudadanoPU login successful
+2018-10-30 10:31:12,999 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 71) WFLYUT0021: Registered web context: /formulccws-web-ws1
+2018-10-30 10:31:13,516 INFO  [stdout] (ServerService Thread Pool -- 73) [EL Warning]: 2018-10-30 10:31:13.515--ServerSession(1101144153)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+2018-10-30 10:31:13,516 INFO  [stdout] (ServerService Thread Pool -- 73) Internal Exception: java.sql.SQLException: Can't create table 'iepi_patentes.#sql-1810_6' (errno: 121)
+2018-10-30 10:31:13,516 INFO  [stdout] (ServerService Thread Pool -- 73) Error Code: 1005
+2018-10-30 10:31:13,516 INFO  [stdout] (ServerService Thread Pool -- 73) Call: ALTER TABLE cities ADD CONSTRAINT FK_cities_province_id FOREIGN KEY (province_id) REFERENCES provinces (id)
+2018-10-30 10:31:13,517 INFO  [stdout] (ServerService Thread Pool -- 73) Query: DataModifyQuery(sql="ALTER TABLE cities ADD CONSTRAINT FK_cities_province_id FOREIGN KEY (province_id) REFERENCES provinces (id)")
+2018-10-30 10:31:13,530 INFO  [stdout] (ServerService Thread Pool -- 73) [EL Warning]: 2018-10-30 10:31:13.53--ServerSession(1101144153)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+2018-10-30 10:31:13,530 INFO  [stdout] (ServerService Thread Pool -- 73) Internal Exception: java.sql.SQLException: Can't create table 'iepi_patentes.#sql-1810_6' (errno: 121)
+2018-10-30 10:31:13,530 INFO  [stdout] (ServerService Thread Pool -- 73) Error Code: 1005
+2018-10-30 10:31:13,530 INFO  [stdout] (ServerService Thread Pool -- 73) Call: ALTER TABLE persona_solicitud ADD CONSTRAINT FK_persona_solicitud_PERSONA_IDUSER FOREIGN KEY (PERSONA_IDUSER) REFERENCES persona (IDUSER)
+2018-10-30 10:31:13,530 INFO  [stdout] (ServerService Thread Pool -- 73) Query: DataModifyQuery(sql="ALTER TABLE persona_solicitud ADD CONSTRAINT FK_persona_solicitud_PERSONA_IDUSER FOREIGN KEY (PERSONA_IDUSER) REFERENCES persona (IDUSER)")
+2018-10-30 10:31:13,542 INFO  [stdout] (ServerService Thread Pool -- 73) [EL Warning]: 2018-10-30 10:31:13.542--ServerSession(1101144153)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+2018-10-30 10:31:13,543 INFO  [stdout] (ServerService Thread Pool -- 73) Internal Exception: java.sql.SQLException: Can't create table 'iepi_patentes.#sql-1810_6' (errno: 121)
+2018-10-30 10:31:13,543 INFO  [stdout] (ServerService Thread Pool -- 73) Error Code: 1005
+2018-10-30 10:31:13,543 INFO  [stdout] (ServerService Thread Pool -- 73) Call: ALTER TABLE solicitud ADD CONSTRAINT FK_solicitud_PERSONA_IDUSER FOREIGN KEY (PERSONA_IDUSER) REFERENCES persona (IDUSER)
+2018-10-30 10:31:13,543 INFO  [stdout] (ServerService Thread Pool -- 73) Query: DataModifyQuery(sql="ALTER TABLE solicitud ADD CONSTRAINT FK_solicitud_PERSONA_IDUSER FOREIGN KEY (PERSONA_IDUSER) REFERENCES persona (IDUSER)")
+2018-10-30 10:31:13,553 INFO  [stdout] (ServerService Thread Pool -- 73) [EL Warning]: 2018-10-30 10:31:13.552--ServerSession(1101144153)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+2018-10-30 10:31:13,553 INFO  [stdout] (ServerService Thread Pool -- 73) Internal Exception: java.sql.SQLException: Can't create table 'iepi_patentes.#sql-1810_6' (errno: 121)
+2018-10-30 10:31:13,553 INFO  [stdout] (ServerService Thread Pool -- 73) Error Code: 1005
+2018-10-30 10:31:13,553 INFO  [stdout] (ServerService Thread Pool -- 73) Call: ALTER TABLE segmentomercado ADD CONSTRAINT FK_segmentomercado_SOLICITUD_IDSOLICITUD FOREIGN KEY (SOLICITUD_IDSOLICITUD) REFERENCES solicitud (IDSOLICITUD)
+2018-10-30 10:31:13,553 INFO  [stdout] (ServerService Thread Pool -- 73) Query: DataModifyQuery(sql="ALTER TABLE segmentomercado ADD CONSTRAINT FK_segmentomercado_SOLICITUD_IDSOLICITUD FOREIGN KEY (SOLICITUD_IDSOLICITUD) REFERENCES solicitud (IDSOLICITUD)")
+2018-10-30 10:31:13,575 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 73) WFLYUT0021: Registered web context: /cons-ciudadano-ws1
+2018-10-30 10:31:13,688 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "formulccws-web-ws1.war" (runtime-name : "formulccws-web-ws1.war")
+2018-10-30 10:31:13,688 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "cons-ciudadano-ws1.war" (runtime-name : "cons-ciudadano-ws1.war")
+2018-10-30 10:31:14,884 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-10-30 10:31:14,884 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-10-30 10:31:14,884 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 51686ms - Started 1343 of 1597 services (436 services are lazy, passive or on-demand)
+2018-10-30 10:31:15,655 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = formulccws-web-ws1.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2018-10-30 10:31:15,655 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = formulccws-web-ws1.war_com.mysql.jdbc.Driver_5_1
+2018-10-30 10:31:15,658 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 73) WFLYUT0022: Unregistered web context: /formulccws-web-ws1
+2018-10-30 10:31:15,695 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 73) WFLYJPA0004: Stopping Persistence Unit Service 'formulccws-web-ws1.war#cciudadanoPU'
+2018-10-30 10:31:15,723 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment formulccws-web-ws1.war (runtime-name: formulccws-web-ws1.war) in 71ms
+2018-10-30 10:31:15,769 WARN  [org.jboss.as.controller] (management-handler-thread - 1) WFLYCTL0357: Notification of type deployment-undeployed is not described for the resource at the address []
+2018-10-30 10:31:15,770 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "formulccws-web-ws1.war" (runtime-name: "formulccws-web-ws1.war")
+2018-10-30 10:31:18,722 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found formulccws-web-ws1.war in deployment directory. To trigger deployment create a file called formulccws-web-ws1.war.dodeploy
+2018-10-30 10:31:23,741 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "formulccws-web-ws1.war" (runtime-name: "formulccws-web-ws1.war")
+2018-10-30 10:31:25,991 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry xercesImpl.jar in /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/deployments/formulccws-web-ws1.war/WEB-INF/lib/xalan-2.6.0.jar  does not point to a valid jar for a Class-Path reference.
+2018-10-30 10:31:25,991 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry xml-apis.jar in /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/deployments/formulccws-web-ws1.war/WEB-INF/lib/xalan-2.6.0.jar  does not point to a valid jar for a Class-Path reference.
+2018-10-30 10:31:26,027 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for cciudadanoPU
+2018-10-30 10:31:26,192 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 21) WFLYJPA0003: Starting Persistence Unit Service 'formulccws-web-ws1.war#cciudadanoPU'
+2018-10-30 10:31:26,434 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment formulccws-web-ws1.war
+2018-10-30 10:31:26,611 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2018-10-30 10:31:26,611 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2018-10-30 10:31:26,612 WARN  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0003: Unable to instantiate driver class "org.olap4j.driver.xmla.XmlaOlap4jDriver": java.lang.NoSuchMethodException: org.olap4j.driver.xmla.XmlaOlap4jDriver.<init>()
+2018-10-30 10:31:26,616 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = formulccws-web-ws1.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2018-10-30 10:31:26,616 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = formulccws-web-ws1.war_com.mysql.jdbc.Driver_5_1
+2018-10-30 10:31:26,898 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 73) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/formulccws-web-ws1'
+2018-10-30 10:31:28,624 INFO  [com.xpert.PostConstructApplicationEventListener] (ServerService Thread Pool -- 73) Running on Xpert-framework 1.8.3-SNAPSHOT
+2018-10-30 10:31:28,629 INFO  [com.xpert.Configuration] (ServerService Thread Pool -- 73) xpert-config.xml not found in WEB-INF
+2018-10-30 10:31:28,631 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 73) Running on PrimeFaces 6.2
+2018-10-30 10:31:28,670 INFO  [stdout] (ServerService Thread Pool -- 73) [EL Info]: 2018-10-30 10:31:28.665--ServerSession(62716902)--EclipseLink, version: Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd
+2018-10-30 10:31:28,695 INFO  [stdout] (ServerService Thread Pool -- 73) [EL Warning]: metadata: 2018-10-30 10:31:28.695--ServerSession(62716902)--Reverting the lazy setting on the OneToOne or ManyToOne attribute [provinces] for the entity class [class ec.gob.iepi.ccws.model.Cities] since weaving was not enabled or did not occur.
+2018-10-30 10:31:28,735 INFO  [stdout] (ServerService Thread Pool -- 73) [EL Info]: connection: 2018-10-30 10:31:28.735--ServerSession(62716902)--vfs:/home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/deployments/formulccws-web-ws1.war/WEB-INF/classes/_cciudadanoPU login successful
+2018-10-30 10:31:28,842 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 73) WFLYUT0021: Registered web context: /formulccws-web-ws1
+2018-10-30 10:31:28,863 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0010: Deployed "formulccws-web-ws1.war" (runtime-name : "formulccws-web-ws1.war")
+2018-10-30 10:31:30,657 INFO  [stdout] (default task-1) ->http://localhost:8080/formulccws-web-ws1/ - desprotegido=[false]
+2018-10-30 10:31:30,673 INFO  [stdout] (default task-2) ->http://localhost:8080/formulccws-web-ws1/login.xhtml - desprotegido=[true]
+2018-10-30 10:31:30,779 SEVERE [org.primefaces.config.WebXmlParser] (default task-2) Could not load or parse web.xml: java.lang.ClassCastException: org.apache.xml.dtm.ref.DTMManagerDefault cannot be cast to org.apache.xml.dtm.DTMManager
+	at org.apache.xml.dtm.DTMManager.newInstance(DTMManager.java:137)
+	at org.apache.xpath.XPathContext.<init>(XPathContext.java:102)
+	at org.apache.xpath.jaxp.XPathExpressionImpl.eval(XPathExpressionImpl.java:115)
+	at org.apache.xpath.jaxp.XPathExpressionImpl.eval(XPathExpressionImpl.java:99)
+	at org.apache.xpath.jaxp.XPathExpressionImpl.evaluate(XPathExpressionImpl.java:184)
+	at org.primefaces.config.WebXmlParser.parseErrorPages(WebXmlParser.java:184)
+	at org.primefaces.config.WebXmlParser.getWebXmlErrorPages(WebXmlParser.java:67)
+	at org.primefaces.config.WebXmlParser.getErrorPages(WebXmlParser.java:46)
+	at org.primefaces.config.PrimeConfiguration.initConfigFromWebXml(PrimeConfiguration.java:227)
+	at org.primefaces.config.PrimeConfiguration.<init>(PrimeConfiguration.java:86)
+	at org.primefaces.context.DefaultApplicationContext.<init>(DefaultApplicationContext.java:41)
+	at org.primefaces.context.DefaultRequestContext.getApplicationContext(DefaultRequestContext.java:270)
+	at org.primefaces.context.PrimeFacesContext.<init>(PrimeFacesContext.java:42)
+	at org.primefaces.context.PrimeFacesContextFactory.getFacesContext(PrimeFacesContextFactory.java:49)
+	at com.sun.faces.context.InjectionFacesContextFactory.getFacesContext(InjectionFacesContextFactory.java:123)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:648)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at org.primefaces.webapp.filter.FileUploadFilter.doFilter(FileUploadFilter.java:81)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at ec.gob.iepi.ccws.filters.LoginFilter.doFilter(LoginFilter.java:55)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:805)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2018-10-30 10:31:30,782 SEVERE [org.primefaces.config.WebXmlParser] (default task-2) Could not load or parse web-fragment.xml: java.lang.ClassCastException: org.apache.xml.dtm.ref.DTMManagerDefault cannot be cast to org.apache.xml.dtm.DTMManager
+	at org.apache.xml.dtm.DTMManager.newInstance(DTMManager.java:137)
+	at org.apache.xpath.XPathContext.<init>(XPathContext.java:102)
+	at org.apache.xpath.jaxp.XPathExpressionImpl.eval(XPathExpressionImpl.java:115)
+	at org.apache.xpath.jaxp.XPathExpressionImpl.eval(XPathExpressionImpl.java:99)
+	at org.apache.xpath.jaxp.XPathExpressionImpl.evaluate(XPathExpressionImpl.java:184)
+	at org.primefaces.config.WebXmlParser.parseErrorPages(WebXmlParser.java:184)
+	at org.primefaces.config.WebXmlParser.getWebFragmentXmlsErrorPages(WebXmlParser.java:89)
+	at org.primefaces.config.WebXmlParser.getErrorPages(WebXmlParser.java:47)
+	at org.primefaces.config.PrimeConfiguration.initConfigFromWebXml(PrimeConfiguration.java:227)
+	at org.primefaces.config.PrimeConfiguration.<init>(PrimeConfiguration.java:86)
+	at org.primefaces.context.DefaultApplicationContext.<init>(DefaultApplicationContext.java:41)
+	at org.primefaces.context.DefaultRequestContext.getApplicationContext(DefaultRequestContext.java:270)
+	at org.primefaces.context.PrimeFacesContext.<init>(PrimeFacesContext.java:42)
+	at org.primefaces.context.PrimeFacesContextFactory.getFacesContext(PrimeFacesContextFactory.java:49)
+	at com.sun.faces.context.InjectionFacesContextFactory.getFacesContext(InjectionFacesContextFactory.java:123)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:648)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at org.primefaces.webapp.filter.FileUploadFilter.doFilter(FileUploadFilter.java:81)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at ec.gob.iepi.ccws.filters.LoginFilter.doFilter(LoginFilter.java:55)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:805)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2018-10-30 10:31:31,109 INFO  [stdout] (default task-3) ->http://localhost:8080/formulccws-web-ws1/javax.faces.resource/theme.css.xhtml - desprotegido=[true]
+2018-10-30 10:31:31,112 INFO  [stdout] (default task-6) ->http://localhost:8080/formulccws-web-ws1/javax.faces.resource/jquery/jquery.js.xhtml - desprotegido=[true]
+2018-10-30 10:31:31,113 INFO  [stdout] (default task-7) ->http://localhost:8080/formulccws-web-ws1/javax.faces.resource/jquery/jquery-plugins.js.xhtml - desprotegido=[true]
+2018-10-30 10:31:31,114 INFO  [stdout] (default task-4) ->http://localhost:8080/formulccws-web-ws1/javax.faces.resource/style.css.xhtml - desprotegido=[true]
+2018-10-30 10:31:31,114 INFO  [stdout] (default task-8) ->http://localhost:8080/formulccws-web-ws1/javax.faces.resource/core.js.xhtml - desprotegido=[true]
+2018-10-30 10:31:31,119 INFO  [stdout] (default task-5) ->http://localhost:8080/formulccws-web-ws1/javax.faces.resource/components.css.xhtml - desprotegido=[true]
+2018-10-30 10:31:31,154 INFO  [stdout] (default task-9) ->http://localhost:8080/formulccws-web-ws1/javax.faces.resource/components.js.xhtml - desprotegido=[true]
+2018-10-30 10:31:31,163 INFO  [stdout] (default task-10) ->http://localhost:8080/formulccws-web-ws1/faces/javax.faces.resource/theme.css - desprotegido=[true]
+2018-10-30 10:31:31,318 INFO  [stdout] (default task-11) ->http://localhost:8080/formulccws-web-ws1/javax.faces.resource/iepi.png.xhtml - desprotegido=[true]
+2018-10-30 10:31:31,319 INFO  [stdout] (default task-12) ->http://localhost:8080/formulccws-web-ws1/javax.faces.resource/sena.png.xhtml - desprotegido=[true]
+2018-10-30 10:31:31,344 INFO  [stdout] (default task-14) ->http://localhost:8080/formulccws-web-ws1/faces/javax.faces.resource/images/ui-bg_glass_80_d7ebf9_1x400.png - desprotegido=[true]
+2018-10-30 10:31:31,346 INFO  [stdout] (default task-13) ->http://localhost:8080/formulccws-web-ws1/faces/javax.faces.resource/images/ui-bg_highlight-hard_100_f2f5f7_1x100.png - desprotegido=[true]
+2018-10-30 10:31:31,457 INFO  [stdout] (default task-15) ->http://localhost:8080/formulccws-web-ws1/javax.faces.resource/images/favicon.png.xhtml - desprotegido=[true]
+2018-10-30 10:31:35,370 INFO  [stdout] (default task-16) ->http://localhost:8080/formulccws-web-ws1/index.xhtml - desprotegido=[true]
+2018-10-30 10:31:35,761 INFO  [stdout] (default task-17) ->http://localhost:8080/formulccws-web-ws1/javax.faces.resource/keyfilter/keyfilter.js.xhtml - desprotegido=[true]
+2018-10-30 10:31:35,769 INFO  [stdout] (default task-19) ->http://localhost:8080/formulccws-web-ws1/javax.faces.resource/style.css.xhtml - desprotegido=[true]
+2018-10-30 10:31:35,771 WARNING [javax.enterprise.resource.webcontainer.jsf.application] (default task-19) JSF1064: no se encuentra o sirve el recurso, style.css, desde la biblioteca, css.
+2018-10-30 10:31:35,771 WARNING [javax.enterprise.resource.webcontainer.jsf.application] (default task-19) : java.io.IOException: Tubería rota
+	at sun.nio.ch.FileDispatcherImpl.writev0(Native Method)
+	at sun.nio.ch.SocketDispatcher.writev(SocketDispatcher.java:51)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:148)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:504)
+	at org.xnio.nio.NioSocketConduit.write(NioSocketConduit.java:162)
+	at io.undertow.server.protocol.http.HttpResponseConduit.write(HttpResponseConduit.java:639)
+	at io.undertow.conduits.ChunkedStreamSinkConduit.doWrite(ChunkedStreamSinkConduit.java:163)
+	at io.undertow.conduits.ChunkedStreamSinkConduit.write(ChunkedStreamSinkConduit.java:127)
+	at org.xnio.conduits.ConduitStreamSinkChannel.write(ConduitStreamSinkChannel.java:150)
+	at io.undertow.channels.DetachableStreamSinkChannel.write(DetachableStreamSinkChannel.java:240)
+	at io.undertow.server.HttpServerExchange$WriteDispatchChannel.write(HttpServerExchange.java:2028)
+	at io.undertow.servlet.spec.ServletOutputStreamImpl.writeBufferBlocking(ServletOutputStreamImpl.java:563)
+	at io.undertow.servlet.spec.ServletOutputStreamImpl.write(ServletOutputStreamImpl.java:216)
+	at java.nio.channels.Channels$WritableByteChannelImpl.write(Channels.java:458)
+	at com.sun.faces.application.resource.ResourceHandlerImpl.handleResourceRequest(ResourceHandlerImpl.java:358)
+	at javax.faces.application.ResourceHandlerWrapper.handleResourceRequest(ResourceHandlerWrapper.java:153)
+	at org.primefaces.application.resource.PrimeResourceHandler.handleResourceRequest(PrimeResourceHandler.java:87)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:655)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at org.primefaces.webapp.filter.FileUploadFilter.doFilter(FileUploadFilter.java:81)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at ec.gob.iepi.ccws.filters.LoginFilter.doFilter(LoginFilter.java:55)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:805)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2018-10-30 10:31:35,772 INFO  [stdout] (default task-18) ->http://localhost:8080/formulccws-web-ws1/javax.faces.resource/theme.css.xhtml - desprotegido=[true]
+2018-10-30 10:31:35,801 INFO  [stdout] (default task-20) ->http://localhost:8080/formulccws-web-ws1/javax.faces.resource/images/ajax-loader.gif.xhtml - desprotegido=[true]
+2018-10-30 10:31:35,806 WARNING [javax.enterprise.resource.webcontainer.jsf.application] (default task-18) JSF1064: no se encuentra o sirve el recurso, theme.css, desde la biblioteca, primefaces-cupertino.
+2018-10-30 10:31:35,807 WARNING [javax.enterprise.resource.webcontainer.jsf.application] (default task-18) : java.io.IOException: Tubería rota
+	at sun.nio.ch.FileDispatcherImpl.writev0(Native Method)
+	at sun.nio.ch.SocketDispatcher.writev(SocketDispatcher.java:51)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:148)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:504)
+	at org.xnio.nio.NioSocketConduit.write(NioSocketConduit.java:162)
+	at io.undertow.server.protocol.http.HttpResponseConduit.write(HttpResponseConduit.java:639)
+	at io.undertow.conduits.ChunkedStreamSinkConduit.doWrite(ChunkedStreamSinkConduit.java:163)
+	at io.undertow.conduits.ChunkedStreamSinkConduit.write(ChunkedStreamSinkConduit.java:127)
+	at org.xnio.conduits.ConduitStreamSinkChannel.write(ConduitStreamSinkChannel.java:150)
+	at io.undertow.channels.DetachableStreamSinkChannel.write(DetachableStreamSinkChannel.java:240)
+	at io.undertow.server.HttpServerExchange$WriteDispatchChannel.write(HttpServerExchange.java:2028)
+	at io.undertow.servlet.spec.ServletOutputStreamImpl.writeBufferBlocking(ServletOutputStreamImpl.java:563)
+	at io.undertow.servlet.spec.ServletOutputStreamImpl.write(ServletOutputStreamImpl.java:216)
+	at java.nio.channels.Channels$WritableByteChannelImpl.write(Channels.java:458)
+	at com.sun.faces.application.resource.ResourceHandlerImpl.handleResourceRequest(ResourceHandlerImpl.java:358)
+	at javax.faces.application.ResourceHandlerWrapper.handleResourceRequest(ResourceHandlerWrapper.java:153)
+	at org.primefaces.application.resource.PrimeResourceHandler.handleResourceRequest(PrimeResourceHandler.java:87)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:655)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at org.primefaces.webapp.filter.FileUploadFilter.doFilter(FileUploadFilter.java:81)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at ec.gob.iepi.ccws.filters.LoginFilter.doFilter(LoginFilter.java:55)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:805)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2018-10-30 10:31:35,936 INFO  [stdout] (default task-21) ->http://localhost:8080/formulccws-web-ws1/faces/javax.faces.resource/images/ui-bg_highlight-soft_100_deedf7_1x100.png - desprotegido=[true]
+2018-10-30 10:31:35,942 INFO  [stdout] (default task-22) ->http://localhost:8080/formulccws-web-ws1/faces/javax.faces.resource/images/ui-icons_3d80b3_256x240.png - desprotegido=[true]
+2018-10-30 10:31:39,531 INFO  [stdout] (default task-23) ->http://localhost:8080/formulccws-web-ws1/faces/javax.faces.resource/images/ui-bg_diagonals-thick_90_eeeeee_40x40.png - desprotegido=[true]
+2018-10-30 10:31:39,537 INFO  [stdout] (default task-24) ->http://localhost:8080/formulccws-web-ws1/index.xhtml - desprotegido=[true]
+2018-10-30 10:31:40,207 INFO  [stdout] (default task-25) ->http://localhost:8080/formulccws-web-ws1/login.xhtml - desprotegido=[true]
+2018-10-30 10:31:46,148 INFO  [stdout] (default task-26) ->http://localhost:8080/formulccws-web-ws1/login.xhtml - desprotegido=[true]
+2018-10-30 10:31:46,200 INFO  [stdout] (default task-27) ->http://localhost:8080/formulccws-web-ws1/javax.faces.resource/messages/messages.png.xhtml - desprotegido=[true]
+2018-10-30 10:31:46,201 INFO  [stdout] (default task-28) ->http://localhost:8080/formulccws-web-ws1/faces/javax.faces.resource/images/ui-bg_highlight-soft_25_ffef8f_1x100.png - desprotegido=[true]
+2018-10-30 10:31:50,327 INFO  [stdout] (default task-29) ->http://localhost:8080/formulccws-web-ws1/login.xhtml - desprotegido=[true]
+2018-10-30 10:31:51,347 INFO  [stdout] (default task-30) ->http://localhost:8080/formulccws-web-ws1/solicitudes.xhtml - desprotegido=[false]
+2018-10-30 10:31:51,506 INFO  [stdout] (default task-31) ->http://localhost:8080/formulccws-web-ws1/javax.faces.resource/fileupload/fileupload.css.xhtml - desprotegido=[true]
+2018-10-30 10:31:51,521 INFO  [stdout] (default task-32) ->http://localhost:8080/formulccws-web-ws1/javax.faces.resource/fileupload/fileupload.js.xhtml - desprotegido=[true]
+2018-10-30 10:31:51,623 INFO  [stdout] (default task-33) ->http://localhost:8080/formulccws-web-ws1/faces/javax.faces.resource/images/ui-bg_glass_50_3baae3_1x400.png - desprotegido=[true]
+2018-10-30 10:31:57,813 INFO  [stdout] (default task-34) ->http://localhost:8080/formulccws-web-ws1/solicitudes.xhtml - desprotegido=[false]
+2018-10-30 10:31:58,026 INFO  [stdout] (default task-35) ->http://localhost:8080/formulccws-web-ws1/reportes - desprotegido=[false]
+2018-10-30 10:35:10,102 INFO  [stdout] (default task-37) ->http://localhost:8080/formulccws-web-ws1/solicitudes.xhtml - desprotegido=[false]
+2018-10-30 10:35:10,638 INFO  [stdout] (default task-38) ->http://localhost:8080/formulccws-web-ws1/formulario.xhtml - desprotegido=[false]
+2018-10-30 10:35:11,014 INFO  [stdout] (default task-39) ->http://localhost:8080/formulccws-web-ws1/javax.faces.resource/images/favicon.png.xhtml - desprotegido=[true]
+2018-10-30 10:35:12,553 INFO  [stdout] (default task-40) ->http://localhost:8080/formulccws-web-ws1/faces/javax.faces.resource/images/ui-icons_2694e8_256x240.png - desprotegido=[true]
+2018-10-30 10:35:12,554 INFO  [stdout] (default task-41) ->http://localhost:8080/formulccws-web-ws1/faces/javax.faces.resource/images/ui-bg_glass_100_e4f1fb_1x400.png - desprotegido=[true]
+2018-10-30 10:35:21,104 INFO  [stdout] (default task-42) ->http://localhost:8080/formulccws-web-ws1/faces/javax.faces.resource/images/ui-icons_ffffff_256x240.png - desprotegido=[true]
+2018-10-30 10:38:00,950 INFO  [stdout] (default task-43) ->http://localhost:8080/formulccws-web-ws1/formulario.xhtml - desprotegido=[false]
+2018-10-30 10:38:01,159 INFO  [stdout] (default task-46) ->http://localhost:8080/formulccws-web-ws1/javax.faces.resource/fileupload/fileupload.css.xhtml - desprotegido=[true]
+2018-10-30 10:38:01,160 INFO  [stdout] (default task-45) ->http://localhost:8080/formulccws-web-ws1/javax.faces.resource/components.css.xhtml - desprotegido=[true]
+2018-10-30 10:38:01,172 WARNING [javax.enterprise.resource.webcontainer.jsf.application] (default task-45) JSF1064: no se encuentra o sirve el recurso, components.css, desde la biblioteca, primefaces.
+2018-10-30 10:38:01,172 WARNING [javax.enterprise.resource.webcontainer.jsf.application] (default task-45) : java.io.IOException: Tubería rota
+	at sun.nio.ch.FileDispatcherImpl.writev0(Native Method)
+	at sun.nio.ch.SocketDispatcher.writev(SocketDispatcher.java:51)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:148)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:504)
+	at org.xnio.nio.NioSocketConduit.write(NioSocketConduit.java:162)
+	at io.undertow.server.protocol.http.HttpResponseConduit.write(HttpResponseConduit.java:639)
+	at io.undertow.conduits.ChunkedStreamSinkConduit.doWrite(ChunkedStreamSinkConduit.java:163)
+	at io.undertow.conduits.ChunkedStreamSinkConduit.write(ChunkedStreamSinkConduit.java:127)
+	at org.xnio.conduits.ConduitStreamSinkChannel.write(ConduitStreamSinkChannel.java:150)
+	at io.undertow.channels.DetachableStreamSinkChannel.write(DetachableStreamSinkChannel.java:240)
+	at io.undertow.server.HttpServerExchange$WriteDispatchChannel.write(HttpServerExchange.java:2028)
+	at io.undertow.servlet.spec.ServletOutputStreamImpl.writeBufferBlocking(ServletOutputStreamImpl.java:563)
+	at io.undertow.servlet.spec.ServletOutputStreamImpl.write(ServletOutputStreamImpl.java:216)
+	at java.nio.channels.Channels$WritableByteChannelImpl.write(Channels.java:458)
+	at com.sun.faces.application.resource.ResourceHandlerImpl.handleResourceRequest(ResourceHandlerImpl.java:358)
+	at javax.faces.application.ResourceHandlerWrapper.handleResourceRequest(ResourceHandlerWrapper.java:153)
+	at org.primefaces.application.resource.PrimeResourceHandler.handleResourceRequest(PrimeResourceHandler.java:87)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:655)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at org.primefaces.webapp.filter.FileUploadFilter.doFilter(FileUploadFilter.java:81)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at ec.gob.iepi.ccws.filters.LoginFilter.doFilter(LoginFilter.java:55)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:805)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2018-10-30 10:38:01,301 INFO  [stdout] (default task-47) ->http://localhost:8080/formulccws-web-ws1/faces/javax.faces.resource/images/ui-bg_flat_15_cd0a0a_40x100.png - desprotegido=[true]
+2018-10-30 10:38:05,613 INFO  [stdout] (default task-48) ->http://localhost:8080/formulccws-web-ws1/formulario.xhtml - desprotegido=[false]
+2018-10-30 10:38:06,181 INFO  [stdout] (default task-49) ->http://localhost:8080/formulccws-web-ws1/login.xhtml - desprotegido=[true]
+2018-10-30 10:38:06,223 INFO  [stdout] (default task-50) ->http://localhost:8080/formulccws-web-ws1/javax.faces.resource/style.css.xhtml;jsessionid=0f8yfwmfakpkxo42-gm24aavbttkmjevdc3lrdng.iepi - desprotegido=[true]
+2018-10-30 10:38:06,250 INFO  [stdout] (default task-54) ->http://localhost:8080/formulccws-web-ws1/javax.faces.resource/components.js.xhtml;jsessionid=0f8yfwmfakpkxo42-gm24aavbttkmjevdc3lrdng.iepi - desprotegido=[true]
+2018-10-30 10:38:06,250 INFO  [stdout] (default task-52) ->http://localhost:8080/formulccws-web-ws1/javax.faces.resource/core.js.xhtml;jsessionid=0f8yfwmfakpkxo42-gm24aavbttkmjevdc3lrdng.iepi - desprotegido=[true]
+2018-10-30 10:38:06,251 INFO  [stdout] (default task-55) ->http://localhost:8080/formulccws-web-ws1/javax.faces.resource/jquery/jquery.js.xhtml;jsessionid=0f8yfwmfakpkxo42-gm24aavbttkmjevdc3lrdng.iepi - desprotegido=[true]
+2018-10-30 10:38:06,252 INFO  [stdout] (default task-51) ->http://localhost:8080/formulccws-web-ws1/javax.faces.resource/components.css.xhtml;jsessionid=0f8yfwmfakpkxo42-gm24aavbttkmjevdc3lrdng.iepi - desprotegido=[true]
+2018-10-30 10:38:06,252 INFO  [stdout] (default task-53) ->http://localhost:8080/formulccws-web-ws1/javax.faces.resource/jquery/jquery-plugins.js.xhtml;jsessionid=0f8yfwmfakpkxo42-gm24aavbttkmjevdc3lrdng.iepi - desprotegido=[true]
+2018-10-30 12:02:50,641 INFO  [org.jboss.as.server] (management-handler-thread - 5) WFLYSRV0236: Suspending server with no timeout.
+2018-10-30 12:02:50,644 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2018-10-30 12:02:50,682 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = formulccws-web-ws1.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2018-10-30 12:02:50,697 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = cons-ciudadano-ws1.war_com.mysql.jdbc.Driver_5_1
+2018-10-30 12:02:50,698 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:jboss/datasources/secobSeguimientoDs]
+2018-10-30 12:02:50,699 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepidepurar
+2018-10-30 12:02:50,701 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/datasources/autenticacion]
+2018-10-30 12:02:50,708 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = cons-ciudadano-ws1.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2018-10-30 12:02:50,710 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = formulccws-web-ws1.war_com.mysql.jdbc.Driver_5_1
+2018-10-30 12:02:50,710 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/datasources/modificacionesDs]
+2018-10-30 12:02:50,710 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/datasources/jBossJaasPostgres]
+2018-10-30 12:02:50,711 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/datasources/iepi]
+2018-10-30 12:02:50,711 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepi_sipigaceta
+2018-10-30 12:02:50,715 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0010: Unbound data source [java:/datasources/MSSQLDS]
+2018-10-30 12:02:50,715 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepiFormularios
+2018-10-30 12:02:50,716 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepiCasilleros
+2018-10-30 12:02:50,717 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:jboss/datasources/cpi]
+2018-10-30 12:02:50,717 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepiProcesos
+2018-10-30 12:02:50,718 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepiadmin
+2018-10-30 12:02:50,718 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/datasources/secretaria-tramites]
+2018-10-30 12:02:50,719 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/datasources/auth]
+2018-10-30 12:02:50,720 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/datasources/iepi3]
+2018-10-30 12:02:50,718 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:jboss/datasources/OMPI]
+2018-10-30 12:02:50,721 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:jboss/datasources/obtencionesVegetales]
+2018-10-30 12:02:50,721 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepi_sipigaceta2
+2018-10-30 12:02:50,727 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 90) WFLYUT0022: Unregistered web context: /formulccws-web-ws1
+2018-10-30 12:02:50,728 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 91) WFLYUT0022: Unregistered web context: /cons-ciudadano-ws1
+2018-10-30 12:02:50,743 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = sqlserver
+2018-10-30 12:02:50,771 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = postgres
+2018-10-30 12:02:50,832 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0019: Host default-host stopping
+2018-10-30 12:02:50,848 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2018-10-30 12:02:50,851 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2018-10-30 12:02:50,854 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 90) WFLYJPA0004: Stopping Persistence Unit Service 'cons-ciudadano-ws1.war#cciudadanoPU'
+2018-10-30 12:02:50,854 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 91) WFLYJPA0004: Stopping Persistence Unit Service 'formulccws-web-ws1.war#cciudadanoPU'
+2018-10-30 12:02:50,854 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepiPatente
+2018-10-30 12:02:50,854 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepiPatentes
+2018-10-30 12:02:50,883 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = mysql
+2018-10-30 12:02:50,888 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0008: Undertow HTTP listener default suspending
+2018-10-30 12:02:50,889 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 0.0.0.0:8080
+2018-10-30 12:02:50,890 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0008: Undertow HTTPS listener https suspending
+2018-10-30 12:02:50,891 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 0.0.0.0:8443
+2018-10-30 12:02:50,893 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0004: Undertow 1.4.0.Final stopping
+2018-10-30 12:02:50,997 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment cons-ciudadano-ws1.war (runtime-name: cons-ciudadano-ws1.war) in 335ms
+2018-10-30 12:02:50,997 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment formulccws-web-ws1.war (runtime-name: formulccws-web-ws1.war) in 335ms
+2018-10-30 12:02:51,023 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 325ms

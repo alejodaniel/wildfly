@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17013015_20180329.xml' country='EC' doc-number='SP17013015' kind='A' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17013015' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17013015</doc-number><kind>A</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C07D401/14_A61K31/4439_A61P13/10</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201713015</doc-number><date>20170302</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>PCT/CN2014/085925</doc-number><date>20140904</date><country>CN</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>ELI LILLY AND COMPANY</name><address><street>Lilly Corporate Center, Indianapolis, Indiana 46285, Estados Unidos de America</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>CASTER</name><address><street>99 RUE DU FAUBOURG SAINT HONORÉ – 75008 PARIS- FRANCIA</street><country>FR</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>SHENZHEN INRICO ELECTRONICS CO., LTD</name><address><street>4F,No.108 Bld, High Tech Industrial Park, Guowei Rd, Luohu,
+Shenzhen, Guangdong, C.P. 518000 - China
+</street><country>CN</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>DR. JUAN M. QUEVEDO</name><address><street>Av. 12 de Octubre N26-97 y Lincoln, Quito, Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>(2S)-3-[(3S,4S)-3-[(1R)-1-hidroxietil]-4-(4-metoxi-3-{[1-(5-metilpiridin-2-il)azetidin-3-il]oxi}fenil)-3-metilpirrolidin-1-il]-3-oxopropano-1,2-diol Cristalino</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La presente invención se refiere a (2S)-3-[(3S,4S)-3-[(1R)-1-hidroxietil]-4-(4-metoxi-3-{[1-(5-metilpiridin-2-il)azetidin-3-il]oxi}fenil)-3-metilpirrolidin-1-il]-3-oxopropano-1,2-diol cristalino, y composiciones farmacéuticas del mismo. La invención además proporciona métodos para usar este compuesto para tratar la vejiga hiperactiva.</abstract>
+</ec-patent-document>

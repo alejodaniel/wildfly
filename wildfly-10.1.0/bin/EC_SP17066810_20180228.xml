@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17066810_20180228.xml' country='EC' doc-number='SP17066810' kind='A' date-published='20180228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17066810' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17066810</doc-number><kind>A</kind><date>20180228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>B28B1/52(2006.01),B28B5/02(2006.01)</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201766810</doc-number><date>20171006</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>15158218.6</doc-number><date>20150309</date><country>EF</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>ETEX SERVICES NV</name><address><street>Kuiermansstraat 1, 1880 Kapelle-op-den-Bos, BE</street><country>BE</country></address></addressbook></applicant>
+<applicant sequence='2' designation='all' app-type='applicant'><addressbook><name>ETERNIT NV</name><address><street>Kuiermansstraat 1, 1880 Kapelle-op-den-Bos, BE</street><country>BE</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>VAN ACOLEYEN, Bertrand</name><address><street>Kuiermansstraat 30, 1880 Kapelle-op-den-Bos, BE</street><country>BE</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>RYS, Martin</name><address><street>Bormstraat 73, 1880 Kapelle-op-den-Bos, BE</street><country>BE</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>FABARA VERA, MARIA ROSA </name><address><street>AV. DIEGO DE ALMAGRO N30-118 Y AV. REPUBLICA. QUITO - ECUADOR </street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>PROCESO PARA ELABORAR UNA LÁMINA DE FIBROCEMENTO</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La presente invención se refiere a procesos y aparatos para la producción de láminas de fibrocemento, así como a las láminas de fibrocemento que se pueden obtener con los mismos. Los procesos de acuerdo con la presente invención por lo menos comprenden las etapas de: (a) proporcionar una suspensión de cemento que comprende fibras, (b) descargar en forma continua la suspensión en una cinta transportadora sinfín hidropermeable, y (c) extraer el exceso de agua de la suspensión a través de la cinta transportadora hidropermeable para formar una lámina de fibrocemento con un espesor predeterminado. Mediante el uso de una cinta transportadora hidropermeable para extraer el exceso de agua de la lámina de fibrocemento, tanto el espesor como la densidad de la lámina pueden ajustarse con precisión, sin que resulte una deformación residual del espesor de la lámina al final del proceso de producción. La presente invención se refiere asimismo a diversos usos de las láminas de fibrocemento que se pueden obtener mediante los procesos de la invención en la industria de la construcción.
+</abstract>
+</ec-patent-document>

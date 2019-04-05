@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP16073620_20181228.xml' country='EC' doc-number='SP16073620' kind='A' date-published='20181228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP16073620' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP16073620</doc-number><kind>A</kind><date>20181228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C07D417/14_C07D487/04_A61P31/04_A61K31/427_A61K31/496_A61K31/4439_A61K31/454_A61K31/437
+</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201673620</doc-number><date>20160912</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>US No. 61/969,735</doc-number><date>20140324</date><country>US</country></priority-claim>
+<priority-claim sequence='2' kind='National'><doc-number>US No. 62/088,304</doc-number><date>20141205</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>NOVARTIS AG</name><address><street>CH-4002 BASEL, SWITZERLAND</street><country>CH</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>Xiaodong LIN</name><address><street>Novartis Institutes for BioMedical Research, Inc. 5300 Chiron Way Emeryville, CA 94608-2916 United States of America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>Robert Lowell SIMMONS</name><address><street>Novartis Institutes for BioMedical Research, Inc. 5300 Chiron Way Emeryville, CA 94608-2916 United States of America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>Qingming ZHU</name><address><street>Novartis Institutes for BioMedical Research, Inc. 5300 Chiron Way Emeryville, CA 94608-2916 United States of America</street><country>CN</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>Aregahegn YIFRU</name><address><street>Novartis Institutes for BioMedical Research, Inc. 5300 Chiron Way Emeryville, CA 94608-2916 United States of America</street><country>CA</country></address></addressbook></inventor>
+<inventor sequence='5' designation='all'><addressbook><name>Meiliana TJANDRA</name><address><street>Novartis Institutes for BioMedical Research, Inc. 5300 Chiron Way Emeryville, CA 94608-2916 United States of America</street><country>ID</country></address></addressbook></inventor>
+<inventor sequence='6' designation='all'><addressbook><name>Glenn MCENROE</name><address><street>Novartis Institutes for BioMedical Research, Inc. 5300 Chiron Way Emeryville, CA 94608-2916 United States of America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='7' designation='all'><addressbook><name>Mika LINDVALL</name><address><street>Novartis Institutes for BioMedical Research, Inc. Emeryville Site 5300 Chiron Way Bldg. #4 Emeryville, California 94608, USA</street><country>FI</country></address></addressbook></inventor>
+<inventor sequence='8' designation='all'><addressbook><name>Virender Singh AULAKH</name><address><street>95 B Keewenaw Drive, Whitehorse, Yukon Y1A 0B5, Canada</street><country>CA</country></address></addressbook></inventor>
+<inventor sequence='9' designation='all'><addressbook><name>Heinz Ernst MOSER</name><address><street>Novartis Institutes for BioMedical Research, Inc. 5300 Chiron Way Emeryville, CA 94608-2916 United States of America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='10' designation='all'><addressbook><name>Folkert RECK</name><address><street>Novartis Institutes for BioMedical Research, Inc. 5300 Chiron Way Emeryville, CA 94608-2916 United States of America</street><country>DE</country></address></addressbook></inventor>
+<inventor sequence='11' designation='all'><addressbook><name>Anthony CASAREZ</name><address><street>Novartis Institutes for BioMedical Research, Inc. 5300 Chiron Way Emeryville, CA 94608-2916 United States of America</street><country>US</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>Esteban Riofrio Correa </name><address><street>Av. 12 de Octubre y Abrahan Lincoln</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>COMPUESTOS ORGANICOS DE MONOBACTAM PARA EL TRATAMIENTO DE INFECCIONES BACTERIANAS</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Esta invención se refiere en general a compuestos antibacterianos de la Fórmula
+I,
+(I)
+como se describe adicionalmente en este documento, y las sales y formulaciones
+farmacéuticamente aceptables de los mismos. En ciertos aspectos, la invención se refiere
+a métodos de uso de tales compuestos para tratar infecciones tales como las causadas por
+bacterias Gram-negativas.</abstract>
+</ec-patent-document>

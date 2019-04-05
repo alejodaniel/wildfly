@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17074645_20180228.xml' country='EC' doc-number='SP17074645' kind='A' date-published='20180228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17074645' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17074645</doc-number><kind>A</kind><date>20180228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C07D471/04,A61K31/437,C07D471/14,A61P25/00,A61P29/00</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201774645</doc-number><date>20171110</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>62/154,313</doc-number><date>20150429</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>JANSSEN PHARMACEUTICA NV</name><address><street>Turnhoutseweg 30, B-2340 Beerse, Belgica</street><country>BE</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>CHEN, Gang</name><address><street>3210 Merryfield Row, San Diego, CA 92121, U.S.A.</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>WU, Dongpei</name><address><street>3210 Merryfield Row, San Diego, CA 92121, U.S.A.</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>SAVALL, Bradley M.</name><address><street>3210 Merryfield Row, San Diego, CA 92121, U.S.A.</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>ZHANG, Wei</name><address><street>3210 Merryfield Row, San Diego, CA 92121, U.S.A.</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='5' designation='all'><addressbook><name>LIN, David Wei</name><address><street>3210 Merryfield Row, San Diego, CA 92121, U.S.A.</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='6' designation='all'><addressbook><name>RAVULA, Suchitra</name><address><street>3210 Merryfield Row, San Diego, CA 92121, U.S.A.</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='7' designation='all'><addressbook><name>JOURDAN, Fabrice Loic</name><address><street>Calle Cisne 27, Los Altos de Olias, E-45280 Olias del Rey, Espa?a</street><country>FR</country></address></addressbook></inventor>
+<inventor sequence='8' designation='all'><addressbook><name>AMERIKS, Michael K.</name><address><street>3210 Merryfield Row, San Diego, CA 92121, U.S.A.</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='9' designation='all'><addressbook><name>BERRY, Cynthia G.B.</name><address><street>3210 Merryfield Row, San Diego, CA 92121, U.S.A.</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='10' designation='all'><addressbook><name>PENA PIÑON, Miguel Angel</name><address><street>C/ Rio Jarama 75A, E-45007, Toledo, España</street><country>ES</country></address></addressbook></inventor>
+<inventor sequence='11' designation='all'><addressbook><name>SWANSON, Devin M. </name><address><street>3210 Merryfield Row, San Diego, CA 92121, U.S.A.</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='12' designation='all'><addressbook><name>LEBOLD, Terry Patrick</name><address><street>3210 Merryfield Row, San Diego, CA 92121, U.S.A.</street><country>CA</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>DR. JUAN M. QUEVEDO</name><address><street>Av. 12 de Octubre N26-97 y Lincoln, Quito, Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>AZABENZIMIDAZOLES Y SU USO COMO MODULADORES DEL RECEPTOR AMPA</invention-title>
+</bibliographic-data>
+<abstract lang='es'>En la presente invención se proporcionan compuestos de la Fórmula (I) y sales farmacéuticamente aceptables, N-óxidos o solvatos de estos. Además, en la presente invención se proporcionan composiciones farmacéuticas que comprenden compuestos de la Fórmula (I) y métodos para usar los compuestos de la Fórmula (I).</abstract>
+</ec-patent-document>

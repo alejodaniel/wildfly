@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP18000844_20180329.xml' country='EC' doc-number='SP18000844' kind='A' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP18000844' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP18000844</doc-number><kind>A</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C07K14/47_C07K16/18</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI2018844</doc-number><date>20180105</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>15175519.6</doc-number><date>20150706</date><country>EF</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>UCB BIOPHARMA SPRL.</name><address><street>60, Allée de Recherche, B-1070 Bruselas, Belgica</street><country>BE</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>TYSON Kerry Louise</name><address><street>IP Department, UCB Celltech, 208 Bath Road, Slough, Berkshire SL1 3WE, Reino Unido</street><country>GB</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>DOWNEY Patrick</name><address><street>IP Department, UCB Biopharma SPRL, 60, Allee de la Recherche, 1070 Bruselas, Belgica</street><country>GB</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>MAIRET-COELLO Georges</name><address><street>IP Department, UCB Biopharma SPRL, 60, Allee de la Recherche, 1070 Bruselas, Belgica</street><country>FR</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>COURADE Jean-Philippe</name><address><street>IP Department, UCB Biopharma SPRL, 60, Allee de la Recherche, 1070 Bruselas, Belgica</street><country>FR</country></address></addressbook></inventor>
+<inventor sequence='5' designation='all'><addressbook><name>KNIGHT David Edward Ormonde</name><address><street>IPD, UCB Celltech, 208 Bath Road, Slough Berkshire SL1 3WE, Reino Unido</street><country>GB</country></address></addressbook></inventor>
+<inventor sequence='6' designation='all'><addressbook><name>BAKER Terence Seward</name><address><street>IP Department, UCB Celltech, 208 Bath Road, Slough Berkshire SL1 3WE, Reino Unido</street><country>GB</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>DR. SANTIAGO GUARDERAS IZQUIERDO</name><address><street>Ave. 12 de Octubre N26-97 y Lincoln</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>ANTICUERPOS DE UNIÓN A TAU</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La presente invención se refiere a anticuerpos de unión a Tau y fragmentos de unión de los mismos.</abstract>
+</ec-patent-document>

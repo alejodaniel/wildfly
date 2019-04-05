@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SDI16087090_20181228.xml' country='EC' doc-number='SDI16087090' kind='S' date-published='20181228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SDI16087090' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SDI16087090</doc-number><kind>S</kind><date>20181228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>05-06</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201687090</doc-number><date>20161111</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>CL 1949-2016</doc-number><date>20160802</date><country>CL</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>CMPC TISSUE S.A. </name><address><street>Agustinas No. 1343, piso 6, Santiago, Chile.</street><country>CL</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>TAPIA ARRIGORRIAGA, José Luis</name><address><street>Av. Eyzaguirre 01098 Puente Alto, Santiago - Chile.</street><country>CL</country></address></addressbook></inventor>
+</inventors><agents>
+</agents></parties>
+<invention-title lang='es'>Patrón ornamental de gofrado para ser utilizado en artículos absorbentes</invention-title>
+</bibliographic-data>
+<abstract lang='es'>El dibujo industrial cuyo registro se solicita, es aplicable a un patrón ornamental de gofrado para ser aplicado en artículos absorbentes, el que comprende una pluralidad de circunferencias principales traslapadas entre sí.</abstract>
+</ec-patent-document>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17075750_20180228.xml' country='EC' doc-number='SP17075750' kind='A' date-published='20180228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17075750' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17075750</doc-number><kind>A</kind><date>20180228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C12Q1/70</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201775750</doc-number><date>20171114</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>62/147,354</doc-number><date>20150414</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>VANDERBILT UNIVERSITY</name><address><street>305 Kirkland Hall, 2201 West End Avenue, Nashville, TN 37240, US</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>CROWE, James, E.</name><address><street>2101 20th Ave. South Nashville, TN 37212, US</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>SILVA, Laurie</name><address><street>512 Westcrest Dr., Nashville, TN 37211, US</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>DERMODY, Terence</name><address><street>203 Derby Glen Lane, Brentwood, TN 37027, US</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>SMITH, Scott, A.</name><address><street>1140 Leatherwood Road, White Bluff, TN 37187, US</street><country>US</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>ALFREDO PACÍFICO GALLEGOS BANDERAS</name><address><street>Av. 12 de Octubre y Lincoln</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>NEUTRALIZACIÓN DEL VIRUS CHIKUNGUNYA MEDIADA POR ANTICUERPOS</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Anticuerpos que se unen y neutralizan al virus Chikungunya (CHIKV) y métodos para su uso.</abstract>
+</ec-patent-document>

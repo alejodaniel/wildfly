@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP18004657_20180329.xml' country='EC' doc-number='SP18004657' kind='A' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP18004657' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP18004657</doc-number><kind>A</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C04B41/00_C04B41/52_C04B41/63_C04B103/54_C04B111/00_C04B111/21_C04B111/82</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI20184657</doc-number><date>20180122</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>15174314.3</doc-number><date>20150629</date><country>EF</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>SOCIEDAD INDUSTRIAL PIZARRENO</name><address><street>Camino Melipilla 10803, Santiago, Maipu 9260055, CL</street><country>CL</country></address></addressbook></applicant>
+<applicant sequence='2' designation='all' app-type='applicant'><addressbook><name>REDCO NV</name><address><street>Kuiermansstraat 1, B-1880 Kapelle-op-den-Bos (BE)</street><country>BE</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>PALACIOS, Rodrigo</name><address><street>Camino Melipilla 10803, Maipu, Santiago, 9260055, CL</street><country>CL</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>FABARA VERA, MARIA ROSA </name><address><street>AV. REPUBLICA 481 Y PASAJE CARRIÓN. QUITO, ECUADOR</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>PRODUCTOS DE FIBROCEMENTO DE COLOR Y MÉTODOS PARA LA PRODUCCIÓN DE LOS MISMOS</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Son objeto de la presente invención productos de fibrocemento de color y los métodos de fabricación de los mismos. En particular, la presente invención ofrece productos de fibrocemento de color, a los cuales se les incorpora la pigmentación en la masa y contienen en al menos una parte de su superficie una o más capas curadas de una composición de recubrimiento cuya composición por lo menos comprende un ligante y un pigmento y/o un relleno y se caracteriza por una concentración de pigmento en volumen (CPV) de entre alrededor del 1% y alrededor del 20%. La presente invención proporciona además procesos para producir estos productos de fibrocemento de color. Finalmente, la presente invención ofrece usos para los productos de fibrocemento de color como materiales para la construcción. En formas de realización particulares, los productos de fibrocemento  fabricados con los procesos de la presente invención pueden utilizarse como superficie externa de paredes, tanto internas como externas, edificios o construcciones, por ejemplo, en la fachada o como revestimiento, etc.
+
+</abstract>
+</ec-patent-document>

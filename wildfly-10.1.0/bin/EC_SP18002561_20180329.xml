@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP18002561_20180329.xml' country='EC' doc-number='SP18002561' kind='A' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP18002561' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP18002561</doc-number><kind>A</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>A61K31/405_A61K31/198_A61K31/661</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI20182561</doc-number><date>20180115</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>62/196,671 </doc-number><date>20150724</date><country>US</country></priority-claim>
+<priority-claim sequence='2' kind='National'><doc-number>62/305,748 </doc-number><date>20160309</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>NewLink Genetics Corporation</name><address><street>2503 South Loop Drive, Suite 5100, Ames, Iowa 50010, United States of America</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>MAUTINO, Mario </name><address><street>2503 South Loop Drive,2503 South Loop Drive, Suite 5100, Ames, Iowa 50010, United States America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>KUMAR, Sanjeev </name><address><street>2503 South Loop Drive,2503 South Loop Drive, Suite 5100, Ames, Iowa 50010, United States America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>WALDO, Jesse </name><address><street>2503 South Loop Drive,2503 South Loop Drive, Suite 5100, Ames, Iowa 50010, United States America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>POTTURI, Hima </name><address><street>2503 South Loop Drive,2503 South Loop Drive, Suite 5100, Ames, Iowa 50010, United States America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='5' designation='all'><addressbook><name>ZHUANG, Hong </name><address><street>2503 South Loop Drive,2503 South Loop Drive, Suite 5100, Ames, Iowa 50010, United States America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='6' designation='all'><addressbook><name>JAIPURI, Firoz </name><address><street>2503 South Loop Drive,2503 South Loop Drive, Suite 5100, Ames, Iowa 50010, United States America</street><country>US</country></address></addressbook></inventor>
+</inventors><agents>
+</agents></parties>
+<invention-title lang='es'>SALES Y PROFÁRMACOS DE 1-METIL-D-TRIPTÓFANO</invention-title>
+</bibliographic-data>
+<abstract lang='es'>En la presente se proporcionan compuestos de profármacos y sales de indoximod y composiciones farmacéuticas que comprenden las sales y los profármacos de indoximod, que producen mejor concentración y exposición en plasma a indoximod en comparación con la administración directa de indoximod, en pacientes que necesitan tratamiento de inmunosupresión mediada por la vía indolamina-2,3-dioxigenasa, tales como pacientes con cáncer o enfermedades infecciosas crónicas. </abstract>
+</ec-patent-document>

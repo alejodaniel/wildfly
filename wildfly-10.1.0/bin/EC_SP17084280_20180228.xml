@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17084280_20180228.xml' country='EC' doc-number='SP17084280' kind='A' date-published='20180228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17084280' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17084280</doc-number><kind>A</kind><date>20180228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>A61K38/00,A61K38/26,C07K14/605,C07K14/00,A61P3/00,A61P1/00</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201784280</doc-number><date>20171221</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>62/182,847</doc-number><date>20150622</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>ELI LILLY AND COMPANY</name><address><street>Lilly Corporate Center, Indianapolis, Indiana 46285, Estados Unidos de America</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>QU, Hongchang</name><address><street>c/o Eli Lilly and Company, P.O.Box 6288, Indianapolis, Indiana 46206-6288, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>CHEN, Yanyun</name><address><street>c/o Eli Lilly and Company, P.O.Box 6288, Indianapolis, Indiana 46206-6288, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>MEZO, Adam Robert</name><address><street>c/o Eli Lilly and Company, P.O.Box 6288, Indianapolis, Indiana 46206-6288, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>VALENZUELA, Francisco Alcides</name><address><street>c/o Eli Lilly and Company, P.O.Box 6288, Indianapolis, Indiana 46206-6288, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>PONCE MARTINEZ, ALEJANDRO</name><address><street>AV. 12 DE OCTUBRE Y LINCOLN, TORRE 1492</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>COMPUESTOS CO-AGONISTAS DEL GLUCAGÓN Y PÉPTIDO-1 SIMILAR AL GLUGACÓN (GLP-1)</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La presente invención se refiere a compuestos co-agonistas de glucagón y GLP-1 que son útiles en el tratamiento de diabetes tipo 2, obesidad, enfermedad del hígado graso no alcohólica (NAFLD) y/o esteatohepatitis no alcohólica (NASH).</abstract>
+</ec-patent-document>

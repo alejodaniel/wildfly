@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP18001795_20180329.xml' country='EC' doc-number='SP18001795' kind='A' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP18001795' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP18001795</doc-number><kind>A</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>G09F9/33_G09F3/00_G02B5/00</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI20181795</doc-number><date>20180110</date></document-id></application-reference>
+<priority-claims>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>IDEAR ELECTRÓNICA, S.A. DE C.V. </name><address><street>Periferico Poniente 7261, Ciudad Granja Guadalajara, Jalisco, 45010 Mexico </street><country>MX</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>GABRIEL GONZÁLEZ FRANCO.</name><address><street>Periferico Poniente 7261, Ciudad Granja Guadalajara, Jalisco, 45010 (MX) </street><country>MX</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>IGNACIO BAEZA RAMOS </name><address><street>Periferico Poniente 7261, Ciudad Granja Guadalajara, Jalisco, 45010 (MX)</street><country>MX</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>RAÚL GUTIÉRREZ TORRES </name><address><street>Periferico Poniente 7261, Ciudad Granja Guadalajara, Jalisco, 45010 (MX) </street><country>MX</country></address></addressbook></inventor>
+</inventors><agents>
+</agents></parties>
+<invention-title lang='es'>ETIQUETA LUMINISCENTE Y SU INTERFAZ PARA APARATOS QUE OFERTAN PRODUCTOS O SERVICIOS A CONSUMIDORES </invention-title>
+</bibliographic-data>
+<abstract lang='es'>Existen diversas máquinas automáticas que interactúan con usuarios realizando diferentes funcionalidades, por mencionar algunas de manera enunciativa más no limitativa: de estacionamientos, de recarga y venta de tarjetas para transporte público, de tipo vending para compra de artículos de consumo, cajeros automáticos bancarios, dispensadores de café, etc.  La interfaz de estas máquinas con los usuarios es por medio del despliegue de información en una pantalla, mediante información en las etiquetas y/o pequeñas señales luminosas como pueden ser botones iluminados y/o luces indicadoras instaladas en las partes visibles del gabinete.
+
+Derivado de la información de los errores que comete el usuario en el uso de las máquinas actuales, se inventaron estas etiquetas luminosas que controlan las zonas independientemente unas de otras, en la misma pantalla interactuando con una unidad de procesamiento lógico.
+</abstract>
+</ec-patent-document>

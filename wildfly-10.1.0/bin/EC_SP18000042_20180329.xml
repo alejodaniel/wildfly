@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP18000042_20180329.xml' country='EC' doc-number='SP18000042' kind='A' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP18000042' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP18000042</doc-number><kind>A</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C07D487/14_C07D471/14_A61K31/55_A61P27/16_A61P35/00</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201842</doc-number><date>20180102</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>62/189,393</doc-number><date>20150707</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>AUDION THERAPEUTICS</name><address><street>Linneausparkweg 10-2, 1098 EA Amsterdam, Países Bajos</street><country>NL</country></address></addressbook></applicant>
+<applicant sequence='2' designation='all' app-type='applicant'><addressbook><name>ELI LILLY AND COMPANY</name><address><street>Lilly Corporate Center, Indianapolis, Indiana 46285, Estados Unidos de America</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>CLAY, Julia Marie</name><address><street>c/o Eli Lily and Company, P.O. Box 6288, Indianapolis, Indiana 46206-6288, USA</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>PATEL, Bharvin Kumar</name><address><street>c/o Eli Lily and Company, P.O. Box 6288, Indianapolis, Indiana 46206-6288, USA</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>HIPSKIND, Philip Arthur</name><address><street>c/o Eli Lily and Company, P.O. Box 6288, Indianapolis, Indiana 46206-6288, USA</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>ZHAO, Gaiying</name><address><street>c/o Eli Lily and Company, P.O. Box 6288, Indianapolis, Indiana 46206-6288, USA</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='5' designation='all'><addressbook><name>WROBLESKI, Aaron D. </name><address><street>c/o Eli Lily and Company, P.O. Box 6288, Indianapolis, Indiana 46206-6288, USA</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='6' designation='all'><addressbook><name>VAN ES, Helmuth Hendrikus Gerardus </name><address><street>c/o Audion Therapeutics, Linneausparkweg 10-2, 1098 EA Amsterdam, Países Bajos</street><country>NL</country></address></addressbook></inventor>
+<inventor sequence='7' designation='all'><addressbook><name>GILL, John C.</name><address><street>c/o Audion Therapeutics, Linneausparkweg 10-2, 1098 EA Amsterdam, Países Bajos</street><country>NL</country></address></addressbook></inventor>
+<inventor sequence='8' designation='all'><addressbook><name>EDGE,  Albert</name><address><street>c/o Audion Therapeutics, Linneausparkweg 10-2, 1098 EA Amsterdam, Países Bajos</street><country>NL</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>ROQUE ALBUJA IZURIETA</name><address><street>AV. 12 DE OCTUBRE Y LINCOLN, TORRE 1492</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>COMPUESTOS INHIBIDORES DE LA SEÑALIZACIÓN DE LA VÍA DE NOTCH</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La presente invención proporciona compuestos, o una sal farmacéuticamente aceptable de estos, y una composición farmacéutica que contiene dichos compuestos o una sal farmacéuticamente aceptable de esta, útil como un inhibidor de la señalización de la vía Notch para los cánceres nombrados, pérdida de audición neurosensorial causada por la pérdida de células ciliadas auditivas, e inducción de la generación de células ciliadas auditivas.</abstract>
+</ec-patent-document>

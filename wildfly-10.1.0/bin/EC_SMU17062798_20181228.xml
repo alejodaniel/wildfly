@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SMU17062798_20181228.xml' country='EC' doc-number='SMU17062798' kind='U' date-published='20181228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SMU17062798' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SMU17062798</doc-number><kind>U</kind><date>20181228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>B65D1/00_B65D5/00</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201762798</doc-number><date>20170921</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>NC2016/0004104</doc-number><date>20161111</date><country>CO</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>COLCANASTAS S.A.S.</name><address><street>CARRERA 58 No. 4-G-44 BOGOTA - COLOMBIA</street><country>CO</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>CRISTIAN NICOLAS HERRERA SOLANO</name><address><street>CARRERA SEGUNDA, ESTE No. 22-120, CASA 536, CHIA-COLOMBIA</street><country>CO</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>Esteban Riofrio Correa </name><address><street>Av. 12 de Octubre y Abrahan Lincoln</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>CANASTA PARA TRANSPORTE DE ALIMENTOS</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Canasta para transporte de alimentos conformada por un paralelepípedo de cinco lados, como se describe en el documento adjunto</abstract>
+</ec-patent-document>

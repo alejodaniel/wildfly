@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17079089_20180228.xml' country='EC' doc-number='SP17079089' kind='A' date-published='20180228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17079089' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17079089</doc-number><kind>A</kind><date>20180228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>G01M3/00(2006.01),G01M3/24(2006.01)</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201779089</doc-number><date>20171128</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>P201530574</doc-number><date>20150428</date><country>ES</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>AGANOVA S.L.</name><address><street>C/ La Gitanilla 17, 29004 Málaga (ES)</street><country>ES</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>RAMÍREZ GARCÍA, Agustín</name><address><street>C/ La Gitanilla 17, 29004 Málaga (ES)</street><country>ES</country></address></addressbook></inventor>
+</inventors><agents>
+</agents></parties>
+<invention-title lang='es'>DISPOSITIVO DETECTOR DE FUGAS DE AGUA EN TUBERÍAS Y PROCEDIMIENTO PARA LA DETECCIÓN DE FUGAS</invention-title>
+</bibliographic-data>
+<abstract lang='es'>El dispositivo de la invención se materializa en una pequeña esfera de flotabilidad neutra, en cuyo seno se establece al menos un hidrófono (2) que va conectado a un procesador de señal (9), que guarda la información en una tarjeta de memoria (10) y que es alimentado mediante al menos una batería (11), contando dicho procesador de señal (9) con un módulo de reloj (12), mediante el que se asocia en la memoria (10) el tiempo de navegación transcurrido para cada señal de audio recibida por el hidrófono (2), de manera que a partir del tiempo de navegación pueda establecerse la posición exacta de las anomalías o fugas detectadas. El dispositivo se complementa con una serie de sincronizadores exteriores, dispuestos cada cierta distancia, mediante los cuales se neutraliza el error de posición que pudiera acumular el dispositivo. Se consigue de esta forma un dispositivo sencillo, consecuentemente barato, sólido, duradero y sumamente eficaz.</abstract>
+</ec-patent-document>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17085333_20180228.xml' country='EC' doc-number='SP17085333' kind='A' date-published='20180228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17085333' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17085333</doc-number><kind>A</kind><date>20180228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C07K16/28,A61K39/395,C12N15/13,A61K39/00</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201785333</doc-number><date>20171228</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>62/168,425</doc-number><date>20150529</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>AbbVie Inc.</name><address><street>1 North Waukegan Road, North Chicago, Illinois 60064, Estados Unidos de America</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>MCRAE Bradford L.</name><address><street>84 Pleasant Street, Northborough, MA 01532, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>HSIEH, Chung-Ming</name><address><street>22 Olde Field Road, Newton, MA 02459, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>BENATUIL, Lorenzo</name><address><street>33 Mohawk Drive, Northborough, MA 01532, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>ARGIRIADI Maria A.</name><address><street>15 Sadie Hutt Lane, Southborough, MA 01772, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>DR. SANTIAGO GUARDERAS IZQUIERDO</name><address><street>Ave. 12 de Octubre N26-97 y Lincoln</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>ANTICUERPOS ANTI-CD40 Y SUS USOS.</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La presente invención engloba anticuerpos anti-CD40 antagonistas y porciones de unión al antígeno de estos. En concreto, la invención se refiere a anticuerpos anti-CD40 humanizados. En ciertas realizaciones, los anticuerpos de la invención neutralizan la actividad de CD40 humano (hCD40). Los anticuerpos, o porciones de anticuerpos, de la invención son útiles para detectar CD40 y para inhibir la actividad de CD40, p. ej., en un sujeto humano que padece un trastorno en el que la actividad de CD40 resulta perjudicial.</abstract>
+</ec-patent-document>

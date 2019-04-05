@@ -1,0 +1,703 @@
+2018-09-23 16:02:37,632 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2018-09-23 16:02:38,096 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2018-09-23 16:02:38,179 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2018-09-23 16:02:38,184 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	http.nonProxyHosts = localhost,127.0.0.1,IEPI
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/lparedes/Documentos/wildfly-10.1.0.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-8-openjdk-amd64/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 1.8.0_181-8u181-b13-0ubuntu0.16.04.1-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_181
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.181-b13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final
+	jboss.host.name = iepi
+	jboss.http.port = 8080
+	jboss.management.http.port = 9990
+	jboss.modules.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = iepi
+	jboss.qualified.host.name = iepi
+	jboss.server.base.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone
+	jboss.server.config.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/configuration
+	jboss.server.data.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/data
+	jboss.server.deploy.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/data/content
+	jboss.server.log.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/log
+	jboss.server.name = iepi
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/configuration/logging.properties
+	module.path = /home/lparedes/Documentos/wildfly-10.1.0.Final/modules
+	org.jboss.boot.log.file = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.4.0-134-generic
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/lparedes/Documentos/wildfly-10.1.0.Final/jboss-modules.jar -mp /home/lparedes/Documentos/wildfly-10.1.0.Final/modules org.jboss.as.standalone -Djboss.home.dir=/home/lparedes/Documentos/wildfly-10.1.0.Final -Djboss.server.base.dir=/home/lparedes/Documentos/wildfly-10.1.0.Final/standalone -c standalone.xml
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = EC
+	user.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/bin
+	user.home = /home/lparedes
+	user.language = es
+	user.name = lparedes
+	user.timezone = America/Guayaquil
+2018-09-23 16:02:38,188 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -D[Standalone] -Xms128m -Xmx512m -Dhttp.nonProxyHosts=localhost,127.0.0.1,IEPI -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Djboss.management.http.port=9990 -Djboss.http.port=8080 -Dorg.jboss.boot.log.file=/home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/log/server.log -Dlogging.configuration=file:/home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/configuration/logging.properties 
+2018-09-23 16:02:40,333 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ompi-ingresos.ear in deployment directory. To trigger deployment create a file called ompi-ingresos.ear.dodeploy
+2018-09-23 16:02:40,333 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ConsultaCiudadanoWS-1.0-SNAPSHOT.war in deployment directory. To trigger deployment create a file called ConsultaCiudadanoWS-1.0-SNAPSHOT.war.dodeploy
+2018-09-23 16:02:40,333 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found cons-ciudadano-1.0-SNAPSHOT.war in deployment directory. To trigger deployment create a file called cons-ciudadano-1.0-SNAPSHOT.war.dodeploy
+2018-09-23 16:02:40,334 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found gaceta-ear.ear in deployment directory. To trigger deployment create a file called gaceta-ear.ear.dodeploy
+2018-09-23 16:02:40,334 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found cons-ciudadano-ws1.war in deployment directory. To trigger deployment create a file called cons-ciudadano-ws1.war.dodeploy
+2018-09-23 16:02:40,334 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found consulta.ear in deployment directory. To trigger deployment create a file called consulta.ear.dodeploy
+2018-09-23 16:02:40,402 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-09-23 16:02:40,432 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.4.0.Final
+2018-09-23 16:02:40,438 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.4.0.Final
+2018-09-23 16:02:40,476 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-09-23 16:02:40,492 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2018-09-23 16:02:40,506 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2018-09-23 16:02:40,526 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-09-23 16:02:40,531 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2018-09-23 16:02:40,551 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2018-09-23 16:02:40,568 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2018-09-23 16:02:40,574 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 4.0.21.Final
+2018-09-23 16:02:40,582 INFO  [org.jboss.as.connector] (MSC service thread 1-4) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2018-09-23 16:02:40,733 INFO  [org.jboss.as.security] (MSC service thread 1-3) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2018-09-23 16:02:40,762 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0003: Undertow 1.4.0.Final starting
+2018-09-23 16:02:40,859 INFO  [org.jboss.as.naming] (MSC service thread 1-6) WFLYNAM0003: Starting Naming Service
+2018-09-23 16:02:40,860 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-09-23 16:02:40,866 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2018-09-23 16:02:40,868 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-09-23 16:02:40,901 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2018-09-23 16:02:40,902 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = mysql
+2018-09-23 16:02:40,930 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.3)
+2018-09-23 16:02:40,934 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = postgres
+2018-09-23 16:02:40,955 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path '/home/lparedes/Documentos/wildfly-10.1.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-09-23 16:02:40,997 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0012: Started server default-server.
+2018-09-23 16:02:40,998 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0018: Host default-host starting
+2018-09-23 16:02:41,142 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2018-09-23 16:02:41,142 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2018-09-23 16:02:41,221 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class com.microsoft.sqlserver.jdbc.SQLServerDriver (version 3.0)
+2018-09-23 16:02:41,222 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = sqlserver
+2018-09-23 16:02:41,308 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTP listener default listening on 0.0.0.0:8080
+2018-09-23 16:02:41,467 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepiProcesos
+2018-09-23 16:02:41,483 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepiPatentes
+2018-09-23 16:02:41,484 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepiadmin
+2018-09-23 16:02:41,500 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepidepurar
+2018-09-23 16:02:41,500 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepi_sipigaceta2
+2018-09-23 16:02:41,500 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepiPatente
+2018-09-23 16:02:41,501 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepi_sipigaceta
+2018-09-23 16:02:41,506 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepiFormularios
+2018-09-23 16:02:41,506 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepiCasilleros
+2018-09-23 16:02:41,506 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/modificacionesDs]
+2018-09-23 16:02:41,506 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2018-09-23 16:02:41,506 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/iepi3]
+2018-09-23 16:02:41,506 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/obtencionesVegetales]
+2018-09-23 16:02:41,507 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/secretaria-tramites]
+2018-09-23 16:02:41,507 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/auth]
+2018-09-23 16:02:41,507 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:/datasources/MSSQLDS]
+2018-09-23 16:02:41,507 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/OMPI]
+2018-09-23 16:02:41,507 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/cpi]
+2018-09-23 16:02:41,517 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/jBossJaasPostgres]
+2018-09-23 16:02:41,517 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:jboss/datasources/autenticacion]
+2018-09-23 16:02:41,517 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/iepi]
+2018-09-23 16:02:41,509 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/secobSeguimientoDs]
+2018-09-23 16:02:41,751 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-8) WFLYDS0013: Started FileSystemDeploymentService for directory /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/deployments
+2018-09-23 16:02:41,757 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "cons-ciudadano-ws1.war" (runtime-name: "cons-ciudadano-ws1.war")
+2018-09-23 16:02:41,987 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-3) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2018-09-23 16:02:42,049 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 62) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-09-23 16:02:42,050 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 62) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-09-23 16:02:42,051 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-09-23 16:02:42,052 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-09-23 16:02:42,053 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 60) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-09-23 16:02:42,054 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 60) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-09-23 16:02:42,345 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTPS listener https listening on 0.0.0.0:8443
+2018-09-23 16:02:42,780 INFO  [org.jboss.ws.common.management] (MSC service thread 1-5) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2018-09-23 16:02:47,439 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry xercesImpl.jar in /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/deployments/cons-ciudadano-ws1.war/WEB-INF/lib/xalan-2.6.0.jar  does not point to a valid jar for a Class-Path reference.
+2018-09-23 16:02:47,439 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry xml-apis.jar in /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/deployments/cons-ciudadano-ws1.war/WEB-INF/lib/xalan-2.6.0.jar  does not point to a valid jar for a Class-Path reference.
+2018-09-23 16:02:47,678 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for cciudadanoPU
+2018-09-23 16:02:48,142 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 65) WFLYJPA0003: Starting Persistence Unit Service 'cons-ciudadano-ws1.war#cciudadanoPU'
+2018-09-23 16:02:48,689 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment cons-ciudadano-ws1.war
+2018-09-23 16:02:48,810 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-7) HV000001: Hibernate Validator 5.2.4.Final
+2018-09-23 16:02:49,226 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2018-09-23 16:02:49,227 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2018-09-23 16:02:49,228 WARN  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0003: Unable to instantiate driver class "org.olap4j.driver.xmla.XmlaOlap4jDriver": java.lang.NoSuchMethodException: org.olap4j.driver.xmla.XmlaOlap4jDriver.<init>()
+2018-09-23 16:02:49,300 INFO  [org.jboss.weld.Version] (MSC service thread 1-1) WELD-000900: 2.3.5 (Final)
+2018-09-23 16:02:49,357 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = cons-ciudadano-ws1.war_com.mysql.jdbc.Driver_5_1
+2018-09-23 16:02:49,358 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = cons-ciudadano-ws1.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2018-09-23 16:02:50,919 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 73) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/cons-ciudadano-ws1'
+2018-09-23 16:02:52,889 INFO  [com.xpert.PostConstructApplicationEventListener] (ServerService Thread Pool -- 73) Running on Xpert-framework 1.8.3-SNAPSHOT
+2018-09-23 16:02:52,892 INFO  [com.xpert.Configuration] (ServerService Thread Pool -- 73) xpert-config.xml not found in WEB-INF
+2018-09-23 16:02:52,893 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 73) Running on PrimeFaces 6.2
+2018-09-23 16:02:52,919 INFO  [stdout] (ServerService Thread Pool -- 73) [EL Info]: 2018-09-23 16:02:52.913--ServerSession(1985954431)--EclipseLink, version: Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd
+2018-09-23 16:02:53,225 INFO  [stdout] (ServerService Thread Pool -- 73) [EL Warning]: metadata: 2018-09-23 16:02:53.225--ServerSession(1985954431)--Reverting the lazy setting on the OneToOne or ManyToOne attribute [provinces] for the entity class [class ec.gob.iepi.ccws.model.Cities] since weaving was not enabled or did not occur.
+2018-09-23 16:02:53,260 INFO  [stdout] (ServerService Thread Pool -- 73) [EL Info]: connection: 2018-09-23 16:02:53.259--ServerSession(1985954431)--vfs:/home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/deployments/cons-ciudadano-ws1.war/WEB-INF/classes/_cciudadanoPU login successful
+2018-09-23 16:02:53,515 INFO  [stdout] (ServerService Thread Pool -- 73) [EL Warning]: 2018-09-23 16:02:53.514--ServerSession(1985954431)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+2018-09-23 16:02:53,515 INFO  [stdout] (ServerService Thread Pool -- 73) Internal Exception: java.sql.SQLException: Can't create table 'iepi_patentes.#sql-682f_10' (errno: 121)
+2018-09-23 16:02:53,515 INFO  [stdout] (ServerService Thread Pool -- 73) Error Code: 1005
+2018-09-23 16:02:53,515 INFO  [stdout] (ServerService Thread Pool -- 73) Call: ALTER TABLE cities ADD CONSTRAINT FK_cities_province_id FOREIGN KEY (province_id) REFERENCES provinces (id)
+2018-09-23 16:02:53,516 INFO  [stdout] (ServerService Thread Pool -- 73) Query: DataModifyQuery(sql="ALTER TABLE cities ADD CONSTRAINT FK_cities_province_id FOREIGN KEY (province_id) REFERENCES provinces (id)")
+2018-09-23 16:02:53,525 INFO  [stdout] (ServerService Thread Pool -- 73) [EL Warning]: 2018-09-23 16:02:53.525--ServerSession(1985954431)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+2018-09-23 16:02:53,525 INFO  [stdout] (ServerService Thread Pool -- 73) Internal Exception: java.sql.SQLException: Can't create table 'iepi_patentes.#sql-682f_10' (errno: 121)
+2018-09-23 16:02:53,526 INFO  [stdout] (ServerService Thread Pool -- 73) Error Code: 1005
+2018-09-23 16:02:53,526 INFO  [stdout] (ServerService Thread Pool -- 73) Call: ALTER TABLE persona_solicitud ADD CONSTRAINT FK_persona_solicitud_PERSONA_IDUSER FOREIGN KEY (PERSONA_IDUSER) REFERENCES persona (IDUSER)
+2018-09-23 16:02:53,526 INFO  [stdout] (ServerService Thread Pool -- 73) Query: DataModifyQuery(sql="ALTER TABLE persona_solicitud ADD CONSTRAINT FK_persona_solicitud_PERSONA_IDUSER FOREIGN KEY (PERSONA_IDUSER) REFERENCES persona (IDUSER)")
+2018-09-23 16:02:53,536 INFO  [stdout] (ServerService Thread Pool -- 73) [EL Warning]: 2018-09-23 16:02:53.536--ServerSession(1985954431)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+2018-09-23 16:02:53,536 INFO  [stdout] (ServerService Thread Pool -- 73) Internal Exception: java.sql.SQLException: Can't create table 'iepi_patentes.#sql-682f_10' (errno: 121)
+2018-09-23 16:02:53,536 INFO  [stdout] (ServerService Thread Pool -- 73) Error Code: 1005
+2018-09-23 16:02:53,536 INFO  [stdout] (ServerService Thread Pool -- 73) Call: ALTER TABLE solicitud ADD CONSTRAINT FK_solicitud_PERSONA_IDUSER FOREIGN KEY (PERSONA_IDUSER) REFERENCES persona (IDUSER)
+2018-09-23 16:02:53,537 INFO  [stdout] (ServerService Thread Pool -- 73) Query: DataModifyQuery(sql="ALTER TABLE solicitud ADD CONSTRAINT FK_solicitud_PERSONA_IDUSER FOREIGN KEY (PERSONA_IDUSER) REFERENCES persona (IDUSER)")
+2018-09-23 16:02:53,545 INFO  [stdout] (ServerService Thread Pool -- 73) [EL Warning]: 2018-09-23 16:02:53.545--ServerSession(1985954431)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+2018-09-23 16:02:53,546 INFO  [stdout] (ServerService Thread Pool -- 73) Internal Exception: java.sql.SQLException: Can't create table 'iepi_patentes.#sql-682f_10' (errno: 121)
+2018-09-23 16:02:53,546 INFO  [stdout] (ServerService Thread Pool -- 73) Error Code: 1005
+2018-09-23 16:02:53,546 INFO  [stdout] (ServerService Thread Pool -- 73) Call: ALTER TABLE segmentomercado ADD CONSTRAINT FK_segmentomercado_SOLICITUD_IDSOLICITUD FOREIGN KEY (SOLICITUD_IDSOLICITUD) REFERENCES solicitud (IDSOLICITUD)
+2018-09-23 16:02:53,546 INFO  [stdout] (ServerService Thread Pool -- 73) Query: DataModifyQuery(sql="ALTER TABLE segmentomercado ADD CONSTRAINT FK_segmentomercado_SOLICITUD_IDSOLICITUD FOREIGN KEY (SOLICITUD_IDSOLICITUD) REFERENCES solicitud (IDSOLICITUD)")
+2018-09-23 16:02:53,604 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 73) WFLYUT0021: Registered web context: /cons-ciudadano-ws1
+2018-09-23 16:02:53,671 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "cons-ciudadano-ws1.war" (runtime-name : "cons-ciudadano-ws1.war")
+2018-09-23 16:02:53,883 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-09-23 16:02:53,884 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-09-23 16:02:53,885 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 16706ms - Started 905 of 1153 services (425 services are lazy, passive or on-demand)
+2018-09-23 16:02:54,520 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = cons-ciudadano-ws1.war_com.mysql.jdbc.Driver_5_1
+2018-09-23 16:02:54,520 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = cons-ciudadano-ws1.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2018-09-23 16:02:54,529 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 73) WFLYUT0022: Unregistered web context: /cons-ciudadano-ws1
+2018-09-23 16:02:54,626 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 10) WFLYJPA0004: Stopping Persistence Unit Service 'cons-ciudadano-ws1.war#cciudadanoPU'
+2018-09-23 16:02:54,703 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment cons-ciudadano-ws1.war (runtime-name: cons-ciudadano-ws1.war) in 188ms
+2018-09-23 16:02:54,841 WARN  [org.jboss.as.controller] (management-handler-thread - 1) WFLYCTL0357: Notification of type deployment-undeployed is not described for the resource at the address []
+2018-09-23 16:02:54,842 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "cons-ciudadano-ws1.war" (runtime-name: "cons-ciudadano-ws1.war")
+2018-09-23 16:02:58,699 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found cons-ciudadano-ws1.war in deployment directory. To trigger deployment create a file called cons-ciudadano-ws1.war.dodeploy
+2018-09-23 16:02:58,712 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "cons-ciudadano-ws1.war" (runtime-name: "cons-ciudadano-ws1.war")
+2018-09-23 16:03:00,889 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry xercesImpl.jar in /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/deployments/cons-ciudadano-ws1.war/WEB-INF/lib/xalan-2.6.0.jar  does not point to a valid jar for a Class-Path reference.
+2018-09-23 16:03:00,889 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry xml-apis.jar in /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/deployments/cons-ciudadano-ws1.war/WEB-INF/lib/xalan-2.6.0.jar  does not point to a valid jar for a Class-Path reference.
+2018-09-23 16:03:00,928 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) WFLYJPA0002: Read persistence.xml for cciudadanoPU
+2018-09-23 16:03:01,131 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 36) WFLYJPA0003: Starting Persistence Unit Service 'cons-ciudadano-ws1.war#cciudadanoPU'
+2018-09-23 16:03:01,448 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment cons-ciudadano-ws1.war
+2018-09-23 16:03:01,612 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2018-09-23 16:03:01,613 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2018-09-23 16:03:01,614 WARN  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0003: Unable to instantiate driver class "org.olap4j.driver.xmla.XmlaOlap4jDriver": java.lang.NoSuchMethodException: org.olap4j.driver.xmla.XmlaOlap4jDriver.<init>()
+2018-09-23 16:03:01,619 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = cons-ciudadano-ws1.war_com.mysql.jdbc.Driver_5_1
+2018-09-23 16:03:01,636 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = cons-ciudadano-ws1.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2018-09-23 16:03:02,098 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 36) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/cons-ciudadano-ws1'
+2018-09-23 16:03:03,601 INFO  [com.xpert.PostConstructApplicationEventListener] (ServerService Thread Pool -- 36) Running on Xpert-framework 1.8.3-SNAPSHOT
+2018-09-23 16:03:03,604 INFO  [com.xpert.Configuration] (ServerService Thread Pool -- 36) xpert-config.xml not found in WEB-INF
+2018-09-23 16:03:03,605 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 36) Running on PrimeFaces 6.2
+2018-09-23 16:03:03,628 INFO  [stdout] (ServerService Thread Pool -- 36) [EL Info]: 2018-09-23 16:03:03.624--ServerSession(718921655)--EclipseLink, version: Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd
+2018-09-23 16:03:03,647 INFO  [stdout] (ServerService Thread Pool -- 36) [EL Warning]: metadata: 2018-09-23 16:03:03.647--ServerSession(718921655)--Reverting the lazy setting on the OneToOne or ManyToOne attribute [provinces] for the entity class [class ec.gob.iepi.ccws.model.Cities] since weaving was not enabled or did not occur.
+2018-09-23 16:03:03,674 INFO  [stdout] (ServerService Thread Pool -- 36) [EL Info]: connection: 2018-09-23 16:03:03.674--ServerSession(718921655)--vfs:/home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/deployments/cons-ciudadano-ws1.war/WEB-INF/classes/_cciudadanoPU login successful
+2018-09-23 16:03:03,761 INFO  [stdout] (ServerService Thread Pool -- 36) [EL Warning]: 2018-09-23 16:03:03.76--ServerSession(718921655)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+2018-09-23 16:03:03,762 INFO  [stdout] (ServerService Thread Pool -- 36) Internal Exception: java.sql.SQLException: Can't create table 'iepi_patentes.#sql-682f_10' (errno: 121)
+2018-09-23 16:03:03,764 INFO  [stdout] (ServerService Thread Pool -- 36) Error Code: 1005
+2018-09-23 16:03:03,764 INFO  [stdout] (ServerService Thread Pool -- 36) Call: ALTER TABLE cities ADD CONSTRAINT FK_cities_province_id FOREIGN KEY (province_id) REFERENCES provinces (id)
+2018-09-23 16:03:03,764 INFO  [stdout] (ServerService Thread Pool -- 36) Query: DataModifyQuery(sql="ALTER TABLE cities ADD CONSTRAINT FK_cities_province_id FOREIGN KEY (province_id) REFERENCES provinces (id)")
+2018-09-23 16:03:03,806 INFO  [stdout] (ServerService Thread Pool -- 36) [EL Warning]: 2018-09-23 16:03:03.805--ServerSession(718921655)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+2018-09-23 16:03:03,806 INFO  [stdout] (ServerService Thread Pool -- 36) Internal Exception: java.sql.SQLException: Can't create table 'iepi_patentes.#sql-682f_10' (errno: 121)
+2018-09-23 16:03:03,806 INFO  [stdout] (ServerService Thread Pool -- 36) Error Code: 1005
+2018-09-23 16:03:03,806 INFO  [stdout] (ServerService Thread Pool -- 36) Call: ALTER TABLE persona_solicitud ADD CONSTRAINT FK_persona_solicitud_PERSONA_IDUSER FOREIGN KEY (PERSONA_IDUSER) REFERENCES persona (IDUSER)
+2018-09-23 16:03:03,806 INFO  [stdout] (ServerService Thread Pool -- 36) Query: DataModifyQuery(sql="ALTER TABLE persona_solicitud ADD CONSTRAINT FK_persona_solicitud_PERSONA_IDUSER FOREIGN KEY (PERSONA_IDUSER) REFERENCES persona (IDUSER)")
+2018-09-23 16:03:03,817 INFO  [stdout] (ServerService Thread Pool -- 36) [EL Warning]: 2018-09-23 16:03:03.817--ServerSession(718921655)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+2018-09-23 16:03:03,817 INFO  [stdout] (ServerService Thread Pool -- 36) Internal Exception: java.sql.SQLException: Can't create table 'iepi_patentes.#sql-682f_10' (errno: 121)
+2018-09-23 16:03:03,817 INFO  [stdout] (ServerService Thread Pool -- 36) Error Code: 1005
+2018-09-23 16:03:03,817 INFO  [stdout] (ServerService Thread Pool -- 36) Call: ALTER TABLE solicitud ADD CONSTRAINT FK_solicitud_PERSONA_IDUSER FOREIGN KEY (PERSONA_IDUSER) REFERENCES persona (IDUSER)
+2018-09-23 16:03:03,817 INFO  [stdout] (ServerService Thread Pool -- 36) Query: DataModifyQuery(sql="ALTER TABLE solicitud ADD CONSTRAINT FK_solicitud_PERSONA_IDUSER FOREIGN KEY (PERSONA_IDUSER) REFERENCES persona (IDUSER)")
+2018-09-23 16:03:03,826 INFO  [stdout] (ServerService Thread Pool -- 36) [EL Warning]: 2018-09-23 16:03:03.826--ServerSession(718921655)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+2018-09-23 16:03:03,826 INFO  [stdout] (ServerService Thread Pool -- 36) Internal Exception: java.sql.SQLException: Can't create table 'iepi_patentes.#sql-682f_10' (errno: 121)
+2018-09-23 16:03:03,826 INFO  [stdout] (ServerService Thread Pool -- 36) Error Code: 1005
+2018-09-23 16:03:03,826 INFO  [stdout] (ServerService Thread Pool -- 36) Call: ALTER TABLE segmentomercado ADD CONSTRAINT FK_segmentomercado_SOLICITUD_IDSOLICITUD FOREIGN KEY (SOLICITUD_IDSOLICITUD) REFERENCES solicitud (IDSOLICITUD)
+2018-09-23 16:03:03,826 INFO  [stdout] (ServerService Thread Pool -- 36) Query: DataModifyQuery(sql="ALTER TABLE segmentomercado ADD CONSTRAINT FK_segmentomercado_SOLICITUD_IDSOLICITUD FOREIGN KEY (SOLICITUD_IDSOLICITUD) REFERENCES solicitud (IDSOLICITUD)")
+2018-09-23 16:03:03,870 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 36) WFLYUT0021: Registered web context: /cons-ciudadano-ws1
+2018-09-23 16:03:03,907 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "cons-ciudadano-ws1.war" (runtime-name : "cons-ciudadano-ws1.war")
+2018-09-23 16:03:12,449 INFO  [stdout] (default task-1) ->http://localhost:8080/cons-ciudadano-ws1/ - desprotegido=[false]
+2018-09-23 16:03:12,512 INFO  [stdout] (default task-2) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:03:13,164 SEVERE [org.primefaces.config.WebXmlParser] (default task-2) Could not load or parse web.xml: java.lang.ClassCastException: org.apache.xml.dtm.ref.DTMManagerDefault cannot be cast to org.apache.xml.dtm.DTMManager
+	at org.apache.xml.dtm.DTMManager.newInstance(DTMManager.java:137)
+	at org.apache.xpath.XPathContext.<init>(XPathContext.java:102)
+	at org.apache.xpath.jaxp.XPathExpressionImpl.eval(XPathExpressionImpl.java:115)
+	at org.apache.xpath.jaxp.XPathExpressionImpl.eval(XPathExpressionImpl.java:99)
+	at org.apache.xpath.jaxp.XPathExpressionImpl.evaluate(XPathExpressionImpl.java:184)
+	at org.primefaces.config.WebXmlParser.parseErrorPages(WebXmlParser.java:184)
+	at org.primefaces.config.WebXmlParser.getWebXmlErrorPages(WebXmlParser.java:67)
+	at org.primefaces.config.WebXmlParser.getErrorPages(WebXmlParser.java:46)
+	at org.primefaces.config.PrimeConfiguration.initConfigFromWebXml(PrimeConfiguration.java:227)
+	at org.primefaces.config.PrimeConfiguration.<init>(PrimeConfiguration.java:86)
+	at org.primefaces.context.DefaultApplicationContext.<init>(DefaultApplicationContext.java:41)
+	at org.primefaces.context.DefaultRequestContext.getApplicationContext(DefaultRequestContext.java:270)
+	at org.primefaces.context.PrimeFacesContext.<init>(PrimeFacesContext.java:42)
+	at org.primefaces.context.PrimeFacesContextFactory.getFacesContext(PrimeFacesContextFactory.java:49)
+	at com.sun.faces.context.InjectionFacesContextFactory.getFacesContext(InjectionFacesContextFactory.java:123)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:648)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at org.primefaces.webapp.filter.FileUploadFilter.doFilter(FileUploadFilter.java:81)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at ec.gob.iepi.ccws.filters.LoginFilter.doFilter(LoginFilter.java:55)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:805)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2018-09-23 16:03:13,166 SEVERE [org.primefaces.config.WebXmlParser] (default task-2) Could not load or parse web-fragment.xml: java.lang.ClassCastException: org.apache.xml.dtm.ref.DTMManagerDefault cannot be cast to org.apache.xml.dtm.DTMManager
+	at org.apache.xml.dtm.DTMManager.newInstance(DTMManager.java:137)
+	at org.apache.xpath.XPathContext.<init>(XPathContext.java:102)
+	at org.apache.xpath.jaxp.XPathExpressionImpl.eval(XPathExpressionImpl.java:115)
+	at org.apache.xpath.jaxp.XPathExpressionImpl.eval(XPathExpressionImpl.java:99)
+	at org.apache.xpath.jaxp.XPathExpressionImpl.evaluate(XPathExpressionImpl.java:184)
+	at org.primefaces.config.WebXmlParser.parseErrorPages(WebXmlParser.java:184)
+	at org.primefaces.config.WebXmlParser.getWebFragmentXmlsErrorPages(WebXmlParser.java:89)
+	at org.primefaces.config.WebXmlParser.getErrorPages(WebXmlParser.java:47)
+	at org.primefaces.config.PrimeConfiguration.initConfigFromWebXml(PrimeConfiguration.java:227)
+	at org.primefaces.config.PrimeConfiguration.<init>(PrimeConfiguration.java:86)
+	at org.primefaces.context.DefaultApplicationContext.<init>(DefaultApplicationContext.java:41)
+	at org.primefaces.context.DefaultRequestContext.getApplicationContext(DefaultRequestContext.java:270)
+	at org.primefaces.context.PrimeFacesContext.<init>(PrimeFacesContext.java:42)
+	at org.primefaces.context.PrimeFacesContextFactory.getFacesContext(PrimeFacesContextFactory.java:49)
+	at com.sun.faces.context.InjectionFacesContextFactory.getFacesContext(InjectionFacesContextFactory.java:123)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:648)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at org.primefaces.webapp.filter.FileUploadFilter.doFilter(FileUploadFilter.java:81)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at ec.gob.iepi.ccws.filters.LoginFilter.doFilter(LoginFilter.java:55)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:805)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2018-09-23 16:03:14,642 INFO  [stdout] (default task-3) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/theme.css.xhtml - desprotegido=[true]
+2018-09-23 16:03:14,645 INFO  [stdout] (default task-6) ->http://localhost:8080/cons-ciudadano-ws1/faces/javax.faces.resource/theme.css - desprotegido=[true]
+2018-09-23 16:03:14,646 INFO  [stdout] (default task-4) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/components.css.xhtml - desprotegido=[true]
+2018-09-23 16:03:14,652 INFO  [stdout] (default task-7) ->http://localhost:8080/cons-ciudadano-ws1/materialize/style.min.css - desprotegido=[false]
+2018-09-23 16:03:14,653 INFO  [stdout] (default task-8) ->http://localhost:8080/cons-ciudadano-ws1/materialize/materialize.min.css - desprotegido=[false]
+2018-09-23 16:03:14,656 INFO  [stdout] (default task-5) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/watermark/watermark.css.xhtml - desprotegido=[true]
+2018-09-23 16:03:14,658 INFO  [stdout] (default task-9) ->http://localhost:8080/cons-ciudadano-ws1/materialize/custom.min.css - desprotegido=[false]
+2018-09-23 16:03:14,660 INFO  [stdout] (default task-10) ->http://localhost:8080/cons-ciudadano-ws1/materialize/perfect-scrollbar.css - desprotegido=[false]
+2018-09-23 16:03:14,675 INFO  [stdout] (default task-11) ->http://localhost:8080/cons-ciudadano-ws1/materialize/jquery-1.11.2.min.js - desprotegido=[false]
+2018-09-23 16:03:14,675 INFO  [stdout] (default task-12) ->http://localhost:8080/cons-ciudadano-ws1/materialize/page-center.css - desprotegido=[false]
+2018-09-23 16:03:14,692 INFO  [stdout] (default task-14) ->http://localhost:8080/cons-ciudadano-ws1/materialize//materialize.min.js - desprotegido=[false]
+2018-09-23 16:03:14,693 INFO  [stdout] (default task-13) ->http://localhost:8080/cons-ciudadano-ws1/materialize/materialize/prism.css - desprotegido=[false]
+2018-09-23 16:03:14,699 INFO  [stdout] (default task-15) ->http://localhost:8080/cons-ciudadano-ws1/materialize//prism.js - desprotegido=[false]
+2018-09-23 16:03:14,711 INFO  [stdout] (default task-20) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:03:14,712 INFO  [stdout] (default task-19) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:03:14,712 INFO  [stdout] (default task-18) ->http://localhost:8080/cons-ciudadano-ws1/materialize/custom-script.js - desprotegido=[false]
+2018-09-23 16:03:14,715 INFO  [stdout] (default task-17) ->http://localhost:8080/cons-ciudadano-ws1/materialize//plugins.min.js - desprotegido=[false]
+2018-09-23 16:03:14,722 INFO  [stdout] (default task-16) ->http://localhost:8080/cons-ciudadano-ws1/materialize//perfect-scrollbar.min.js - desprotegido=[false]
+2018-09-23 16:03:14,746 INFO  [stdout] (default task-21) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:03:14,747 INFO  [stdout] (default task-23) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:03:14,755 INFO  [stdout] (default task-22) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:03:14,791 INFO  [stdout] (default task-25) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:03:14,801 INFO  [stdout] (default task-24) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:03:14,810 INFO  [stdout] (default task-26) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:03:14,832 INFO  [stdout] (default task-27) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:03:14,855 INFO  [stdout] (default task-28) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:03:14,856 INFO  [stdout] (default task-30) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:03:14,862 INFO  [stdout] (default task-29) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:03:14,895 INFO  [stdout] (default task-31) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/jquery/jquery.js.xhtml - desprotegido=[true]
+2018-09-23 16:03:14,929 INFO  [stdout] (default task-32) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/jquery/jquery-plugins.js.xhtml - desprotegido=[true]
+2018-09-23 16:03:15,018 INFO  [stdout] (default task-33) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/watermark/watermark.js.xhtml - desprotegido=[true]
+2018-09-23 16:03:15,157 INFO  [stdout] (default task-34) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/iepi.png.xhtml - desprotegido=[true]
+2018-09-23 16:03:15,440 INFO  [stdout] (default task-36) ->http://localhost:8080/cons-ciudadano-ws1/materialize/style.min.css - desprotegido=[false]
+2018-09-23 16:03:15,442 INFO  [stdout] (default task-35) ->http://localhost:8080/cons-ciudadano-ws1/materialize/materialize.min.css - desprotegido=[false]
+2018-09-23 16:03:15,446 INFO  [stdout] (default task-38) ->http://localhost:8080/cons-ciudadano-ws1/materialize/page-center.css - desprotegido=[false]
+2018-09-23 16:03:15,448 INFO  [stdout] (default task-40) ->http://localhost:8080/cons-ciudadano-ws1/materialize/perfect-scrollbar.css - desprotegido=[false]
+2018-09-23 16:03:15,449 INFO  [stdout] (default task-37) ->http://localhost:8080/cons-ciudadano-ws1/materialize/custom.min.css - desprotegido=[false]
+2018-09-23 16:03:15,451 INFO  [stdout] (default task-39) ->http://localhost:8080/cons-ciudadano-ws1/materialize/materialize/prism.css - desprotegido=[false]
+2018-09-23 16:03:15,452 INFO  [stdout] (default task-42) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:03:15,452 INFO  [stdout] (default task-41) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:03:15,498 INFO  [stdout] (default task-43) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:03:15,504 INFO  [stdout] (default task-46) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:03:15,507 INFO  [stdout] (default task-45) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:03:15,510 INFO  [stdout] (default task-44) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:03:15,606 INFO  [stdout] (default task-47) ->http://localhost:8080/cons-ciudadano-ws1/faces/javax.faces.resource/images/ui-bg_highlight-hard_100_f2f5f7_1x100.png - desprotegido=[true]
+2018-09-23 16:03:15,614 INFO  [stdout] (default task-48) ->http://localhost:8080/cons-ciudadano-ws1/faces/javax.faces.resource/images/ui-bg_glass_80_d7ebf9_1x400.png - desprotegido=[true]
+2018-09-23 16:03:15,810 INFO  [stdout] (default task-49) ->http://localhost:8080/cons-ciudadano-ws1/images/favicon.png - desprotegido=[false]
+2018-09-23 16:03:15,813 INFO  [stdout] (default task-50) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:03:15,828 INFO  [stdout] (default task-51) ->http://localhost:8080/cons-ciudadano-ws1/images/favicon.png - desprotegido=[false]
+2018-09-23 16:03:22,515 INFO  [stdout] (default task-52) ->http://localhost:8080/cons-ciudadano-ws1/faces/javax.faces.resource/images/ui-bg_glass_100_e4f1fb_1x400.png - desprotegido=[true]
+2018-09-23 16:03:28,878 INFO  [stdout] (default task-53) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:03:29,211 INFO  [stdout] (default task-55) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/messages/messages.png.xhtml - desprotegido=[true]
+2018-09-23 16:03:29,213 INFO  [stdout] (default task-54) ->http://localhost:8080/cons-ciudadano-ws1/faces/javax.faces.resource/images/ui-bg_highlight-soft_25_ffef8f_1x100.png - desprotegido=[true]
+2018-09-23 16:03:29,711 INFO  [stdout] (default task-56) ->http://localhost:8080/cons-ciudadano-ws1/solicitudes.xhtml - desprotegido=[false]
+2018-09-23 16:03:29,959 INFO  [stdout] (default task-58) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/jquery/jquery.js.xhtml - desprotegido=[true]
+2018-09-23 16:03:29,959 INFO  [stdout] (default task-57) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/jquery/jquery-plugins.js.xhtml - desprotegido=[true]
+2018-09-23 16:03:29,964 INFO  [stdout] (default task-59) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/style.css.xhtml - desprotegido=[true]
+2018-09-23 16:03:30,028 INFO  [stdout] (default task-60) ->http://localhost:8080/cons-ciudadano-ws1/faces/javax.faces.resource/images/ui-bg_highlight-soft_100_deedf7_1x100.png - desprotegido=[true]
+2018-09-23 16:03:30,046 INFO  [stdout] (default task-61) ->http://localhost:8080/cons-ciudadano-ws1/faces/javax.faces.resource/images/ui-bg_glass_50_3baae3_1x400.png - desprotegido=[true]
+2018-09-23 16:03:30,047 INFO  [stdout] (default task-62) ->http://localhost:8080/cons-ciudadano-ws1/faces/javax.faces.resource/images/ui-icons_3d80b3_256x240.png - desprotegido=[true]
+2018-09-23 16:03:30,051 WARNING [javax.enterprise.resource.webcontainer.jsf.application] (default task-62) JSF1064: no se encuentra o sirve el recurso, images/ui-icons_3d80b3_256x240.png, desde la biblioteca, primefaces-cupertino.
+2018-09-23 16:03:30,051 WARNING [javax.enterprise.resource.webcontainer.jsf.application] (default task-62) : java.io.IOException: Tubería rota
+	at sun.nio.ch.FileDispatcherImpl.writev0(Native Method)
+	at sun.nio.ch.SocketDispatcher.writev(SocketDispatcher.java:51)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:148)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:504)
+	at org.xnio.nio.NioSocketConduit.write(NioSocketConduit.java:162)
+	at io.undertow.server.protocol.http.HttpResponseConduit.write(HttpResponseConduit.java:639)
+	at io.undertow.conduits.ChunkedStreamSinkConduit.doWrite(ChunkedStreamSinkConduit.java:163)
+	at io.undertow.conduits.ChunkedStreamSinkConduit.write(ChunkedStreamSinkConduit.java:127)
+	at org.xnio.conduits.ConduitStreamSinkChannel.write(ConduitStreamSinkChannel.java:150)
+	at io.undertow.channels.DetachableStreamSinkChannel.write(DetachableStreamSinkChannel.java:240)
+	at io.undertow.server.HttpServerExchange$WriteDispatchChannel.write(HttpServerExchange.java:2028)
+	at io.undertow.servlet.spec.ServletOutputStreamImpl.writeBufferBlocking(ServletOutputStreamImpl.java:563)
+	at io.undertow.servlet.spec.ServletOutputStreamImpl.write(ServletOutputStreamImpl.java:216)
+	at java.nio.channels.Channels$WritableByteChannelImpl.write(Channels.java:458)
+	at com.sun.faces.application.resource.ResourceHandlerImpl.handleResourceRequest(ResourceHandlerImpl.java:358)
+	at javax.faces.application.ResourceHandlerWrapper.handleResourceRequest(ResourceHandlerWrapper.java:153)
+	at org.primefaces.application.resource.PrimeResourceHandler.handleResourceRequest(PrimeResourceHandler.java:87)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:655)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at org.primefaces.webapp.filter.FileUploadFilter.doFilter(FileUploadFilter.java:81)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at ec.gob.iepi.ccws.filters.LoginFilter.doFilter(LoginFilter.java:55)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:805)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2018-09-23 16:03:52,690 INFO  [stdout] (default task-64) ->http://localhost:8080/cons-ciudadano-ws1/solicitudes.xhtml - desprotegido=[false]
+2018-09-23 16:03:52,934 INFO  [stdout] (default task-1) ->http://localhost:8080/cons-ciudadano-ws1/reportes - desprotegido=[false]
+2018-09-23 16:17:47,328 INFO  [stdout] (default task-2) ->http://localhost:8080/cons-ciudadano-ws1/solicitudes.xhtml - desprotegido=[false]
+2018-09-23 16:17:47,420 INFO  [stdout] (default task-5) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/theme.css.xhtml - desprotegido=[true]
+2018-09-23 16:17:47,424 INFO  [stdout] (default task-9) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/style.css.xhtml - desprotegido=[true]
+2018-09-23 16:17:47,435 INFO  [stdout] (default task-10) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/core.js.xhtml - desprotegido=[true]
+2018-09-23 16:17:47,438 INFO  [stdout] (default task-9) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/components.js.xhtml - desprotegido=[true]
+2018-09-23 16:17:47,438 INFO  [stdout] (default task-10) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/jquery/jquery-plugins.js.xhtml - desprotegido=[true]
+2018-09-23 16:17:47,439 INFO  [stdout] (default task-7) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/components.css.xhtml - desprotegido=[true]
+2018-09-23 16:17:47,443 INFO  [stdout] (default task-14) ->http://localhost:8080/cons-ciudadano-ws1/faces/javax.faces.resource/theme.css - desprotegido=[true]
+2018-09-23 16:17:47,447 INFO  [stdout] (default task-8) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/jquery/jquery.js.xhtml - desprotegido=[true]
+2018-09-23 16:17:47,591 INFO  [stdout] (default task-13) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/iepi.png.xhtml - desprotegido=[true]
+2018-09-23 16:17:47,596 INFO  [stdout] (default task-15) ->http://localhost:8080/cons-ciudadano-ws1/faces/javax.faces.resource/images/ui-bg_highlight-hard_100_f2f5f7_1x100.png - desprotegido=[true]
+2018-09-23 16:17:47,600 INFO  [stdout] (default task-3) ->http://localhost:8080/cons-ciudadano-ws1/faces/javax.faces.resource/images/ui-bg_highlight-soft_100_deedf7_1x100.png - desprotegido=[true]
+2018-09-23 16:17:47,628 INFO  [stdout] (default task-6) ->http://localhost:8080/cons-ciudadano-ws1/faces/javax.faces.resource/images/ui-icons_3d80b3_256x240.png - desprotegido=[true]
+2018-09-23 16:17:47,632 INFO  [stdout] (default task-18) ->http://localhost:8080/cons-ciudadano-ws1/faces/javax.faces.resource/images/ui-bg_glass_50_3baae3_1x400.png - desprotegido=[true]
+2018-09-23 16:17:47,635 INFO  [stdout] (default task-16) ->http://localhost:8080/cons-ciudadano-ws1/faces/javax.faces.resource/images/ui-bg_glass_80_d7ebf9_1x400.png - desprotegido=[true]
+2018-09-23 16:17:50,329 INFO  [stdout] (default task-17) ->http://localhost:8080/cons-ciudadano-ws1/solicitudes.xhtml - desprotegido=[false]
+2018-09-23 16:17:50,436 INFO  [stdout] (default task-19) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/jquery/jquery.js.xhtml - desprotegido=[true]
+2018-09-23 16:17:50,438 INFO  [stdout] (default task-23) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/jquery/jquery-plugins.js.xhtml - desprotegido=[true]
+2018-09-23 16:17:50,438 INFO  [stdout] (default task-22) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/theme.css.xhtml - desprotegido=[true]
+2018-09-23 16:17:50,439 INFO  [stdout] (default task-25) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/style.css.xhtml - desprotegido=[true]
+2018-09-23 16:17:50,440 INFO  [stdout] (default task-22) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/core.js.xhtml - desprotegido=[true]
+2018-09-23 16:17:50,442 INFO  [stdout] (default task-25) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/components.js.xhtml - desprotegido=[true]
+2018-09-23 16:17:50,442 INFO  [stdout] (default task-22) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/components.css.xhtml - desprotegido=[true]
+2018-09-23 16:17:50,443 INFO  [stdout] (default task-24) ->http://localhost:8080/cons-ciudadano-ws1/faces/javax.faces.resource/theme.css - desprotegido=[true]
+2018-09-23 16:17:50,540 INFO  [stdout] (default task-4) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/iepi.png.xhtml - desprotegido=[true]
+2018-09-23 16:17:50,541 INFO  [stdout] (default task-29) ->http://localhost:8080/cons-ciudadano-ws1/faces/javax.faces.resource/images/ui-bg_highlight-hard_100_f2f5f7_1x100.png - desprotegido=[true]
+2018-09-23 16:17:50,547 INFO  [stdout] (default task-28) ->http://localhost:8080/cons-ciudadano-ws1/faces/javax.faces.resource/images/ui-bg_highlight-soft_100_deedf7_1x100.png - desprotegido=[true]
+2018-09-23 16:17:50,557 INFO  [stdout] (default task-30) ->http://localhost:8080/cons-ciudadano-ws1/faces/javax.faces.resource/images/ui-icons_3d80b3_256x240.png - desprotegido=[true]
+2018-09-23 16:17:50,557 INFO  [stdout] (default task-27) ->http://localhost:8080/cons-ciudadano-ws1/faces/javax.faces.resource/images/ui-bg_glass_50_3baae3_1x400.png - desprotegido=[true]
+2018-09-23 16:17:50,562 INFO  [stdout] (default task-31) ->http://localhost:8080/cons-ciudadano-ws1/faces/javax.faces.resource/images/ui-bg_glass_80_d7ebf9_1x400.png - desprotegido=[true]
+2018-09-23 16:17:53,512 INFO  [stdout] (default task-32) ->http://localhost:8080/cons-ciudadano-ws1/solicitudes.xhtml - desprotegido=[false]
+2018-09-23 16:17:54,044 INFO  [stdout] (default task-33) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:17:54,083 INFO  [stdout] (default task-34) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/components.css.xhtml;jsessionid=qep4pye-yifwtwilalzbtxrxnrxp7uwqxuj3hlne.iepi - desprotegido=[true]
+2018-09-23 16:17:54,095 INFO  [stdout] (default task-35) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/jquery/jquery-plugins.js.xhtml;jsessionid=qep4pye-yifwtwilalzbtxrxnrxp7uwqxuj3hlne.iepi - desprotegido=[true]
+2018-09-23 16:17:54,096 INFO  [stdout] (default task-38) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/watermark/watermark.css.xhtml;jsessionid=qep4pye-yifwtwilalzbtxrxnrxp7uwqxuj3hlne.iepi - desprotegido=[true]
+2018-09-23 16:17:54,099 INFO  [stdout] (default task-40) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/core.js.xhtml;jsessionid=qep4pye-yifwtwilalzbtxrxnrxp7uwqxuj3hlne.iepi - desprotegido=[true]
+2018-09-23 16:17:54,100 INFO  [stdout] (default task-37) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/components.js.xhtml;jsessionid=qep4pye-yifwtwilalzbtxrxnrxp7uwqxuj3hlne.iepi - desprotegido=[true]
+2018-09-23 16:17:54,101 INFO  [stdout] (default task-36) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/jquery/jquery.js.xhtml;jsessionid=qep4pye-yifwtwilalzbtxrxnrxp7uwqxuj3hlne.iepi - desprotegido=[true]
+2018-09-23 16:17:54,106 INFO  [stdout] (default task-39) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/watermark/watermark.js.xhtml;jsessionid=qep4pye-yifwtwilalzbtxrxnrxp7uwqxuj3hlne.iepi - desprotegido=[true]
+2018-09-23 16:17:54,108 INFO  [stdout] (default task-37) ->http://localhost:8080/cons-ciudadano-ws1/materialize/materialize.min.css - desprotegido=[false]
+2018-09-23 16:17:54,110 INFO  [stdout] (default task-35) ->http://localhost:8080/cons-ciudadano-ws1/materialize/materialize/prism.css - desprotegido=[false]
+2018-09-23 16:17:54,111 INFO  [stdout] (default task-35) ->http://localhost:8080/cons-ciudadano-ws1/materialize/page-center.css - desprotegido=[false]
+2018-09-23 16:17:54,111 INFO  [stdout] (default task-35) ->http://localhost:8080/cons-ciudadano-ws1/materialize/custom.min.css - desprotegido=[false]
+2018-09-23 16:17:54,112 INFO  [stdout] (default task-41) ->http://localhost:8080/cons-ciudadano-ws1/materialize//prism.js - desprotegido=[false]
+2018-09-23 16:17:54,113 INFO  [stdout] (default task-47) ->http://localhost:8080/cons-ciudadano-ws1/materialize//materialize.min.js - desprotegido=[false]
+2018-09-23 16:17:54,114 INFO  [stdout] (default task-47) ->http://localhost:8080/cons-ciudadano-ws1/materialize/style.min.css - desprotegido=[false]
+2018-09-23 16:17:54,116 INFO  [stdout] (default task-49) ->http://localhost:8080/cons-ciudadano-ws1/materialize//plugins.min.js - desprotegido=[false]
+2018-09-23 16:17:54,116 INFO  [stdout] (default task-49) ->http://localhost:8080/cons-ciudadano-ws1/materialize//perfect-scrollbar.min.js - desprotegido=[false]
+2018-09-23 16:17:54,116 INFO  [stdout] (default task-49) ->http://localhost:8080/cons-ciudadano-ws1/materialize/custom-script.js - desprotegido=[false]
+2018-09-23 16:17:54,121 INFO  [stdout] (default task-52) ->http://localhost:8080/cons-ciudadano-ws1/materialize/perfect-scrollbar.css - desprotegido=[false]
+2018-09-23 16:17:54,122 INFO  [stdout] (default task-35) ->http://localhost:8080/cons-ciudadano-ws1/materialize/jquery-1.11.2.min.js - desprotegido=[false]
+2018-09-23 16:17:54,146 INFO  [stdout] (default task-53) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:17:54,147 INFO  [stdout] (default task-55) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:17:54,149 INFO  [stdout] (default task-54) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:17:54,156 INFO  [stdout] (default task-56) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:17:54,157 INFO  [stdout] (default task-58) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:17:54,202 INFO  [stdout] (default task-57) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:17:54,218 INFO  [stdout] (default task-59) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:17:54,218 INFO  [stdout] (default task-62) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:17:54,219 INFO  [stdout] (default task-60) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:17:54,222 INFO  [stdout] (default task-63) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:17:54,224 INFO  [stdout] (default task-64) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:17:54,227 INFO  [stdout] (default task-61) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:17:54,427 INFO  [stdout] (default task-1) ->http://localhost:8080/cons-ciudadano-ws1/materialize/materialize.min.css - desprotegido=[false]
+2018-09-23 16:17:54,428 INFO  [stdout] (default task-2) ->http://localhost:8080/cons-ciudadano-ws1/materialize/style.min.css - desprotegido=[false]
+2018-09-23 16:17:54,428 INFO  [stdout] (default task-12) ->http://localhost:8080/cons-ciudadano-ws1/materialize/materialize/prism.css - desprotegido=[false]
+2018-09-23 16:17:54,428 INFO  [stdout] (default task-11) ->http://localhost:8080/cons-ciudadano-ws1/materialize/page-center.css - desprotegido=[false]
+2018-09-23 16:17:54,430 INFO  [stdout] (default task-8) ->http://localhost:8080/cons-ciudadano-ws1/materialize/custom.min.css - desprotegido=[false]
+2018-09-23 16:17:54,444 INFO  [stdout] (default task-9) ->http://localhost:8080/cons-ciudadano-ws1/materialize/perfect-scrollbar.css - desprotegido=[false]
+2018-09-23 16:17:54,446 INFO  [stdout] (default task-10) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:17:54,447 INFO  [stdout] (default task-14) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:17:54,449 INFO  [stdout] (default task-5) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:17:54,449 INFO  [stdout] (default task-7) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:17:54,454 INFO  [stdout] (default task-13) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:17:54,475 INFO  [stdout] (default task-15) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:18:01,802 INFO  [stdout] (default task-3) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml;jsessionid=qep4pye-yifwtwilalzbtxrxnrxp7uwqxuj3hlne.iepi - desprotegido=[true]
+2018-09-23 16:18:01,851 INFO  [stdout] (default task-6) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/messages/messages.png.xhtml - desprotegido=[true]
+2018-09-23 16:18:02,353 INFO  [stdout] (default task-18) ->http://localhost:8080/cons-ciudadano-ws1/solicitudes.xhtml - desprotegido=[false]
+2018-09-23 16:18:02,424 INFO  [stdout] (default task-16) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/jquery/jquery.js.xhtml - desprotegido=[true]
+2018-09-23 16:18:02,424 INFO  [stdout] (default task-17) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/jquery/jquery-plugins.js.xhtml - desprotegido=[true]
+2018-09-23 16:18:09,298 INFO  [stdout] (default task-19) ->http://localhost:8080/cons-ciudadano-ws1/solicitudes.xhtml - desprotegido=[false]
+2018-09-23 16:18:09,502 INFO  [stdout] (default task-23) ->http://localhost:8080/cons-ciudadano-ws1/reportes - desprotegido=[false]
+2018-09-23 16:19:52,032 INFO  [stdout] (default task-21) ->http://localhost:8080/cons-ciudadano-ws1/solicitudes.xhtml - desprotegido=[false]
+2018-09-23 16:19:52,221 INFO  [stdout] (default task-25) ->http://localhost:8080/cons-ciudadano-ws1/reportes - desprotegido=[false]
+2018-09-23 16:20:06,222 INFO  [stdout] (default task-22) ->http://localhost:8080/cons-ciudadano-ws1/solicitudes.xhtml - desprotegido=[false]
+2018-09-23 16:20:06,422 INFO  [stdout] (default task-20) ->http://localhost:8080/cons-ciudadano-ws1/reportes - desprotegido=[false]
+2018-09-23 16:20:17,661 INFO  [stdout] (default task-26) ->http://localhost:8080/cons-ciudadano-ws1/solicitudes.xhtml - desprotegido=[false]
+2018-09-23 16:20:17,953 INFO  [stdout] (default task-24) ->http://localhost:8080/cons-ciudadano-ws1/reportes - desprotegido=[false]
+2018-09-23 16:20:30,296 INFO  [stdout] (default task-4) ->http://localhost:8080/cons-ciudadano-ws1/solicitudes.xhtml - desprotegido=[false]
+2018-09-23 16:20:30,570 INFO  [stdout] (default task-29) ->http://localhost:8080/cons-ciudadano-ws1/reportes - desprotegido=[false]
+2018-09-23 16:20:52,279 INFO  [stdout] (default task-28) ->http://localhost:8080/cons-ciudadano-ws1/solicitudes.xhtml - desprotegido=[false]
+2018-09-23 16:20:52,805 INFO  [stdout] (default task-27) ->http://localhost:8080/cons-ciudadano-ws1/formulario.xhtml - desprotegido=[false]
+2018-09-23 16:20:53,122 INFO  [stdout] (default task-30) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/jquery/jquery.js.xhtml - desprotegido=[true]
+2018-09-23 16:20:53,122 INFO  [stdout] (default task-31) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/jquery/jquery-plugins.js.xhtml - desprotegido=[true]
+2018-09-23 16:20:53,132 INFO  [stdout] (default task-32) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/fileupload/fileupload.css.xhtml - desprotegido=[true]
+2018-09-23 16:20:53,160 INFO  [stdout] (default task-33) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/fileupload/fileupload.js.xhtml - desprotegido=[true]
+2018-09-23 16:20:53,258 INFO  [stdout] (default task-38) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/images/ui-bg_highlight-hard_100_f2f5f7_1x100.png.xhtml - desprotegido=[true]
+2018-09-23 16:20:53,259 INFO  [stdout] (default task-36) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/images/ui-bg_highlight-soft_100_deedf7_1x100.png.xhtml - desprotegido=[true]
+2018-09-23 16:20:53,259 INFO  [stdout] (default task-39) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/images/ui-bg_glass_80_d7ebf9_1x400.png.xhtml - desprotegido=[true]
+2018-09-23 16:20:53,259 INFO  [stdout] (default task-37) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/images/ui-icons_3d80b3_256x240.png.xhtml - desprotegido=[true]
+2018-09-23 16:21:00,462 INFO  [stdout] (default task-40) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/images/ui-icons_2694e8_256x240.png.xhtml - desprotegido=[true]
+2018-09-23 16:21:00,462 INFO  [stdout] (default task-42) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/images/ui-bg_glass_100_e4f1fb_1x400.png.xhtml - desprotegido=[true]
+2018-09-23 16:21:05,635 INFO  [stdout] (default task-46) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/images/ui-icons_ffffff_256x240.png.xhtml - desprotegido=[true]
+2018-09-23 16:21:05,636 INFO  [stdout] (default task-46) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/images/ui-bg_glass_50_3baae3_1x400.png.xhtml - desprotegido=[true]
+2018-09-23 16:21:12,375 INFO  [stdout] (default task-41) ->http://localhost:8080/cons-ciudadano-ws1/formulario.xhtml - desprotegido=[false]
+2018-09-23 16:21:12,917 INFO  [stdout] (default task-45) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:21:12,948 INFO  [stdout] (default task-49) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/jquery/jquery.js.xhtml;jsessionid=2gkmfetbzcczgfjwrvc6-utfg50kgneykh3ztadj.iepi - desprotegido=[true]
+2018-09-23 16:21:12,949 INFO  [stdout] (default task-50) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/components.js.xhtml;jsessionid=2gkmfetbzcczgfjwrvc6-utfg50kgneykh3ztadj.iepi - desprotegido=[true]
+2018-09-23 16:21:12,951 INFO  [stdout] (default task-44) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/components.css.xhtml;jsessionid=2gkmfetbzcczgfjwrvc6-utfg50kgneykh3ztadj.iepi - desprotegido=[true]
+2018-09-23 16:21:12,953 INFO  [stdout] (default task-50) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/watermark/watermark.css.xhtml;jsessionid=2gkmfetbzcczgfjwrvc6-utfg50kgneykh3ztadj.iepi - desprotegido=[true]
+2018-09-23 16:21:12,954 INFO  [stdout] (default task-48) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/jquery/jquery-plugins.js.xhtml;jsessionid=2gkmfetbzcczgfjwrvc6-utfg50kgneykh3ztadj.iepi - desprotegido=[true]
+2018-09-23 16:21:12,954 INFO  [stdout] (default task-47) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/core.js.xhtml;jsessionid=2gkmfetbzcczgfjwrvc6-utfg50kgneykh3ztadj.iepi - desprotegido=[true]
+2018-09-23 16:21:12,959 INFO  [stdout] (default task-35) ->http://localhost:8080/cons-ciudadano-ws1/materialize/custom.min.css - desprotegido=[false]
+2018-09-23 16:21:12,960 INFO  [stdout] (default task-52) ->http://localhost:8080/cons-ciudadano-ws1/materialize/materialize.min.css - desprotegido=[false]
+2018-09-23 16:21:12,960 INFO  [stdout] (default task-35) ->http://localhost:8080/cons-ciudadano-ws1/javax.faces.resource/watermark/watermark.js.xhtml;jsessionid=2gkmfetbzcczgfjwrvc6-utfg50kgneykh3ztadj.iepi - desprotegido=[true]
+2018-09-23 16:21:12,962 INFO  [stdout] (default task-35) ->http://localhost:8080/cons-ciudadano-ws1/materialize/page-center.css - desprotegido=[false]
+2018-09-23 16:21:12,962 INFO  [stdout] (default task-35) ->http://localhost:8080/cons-ciudadano-ws1/materialize/style.min.css - desprotegido=[false]
+2018-09-23 16:21:12,968 INFO  [stdout] (default task-53) ->http://localhost:8080/cons-ciudadano-ws1/materialize/materialize/prism.css - desprotegido=[false]
+2018-09-23 16:21:12,969 INFO  [stdout] (default task-53) ->http://localhost:8080/cons-ciudadano-ws1/materialize/perfect-scrollbar.css - desprotegido=[false]
+2018-09-23 16:21:12,969 INFO  [stdout] (default task-53) ->http://localhost:8080/cons-ciudadano-ws1/materialize//materialize.min.js - desprotegido=[false]
+2018-09-23 16:21:12,970 INFO  [stdout] (default task-53) ->http://localhost:8080/cons-ciudadano-ws1/materialize/jquery-1.11.2.min.js - desprotegido=[false]
+2018-09-23 16:21:12,971 INFO  [stdout] (default task-61) ->http://localhost:8080/cons-ciudadano-ws1/materialize//perfect-scrollbar.min.js - desprotegido=[false]
+2018-09-23 16:21:12,974 INFO  [stdout] (default task-53) ->http://localhost:8080/cons-ciudadano-ws1/materialize/custom-script.js - desprotegido=[false]
+2018-09-23 16:21:12,975 INFO  [stdout] (default task-60) ->http://localhost:8080/cons-ciudadano-ws1/materialize//prism.js - desprotegido=[false]
+2018-09-23 16:21:12,975 INFO  [stdout] (default task-60) ->http://localhost:8080/cons-ciudadano-ws1/materialize//plugins.min.js - desprotegido=[false]
+2018-09-23 16:21:12,982 INFO  [stdout] (default task-59) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:21:12,993 INFO  [stdout] (default task-64) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:21:12,993 INFO  [stdout] (default task-1) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:21:13,011 INFO  [stdout] (default task-12) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:21:13,015 INFO  [stdout] (default task-2) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:21:13,019 INFO  [stdout] (default task-11) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:21:13,019 INFO  [stdout] (default task-9) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:21:13,021 INFO  [stdout] (default task-8) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:21:13,026 INFO  [stdout] (default task-14) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:21:13,028 INFO  [stdout] (default task-10) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:21:13,031 INFO  [stdout] (default task-13) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:21:13,040 INFO  [stdout] (default task-5) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:21:13,196 INFO  [stdout] (default task-7) ->http://localhost:8080/cons-ciudadano-ws1/materialize/materialize.min.css - desprotegido=[false]
+2018-09-23 16:21:13,196 INFO  [stdout] (default task-15) ->http://localhost:8080/cons-ciudadano-ws1/materialize/style.min.css - desprotegido=[false]
+2018-09-23 16:21:13,197 INFO  [stdout] (default task-3) ->http://localhost:8080/cons-ciudadano-ws1/materialize/custom.min.css - desprotegido=[false]
+2018-09-23 16:21:13,198 INFO  [stdout] (default task-6) ->http://localhost:8080/cons-ciudadano-ws1/materialize/page-center.css - desprotegido=[false]
+2018-09-23 16:21:13,198 INFO  [stdout] (default task-6) ->http://localhost:8080/cons-ciudadano-ws1/materialize/materialize/prism.css - desprotegido=[false]
+2018-09-23 16:21:13,198 INFO  [stdout] (default task-17) ->http://localhost:8080/cons-ciudadano-ws1/materialize/perfect-scrollbar.css - desprotegido=[false]
+2018-09-23 16:21:13,210 INFO  [stdout] (default task-16) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:21:13,212 INFO  [stdout] (default task-19) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:21:13,215 INFO  [stdout] (default task-21) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:21:13,220 INFO  [stdout] (default task-23) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:21:13,224 INFO  [stdout] (default task-25) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:21:13,227 INFO  [stdout] (default task-22) ->http://localhost:8080/cons-ciudadano-ws1/login.xhtml - desprotegido=[true]
+2018-09-23 16:21:38,003 INFO  [org.jboss.as.server] (management-handler-thread - 17) WFLYSRV0236: Suspending server with no timeout.
+2018-09-23 16:21:38,005 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2018-09-23 16:21:38,018 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 81) WFLYUT0022: Unregistered web context: /cons-ciudadano-ws1
+2018-09-23 16:21:38,018 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = cons-ciudadano-ws1.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2018-09-23 16:21:38,017 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = cons-ciudadano-ws1.war_com.mysql.jdbc.Driver_5_1
+2018-09-23 16:21:38,051 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:jboss/datasources/secobSeguimientoDs]
+2018-09-23 16:21:38,079 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/autenticacion]
+2018-09-23 16:21:38,079 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepiPatentes
+2018-09-23 16:21:38,095 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepidepurar
+2018-09-23 16:21:38,096 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/datasources/modificacionesDs]
+2018-09-23 16:21:38,096 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/datasources/jBossJaasPostgres]
+2018-09-23 16:21:38,108 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:/datasources/MSSQLDS]
+2018-09-23 16:21:38,108 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepiFormularios
+2018-09-23 16:21:38,109 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:jboss/datasources/auth]
+2018-09-23 16:21:38,109 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:jboss/datasources/iepi3]
+2018-09-23 16:21:38,109 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepiCasilleros
+2018-09-23 16:21:38,109 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:jboss/datasources/obtencionesVegetales]
+2018-09-23 16:21:38,109 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepi_sipigaceta2
+2018-09-23 16:21:38,109 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:jboss/datasources/cpi]
+2018-09-23 16:21:38,109 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepiProcesos
+2018-09-23 16:21:38,109 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:jboss/datasources/iepi]
+2018-09-23 16:21:38,109 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepi_sipigaceta
+2018-09-23 16:21:38,109 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:jboss/datasources/OMPI]
+2018-09-23 16:21:38,109 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepiadmin
+2018-09-23 16:21:38,110 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:jboss/datasources/secretaria-tramites]
+2018-09-23 16:21:38,164 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = sqlserver
+2018-09-23 16:21:38,177 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = postgres
+2018-09-23 16:21:38,219 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0019: Host default-host stopping
+2018-09-23 16:21:38,311 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2018-09-23 16:21:38,312 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2018-09-23 16:21:38,327 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 94) WFLYJPA0004: Stopping Persistence Unit Service 'cons-ciudadano-ws1.war#cciudadanoPU'
+2018-09-23 16:21:38,328 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepiPatente
+2018-09-23 16:21:38,331 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = mysql
+2018-09-23 16:21:38,344 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0008: Undertow HTTP listener default suspending
+2018-09-23 16:21:38,345 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 0.0.0.0:8080
+2018-09-23 16:21:38,351 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0008: Undertow HTTPS listener https suspending
+2018-09-23 16:21:38,351 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 0.0.0.0:8443
+2018-09-23 16:21:38,352 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0004: Undertow 1.4.0.Final stopping
+2018-09-23 16:21:38,378 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment cons-ciudadano-ws1.war (runtime-name: cons-ciudadano-ws1.war) in 329ms
+2018-09-23 16:21:38,386 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 293ms

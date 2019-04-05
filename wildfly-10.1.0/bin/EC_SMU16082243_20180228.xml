@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SMU16082243_20180228.xml' country='EC' doc-number='SMU16082243' kind='U' date-published='20180228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SMU16082243' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SMU16082243</doc-number><kind>U</kind><date>20180228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>F01K23/00plantascaracterizadaspormásdeunmotorsuministrandoenergíaalexterioralaplanta,losmotorespuedenserimpulsadosporfluidosdiferentes.
+
+F01K25/00plantasomotorescaracterizadosporelusodefluidosdetrabajoespecializados,noprevistospor:Plantasoperandoencicloscerrados.
+
+F01K27/00Plantasparaconvertircaloroenergíadefluidosenenergíamecánica.</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201682243</doc-number><date>20161118</date></document-id></application-reference>
+<priority-claims>
+</priority-claims>
+<parties><applicants>
+</applicants>
+<inventors>
+</inventors><agents>
+</agents></parties>
+<invention-title lang='es'>EXPANSOR PARA GENERACIÓN ELÉCTRICA ALIMENTADO POR UN FLUIDO ORGÁNICO A PARTIR DE UN COMPRESOR DE TORNILLO</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Consiste en una serie de adaptaciones mecánicas internas y externas que permiten la operación de un compresor de tornillo, como turbina expansora para un ciclo Rankine orgánico, usando un fluido tipo cetona fluorada para generación eléctrica; tomando en consideración las condiciones de operación del sistema de recuperación de calor: presión máxima de 15 bar y una temperatura de 220 °C. Las modificaciones internas corresponden al reemplazo y mejora de todos los elementos mecánicos, que permitan operar el dispositivo en las condiciones establecidas. Para las modificaciones externas, se consideró un diseño que permita unir el sistema de admisión y escape del fluido orgánico a tuberias de 2 a 3 pulgadas.</abstract>
+</ec-patent-document>

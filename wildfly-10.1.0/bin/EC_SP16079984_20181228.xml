@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP16079984_20181228.xml' country='EC' doc-number='SP16079984' kind='A' date-published='20181228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP16079984' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP16079984</doc-number><kind>A</kind><date>20181228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>A23L3/3526_A01N3/00_C07K14/425_C07K14/435_C07K14/78</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201679984</doc-number><date>20161007</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>61/949,995</doc-number><date>20140307</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>TUFTS UNIVERSITY</name><address><street>Ballou Hall, Medford, Massachusetts, 02155, USA</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>Fiorenzo OMENETTO</name><address><street>503 Concord Avenue Lexington, Massachusetts 02421  United States of America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>Benedetto MARELLI</name><address><street>117 Hillsdale Rd #1 Somerville, Massachusetts 02144,  United States of America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>Mark BRENCKLE</name><address><street>2353 Mass Ave.,  Apt. 42 Cambridge,  Massachusetts 02140,  United States of America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>David KAPLAN</name><address><street>46 Pond Street Concord,  Massachusetts 01742,  United States of America</street><country>US</country></address></addressbook></inventor>
+</inventors><agents>
+</agents></parties>
+<invention-title lang='es'>CONSERVACIÓN DE PRODUCTOS PERECEDEROS A BASE DE BIOPOLÍMEROS</invention-title>
+</bibliographic-data>
+<abstract lang='es'>En la presente se describen recubrimientos a base de biopolímeros y productos que incorporan dichos recubrimientos. También se proporcionan métodos y uso relacionados. 
+
+</abstract>
+</ec-patent-document>

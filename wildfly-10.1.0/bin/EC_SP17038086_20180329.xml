@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17038086_20180329.xml' country='EC' doc-number='SP17038086' kind='A' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17038086' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17038086</doc-number><kind>A</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C12N15/82</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201738086</doc-number><date>20170616</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>62/082,504</doc-number><date>20141120</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>MONSANTO TECHNOLOGY LLC </name><address><street>800 N. Lindbergh Boulevard, Mail Zone E1NA, St. Louis, Missouri 63167, Estados Unidos de America</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>HOWE Arlene R.</name><address><street>800 N. Lindbergh Boulevard, Mail Zone E1NA, St. Louis, Missouri 63167, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>CHAY Catherine A.</name><address><street>800 N. Lindbergh Boulevard, Mail Zone E1NA, St. Louis, Missouri 63167, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>YIN Yong</name><address><street>800 N. Lindbergh Boulevard, Mail Zone E1NA, St. Louis, Missouri 63167, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>FARMEDICAL S.R.L.</name><address><street>Av. Hernando Siles, No. 6007 esq. Calle 14 de Obrajes, La Paz-Bolivia</street><country>BO</country></address></addressbook></inventor>
+<inventor sequence='5' designation='all'><addressbook><name>FOSHAN HAI TIAN FLAVORING   FOOD COMPANY LIMITED</name><address><street>No.16, WEN SHA ROAD, FOSHAN CITY, GUANGDONG PROVINCE, CHINA</street><country>CN</country></address></addressbook></inventor>
+<inventor sequence='6' designation='all'><addressbook><name>ALIMENTSA S.A.</name><address><street>Km. 6,5 vía Durán Tambo, Guayas, Ecuador.</street><country>EC</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>DR. SANTIAGO GUARDERAS IZQUIERDO</name><address><street>Ave. 12 de Octubre N26-97 y Lincoln</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>NUEVAS PROTEÍNAS INHIBIDORAS DE INSECTOS.</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Las proteínas insecticidas que presentan actividad tóxica contra las plagas de coleópteros y lepidóptero se describen e incluyen, pero no se limitan a las proteínas TIC3668, TIC3669, TIC3670, TIC4076, TIC4078, TIC4260, TIC4346, TIC4826, TIC4861, TIC4862, TIC4863 y de tipo TIC-3668.  Se proporcionan moléculas de ADN y construcciones que contienen una secuencia de polinucleótidos que codifican una o más de las proteínas del tipo TIC3668 descritas.  Se proporcionan plantas transgénicas, células de plantas, semillas y partes de plantas resistentes a una infestación de lepidópteros y coleópteros, las cuales contienen secuencias de polinucleótidos que codifican proteínas insecticidas de la presente invención.  Se proporcionan, además, métodos para detectar la presencia de los polinucleótidos o las proteínas de la presente invención en una muestra biológica y métodos de control de plagas de coleópteros y lepidóptero utilizando cualquiera de las proteínas insecticidas del tipo TIC3668.</abstract>
+</ec-patent-document>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17082683_20180228.xml' country='EC' doc-number='SP17082683' kind='A' date-published='20180228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17082683' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17082683</doc-number><kind>A</kind><date>20180228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C07D401/06,C07D403/06,A61K31/435,A61K31/4439,A61K31/4196,A61K31/41</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201782683</doc-number><date>20171215</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>62/163,106</doc-number><date>20150518</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>VIAMET PHARMACEUTICALS, INC.</name><address><street>4505 Emperor Blvd., Suite 300, Durham, North Carolina 27703, Estados Unidos de America</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>YATES, Christopher, M.</name><address><street>6201 Therfield Drive, Raleigh, NC 27614, US</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>HOEKSTRA, William, J.</name><address><street>7 Treviso Place, Durham, NC 27707, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>SCHOTZINGER, Robert, J.</name><address><street>7000 Potomac Court, Raleigh, NC 27613, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>SULLENBERGER, Michael, T.</name><address><street>910 Hadleigh Pass, Westfield, IN 46074, US</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='5' designation='all'><addressbook><name>LOSO, Michael, R.</name><address><street>11439  Sutton Place Carmel, IN 46032, US</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='6' designation='all'><addressbook><name>GUSTAFSON, Gary, D.</name><address><street>4572 Ivywood Ct., Zionsville, IN 46077, US</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='7' designation='all'><addressbook><name>STEWARD, Kimberly</name><address><street>5462 Yellow Birch Way, Indianapolis, IN 46254, US</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='8' designation='all'><addressbook><name>WANG, Xuelin</name><address><street>1593 Esprit Drive, Carmel, IN 46074, US</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='9' designation='all'><addressbook><name>DELGADO, Javier</name><address><street>2409 Carrollton Avenue, Indianapolis, IN 46205, US</street><country>US</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>ALFREDO PACÍFICO GALLEGOS BANDERAS</name><address><street>Av. 12 de Octubre y Lincoln</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>COMPUESTOS ANTIFÚNGICOS</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Compuestos de la fórmula (I):
+en donde R1 es como se define en la presente, o una sal, un solvato, un profármaco o un hidrato aceptable del mismo.  Los compuestos de la Fórmula I son inhibidores de metaloenzimas, tal como la lanosterol desmetilasa (CYP51).
+</abstract>
+</ec-patent-document>

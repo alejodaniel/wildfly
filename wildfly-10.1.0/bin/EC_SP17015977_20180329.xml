@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17015977_20180329.xml' country='EC' doc-number='SP17015977' kind='A' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17015977' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17015977</doc-number><kind>A</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>A61K31/543_C07D513/04_C07K16/18_A61K39/395</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201715977</doc-number><date>20170315</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>62/050,967</doc-number><date>20140916</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>ELI LILLY AND COMPANY</name><address><street>Lilly Corporate Center, Indianapolis, Indiana 46285, Estados Unidos de America</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>MERGOTT, Dustin James</name><address><street>c/o Eli Lilly and Company, P.O. Box 6288, Indianapolis, Indiana 46206-6288, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>MAY, Patrick Cornelious</name><address><street>c/o Eli Lilly and Company, P.O.Box 6288, Indianapolis, Indiana 46206-6288, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>DR. JUAN M. QUEVEDO</name><address><street>Av. 12 de Octubre N26-97 y Lincoln, Quito, Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>TERAPIA DE COMBINACION</invention-title>
+</bibliographic-data>
+<abstract lang='es'>SE ADJUNTA RESUMEN</abstract>
+</ec-patent-document>

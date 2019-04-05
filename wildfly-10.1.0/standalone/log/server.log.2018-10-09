@@ -1,0 +1,45 @@
+2018-10-09 09:39:03,639 INFO  [org.jboss.as.server] (management-handler-thread - 5) WFLYSRV0236: Suspending server with no timeout.
+2018-10-09 09:39:03,739 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2018-10-09 09:39:03,757 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/datasources/secobSeguimientoDs]
+2018-10-09 09:39:03,757 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 73) WFLYUT0022: Unregistered web context: /formulccws-web-ws1
+2018-10-09 09:39:03,757 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 74) WFLYUT0022: Unregistered web context: /cons-ciudadano-ws1
+2018-10-09 09:39:03,761 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = formulccws-web-ws1.war_com.mysql.jdbc.Driver_5_1
+2018-10-09 09:39:03,762 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = formulccws-web-ws1.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2018-10-09 09:39:03,794 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepidepurar
+2018-10-09 09:39:03,795 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0019: Stopped Driver service with driver-name = cons-ciudadano-ws1.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2018-10-09 09:39:03,797 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0010: Unbound data source [java:jboss/datasources/autenticacion]
+2018-10-09 09:39:03,807 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = cons-ciudadano-ws1.war_com.mysql.jdbc.Driver_5_1
+2018-10-09 09:39:03,819 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:jboss/datasources/modificacionesDs]
+2018-10-09 09:39:03,819 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:jboss/datasources/jBossJaasPostgres]
+2018-10-09 09:39:03,826 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:/datasources/MSSQLDS]
+2018-10-09 09:39:03,826 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepiFormularios
+2018-10-09 09:39:03,826 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/auth]
+2018-10-09 09:39:03,827 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/iepi3]
+2018-10-09 09:39:03,827 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepiCasilleros
+2018-10-09 09:39:03,827 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/obtencionesVegetales]
+2018-10-09 09:39:03,827 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepi_sipigaceta2
+2018-10-09 09:39:03,829 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:jboss/datasources/cpi]
+2018-10-09 09:39:03,829 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepiProcesos
+2018-10-09 09:39:03,830 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:jboss/datasources/iepi]
+2018-10-09 09:39:03,830 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepi_sipigaceta
+2018-10-09 09:39:03,830 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:jboss/datasources/OMPI]
+2018-10-09 09:39:03,830 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepiadmin
+2018-10-09 09:39:03,831 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:jboss/datasources/secretaria-tramites]
+2018-10-09 09:39:03,862 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = sqlserver
+2018-10-09 09:39:03,871 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = postgres
+2018-10-09 09:39:03,917 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 76) WFLYJPA0004: Stopping Persistence Unit Service 'formulccws-web-ws1.war#cciudadanoPU'
+2018-10-09 09:39:03,917 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepiPatentes
+2018-10-09 09:39:03,948 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0019: Host default-host stopping
+2018-10-09 09:39:03,971 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2018-10-09 09:39:03,978 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2018-10-09 09:39:03,982 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 74) WFLYJPA0004: Stopping Persistence Unit Service 'cons-ciudadano-ws1.war#cciudadanoPU'
+2018-10-09 09:39:03,982 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepiPatente
+2018-10-09 09:39:03,983 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = mysql
+2018-10-09 09:39:03,984 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0008: Undertow HTTPS listener https suspending
+2018-10-09 09:39:03,984 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 0.0.0.0:8443
+2018-10-09 09:39:04,003 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0008: Undertow HTTP listener default suspending
+2018-10-09 09:39:04,004 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 0.0.0.0:8080
+2018-10-09 09:39:04,045 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0004: Undertow 1.4.0.Final stopping
+2018-10-09 09:39:04,435 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment cons-ciudadano-ws1.war (runtime-name: cons-ciudadano-ws1.war) in 674ms
+2018-10-09 09:39:04,439 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment formulccws-web-ws1.war (runtime-name: formulccws-web-ws1.war) in 678ms
+2018-10-09 09:39:04,456 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 640ms

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17040052_20180329.xml' country='EC' doc-number='SP17040052' kind='A' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17040052' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17040052</doc-number><kind>A</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>A01N63/00</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201740052</doc-number><date>20170623</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>62/084,303</doc-number><date>20141125</date><country>US</country></priority-claim>
+<priority-claim sequence='2' kind='National'><doc-number>62/171,643</doc-number><date>20150605</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>COLORADO STATE UNIVERSITY RESEARCH FOUNDATION</name><address><street>P.O. Box 483, Fort Collins, Colorado 80522 (US).</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>WALLENSTEIN, Matthew D.</name><address><street>307 East Plum Street, Fort Collins, Colorado 80524 (US).</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>BELL, Colin W.</name><address><street>1308 Morgan Street,  Fort Collins, Colorado 80524 (US).   </street><country>US</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>Romoleroux Armijos, María Cecilia </name><address><street>Robles E4-136 y Av. Amazonas, Edif. Proinco Calisto, piso 11, Quito - Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>CONSORCIOS BACTERIANOS SINERGÍSTICOS PARA MOVILIZAR FÓSFORO DEL SUELO</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La presente descripción se relaciona a consorcios de cepas de bacterias y composición que comprende una o más cepas bacterianas descritas en la presente. Estos consorcios de cultivos de bacterias aisladas y composiciones que comprenden los cultivos, que tienen mayor actividad que sería observada para los cultivos de bacterias individuales y composiciones. Una composición de la descripción se puede utilizar ventajosamente para aumentar la disponibilidad de fósforo del suelo y otros macronutrientes y/o micronutrientes a plantas, y de esta manera aumentar su crecimiento y rendimiento.</abstract>
+</ec-patent-document>

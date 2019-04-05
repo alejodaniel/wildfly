@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17008264_20180329.xml' country='EC' doc-number='SP17008264' kind='A' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17008264' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17008264</doc-number><kind>A</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>A01N25_A01C</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI20178264</doc-number><date>20170209</date></document-id></application-reference>
+<priority-claims>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>UNIVERSIDAD CATÓLICA DE SANTIAGO DE GUAYAQUIL</name><address><street>AV. CARLOS JULIO AROSEMENA KM. 1 ½</street><country>EC</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>Ángel Bernardo LLerena Hidalgo</name><address><street>AV. CARLOS JULIO AROSEMENA KM. 1 ½</street><country>EC</country></address></addressbook></inventor>
+</inventors><agents>
+</agents></parties>
+<invention-title lang='es'>COMPOSICIONES ACUOSAS DE OZONO PARA ERRADICACIÓN DE SIGATOKA NEGRA</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La presente invención protege a composiciones de ozono para erradicar la Sigatoka Negra en plantaciones de banano, y otras enfermedades, utilizando composiciones acuosas de ozono.</abstract>
+</ec-patent-document>

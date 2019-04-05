@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17085659_20180329.xml' country='EC' doc-number='SP17085659' kind='A' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17085659' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17085659</doc-number><kind>A</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>A61K9/00_A61K9/20_A61K31/565</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201785659</doc-number><date>20171229</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>15172767.4</doc-number><date>20150618</date><country>EF</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>MITHRA PHARMACEUTICALS S.A.</name><address><street>Rue Saint-Georges 5/7 BE-4000 Liege (BE) Belgica</street><country>BE</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>VAN DEN HEUVEL, Denny Johan Marijn</name><address><street>Ganzeneiland 11 6642 DJ Beuningen (NL) Paises Bajos</street><country>NL</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>PLATTEEUW, Johannes Jan</name><address><street>Newtonplein 41 5283 JH Boxtel (NL) Paises Bajos</street><country>NL</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>JASPART, Séverine Francine Isabelle</name><address><street>Rue des condruzes, 19 BE-4560 Bois-et-Borsu (BE) Belgica</street><country>BE</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>BUSTAMANTE   BUSTAMANTE PATENTES Y MARCAS CIA. LTDA.</name><address><street>AV. AMAZONAS Y PATRIA, EDIF. COFIEC, PISO 4, QUITO - ECUADOR</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>UNIDAD DE DOSIFICACIÓN ORODISPERSABLE QUE CONTIENE UN COMPONENTE ESTETROL</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La invención proporciona una unidad de dosificación sólida orodispersable farmacéutica que tiene un peso comprendido entre 30 y 1.000 mg, consistiendo dicha unidad de dosificación en: 
+	0,1-25 % en peso de partículas de estetrol que contienen al menos 80 % en peso de un componente estetrol seleccionado entre estetrol, ésteres de estetrol y combinaciones de los mismos; y
+	75-99,9 % en peso de uno o más ingredientes farmacéuticamente aceptables; 
+comprendiendo la unidad de dosificación sólida que al menos 100 µg del componente estetrol; y en la que la unidad de dosificación sólida se puede obtener a través de un procedimiento que comprende granulación en húmedo de partículas de estetrol que tienen un promedio de tamaño de partícula por volumen pesado de 2 µm a 50 µm.
+	La unidad de dosificación sólida es fácil de fabricar y perfectamente adecuada para su administración sublingual, bucal o sublabial. </abstract>
+</ec-patent-document>

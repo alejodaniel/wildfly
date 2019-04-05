@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17082546_20180228.xml' country='EC' doc-number='SP17082546' kind='A' date-published='20180228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17082546' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17082546</doc-number><kind>A</kind><date>20180228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>A61K31/519,A61P35/00,37/00,C07D495/04</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201782546</doc-number><date>20171214</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>1555747</doc-number><date>20150623</date><country>FR</country></priority-claim>
+<priority-claim sequence='2' kind='National'><doc-number>PCT/EP2016/064436</doc-number><date>20160622</date><country>EF</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>VERNALIS (R D) LTD.</name><address><street>100 Berkshire Place Wharfedale Road Winnersh Berkshire RG41 5RD REINO UNIDO</street><country>GB</country></address></addressbook></applicant>
+<applicant sequence='2' designation='all' app-type='applicant'><addressbook><name>LES LABORATOIRES SERVIER</name><address><street>35 rue de Verdun, 92284 Suresnes Cedex - FRANCIA</street><country>FR</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>MURRAY JAMES BROOKE</name><address><street>21 Parsonage Way, Linton, Cambridgeshire, CB21 4YL, Gran Bretania</street><country>NZ</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>I-JEN CHEN</name><address><street>14 Janes Court, Cambridge, CB1 3JJ -  REINO UNIDO</street><country>GB</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>ZOLTAN SZABO</name><address><street>Vitorla utca 27. 2/8, Budapest, H-1031 - HUNGRIA</street><country>HU</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>FRANCOISE PERRON-SIERRA</name><address><street>37 bis, rue des Plantes, 75014 Paris - FRANCIA</street><country>FR</country></address></addressbook></inventor>
+<inventor sequence='5' designation='all'><addressbook><name>GABOR RADICS</name><address><street>Hunyadi Janos str. 34, 2030 Erd - HUNGRIA</street><country>HU</country></address></addressbook></inventor>
+<inventor sequence='6' designation='all'><addressbook><name>DAVIDSON JAMES EDWARD PAUL</name><address><street>2 Granta Terrace, Great Shelford, Cambridge CB22 5DJ, GRAN BRETANIA</street><country>GB</country></address></addressbook></inventor>
+<inventor sequence='7' designation='all'><addressbook><name>AGNES PROSZENYAK</name><address><street>Naszad utca 20., 1037 Budapest - HUNGRIA</street><country>HU</country></address></addressbook></inventor>
+<inventor sequence='8' designation='all'><addressbook><name>ONDI LEVENTE</name><address><street>Vadrozsa u. 32, 2112, Veresegyhaz - HUNGRIA</street><country>HU</country></address></addressbook></inventor>
+<inventor sequence='9' designation='all'><addressbook><name>SZLAVIK ZOLTAN</name><address><street>Kolto utca 2-4, D/2, 1121 Budapest - HUNGRIA</street><country>HU</country></address></addressbook></inventor>
+<inventor sequence='10' designation='all'><addressbook><name>PACZAL ATTILA</name><address><street>Orjarat u 95, H-1158 Budapest, HUNGRIA</street><country>HU</country></address></addressbook></inventor>
+<inventor sequence='11' designation='all'><addressbook><name>KOTSCHY ANDRAS</name><address><street>Almos Vezer u. 4., 2045 Torokbalint, HUNGRIA</street><country>HU</country></address></addressbook></inventor>
+<inventor sequence='12' designation='all'><addressbook><name>BALINT BALAZS</name><address><street>Lehel utca 18, 2151 Fot, HUNGRIA</street><country>HU</country></address></addressbook></inventor>
+<inventor sequence='13' designation='all'><addressbook><name>SIPOS SZABOLCS</name><address><street>Roppentyu utca 21-23, A epulet 3/10 Budapest, HUNGRIA</street><country>HU</country></address></addressbook></inventor>
+<inventor sequence='14' designation='all'><addressbook><name>ALAIN BRUNO</name><address><street>35, avenue de la Grande Armee, 75116 Paris - FRANCIA</street><country>FR</country></address></addressbook></inventor>
+<inventor sequence='15' designation='all'><addressbook><name>GENESTE OLIVIER</name><address><street>Batiment. A, 17 rue Crevel Duval, 92500 Rueil Malmaison, FRANCE</street><country>FR</country></address></addressbook></inventor>
+<inventor sequence='16' designation='all'><addressbook><name>MARTON CSEKEI</name><address><street>Madach Imre u. 22. 11. Iph. 3/8, 2120 Dunakeszi - HUNGRIA</street><country>HU</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>JULIO C. GUERRERO B. S.A.</name><address><street>Mariano Aguilera E7-262 y Av. Diego de Almagro, Doctorados FLACSO, piso 2, Quito - Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>NUEVOS DERIVADOS AMINOÁCIDO, UN PROCESO PARA SU PREPARACIÓN Y COMPOSICIONES FARMACÉUTICAS  QUE LOS CONTIENEN</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Compuestos de fórmula (I):
+ 
+(VER LA FORMULA EN LA MEMORIA TECNICA)
+
+en la que R1, R2, R5, R6, R7, R12, X, Y, A, E y n son como se han definido en la descripción.
+Medicamentos.
+</abstract>
+</ec-patent-document>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP18003879_20180329.xml' country='EC' doc-number='SP18003879' kind='A' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP18003879' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP18003879</doc-number><kind>A</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>A61K38/26_A61K38/28</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI20183879</doc-number><date>20180118</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>10-2015-0093265</doc-number><date>20150630</date><country>KR</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>HANMI PHARM. CO., LTD.</name><address><street>214, Muha-ro, Paltan-myeon, Hwaseong-si, Gyeonggi-do 18536, República de Corea</street><country>KR</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>CHOI, In Young</name><address><street>550, Dongtangiheung-ro, Hwaseong-si, Gyeonggi-do 18469, República de Corea</street><country>KR</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>JUNG, Sung Youb</name><address><street>550, Dongtangiheung-ro, Hwaseong-si, Gyeonggi-do 18469, República de Corea</street><country>KR</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>KIM, Jung Kuk</name><address><street>550, Dongtangiheung-ro, Hwaseong-si, Gyeonggi-do 18469, República de Corea</street><country>KR</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>PARK, Young Jin</name><address><street>550, Dongtangiheung-ro, Hwaseong-si, Gyeonggi-do 18469, República de Corea</street><country>KR</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>Mandakovic Falconi, Sasha </name><address><street>Av. Amazonas N21-147 y Roca, Edif. Río Amazonas, Of. 900, Quito  - Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>DERIVADO DE GLUCAGÓN Y UNA COMPOSICIÓN QUE COMPRENDE UN CONJUGADO DE ACCIÓN PROLONGADA DEL MISMO</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La presente invención se refiere a un derivado de glucagón, a un conjugado de acción prolongada del derivado de glucagón y a un uso del mismo.</abstract>
+</ec-patent-document>

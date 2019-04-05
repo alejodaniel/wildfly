@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SMU17032640_20181228.xml' country='EC' doc-number='SMU17032640' kind='U' date-published='20181228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SMU17032640' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SMU17032640</doc-number><kind>U</kind><date>20181228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>B62J11/00
+</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201732640</doc-number><date>20170627</date></document-id></application-reference>
+<priority-claims>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>JAIME FRANCISCO PALACIOS ESPINOZA</name><address><street>Av. Cevallos s/n, Barrio San Miguel, Parroquia Montalvo</street><country>EC</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>JAIME FRANCISCO PALACIOS ESPINOZA</name><address><street>Av. Cevallos s/n, Barrio San Miguel, Parroquia Montalvo</street><country>EC</country></address></addressbook></inventor>
+</inventors><agents>
+</agents></parties>
+<invention-title lang='es'>SELLADO A PRESIÓN DE VASOS CON TAPA ERGONÓMICA</invention-title>
+</bibliographic-data>
+<abstract lang='es'>El sellado a presión de vasos, permite incorporar imágenes a elección del usuario, estas pueden ser fotos familiares, de eventos, paisajes, etc., las mismas que puede ser cambiada  en cualquier momento, estas son colocadas entre dos recipientes, tiene por objeto principal poner en el escenario mental las mejores ideas, que darán un éxito total promocionando bienes o servicios de cualquier negocio, que comprende una base, una banda de película donde consta la imagen, un recipiente interior y un recipiente exterior los mismos que se acoplan entre sí. 
+
+La tapa ergonómica permite cubrir el vaso de tal manera que sea imposible el derrame del contenido, además cuenta con un hoyo con tapa igualmente ergonómica para introducir sorbetes que permitan absorber el líquido del vaso, esta tapa que cubre el hoyo tiene la particularidad de moverse a los costados e insertarse en cualquiera de los dos ganchos.
+</abstract>
+</ec-patent-document>

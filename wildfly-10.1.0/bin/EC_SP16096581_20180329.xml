@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP16096581_20180329.xml' country='EC' doc-number='SP16096581' kind='A' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP16096581' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP16096581</doc-number><kind>A</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C03C25/16_G02B6/04_H01B13/34
+</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201696581</doc-number><date>20161227</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>201410499847.9</doc-number><date>20140925</date><country>CN</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>FIBERHOME TELECOMMUNICATION TECHNOLOGIES CO., LTD</name><address><street>Dongxin Road No.5 , Guandong Science and Technology Park, East Lake High-tech Zone, Wuhan City, Hubei</street><country>CN</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>WU, Zhongming</name><address><street>Dongxin Road No.5 , Guandong Science and Technology Park, East Lake High-tech Zone, Wuhan City, Hubei</street><country>CN</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>ZHANG, Gang</name><address><street>Dongxin Road No.5 , Guandong Science and Technology Park, East Lake High-tech Zone, Wuhan City, Hubei</street><country>CN</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>WANG, Long</name><address><street>Dongxin Road No.5 , Guandong Science and Technology Park, East Lake High-tech Zone, Wuhan City, Hubei</street><country>CN</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>RUAN, Hua </name><address><street>Dongxin Road No.5 , Guandong Science and Technology Park, East Lake High-tech Zone, Wuhan City, Hubei</street><country>CN</country></address></addressbook></inventor>
+<inventor sequence='5' designation='all'><addressbook><name>HE, Yan</name><address><street>Dongxin Road No.5 , Guandong Science and Technology Park, East Lake High-tech Zone, Wuhan City, Hubei</street><country>CN</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>FABARA VERA, MARIA ROSA </name><address><street>AV. REPUBLICA 481 Y PASAJE CARRIÓN. QUITO, ECUADOR</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>MOLDE DE COLORACIÓN DE FIBRA ÓPTICA DE DOBLE COLOR</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Un molde de coloración de fibra óptica de doble color, que se refiere al campo técnico del tratamiento de coloración de la superficie de fibra óptica. El molde de coloración de fibra óptica de doble color comprende un envase de tinta que tiene una estructura cilíndrica y un molde insertado en el envase de tinta a lo largo de la dirección axial. El molde comprende de un molde de entrada y un molde de salida. Un extremo del molde de entrada se inserta en el molde de salida para formar un extremo de inserción. El extremo de inserción está provisto de una primera superficie de adaptación cónica. La pared interior que está en el molde de salida y que corresponde al extremo de inserción está provista de una segunda superficie de adaptación cónica que coincide con la primera superficie de adaptación cónica. El molde de entrada y el molde de salida están provistos respectivamente de un orificio central en el molde de entrada y un orificio central en el molde de salida a lo largo de la dirección axial, en el que coinciden las líneas centrales del orificio central del molde de entrada y el orificio central del molde de salida. Una cámara de tinta está dispuesta entre el orificio central del molde de entrada y el orificio central del molde de salida. La pared lateral del molde de salida está provista de dos entradas de material. Un canal de entrada de material está dispuesto entre cada entrada de material y la cámara de tinta. La pared lateral del envase de tinta está provista de dos pu</abstract>
+</ec-patent-document>

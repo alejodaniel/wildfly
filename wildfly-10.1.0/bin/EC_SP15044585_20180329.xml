@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP15044585_20180329.xml' country='EC' doc-number='SP15044585' kind='A' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP15044585' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP15044585</doc-number><kind>A</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>A01F25/14_B65B25/04_B65D85/34</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201544585</doc-number><date>20151022</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>61/948,289</doc-number><date>20140305</date><country>US</country></priority-claim>
+<priority-claim sequence='2' kind='National'><doc-number>PCT/US2014/035055</doc-number><date>20140422</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>A.R. ARENA PRODUCTS, INC.</name><address><street>2101 Mt. Read Boulevard, Rochester, Nueva York 14615, Estados Unidos de América</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>WILCOX, Donald E.</name><address><street>293 Old Meadow Drive, Rochester, Nueva York 14626, Estados Unidos de América</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>ARENA, Charles S.</name><address><street>1550 Clover Street, Rochester, Nueva York 14610, Estados Unidos de América</street><country>US</country></address></addressbook></inventor>
+</inventors><agents>
+</agents></parties>
+<invention-title lang='es'>CONTENEDOR DE PLÁSTICO REUTILIZABLE PARA ALMACENAR Y TRANSPORTAR PRODUCTOS</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Un contenedor plástico reutilizable y plegable que puede utilizarse para el almacenamiento y el transporte de productos, que tiene dimensiones óptimas para dicho almacenamiento y transporte y para el plegado del contenedor. El contenedor también puede tener un espacio nuevo para apilado "en seis capas hacia abajo". El contenedor también puede estar diseñado para brindar mayor ventilación a su contenido durante el almacenamiento y el transporte. El contenedor puede tener también una puerta para muestreo con un clip para el fácil acceso al producto que contiene el contenedor cuando se apila con otros contenedores. El contenedor puede tener también un sistema de cierre con pestillo para asegurar sus paredes de fondo y paredes laterales en una configuración erguida durante su almacenamiento y transporte. El contenedor puede tener también una entrada en sus dimensiones para facilitar el apilado y desapilado de los contenedores.</abstract>
+</ec-patent-document>

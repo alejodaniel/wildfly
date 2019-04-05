@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP18077349_20181228.xml' country='EC' doc-number='SP18077349' kind='A' date-published='20181228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP18077349' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP18077349</doc-number><kind>A</kind><date>20181228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>B02C1/025</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>SENADI201877349</doc-number><date>20181015</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>1102997226</doc-number><date>20180726</date><country>EC</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>Jose Leonardo Benavides Maldonado</name><address><street>Sucre entre Rocafuerte y 10 de Agosto</street><country>EC</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>Jose Leonardo Benavides Maldonado</name><address><street>Sucre entre Rocafuerte y 10 de Agosto</street><country>EC</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>Edison Orellana</name><address><street>La Paz</street><country>EC</country></address></addressbook></inventor>
+</inventors><agents>
+</agents></parties>
+<invention-title lang='es'>TRITURADORA TIPO MANDÍBULA </invention-title>
+</bibliographic-data>
+<abstract lang='es'>El presente trabajo se ocupa del área de trituración y molienda porque es la que consume el 50% de la energía. Para su estudio contamos con un prototipo diseñado con SolidWork y AutoCad. En el Laboratorio Virtual de la UNL hemos preparado una práctica modelar y controlar este tipo de proceso. Los estudiantes emplean MatLab y Simulink para implementar las soluciones fuera de línea (off line). Para el trabajo en tiempo real emplean LabView.</abstract>
+</ec-patent-document>

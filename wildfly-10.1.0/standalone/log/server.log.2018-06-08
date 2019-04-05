@@ -1,0 +1,862 @@
+2018-06-08 09:04:34,729 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2018-06-08 09:04:35,379 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2018-06-08 09:04:35,537 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2018-06-08 09:04:35,540 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	http.nonProxyHosts = localhost,127.0.0.1,IEPI
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/lparedes/Documentos/wildfly-10.1.0.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-8-openjdk-amd64/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 1.8.0_171-8u171-b11-0ubuntu0.16.04.1-b11
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_171
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.171-b11
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final
+	jboss.host.name = iepi
+	jboss.http.port = 8080
+	jboss.management.http.port = 9990
+	jboss.modules.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = iepi
+	jboss.qualified.host.name = iepi
+	jboss.server.base.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone
+	jboss.server.config.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/configuration
+	jboss.server.data.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/data
+	jboss.server.deploy.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/data/content
+	jboss.server.log.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/log
+	jboss.server.name = iepi
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/configuration/logging.properties
+	module.path = /home/lparedes/Documentos/wildfly-10.1.0.Final/modules
+	org.jboss.boot.log.file = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.4.0-127-generic
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/lparedes/Documentos/wildfly-10.1.0.Final/jboss-modules.jar -mp /home/lparedes/Documentos/wildfly-10.1.0.Final/modules org.jboss.as.standalone -Djboss.home.dir=/home/lparedes/Documentos/wildfly-10.1.0.Final -Djboss.server.base.dir=/home/lparedes/Documentos/wildfly-10.1.0.Final/standalone -c standalone.xml
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = EC
+	user.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/bin
+	user.home = /home/lparedes
+	user.language = es
+	user.name = lparedes
+	user.timezone = America/Guayaquil
+2018-06-08 09:04:35,541 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -D[Standalone] -Xms128m -Xmx512m -Dhttp.nonProxyHosts=localhost,127.0.0.1,IEPI -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Djboss.management.http.port=9990 -Djboss.http.port=8080 -Dorg.jboss.boot.log.file=/home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/log/server.log -Dlogging.configuration=file:/home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/configuration/logging.properties 
+2018-06-08 09:04:39,560 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0015: Re-attempting failed deployment gaceta-ear.ear
+2018-06-08 09:04:39,569 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ShoppingCart-ear-0.0.1-SNAPSHOT.ear in deployment directory. To trigger deployment create a file called ShoppingCart-ear-0.0.1-SNAPSHOT.ear.dodeploy
+2018-06-08 09:04:39,570 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found WebApplication2.war in deployment directory. To trigger deployment create a file called WebApplication2.war.dodeploy
+2018-06-08 09:04:39,570 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found files.war in deployment directory. To trigger deployment create a file called files.war.dodeploy
+2018-06-08 09:04:39,570 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found EnterpriseApplicationWS-war.war in deployment directory. To trigger deployment create a file called EnterpriseApplicationWS-war.war.dodeploy
+2018-06-08 09:04:39,570 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found gaceta-ear.ear in deployment directory. To trigger deployment create a file called gaceta-ear.ear.dodeploy
+2018-06-08 09:04:39,570 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found hospital-ear.ear in deployment directory. To trigger deployment create a file called hospital-ear.ear.dodeploy
+2018-06-08 09:04:39,571 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ovcon-web.war in deployment directory. To trigger deployment create a file called ovcon-web.war.dodeploy
+2018-06-08 09:04:39,676 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-06-08 09:04:39,721 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.4.0.Final
+2018-06-08 09:04:39,777 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.4.0.Final
+2018-06-08 09:04:39,797 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2018-06-08 09:04:39,804 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-06-08 09:04:39,819 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-06-08 09:04:39,856 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2018-06-08 09:04:39,846 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2018-06-08 09:04:39,868 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2018-06-08 09:04:39,892 INFO  [org.jboss.as.security] (MSC service thread 1-6) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2018-06-08 09:04:39,904 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2018-06-08 09:04:39,916 INFO  [org.jboss.as.connector] (MSC service thread 1-1) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2018-06-08 09:04:40,252 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2018-06-08 09:04:40,254 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-06-08 09:04:40,626 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0003: Undertow 1.4.0.Final starting
+2018-06-08 09:04:40,816 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2018-06-08 09:04:40,817 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = mysql
+2018-06-08 09:04:40,897 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path '/home/lparedes/Documentos/wildfly-10.1.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-06-08 09:04:40,906 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0012: Started server default-server.
+2018-06-08 09:04:40,906 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0018: Host default-host starting
+2018-06-08 09:04:40,966 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.3)
+2018-06-08 09:04:40,966 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 4.0.21.Final
+2018-06-08 09:04:40,967 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = postgres
+2018-06-08 09:04:40,973 INFO  [org.jboss.as.naming] (MSC service thread 1-3) WFLYNAM0003: Starting Naming Service
+2018-06-08 09:04:40,977 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-06-08 09:04:41,378 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2018-06-08 09:04:41,578 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class com.microsoft.sqlserver.jdbc.SQLServerDriver (version 3.0)
+2018-06-08 09:04:41,580 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2018-06-08 09:04:41,578 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2018-06-08 09:04:41,612 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = sqlserver
+2018-06-08 09:04:41,740 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepiadmin
+2018-06-08 09:04:41,741 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepidepurar
+2018-06-08 09:04:41,749 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/autenticacion]
+2018-06-08 09:04:41,750 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepi_sipigaceta
+2018-06-08 09:04:41,750 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/jBossJaasPostgres]
+2018-06-08 09:04:41,750 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:jboss/datasources/secobSeguimientoDs]
+2018-06-08 09:04:41,750 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepiProcesos
+2018-06-08 09:04:41,750 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:jboss/datasources/auth]
+2018-06-08 09:04:41,750 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:jboss/datasources/cpi]
+2018-06-08 09:04:41,750 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepi_sipigaceta2
+2018-06-08 09:04:41,752 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepiFormularios
+2018-06-08 09:04:41,752 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/secretaria-tramites]
+2018-06-08 09:04:41,752 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2018-06-08 09:04:41,752 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepiCasilleros
+2018-06-08 09:04:41,753 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/OMPI]
+2018-06-08 09:04:41,754 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/modificacionesDs]
+2018-06-08 09:04:41,759 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/iepi]
+2018-06-08 09:04:41,761 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/iepi3]
+2018-06-08 09:04:41,762 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/obtencionesVegetales]
+2018-06-08 09:04:41,763 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:/datasources/MSSQLDS]
+2018-06-08 09:04:41,862 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-5) WFLYDM0111: Keystore /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-06-08 09:04:41,882 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "postgresql-9.3-1102-jdbc41.jar" (runtime-name: "postgresql-9.3-1102-jdbc41.jar")
+2018-06-08 09:04:41,883 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "ShoppingCart-ear-0.0.1-SNAPSHOT.ear" (runtime-name: "ShoppingCart-ear-0.0.1-SNAPSHOT.ear")
+2018-06-08 09:04:41,885 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "EnterpriseApplicationWS-war.war" (runtime-name: "EnterpriseApplicationWS-war.war")
+2018-06-08 09:04:41,883 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "gaceta-ear.ear" (runtime-name: "gaceta-ear.ear")
+2018-06-08 09:04:41,886 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "hospital-ear.ear" (runtime-name: "hospital-ear.ear")
+2018-06-08 09:04:41,886 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "WebApplication2.war" (runtime-name: "WebApplication2.war")
+2018-06-08 09:04:41,886 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "ovcon-web.war" (runtime-name: "ovcon-web.war")
+2018-06-08 09:04:41,887 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "files.war" (runtime-name: "files.war")
+2018-06-08 09:04:41,923 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) WFLYDS0013: Started FileSystemDeploymentService for directory /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/deployments
+2018-06-08 09:04:42,223 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0207: Starting subdeployment (runtime-name: "gaceta-ejb.jar")
+2018-06-08 09:04:42,223 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0207: Starting subdeployment (runtime-name: "gaceta-web.war")
+2018-06-08 09:04:42,223 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0207: Starting subdeployment (runtime-name: "ShoppingCart-ejb-0.0.1-SNAPSHOT.jar")
+2018-06-08 09:04:42,224 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0207: Starting subdeployment (runtime-name: "ShoppingCart-web-0.0.1-SNAPSHOT.war")
+2018-06-08 09:04:42,412 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0207: Starting subdeployment (runtime-name: "hospital-web.war")
+2018-06-08 09:04:42,413 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0207: Starting subdeployment (runtime-name: "hospital-ejb.jar")
+2018-06-08 09:04:42,394 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-5) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2018-06-08 09:04:42,465 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 64) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-06-08 09:04:42,465 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 65) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-06-08 09:04:42,465 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 63) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-06-08 09:04:42,468 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 64) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-06-08 09:04:42,469 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 63) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-06-08 09:04:42,469 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 65) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-06-08 09:04:42,524 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2018-06-08 09:04:42,976 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2018-06-08 09:04:43,157 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for EnterpriseApplicationWS-warPU
+2018-06-08 09:04:43,161 WARN  [org.jboss.as.connector] (MSC service thread 1-5) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2018-06-08 09:04:43,204 WARN  [org.jboss.as.connector] (MSC service thread 1-4) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2018-06-08 09:04:43,895 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 63) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'EnterpriseApplicationWS-war.war#EnterpriseApplicationWS-warPU'
+2018-06-08 09:04:43,970 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) WFLYJPA0002: Read persistence.xml for ejbSipiGaceta
+2018-06-08 09:04:43,970 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for primary
+2018-06-08 09:04:43,986 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.3)
+2018-06-08 09:04:44,003 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 63) HHH000204: Processing PersistenceUnitInfo [
+	name: EnterpriseApplicationWS-warPU
+	...]
+2018-06-08 09:04:44,085 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = postgresql-9.3-1102-jdbc41.jar
+2018-06-08 09:04:44,183 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment hospital-ear.ear
+2018-06-08 09:04:44,184 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment ovcon-web.war
+2018-06-08 09:04:44,198 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/hospitalDS]
+2018-06-08 09:04:44,199 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 65) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'hospital-ear.ear/hospital-ejb.jar#primary'
+2018-06-08 09:04:44,199 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 65) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2018-06-08 09:04:44,209 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment gaceta-ear.ear
+2018-06-08 09:04:44,212 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 64) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'gaceta-ear.ear/gaceta-ejb.jar#ejbSipiGaceta'
+2018-06-08 09:04:44,212 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 64) HHH000204: Processing PersistenceUnitInfo [
+	name: ejbSipiGaceta
+	...]
+2018-06-08 09:04:44,216 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/gacetaDS]
+2018-06-08 09:04:44,358 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-8) HV000001: Hibernate Validator 5.2.4.Final
+2018-06-08 09:04:44,671 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 64) HHH000412: Hibernate Core {5.0.10.Final}
+2018-06-08 09:04:44,673 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 64) HHH000206: hibernate.properties not found
+2018-06-08 09:04:44,675 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 64) HHH000021: Bytecode provider name : javassist
+2018-06-08 09:04:44,741 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-3) MSC000001: Failed to start service jboss.deployment.subunit."gaceta-ear.ear"."gaceta-web.war".POST_MODULE: org.jboss.msc.service.StartException in service jboss.deployment.subunit."gaceta-ear.ear"."gaceta-web.war".POST_MODULE: WFLYSRV0153: Failed to process phase POST_MODULE of subdeployment "gaceta-web.war" of deployment "gaceta-ear.ear"
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:154)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.RuntimeException: WFLYSRV0177: Error getting reflective information for class ec.gob.iepi.controller.PatentFormControlador with ClassLoader ModuleClassLoader for Module "deployment.gaceta-ear.ear.gaceta-web.war:main" from Service Module Loader
+	at org.jboss.as.server.deployment.reflect.DeploymentReflectionIndex.getClassIndex(DeploymentReflectionIndex.java:70)
+	at org.jboss.as.ee.metadata.MethodAnnotationAggregator.runtimeAnnotationInformation(MethodAnnotationAggregator.java:57)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.handleAnnotations(InterceptorAnnotationProcessor.java:106)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.processComponentConfig(InterceptorAnnotationProcessor.java:91)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.deploy(InterceptorAnnotationProcessor.java:76)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:147)
+	... 5 more
+Caused by: java.lang.NoClassDefFoundError: org/primefaces/event/FileUploadEvent
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.jboss.as.server.deployment.reflect.ClassReflectionIndex.<init>(ClassReflectionIndex.java:80)
+	at org.jboss.as.server.deployment.reflect.DeploymentReflectionIndex.getClassIndex(DeploymentReflectionIndex.java:66)
+	... 10 more
+Caused by: java.lang.ClassNotFoundException: org.primefaces.event.FileUploadEvent from [Module "deployment.gaceta-ear.ear.gaceta-web.war:main" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:198)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:363)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:351)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:93)
+	... 15 more
+
+2018-06-08 09:04:44,768 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment hospital-web.war
+2018-06-08 09:04:44,780 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment gaceta-ejb.jar
+2018-06-08 09:04:44,781 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment hospital-ejb.jar
+2018-06-08 09:04:44,784 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'MemberRegistration' in deployment unit 'subdeployment "hospital-ejb.jar" of deployment "hospital-ear.ear"' are as follows:
+
+	java:global/hospital-ear/hospital-ejb/MemberRegistration!ec.gov.iepi.service.MemberRegistration
+	java:app/hospital-ejb/MemberRegistration!ec.gov.iepi.service.MemberRegistration
+	java:module/MemberRegistration!ec.gov.iepi.service.MemberRegistration
+	java:global/hospital-ear/hospital-ejb/MemberRegistration
+	java:app/hospital-ejb/MemberRegistration
+	java:module/MemberRegistration
+
+2018-06-08 09:04:44,784 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'ServicioPatentForm' in deployment unit 'subdeployment "gaceta-ejb.jar" of deployment "gaceta-ear.ear"' are as follows:
+
+	java:global/gaceta-ear/gaceta-ejb/ServicioPatentForm!ec.gob.iepi.interfaces.IPatentForm
+	java:app/gaceta-ejb/ServicioPatentForm!ec.gob.iepi.interfaces.IPatentForm
+	java:module/ServicioPatentForm!ec.gob.iepi.interfaces.IPatentForm
+	java:global/gaceta-ear/gaceta-ejb/ServicioPatentForm
+	java:app/gaceta-ejb/ServicioPatentForm
+	java:module/ServicioPatentForm
+
+2018-06-08 09:04:44,824 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'ServicioOfficial' in deployment unit 'subdeployment "gaceta-ejb.jar" of deployment "gaceta-ear.ear"' are as follows:
+
+	java:global/gaceta-ear/gaceta-ejb/ServicioOfficial!ec.gob.iepi.interfaces.IOfficial
+	java:app/gaceta-ejb/ServicioOfficial!ec.gob.iepi.interfaces.IOfficial
+	java:module/ServicioOfficial!ec.gob.iepi.interfaces.IOfficial
+	java:global/gaceta-ear/gaceta-ejb/ServicioOfficial
+	java:app/gaceta-ejb/ServicioOfficial
+	java:module/ServicioOfficial
+
+2018-06-08 09:04:44,880 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 63) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-08 09:04:44,961 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 66) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/ShoppingCart-web'
+2018-06-08 09:04:44,989 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 62) WFLYUT0021: Registered web context: /files
+2018-06-08 09:04:44,997 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0021: Registered web context: /WebApplication2
+2018-06-08 09:04:45,000 INFO  [org.jboss.weld.Version] (MSC service thread 1-5) WELD-000900: 2.3.5 (Final)
+2018-06-08 09:04:45,136 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 65) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'EnterpriseApplicationWS-war.war#EnterpriseApplicationWS-warPU'
+2018-06-08 09:04:45,172 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 63) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-06-08 09:04:45,174 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 63) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-06-08 09:04:45,431 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 64) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'hospital-ear.ear/hospital-ejb.jar#primary'
+2018-06-08 09:04:45,625 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 65) IJ000407: No lazy enlistment available for iepi
+2018-06-08 09:04:45,748 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 65) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+2018-06-08 09:04:45,769 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 1) WELD-000119: Not generating any bean definitions from ec.gob.iepi.controller.MemberController because of underlying class loading error: Type ec.gob.iepi.service.MemberRegistration from [Module "deployment.ovcon-web.war:main" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2018-06-08 09:04:45,960 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 64) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-06-08 09:04:45,970 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 64) HHH000431: Unable to determine H2 database version, certain features may not work
+2018-06-08 09:04:46,102 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 63) WFLYCLINF0002: Started client-mappings cache from ejb container
+2018-06-08 09:04:46,216 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 66) WFLYUT0021: Registered web context: /ShoppingCart-web
+2018-06-08 09:04:46,264 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 64) Envers integration enabled? : true
+2018-06-08 09:04:46,629 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 63) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/ovcon-web'
+2018-06-08 09:04:46,699 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 65) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-06-08 09:04:46,708 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 65) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@a07d4d1
+2018-06-08 09:04:46,727 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 65) Envers integration enabled? : true
+2018-06-08 09:04:46,941 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 63) WFLYUT0021: Registered web context: /ovcon-web
+2018-06-08 09:04:47,439 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 64) HHH000227: Running hbm2ddl schema export
+2018-06-08 09:04:47,446 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 64) HHH000476: Executing import script '/import.sql'
+2018-06-08 09:04:47,457 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 64) HHH000230: Schema export complete
+2018-06-08 09:04:47,559 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 65) HHH000397: Using ASTQueryTranslatorFactory
+2018-06-08 09:04:47,940 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 63) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/hospital-web'
+2018-06-08 09:04:48,143 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 64) WFLYUT0021: Registered web context: /EnterpriseApplicationWS-war
+2018-06-08 09:04:48,536 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 63) RESTEASY002225: Deploying javax.ws.rs.core.Application: class ec.gov.iepi.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2018-06-08 09:04:48,587 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 63) WFLYUT0021: Registered web context: /hospital-web
+2018-06-08 09:04:48,593 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "gaceta-ear.ear")]) - failure description: {
+    "WFLYCTL0080: Failed services" => {"jboss.deployment.subunit.\"gaceta-ear.ear\".\"gaceta-web.war\".POST_MODULE" => "org.jboss.msc.service.StartException in service jboss.deployment.subunit.\"gaceta-ear.ear\".\"gaceta-web.war\".POST_MODULE: WFLYSRV0153: Failed to process phase POST_MODULE of subdeployment \"gaceta-web.war\" of deployment \"gaceta-ear.ear\"
+    Caused by: java.lang.RuntimeException: WFLYSRV0177: Error getting reflective information for class ec.gob.iepi.controller.PatentFormControlador with ClassLoader ModuleClassLoader for Module \"deployment.gaceta-ear.ear.gaceta-web.war:main\" from Service Module Loader
+    Caused by: java.lang.NoClassDefFoundError: org/primefaces/event/FileUploadEvent
+    Caused by: java.lang.ClassNotFoundException: org.primefaces.event.FileUploadEvent from [Module \"deployment.gaceta-ear.ear.gaceta-web.war:main\" from Service Module Loader]"},
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "jboss.deployment.subunit.\"gaceta-ear.ear\".\"gaceta-web.war\".POST_MODULE",
+        "jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioOfficial",
+        "jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioPatentForm",
+        "jboss.deployment.subunit.\"gaceta-ear.ear\".\"gaceta-ejb.jar\".beanmanager",
+        "jboss.deployment.unit.\"gaceta-ear.ear\".beanmanager"
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => [
+        "jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioOfficial.InstanceName is missing [jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioOfficial]",
+        "jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioOfficial.ValidatorFactory is missing [jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioOfficial]",
+        "jboss.deployment.unit.\"gaceta-ear.ear\".batch.environment is missing [jboss.deployment.unit.\"gaceta-ear.ear\".beanmanager]",
+        "jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioPatentForm.Validator is missing [jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioPatentForm]",
+        "jboss.deployment.subunit.\"gaceta-ear.ear\".\"gaceta-ejb.jar\".weld.weldClassIntrospector is missing [jboss.deployment.subunit.\"gaceta-ear.ear\".\"gaceta-ejb.jar\".beanmanager]",
+        "jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioOfficial.Validator is missing [jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioOfficial]",
+        "jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioPatentForm.InAppClientContainer is missing [jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioPatentForm]",
+        "jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioOfficial.InAppClientContainer is missing [jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioOfficial]",
+        "jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioPatentForm.InstanceName is missing [jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioPatentForm]",
+        "jboss.deployment.unit.\"gaceta-ear.ear\".weld.weldClassIntrospector is missing [jboss.deployment.unit.\"gaceta-ear.ear\".beanmanager]",
+        "jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioPatentForm.ValidatorFactory is missing [jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioPatentForm]",
+        "jboss.deployment.subunit.\"gaceta-ear.ear\".\"gaceta-ejb.jar\".batch.environment is missing [jboss.deployment.subunit.\"gaceta-ear.ear\".\"gaceta-ejb.jar\".beanmanager]"
+    ]
+}
+2018-06-08 09:04:48,666 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "EnterpriseApplicationWS-war.war" (runtime-name : "EnterpriseApplicationWS-war.war")
+2018-06-08 09:04:48,666 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "gaceta-ear.ear" (runtime-name : "gaceta-ear.ear")
+2018-06-08 09:04:48,667 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "ovcon-web.war" (runtime-name : "ovcon-web.war")
+2018-06-08 09:04:48,667 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "files.war" (runtime-name : "files.war")
+2018-06-08 09:04:48,667 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "hospital-ear.ear" (runtime-name : "hospital-ear.ear")
+2018-06-08 09:04:48,667 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "ShoppingCart-ear-0.0.1-SNAPSHOT.ear" (runtime-name : "ShoppingCart-ear-0.0.1-SNAPSHOT.ear")
+2018-06-08 09:04:48,667 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "postgresql-9.3-1102-jdbc41.jar" (runtime-name : "postgresql-9.3-1102-jdbc41.jar")
+2018-06-08 09:04:48,667 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "WebApplication2.war" (runtime-name : "WebApplication2.war")
+2018-06-08 09:04:48,669 INFO  [org.jboss.as.controller] (Controller Boot Thread) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.deployment.subunit."gaceta-ear.ear"."gaceta-ejb.jar".beanmanager (missing) dependents: [service jboss.deployment.subunit."gaceta-ear.ear"."gaceta-ejb.jar".batch.environment, service jboss.deployment.subunit."gaceta-ear.ear"."gaceta-ejb.jar".weld.weldClassIntrospector] 
+      service jboss.deployment.unit."gaceta-ear.ear".beanmanager (missing) dependents: [service jboss.deployment.unit."gaceta-ear.ear".weld.weldClassIntrospector, service jboss.deployment.unit."gaceta-ear.ear".batch.environment] 
+      service jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioOfficial (missing) dependents: [service jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioOfficial.ValidatorFactory, service jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioOfficial.InAppClientContainer, service jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioOfficial.Validator, service jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioOfficial.InstanceName] 
+      service jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioPatentForm (missing) dependents: [service jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioPatentForm.InstanceName, service jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioPatentForm.Validator, service jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioPatentForm.InAppClientContainer, service jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioPatentForm.ValidatorFactory] 
+WFLYCTL0186:   Services which failed to start:      service jboss.deployment.subunit."gaceta-ear.ear"."gaceta-web.war".POST_MODULE: org.jboss.msc.service.StartException in service jboss.deployment.subunit."gaceta-ear.ear"."gaceta-web.war".POST_MODULE: WFLYSRV0153: Failed to process phase POST_MODULE of subdeployment "gaceta-web.war" of deployment "gaceta-ear.ear"
+
+2018-06-08 09:04:48,873 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-06-08 09:04:48,873 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-06-08 09:04:48,873 ERROR [org.jboss.as] (Controller Boot Thread) WFLYSRV0026: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started (with errors) in 15034ms - Started 1196 of 1507 services (15 services failed or missing dependencies, 526 services are lazy, passive or on-demand)
+2018-06-08 09:04:49,026 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 27) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'gaceta-ear.ear/gaceta-ejb.jar#ejbSipiGaceta'
+2018-06-08 09:04:49,029 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:jboss/datasources/gacetaDS]
+2018-06-08 09:04:49,048 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0208: Stopped subdeployment (runtime-name: gaceta-ejb.jar) in 34ms
+2018-06-08 09:04:49,049 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0208: Stopped subdeployment (runtime-name: gaceta-web.war) in 36ms
+2018-06-08 09:04:49,051 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment gaceta-ear.ear (runtime-name: gaceta-ear.ear) in 38ms
+2018-06-08 09:04:49,169 WARN  [org.jboss.as.controller] (DeploymentScanner-threads - 1) WFLYCTL0357: Notification of type deployment-undeployed is not described for the resource at the address []
+2018-06-08 09:04:49,170 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "gaceta-ear.ear" (runtime-name: "gaceta-ear.ear")
+2018-06-08 09:04:49,170 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 1) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.naming.context.java.module.gaceta-ear.gaceta-ejb (missing) dependents: [service jboss.deployment.subunit."gaceta-ear.ear"."gaceta-ejb.jar".INSTALL] 
+WFLYCTL0186:   Services which failed to start:      service jboss.deployment.subunit."gaceta-ear.ear"."gaceta-web.war".POST_MODULE
+
+2018-06-08 09:04:53,798 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found gaceta-ear.ear in deployment directory. To trigger deployment create a file called gaceta-ear.ear.dodeploy
+2018-06-08 09:04:53,799 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war in deployment directory. To trigger deployment create a file called Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war.dodeploy
+2018-06-08 09:04:53,805 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war" (runtime-name: "Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war")
+2018-06-08 09:04:56,229 INFO  [org.jboss.as.jpa] (MSC service thread 1-6) WFLYJPA0002: Read persistence.xml for Rest-JSF-Web-PrimeFaces_war_1.0-SNAPSHOTPU
+2018-06-08 09:04:56,440 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war
+2018-06-08 09:04:56,446 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'SolicitudcompraBean' in deployment unit 'deployment "Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/SolicitudcompraBean!com.sgcv.rest.jsf.web.bean.SolicitudcompraBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/SolicitudcompraBean!com.sgcv.rest.jsf.web.bean.SolicitudcompraBean
+	java:module/SolicitudcompraBean!com.sgcv.rest.jsf.web.bean.SolicitudcompraBean
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/SolicitudcompraBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/SolicitudcompraBean
+	java:module/SolicitudcompraBean
+
+2018-06-08 09:04:56,446 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'VentadetalleBean' in deployment unit 'deployment "Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/VentadetalleBean!com.sgcv.rest.jsf.web.bean.VentadetalleBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/VentadetalleBean!com.sgcv.rest.jsf.web.bean.VentadetalleBean
+	java:module/VentadetalleBean!com.sgcv.rest.jsf.web.bean.VentadetalleBean
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/VentadetalleBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/VentadetalleBean
+	java:module/VentadetalleBean
+
+2018-06-08 09:04:56,446 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'PagoBean' in deployment unit 'deployment "Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/PagoBean!com.sgcv.rest.jsf.web.bean.PagoBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/PagoBean!com.sgcv.rest.jsf.web.bean.PagoBean
+	java:module/PagoBean!com.sgcv.rest.jsf.web.bean.PagoBean
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/PagoBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/PagoBean
+	java:module/PagoBean
+
+2018-06-08 09:04:56,446 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'CompraBean' in deployment unit 'deployment "Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/CompraBean!com.sgcv.rest.jsf.web.bean.CompraBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/CompraBean!com.sgcv.rest.jsf.web.bean.CompraBean
+	java:module/CompraBean!com.sgcv.rest.jsf.web.bean.CompraBean
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/CompraBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/CompraBean
+	java:module/CompraBean
+
+2018-06-08 09:04:56,446 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'VentaBean' in deployment unit 'deployment "Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/VentaBean!com.sgcv.rest.jsf.web.bean.VentaBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/VentaBean!com.sgcv.rest.jsf.web.bean.VentaBean
+	java:module/VentaBean!com.sgcv.rest.jsf.web.bean.VentaBean
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/VentaBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/VentaBean
+	java:module/VentaBean
+
+2018-06-08 09:04:56,446 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'DeudaBean' in deployment unit 'deployment "Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/DeudaBean!com.sgcv.rest.jsf.web.bean.DeudaBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/DeudaBean!com.sgcv.rest.jsf.web.bean.DeudaBean
+	java:module/DeudaBean!com.sgcv.rest.jsf.web.bean.DeudaBean
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/DeudaBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/DeudaBean
+	java:module/DeudaBean
+
+2018-06-08 09:04:56,446 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'ProductoBean' in deployment unit 'deployment "Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/ProductoBean!com.sgcv.rest.jsf.web.bean.ProductoBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/ProductoBean!com.sgcv.rest.jsf.web.bean.ProductoBean
+	java:module/ProductoBean!com.sgcv.rest.jsf.web.bean.ProductoBean
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/ProductoBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/ProductoBean
+	java:module/ProductoBean
+
+2018-06-08 09:04:56,446 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'ClienteBean' in deployment unit 'deployment "Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/ClienteBean!com.sgcv.rest.jsf.web.bean.ClienteBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/ClienteBean!com.sgcv.rest.jsf.web.bean.ClienteBean
+	java:module/ClienteBean!com.sgcv.rest.jsf.web.bean.ClienteBean
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/ClienteBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/ClienteBean
+	java:module/ClienteBean
+
+2018-06-08 09:04:56,447 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'ProveedorBean' in deployment unit 'deployment "Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/ProveedorBean!com.sgcv.rest.jsf.web.bean.ProveedorBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/ProveedorBean!com.sgcv.rest.jsf.web.bean.ProveedorBean
+	java:module/ProveedorBean!com.sgcv.rest.jsf.web.bean.ProveedorBean
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/ProveedorBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/ProveedorBean
+	java:module/ProveedorBean
+
+2018-06-08 09:04:56,447 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'CompradetalleBean' in deployment unit 'deployment "Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/CompradetalleBean!com.sgcv.rest.jsf.web.bean.CompradetalleBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/CompradetalleBean!com.sgcv.rest.jsf.web.bean.CompradetalleBean
+	java:module/CompradetalleBean!com.sgcv.rest.jsf.web.bean.CompradetalleBean
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/CompradetalleBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/CompradetalleBean
+	java:module/CompradetalleBean
+
+2018-06-08 09:04:56,447 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'FacturaBean' in deployment unit 'deployment "Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/FacturaBean!com.sgcv.rest.jsf.web.bean.FacturaBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/FacturaBean!com.sgcv.rest.jsf.web.bean.FacturaBean
+	java:module/FacturaBean!com.sgcv.rest.jsf.web.bean.FacturaBean
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/FacturaBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/FacturaBean
+	java:module/FacturaBean
+
+2018-06-08 09:04:56,747 ERROR [org.jboss.as.controller.management-operation] (DeploymentScanner-threads - 1) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war")]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.naming.context.java.WebDB"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => [
+        "jboss.persistenceunit.\"Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war#Rest-JSF-Web-PrimeFaces_war_1.0-SNAPSHOTPU\" is missing [jboss.naming.context.java.WebDB]",
+        "jboss.persistenceunit.\"Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war#Rest-JSF-Web-PrimeFaces_war_1.0-SNAPSHOTPU\".__FIRST_PHASE__ is missing [jboss.naming.context.java.WebDB]"
+    ]
+}
+2018-06-08 09:04:56,760 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war" (runtime-name : "Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war")
+2018-06-08 09:04:56,760 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 1) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.naming.context.java.WebDB (missing) dependents: [service jboss.persistenceunit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war#Rest-JSF-Web-PrimeFaces_war_1.0-SNAPSHOTPU".__FIRST_PHASE__, service jboss.persistenceunit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war#Rest-JSF-Web-PrimeFaces_war_1.0-SNAPSHOTPU"] 
+WFLYCTL0185:    Newly corrected services:
+      service jboss.deployment.subunit."gaceta-ear.ear"."gaceta-ejb.jar".beanmanager (no longer required)
+      service jboss.deployment.unit."gaceta-ear.ear".beanmanager (no longer required)
+      service jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioOfficial (no longer required)
+      service jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioPatentForm (no longer required)
+      service jboss.naming.context.java.module.gaceta-ear.gaceta-ejb (no longer required)
+
+2018-06-08 09:05:03,217 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 2) WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("deployment" => "Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war"),
+    ("subsystem" => "ejb3"),
+    ("stateless-session-bean" => "FacturaBean")
+]) - failure description: "WFLYEJB0370: EJB component for address [
+    (\"deployment\" => \"Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war\"),
+    (\"subsystem\" => \"ejb3\"),
+    (\"stateless-session-bean\" => \"FacturaBean\")
+] is in 
+ state DOWN, must be in state UP"
+2018-06-08 09:05:06,916 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war (runtime-name: Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war) in 45ms
+2018-06-08 09:05:06,918 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war" (runtime-name: "Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war")
+2018-06-08 09:05:09,140 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for Rest-JSF-Web-PrimeFaces_war_1.0-SNAPSHOTPU
+2018-06-08 09:05:09,314 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war
+2018-06-08 09:05:09,320 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'SolicitudcompraBean' in deployment unit 'deployment "Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/SolicitudcompraBean!com.sgcv.rest.jsf.web.bean.SolicitudcompraBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/SolicitudcompraBean!com.sgcv.rest.jsf.web.bean.SolicitudcompraBean
+	java:module/SolicitudcompraBean!com.sgcv.rest.jsf.web.bean.SolicitudcompraBean
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/SolicitudcompraBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/SolicitudcompraBean
+	java:module/SolicitudcompraBean
+
+2018-06-08 09:05:09,320 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'VentadetalleBean' in deployment unit 'deployment "Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/VentadetalleBean!com.sgcv.rest.jsf.web.bean.VentadetalleBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/VentadetalleBean!com.sgcv.rest.jsf.web.bean.VentadetalleBean
+	java:module/VentadetalleBean!com.sgcv.rest.jsf.web.bean.VentadetalleBean
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/VentadetalleBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/VentadetalleBean
+	java:module/VentadetalleBean
+
+2018-06-08 09:05:09,320 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'PagoBean' in deployment unit 'deployment "Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/PagoBean!com.sgcv.rest.jsf.web.bean.PagoBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/PagoBean!com.sgcv.rest.jsf.web.bean.PagoBean
+	java:module/PagoBean!com.sgcv.rest.jsf.web.bean.PagoBean
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/PagoBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/PagoBean
+	java:module/PagoBean
+
+2018-06-08 09:05:09,321 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'CompraBean' in deployment unit 'deployment "Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/CompraBean!com.sgcv.rest.jsf.web.bean.CompraBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/CompraBean!com.sgcv.rest.jsf.web.bean.CompraBean
+	java:module/CompraBean!com.sgcv.rest.jsf.web.bean.CompraBean
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/CompraBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/CompraBean
+	java:module/CompraBean
+
+2018-06-08 09:05:09,321 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'VentaBean' in deployment unit 'deployment "Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/VentaBean!com.sgcv.rest.jsf.web.bean.VentaBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/VentaBean!com.sgcv.rest.jsf.web.bean.VentaBean
+	java:module/VentaBean!com.sgcv.rest.jsf.web.bean.VentaBean
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/VentaBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/VentaBean
+	java:module/VentaBean
+
+2018-06-08 09:05:09,321 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'DeudaBean' in deployment unit 'deployment "Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/DeudaBean!com.sgcv.rest.jsf.web.bean.DeudaBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/DeudaBean!com.sgcv.rest.jsf.web.bean.DeudaBean
+	java:module/DeudaBean!com.sgcv.rest.jsf.web.bean.DeudaBean
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/DeudaBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/DeudaBean
+	java:module/DeudaBean
+
+2018-06-08 09:05:09,321 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'ProductoBean' in deployment unit 'deployment "Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/ProductoBean!com.sgcv.rest.jsf.web.bean.ProductoBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/ProductoBean!com.sgcv.rest.jsf.web.bean.ProductoBean
+	java:module/ProductoBean!com.sgcv.rest.jsf.web.bean.ProductoBean
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/ProductoBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/ProductoBean
+	java:module/ProductoBean
+
+2018-06-08 09:05:09,321 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'ClienteBean' in deployment unit 'deployment "Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/ClienteBean!com.sgcv.rest.jsf.web.bean.ClienteBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/ClienteBean!com.sgcv.rest.jsf.web.bean.ClienteBean
+	java:module/ClienteBean!com.sgcv.rest.jsf.web.bean.ClienteBean
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/ClienteBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/ClienteBean
+	java:module/ClienteBean
+
+2018-06-08 09:05:09,321 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'ProveedorBean' in deployment unit 'deployment "Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/ProveedorBean!com.sgcv.rest.jsf.web.bean.ProveedorBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/ProveedorBean!com.sgcv.rest.jsf.web.bean.ProveedorBean
+	java:module/ProveedorBean!com.sgcv.rest.jsf.web.bean.ProveedorBean
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/ProveedorBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/ProveedorBean
+	java:module/ProveedorBean
+
+2018-06-08 09:05:09,322 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'CompradetalleBean' in deployment unit 'deployment "Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/CompradetalleBean!com.sgcv.rest.jsf.web.bean.CompradetalleBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/CompradetalleBean!com.sgcv.rest.jsf.web.bean.CompradetalleBean
+	java:module/CompradetalleBean!com.sgcv.rest.jsf.web.bean.CompradetalleBean
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/CompradetalleBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/CompradetalleBean
+	java:module/CompradetalleBean
+
+2018-06-08 09:05:09,322 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'FacturaBean' in deployment unit 'deployment "Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/FacturaBean!com.sgcv.rest.jsf.web.bean.FacturaBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/FacturaBean!com.sgcv.rest.jsf.web.bean.FacturaBean
+	java:module/FacturaBean!com.sgcv.rest.jsf.web.bean.FacturaBean
+	java:global/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/FacturaBean
+	java:app/Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT/FacturaBean
+	java:module/FacturaBean
+
+2018-06-08 09:05:09,530 ERROR [org.jboss.as.controller.management-operation] (DeploymentScanner-threads - 2) WFLYCTL0013: Operation ("full-replace-deployment") failed - address: ([]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.naming.context.java.WebDB"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => [
+        "jboss.persistenceunit.\"Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war#Rest-JSF-Web-PrimeFaces_war_1.0-SNAPSHOTPU\" is missing [jboss.naming.context.java.WebDB]",
+        "jboss.persistenceunit.\"Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war#Rest-JSF-Web-PrimeFaces_war_1.0-SNAPSHOTPU\".__FIRST_PHASE__ is missing [jboss.naming.context.java.WebDB]"
+    ]
+}
+2018-06-08 09:05:09,540 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war" with deployment "Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war"
+2018-06-08 09:05:09,545 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".WeldBootstrapService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.VentaBean.WeldInterceptorBindingsService, service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.FacturaBean.WeldInterceptorBindingsService, service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."org.jboss.weld.servlet.WeldTerminalListener".WeldInstantiator, service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.SolicitudcompraBean.WeldInstantiator, WFLYCTL0208: ... and 43 more ] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".WeldStartService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.VentaBean.WeldInterceptorBindingsService, service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.FacturaBean.WeldInterceptorBindingsService, service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."org.jboss.weld.servlet.WeldTerminalListener".WeldInstantiator, service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.SolicitudcompraBean.WeldInstantiator, WFLYCTL0208: ... and 44 more ] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".beanmanager (unavailable) dependents: [service jboss.persistenceunit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war#Rest-JSF-Web-PrimeFaces_war_1.0-SNAPSHOTPU"] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.ClienteBean.CREATE (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.ClienteBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.ClienteBean.JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.ClienteBean.START (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master.UndertowDeploymentInfoService, service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.ClienteBean.VIEW."com.sgcv.rest.jsf.web.bean.ClienteBean".LOCAL (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.ClienteBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.ClienteBean.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.ClienteBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.ClienteBean.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.ClienteBean.WeldInstantiator] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.ClienteBean.ejb.non-functional-timerservice (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.ClienteBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.CompraBean.CREATE (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.CompraBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.CompraBean.JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.CompraBean.START (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master.UndertowDeploymentInfoService, service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.CompraBean.VIEW."com.sgcv.rest.jsf.web.bean.CompraBean".LOCAL (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.CompraBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.CompraBean.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.CompraBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.CompraBean.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.CompraBean.WeldInstantiator] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.CompraBean.ejb.non-functional-timerservice (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.CompraBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.CompradetalleBean.CREATE (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.CompradetalleBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.CompradetalleBean.JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.CompradetalleBean.START (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master.UndertowDeploymentInfoService, service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.CompradetalleBean.VIEW."com.sgcv.rest.jsf.web.bean.CompradetalleBean".LOCAL (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.CompradetalleBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.CompradetalleBean.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.CompradetalleBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.CompradetalleBean.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.CompradetalleBean.WeldInstantiator] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.CompradetalleBean.ejb.non-functional-timerservice (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.CompradetalleBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.DeudaBean.CREATE (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.DeudaBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.DeudaBean.JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.DeudaBean.START (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master.UndertowDeploymentInfoService, service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.DeudaBean.VIEW."com.sgcv.rest.jsf.web.bean.DeudaBean".LOCAL (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.DeudaBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.DeudaBean.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.DeudaBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.DeudaBean.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.DeudaBean.WeldInstantiator] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.DeudaBean.ejb.non-functional-timerservice (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.DeudaBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.FacturaBean.CREATE (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.FacturaBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.FacturaBean.JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.FacturaBean.START (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master.UndertowDeploymentInfoService, service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.FacturaBean.VIEW."com.sgcv.rest.jsf.web.bean.FacturaBean".LOCAL (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.FacturaBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.FacturaBean.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.FacturaBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.FacturaBean.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.FacturaBean.WeldInstantiator] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.FacturaBean.ejb.non-functional-timerservice (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.FacturaBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.PagoBean.CREATE (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.PagoBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.PagoBean.JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.PagoBean.START (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master.UndertowDeploymentInfoService, service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.PagoBean.VIEW."com.sgcv.rest.jsf.web.bean.PagoBean".LOCAL (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.PagoBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.PagoBean.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.PagoBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.PagoBean.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.PagoBean.WeldInstantiator] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.PagoBean.ejb.non-functional-timerservice (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.PagoBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.ProductoBean.CREATE (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.ProductoBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.ProductoBean.JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.ProductoBean.START (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master.UndertowDeploymentInfoService, service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.ProductoBean.VIEW."com.sgcv.rest.jsf.web.bean.ProductoBean".LOCAL (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.ProductoBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.ProductoBean.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.ProductoBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.ProductoBean.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.ProductoBean.WeldInstantiator] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.ProductoBean.ejb.non-functional-timerservice (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.ProductoBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.ProveedorBean.CREATE (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.ProveedorBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.ProveedorBean.JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.ProveedorBean.START (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master.UndertowDeploymentInfoService, service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.ProveedorBean.VIEW."com.sgcv.rest.jsf.web.bean.ProveedorBean".LOCAL (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.ProveedorBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.ProveedorBean.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.ProveedorBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.ProveedorBean.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.ProveedorBean.WeldInstantiator] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.ProveedorBean.ejb.non-functional-timerservice (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.ProveedorBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.SolicitudcompraBean.CREATE (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.SolicitudcompraBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.SolicitudcompraBean.JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.SolicitudcompraBean.START (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master.UndertowDeploymentInfoService, service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.SolicitudcompraBean.VIEW."com.sgcv.rest.jsf.web.bean.SolicitudcompraBean".LOCAL (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.SolicitudcompraBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.SolicitudcompraBean.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.SolicitudcompraBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.SolicitudcompraBean.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.SolicitudcompraBean.WeldInstantiator] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.SolicitudcompraBean.ejb.non-functional-timerservice (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.SolicitudcompraBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.VentaBean.CREATE (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.VentaBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.VentaBean.JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.VentaBean.START (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master.UndertowDeploymentInfoService, service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.VentaBean.VIEW."com.sgcv.rest.jsf.web.bean.VentaBean".LOCAL (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.VentaBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.VentaBean.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.VentaBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.VentaBean.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.VentaBean.WeldInstantiator] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.VentaBean.ejb.non-functional-timerservice (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.VentaBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.VentadetalleBean.CREATE (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.VentadetalleBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.VentadetalleBean.JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.VentadetalleBean.START (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master.UndertowDeploymentInfoService, service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.VentadetalleBean.VIEW."com.sgcv.rest.jsf.web.bean.VentadetalleBean".LOCAL (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.VentadetalleBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.VentadetalleBean.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.VentadetalleBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.VentadetalleBean.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.VentadetalleBean.WeldInstantiator] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.VentadetalleBean.ejb.non-functional-timerservice (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.VentadetalleBean.START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."com.sun.faces.config.ConfigureListener".CREATE (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."com.sun.faces.config.ConfigureListener".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."com.sun.faces.config.ConfigureListener".JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."com.sun.faces.config.ConfigureListener".START (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master.UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."com.sun.faces.config.ConfigureListener".WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."com.sun.faces.config.ConfigureListener".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."javax.faces.webapp.FacesServlet".CREATE (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."javax.faces.webapp.FacesServlet".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."javax.faces.webapp.FacesServlet".JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."javax.faces.webapp.FacesServlet".START (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master.UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."javax.faces.webapp.FacesServlet".WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."javax.faces.webapp.FacesServlet".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."javax.faces.webapp.FacetTag".CREATE (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."javax.faces.webapp.FacetTag".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."javax.faces.webapp.FacetTag".JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."javax.faces.webapp.FacetTag".START (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master.UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."javax.faces.webapp.FacetTag".WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."javax.faces.webapp.FacetTag".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".CREATE (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master.UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".CREATE (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master.UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.ClienteBBean".CREATE (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.ClienteBBean".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.ClienteBBean".JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.ClienteBBean".START (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master.UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.ClienteBBean".WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.ClienteBBean".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.CompraBBean".CREATE (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.CompraBBean".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.CompraBBean".JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.CompraBBean".START (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master.UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.CompraBBean".WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.CompraBBean".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.ProductoBBean".CREATE (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.ProductoBBean".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.ProductoBBean".JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.ProductoBBean".START (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master.UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.ProductoBBean".WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.ProductoBBean".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.ProveedorBBean".CREATE (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.ProveedorBBean".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.ProveedorBBean".JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.ProveedorBBean".START (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master.UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.ProveedorBBean".WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.ProveedorBBean".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.RegistroClienteBBean".CREATE (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.RegistroClienteBBean".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.RegistroClienteBBean".JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.RegistroClienteBBean".START (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master.UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.RegistroClienteBBean".WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.RegistroClienteBBean".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.RegistroCompraBBean".CREATE (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.RegistroCompraBBean".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.RegistroCompraBBean".JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.RegistroCompraBBean".START (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master.UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.RegistroCompraBBean".WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.RegistroCompraBBean".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.RegistroProductoBBean".CREATE (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.RegistroProductoBBean".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.RegistroProductoBBean".JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.RegistroProductoBBean".START (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master.UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.RegistroProductoBBean".WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.RegistroProductoBBean".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.RegistroProveedorBBean".CREATE (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.RegistroProveedorBBean".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.RegistroProveedorBBean".JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.RegistroProveedorBBean".START (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master.UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.RegistroProveedorBBean".WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.RegistroProveedorBBean".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.SolicitudCompraBBean".CREATE (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.SolicitudCompraBBean".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.SolicitudCompraBBean".JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.SolicitudCompraBBean".START (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master.UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.SolicitudCompraBBean".WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.SolicitudCompraBBean".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.common.RestClient".CREATE (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.common.RestClient".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.common.RestClient".JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.common.RestClient".START (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master.UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.common.RestClient".WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.common.RestClient".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.extract.ExtractBean".CREATE (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.extract.ExtractBean".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.extract.ExtractBean".JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.extract.ExtractBean".START (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master.UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.extract.ExtractBean".WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.extract.ExtractBean".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.util.report.EmitirFactura".CREATE (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.util.report.EmitirFactura".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.util.report.EmitirFactura".JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.util.report.EmitirFactura".START (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master.UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.util.report.EmitirFactura".WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.util.report.EmitirFactura".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.java.util.Date".CREATE (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.java.util.Date".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.java.util.Date".JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.java.util.Date".START (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master.UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.java.util.Date".WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.java.util.Date".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."org.jboss.weld.servlet.WeldInitialListener".CREATE (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."org.jboss.weld.servlet.WeldInitialListener".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."org.jboss.weld.servlet.WeldInitialListener".JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."org.jboss.weld.servlet.WeldInitialListener".START (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master.UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."org.jboss.weld.servlet.WeldInitialListener".WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."org.jboss.weld.servlet.WeldInitialListener".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."org.jboss.weld.servlet.WeldTerminalListener".CREATE (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."org.jboss.weld.servlet.WeldTerminalListener".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."org.jboss.weld.servlet.WeldTerminalListener".JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."org.jboss.weld.servlet.WeldTerminalListener".START (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master.UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."org.jboss.weld.servlet.WeldTerminalListener".WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."org.jboss.weld.servlet.WeldTerminalListener".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."org.omnifaces.component.output.cache.CacheInitializerListener".CREATE (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."org.omnifaces.component.output.cache.CacheInitializerListener".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."org.omnifaces.component.output.cache.CacheInitializerListener".JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."org.omnifaces.component.output.cache.CacheInitializerListener".START (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master.UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."org.omnifaces.component.output.cache.CacheInitializerListener".WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."org.omnifaces.component.output.cache.CacheInitializerListener".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."org.omnifaces.facesviews.FacesViewsInitializerListener".CREATE (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."org.omnifaces.facesviews.FacesViewsInitializerListener".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."org.omnifaces.facesviews.FacesViewsInitializerListener".JndiBindingsService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."org.omnifaces.facesviews.FacesViewsInitializerListener".START (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master, service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master.UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."org.omnifaces.facesviews.FacesViewsInitializerListener".WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."org.omnifaces.facesviews.FacesViewsInitializerListener".START] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".ee.ComponentRegistry (unavailable) dependents: [service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master.UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."com.sun.faces.config.ConfigureListener".START, service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.DeudaBean.START, service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."org.jboss.weld.servlet.WeldTerminalListener".START, service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."managed-bean.com.sgcv.rest.jsf.web.cliente.bbean.RegistroProductoBBean".START, WFLYCTL0208: ... and 31 more ] 
+      service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".moduleDeploymentRuntimeInformation (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.VentadetalleBean.START, service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.CompraBean.START, service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.DeudaBean.START, service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.ProveedorBean.START, WFLYCTL0208: ... and 9 more ] 
+      service jboss.naming.context.java.app."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT".env (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT"."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT".BeanManager (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT"."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT".DefaultContextService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT"."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT".DefaultDataSource (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT"."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT".DefaultManagedExecutorService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT"."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT".DefaultManagedScheduledExecutorService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT"."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT".DefaultManagedThreadFactory (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT"."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT".EJBContext (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT"."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT".TimerService (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT"."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT".TransactionSynchronizationRegistry (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT"."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT".UserTransaction (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT"."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT".env (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT"."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT".env."com.sgcv.rest.jsf.web.bean.ClienteBean".context (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.ClienteBean.START, service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT"."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT".env."com.sgcv.rest.jsf.web.bean.ClienteBean".em (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.ClienteBean.START, service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT"."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT".env."com.sgcv.rest.jsf.web.bean.CompraBean".context (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.CompraBean.START, service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT"."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT".env."com.sgcv.rest.jsf.web.bean.CompraBean".em (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.CompraBean.START, service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT"."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT".env."com.sgcv.rest.jsf.web.bean.CompradetalleBean".em (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.CompradetalleBean.START, service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT"."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT".env."com.sgcv.rest.jsf.web.bean.DeudaBean".em (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.DeudaBean.START, service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT"."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT".env."com.sgcv.rest.jsf.web.bean.FacturaBean".em (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService, service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.FacturaBean.START] 
+      service jboss.naming.context.java.module."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT"."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT".env."com.sgcv.rest.jsf.web.bean.FacturaBean".ventabean (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService, service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.FacturaBean.START] 
+      service jboss.naming.context.java.module."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT"."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT".env."com.sgcv.rest.jsf.web.bean.PagoBean".em (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.PagoBean.START, service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT"."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT".env."com.sgcv.rest.jsf.web.bean.ProductoBean".em (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService, service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.ProductoBean.START] 
+      service jboss.naming.context.java.module."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT"."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT".env."com.sgcv.rest.jsf.web.bean.ProductoBean".solicitudcomprabean (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService, service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.ProductoBean.START] 
+      service jboss.naming.context.java.module."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT"."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT".env."com.sgcv.rest.jsf.web.bean.ProveedorBean".em (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.ProveedorBean.START, service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT"."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT".env."com.sgcv.rest.jsf.web.bean.SolicitudcompraBean".em (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.SolicitudcompraBean.START, service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT"."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT".env."com.sgcv.rest.jsf.web.bean.VentaBean".context (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.VentaBean.START, service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT"."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT".env."com.sgcv.rest.jsf.web.bean.VentaBean".em (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.VentaBean.START, service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.naming.context.java.module."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT"."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT".env."com.sgcv.rest.jsf.web.bean.VentadetalleBean".em (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.VentadetalleBean.START, service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".jndiDependencyService] 
+      service jboss.persistenceunit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war#Rest-JSF-Web-PrimeFaces_war_1.0-SNAPSHOTPU" (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component."com.sun.faces.config.ConfigureListener".START, service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".component.DeudaBean.START, service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".deploymentCompleteService, service jboss.naming.context.java.module."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT"."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT".env."com.sgcv.rest.jsf.web.bean.CompradetalleBean".em, WFLYCTL0208: ... and 30 more ] 
+      service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master (unavailable) dependents: [service jboss.deployment.unit."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".deploymentCompleteService] 
+      service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master.UndertowDeploymentInfoService (unavailable) dependents: [service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master] 
+      service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master.codec (unavailable) dependents: [service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master.UndertowDeploymentInfoService] 
+      service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master.session (unavailable) dependents: [service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master.UndertowDeploymentInfoService] 
+      service org.wildfly.request-controller.control-point."Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war".undertow (unavailable) dependents: [service jboss.undertow.deployment.default-server.default-host./Rest-JSF-Web-PrimeFaces-master.UndertowDeploymentInfoService] 
+
+2018-06-08 09:14:24,002 INFO  [org.jboss.as.server] (management-handler-thread - 5) WFLYSRV0236: Suspending server with no timeout.
+2018-06-08 09:14:24,012 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2018-06-08 09:14:24,033 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/datasources/secobSeguimientoDs]
+2018-06-08 09:14:24,034 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepidepurar
+2018-06-08 09:14:24,050 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:/datasources/MSSQLDS]
+2018-06-08 09:14:24,041 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepiCasilleros
+2018-06-08 09:14:24,050 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/secretaria-tramites]
+2018-06-08 09:14:24,083 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 70) WFLYUT0022: Unregistered web context: /ovcon-web
+2018-06-08 09:14:24,084 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 69) WFLYUT0022: Unregistered web context: /ShoppingCart-web
+2018-06-08 09:14:24,084 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 74) WFLYUT0022: Unregistered web context: /hospital-web
+2018-06-08 09:14:24,104 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0019: Stopped Driver service with driver-name = postgresql-9.3-1102-jdbc41.jar
+2018-06-08 09:14:24,112 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 72) WFLYUT0022: Unregistered web context: /EnterpriseApplicationWS-war
+2018-06-08 09:14:24,113 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 71) WFLYUT0022: Unregistered web context: /WebApplication2
+2018-06-08 09:14:24,114 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/datasources/autenticacion]
+2018-06-08 09:14:24,114 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 73) WFLYUT0022: Unregistered web context: /files
+2018-06-08 09:14:24,117 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:jboss/datasources/jBossJaasPostgres]
+2018-06-08 09:14:24,117 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/modificacionesDs]
+2018-06-08 09:14:24,117 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepiFormularios
+2018-06-08 09:14:24,118 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:jboss/datasources/auth]
+2018-06-08 09:14:24,118 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:jboss/datasources/iepi3]
+2018-06-08 09:14:24,118 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:jboss/datasources/obtencionesVegetales]
+2018-06-08 09:14:24,118 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepi_sipigaceta2
+2018-06-08 09:14:24,118 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/cpi]
+2018-06-08 09:14:24,118 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepiProcesos
+2018-06-08 09:14:24,118 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepi_sipigaceta
+2018-06-08 09:14:24,119 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/OMPI]
+2018-06-08 09:14:24,119 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepiadmin
+2018-06-08 09:14:24,120 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = sqlserver
+2018-06-08 09:14:24,154 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = mysql
+2018-06-08 09:14:24,177 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 74) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'EnterpriseApplicationWS-war.war#EnterpriseApplicationWS-warPU'
+2018-06-08 09:14:24,193 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment postgresql-9.3-1102-jdbc41.jar (runtime-name: postgresql-9.3-1102-jdbc41.jar) in 119ms
+2018-06-08 09:14:24,194 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0019: Host default-host stopping
+2018-06-08 09:14:24,195 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment WebApplication2.war (runtime-name: WebApplication2.war) in 110ms
+2018-06-08 09:14:24,196 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 74) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'EnterpriseApplicationWS-war.war#EnterpriseApplicationWS-warPU'
+2018-06-08 09:14:24,196 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/iepi]
+2018-06-08 09:14:24,201 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment files.war (runtime-name: files.war) in 114ms
+2018-06-08 09:14:24,205 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0208: Stopped subdeployment (runtime-name: ShoppingCart-ejb-0.0.1-SNAPSHOT.jar) in 118ms
+2018-06-08 09:14:24,206 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0208: Stopped subdeployment (runtime-name: ShoppingCart-web-0.0.1-SNAPSHOT.war) in 132ms
+2018-06-08 09:14:24,206 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment EnterpriseApplicationWS-war.war (runtime-name: EnterpriseApplicationWS-war.war) in 119ms
+2018-06-08 09:14:24,209 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment ShoppingCart-ear-0.0.1-SNAPSHOT.ear (runtime-name: ShoppingCart-ear-0.0.1-SNAPSHOT.ear) in 131ms
+2018-06-08 09:14:24,213 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = postgres
+2018-06-08 09:14:24,223 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment ovcon-web.war (runtime-name: ovcon-web.war) in 149ms
+2018-06-08 09:14:24,240 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 74) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'hospital-ear.ear/hospital-ejb.jar#primary'
+2018-06-08 09:14:24,240 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 74) HHH000227: Running hbm2ddl schema export
+2018-06-08 09:14:24,241 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2018-06-08 09:14:24,248 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war (runtime-name: Rest-JSF-Web-PrimeFaces-1.0-SNAPSHOT.war) in 164ms
+2018-06-08 09:14:24,250 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 74) HHH000230: Schema export complete
+2018-06-08 09:14:24,252 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 75) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2018-06-08 09:14:24,253 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 74) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'hospital-ear.ear/hospital-ejb.jar#primary'
+2018-06-08 09:14:24,258 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2018-06-08 09:14:24,260 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0208: Stopped subdeployment (runtime-name: hospital-web.war) in 186ms
+2018-06-08 09:14:24,261 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0208: Stopped subdeployment (runtime-name: hospital-ejb.jar) in 186ms
+2018-06-08 09:14:24,265 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment hospital-ear.ear (runtime-name: hospital-ear.ear) in 191ms
+2018-06-08 09:14:24,281 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0008: Undertow HTTP listener default suspending
+2018-06-08 09:14:24,282 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0008: Undertow HTTPS listener https suspending
+2018-06-08 09:14:24,282 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2018-06-08 09:14:24,286 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2018-06-08 09:14:24,289 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0004: Undertow 1.4.0.Final stopping
+2018-06-08 09:14:24,308 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0050: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 233ms

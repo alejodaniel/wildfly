@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP18079192_20181228.xml' country='EC' doc-number='SP18079192' kind='A' date-published='20181228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP18079192' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP18079192</doc-number><kind>A</kind><date>20181228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>G06F17/30_G06Q20/36_G06Q20/38</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>SENADI201879192</doc-number><date>20181022</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>15/083,241	</doc-number><date>20160328</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>BLACK GOLD COIN, INC.</name><address><street>7495 Azure Drive, Suite 100, Las Vegas, NV 89130, Estados Unidos de América</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>ANDRADE, Marcus</name><address><street>7495 Azure Drive, Suite 100, Las Vegas, NV 89130, Estados Unidos de América</street><country>US</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>Mandakovic Falconi, Sasha </name><address><street>Av. Amazonas N21-147 y Roca, Edif. Río Amazonas, Of. 900, Quito  - Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>SISTEMAS Y MÉTODOS PARA PROPORCIONAR UNA VERIFICACIÓN DE IDENTIDAD PERSONAL MULTIFACTORIAL BASADA EN UNA CADENA DE BLOQUES</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Puede proporcionarse la verificación de la identidad personal multifactorial basada en una cadena de bloques. Pueden establecerse direcciones de verificación en una cadena de bloques mediante: la asociación de identificadores con individuos que tienen identidades personales previamente verificadas, la asignación de direcciones de verificación en una cadena de bloques a los individuos, y el registro de identificadores y datos biométricos asociados con los individuos en direcciones de verificación correspondientes. Puede realizarse una verificación de identidad personal multifactorial basada en una cadena de bloques utilizando las direcciones de verificación mediante: la recepción de uno o varios identificadores en relación con una o varias peticiones de verificación de una identidad de uno o varios individuos, la extracción de los datos biométricos asociados con uno o varios individuos de las direcciones de verificación correspondientes, y la verificación de la identidad de uno o varios individuos tras recibir datos biométricos y claves privadas coincidentes.</abstract>
+</ec-patent-document>

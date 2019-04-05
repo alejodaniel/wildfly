@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SMU18068607_20181228.xml' country='EC' doc-number='SMU18068607' kind='U' date-published='20181228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SMU18068607' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SMU18068607</doc-number><kind>U</kind><date>20181228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>F15D1/08_B01F3/00</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>SENADI201868607</doc-number><date>20180911</date></document-id></application-reference>
+<priority-claims>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>OTERO MERA NILO</name><address><street>Florencio Espinoza N55-87 y Av. Carlos V</street><country>EC</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>OTERO MERA NILO</name><address><street>Florencio Espinoza N55-87 y Av. Carlos V</street><country>EC</country></address></addressbook></inventor>
+</inventors><agents>
+</agents></parties>
+<invention-title lang='es'>Sistema de aireación profunda y superficial de barrido rotacional para piscinas de acuicultura.</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Sistema de aireación profunda y superficial de barrido rotacional para piscinas de acuicultura.</abstract>
+</ec-patent-document>

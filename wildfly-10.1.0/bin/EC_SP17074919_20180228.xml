@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17074919_20180228.xml' country='EC' doc-number='SP17074919' kind='A' date-published='20180228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17074919' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17074919</doc-number><kind>A</kind><date>20180228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C07D295/096(2006.01),C07D207/28(2006.01),A61K31/495(2006.01),A61P25/24(2006.01),A61P25/28(2006.01),A61P25/18(2006.01)</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201774919</doc-number><date>20171110</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>PA 2015 00284	 </doc-number><date>20150513</date><country>DK</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>H. LUNDBECK A/S</name><address><street>Ottiliavej 9, 2500 Valby, Dinamarca</street><country>DK</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>CHRISTENSEN, Kim Lasse</name><address><street>Holmstrupvej 73, 4200 Slagelse, Dinamarca</street><country>DK</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>DE DIEGO, Heidi Lopez</name><address><street>Hælderne 5, 2850 Nærum, Dinamarca</street><country>DK</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>HOLM, Rene</name><address><street>Turkisvej 2, 4040 Jyllinge, Dinamarca</street><country>DK</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>KATEB, Jens</name><address><street>Köpenhamnsvägen 9b,217 43 Malmö, Suecia</street><country>SE</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>FALCONI PUIG CIA LTDA</name><address><street>Av. Amazonas N21-147 y Roca, Edif. Río Amazonas, of. 900, Quito, Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>PIROGLUTAMATO DE VORTIOXETINA</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La presente invención proporciona sal de piroglutamato de vortioxetina y composiciones farmacéuticas que comprenden dicha sal.</abstract>
+</ec-patent-document>

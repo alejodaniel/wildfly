@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP18052305_20181228.xml' country='EC' doc-number='SP18052305' kind='A' date-published='20181228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP18052305' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP18052305</doc-number><kind>A</kind><date>20181228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C03B9/38</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>SENADI201852305</doc-number><date>20180712</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>PCT/MX2015/000191</doc-number><date>20151215</date><country>MX</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>VITRO, S.A.B. de C.V.</name><address><street>Keramos 225 Poniente, Col. Del Prado, Monterrey, Nuevo León 64410 (MX).</street><country>MX</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>TIJERINA RAMOS, Victor</name><address><street>Aldama Sur No. 415, Departamento 7, Col. Centro, Monterrey, Nuevo León 64000 (MX).</street><country>MX</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>Romoleroux Armijos, María Cecilia </name><address><street>Robles E4-136 y Av. Amazonas, Edif. Proinco Calisto, piso 11, Quito - Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>SISTEMA Y MÉTODO DE ENFRIAMIENTO DE MOLDES PARA UNA MÁQUINA FORMADORA DE ARTÍCULOS DE VIDRIO HUECOS</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La presente invención se relaciona a un sistema y método para el enfriamiento de moldes de una máquina formadora de artículos de vidrio del tipo que comprende, al menos un portador de moldes que incluyen mitades de moldes que son desplazables entre una posición de molde cerrado para el formado del artículo de vidrio y una posición de molde abierto para la liberación del dicho artículo, cada una de las mitades de molde teniendo pasajes axiales para enfriar cada una de las mitades del molde. Una estructura de soporte que tiene una sección de soporte superior fija y una sección de soporte movible. Medios para proveer un flujo de enfriamiento son conectados en coincidencia con una serie de aberturas en la sección de soporte movible. Un distribuidor del flujo de enfriamiento es ubicado por encima de la sección de soporte movible, el distribuidor teniendo una sección inferior en coincidencia con cada una de la primera serie de aberturas de la sección de soporte movible para el paso del flujo de enfriamiento y, una  sección superior  en coincidencia con cada uno de los pasajes axiales de cada una de las mitades de cada molde, dicho distribuidor de flujo de enfriamiento siendo desplazable entre la posición de molde cerrado para el formado del artículo de vidrio y la posición de molde abierto para la liberación del dicho artículo, el distribuidor suministrando el flujo de enfriamiento a través de cada una de las aberturas de la sección de soporte movible para enfriar las mitades de...</abstract>
+</ec-patent-document>

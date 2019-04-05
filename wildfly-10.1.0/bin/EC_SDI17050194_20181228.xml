@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SDI17050194_20181228.xml' country='EC' doc-number='SDI17050194' kind='S' date-published='20181228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SDI17050194' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SDI17050194</doc-number><kind>S</kind><date>20181228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>12-11</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201750194</doc-number><date>20170802</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>2017-001924</doc-number><date>20170203</date><country>JP</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>HONDA MOTOR CO., LTD.</name><address><street>1-1, Minami-Aoyama 2-chome, Minato-ku, Tokyo 107-8556 Japon</street><country>JP</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>TANAKA, Jun</name><address><street>c/o HONDA R D CO., LTD., 4-1, Chuo 1-chome, Wako-shi, Saitama, 351-0193 Japon</street><country>JP</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>MEENA, Lov</name><address><street>c/o Honda R D (India) Private Ltd. - Technical Center, Plot No. 02, Sector-03, IMT Manesar, Gurgaon Haryana-122050 India</street><country>IN</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>DR. JUAN M. QUEVEDO</name><address><street>Av. 12 de Octubre N26-97 y Lincoln, Quito, Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>UNA CUBIERTA PARA MANUBRIO DE UNA MOTONETA</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Consiste en el diseño de una cubierta para manubrio de una motoneta que se caracteriza porque la parte frontal sobresale hacia adelante y hacia abajo en una forma generalmente de V.</abstract>
+</ec-patent-document>

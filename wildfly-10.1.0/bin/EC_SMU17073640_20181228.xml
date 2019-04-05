@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SMU17073640_20181228.xml' country='EC' doc-number='SMU17073640' kind='U' date-published='20181228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SMU17073640' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SMU17073640</doc-number><kind>U</kind><date>20181228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>E02B2201/00</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201773640</doc-number><date>20171108</date></document-id></application-reference>
+<priority-claims>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>Henry Esteban Mora Herrera</name><address><street>Jaime Salvador Campuzano S6-557 y Alba Calderón, Ecuador</street><country>EC</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>Henry Esteban Mora Herrera</name><address><street>Jaime Salvador Campuzano S6-557 y Alba Calderón, Ecuador</street><country>EC</country></address></addressbook></inventor>
+</inventors><agents>
+</agents></parties>
+<invention-title lang='es'>FLUSHRINGS</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Los Flushrings son destinados a copar el espacio que existe entre los terminales roscados de tubería para petróleo dentro de las cuplas. Estos anillos evitan el exceso de torque en la tubería.
+
+Las ventajas que los Flushrings brindan a la completaciones de producción son: Eliminar las pérdidas de presión y desperdicio energético en cada junta, prolongar la vida útil de la tubería de producción, eliminar el daño producido por exceso de torque en las juntas, distribuir la carga de torque sobre todo el cupling, aporta un sello metal-metal adicional a la junta.
+
+Al usar los Flushrings se revaloriza la tubería común, equiparando su funcionalidad a tuberías con roscas bajo licencia pero a un costo significativamente menor. El costo para roscas especiales no solo está atado al tallado de las mismas en la tubería; sino también que, requiere de torques controlados para evitar el daño de éstas en la fase de instalación; mientras tanto, los Flushrings no requieren de torque especial y protegen que no exista exceso de torque en las juntas.
+
+El sello metal-metal que los Flushrings brindan en la conexión estándar hace que las juntas puedan soportar la misma presión de trabajo que el tubing. La metalurgia de los Flushrings asegura que estos no deformen las puntas de la tubería.
+
+Los Flushrings pueden ser usados en completaciones de tubería nuevas como antiguas.</abstract>
+</ec-patent-document>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17074542_20180228.xml' country='EC' doc-number='SP17074542' kind='A' date-published='20180228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17074542' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17074542</doc-number><kind>A</kind><date>20180228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>F04B53/16(2006.01),E21B43/12(2006.01),F04B17/03(2006.01),F04B35/04(2006.01),F17D3/12(2006.01)</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201774542</doc-number><date>20171109</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>62/145,121 </doc-number><date>20150419</date><country>US</country></priority-claim>
+<priority-claim sequence='2' kind='National'><doc-number>62/300,626</doc-number><date>20160226</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>FROEHLER, Anthony Steven </name><address><street> #518 - 7th Street NE, Calgary, Alberta T2E 4C6 (CA).</street><country>CA</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>FROEHLER, Anthony Steven </name><address><street> #518 - 7th Street NE, Calgary, Alberta T2E 4C6 (CA).</street><country>CA</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>Romoleroux Armijos, María Cecilia </name><address><street>Robles E4-136 y Av. Amazonas, Edif. Proinco Calisto, piso 11, Quito - Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>SISTEMA DE ACCIONAMIENTO PARA BOMBAS DE INYECCIÓN DE PRODUCTOS QUÍMICOS Y COMPRESORES DE AIRE INSTRUMENTAL</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Se provee un sistema de accionamiento planetario que alinea cuatro extremos de fluido para una bomba o cuatro cilindros de un compresor en el mismo plano, permitiendo que los cuatro extremos de fluido/cilindros del compresor sean accionados por una rotación del motor de la bomba; además, el sistema de accionamiento planetario es apilable para permitir que, por ejemplo, ocho, doce u otros múltiplos de extremos de fluido o cilindros del compresor sean accionados mientras se reduce al mínimo cualquier reducción en la presión de salida; la bomba de inyección de productos químicos incluye también respiraderos roscados en los extremos de fluido que capturan los productos químicos cebados a través de las válvulas, evitando derrames y desperdicios durante el procedimiento de cebado; los cilindros del compresor de aire incluyen también pistones con accionamiento de vacío mejorado bajo una entrada flexible (por ejemplo, la entrada de charnela).</abstract>
+</ec-patent-document>

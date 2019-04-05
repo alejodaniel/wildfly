@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17075386_20180228.xml' country='EC' doc-number='SP17075386' kind='A' date-published='20180228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17075386' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17075386</doc-number><kind>A</kind><date>20180228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C07C309/19,C07C225/20</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201775386</doc-number><date>20171113</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>62/160,659</doc-number><date>20150513</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>JANSSEN PHARMACEUTICA NV</name><address><street>Turnhoutseweg 30, B-2340 Beerse, Belgica</street><country>BE</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>FLOEGEL, Oliver</name><address><street>Hochstrasse 201,  Schaffhausen, 8200 Suiza</street><country>DE</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>JUSTUS, Michael</name><address><street>Hochstrasse 201,  Schaffhausen, 8200 Suiza</street><country>DE</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>REUTER, Karl</name><address><street>Lindenweg 36, 79194 Gundelfingen, Alemania</street><country>DE</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>STRITTMATTER, Tobias</name><address><street>Schanzstr. 7, 79790 K?ssaberg, Alemania</street><country>DE</country></address></addressbook></inventor>
+<inventor sequence='5' designation='all'><addressbook><name>CHEN, Cheng Yi</name><address><street>Hochstrasse 201,  Schaffhausen, 8200 Suiza</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='6' designation='all'><addressbook><name>WEDEL, Tobias</name><address><street>Klara-Siebert-Strasse 7, 76137 Karlsruhe, Alemania</street><country>DE</country></address></addressbook></inventor>
+<inventor sequence='7' designation='all'><addressbook><name>MAURER, Adrian</name><address><street>Hochstrasse 201,  Schaffhausen, 8200 Suiza</street><country>CH</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>ALFREDO PACÍFICO GALLEGOS BANDERAS</name><address><street>Av. 12 de Octubre y Lincoln</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>SAL DE (S)-CSA DE S-KETAMINA, SAL DE (R)-CSA DE S-KETAMINA Y PROCESOS PARA LA PREPARACIÓN DE S-KETAMINA</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La presente invención está dirigida a procesos para la preparación de esketamina. La presente invención está dirigida, además, a procesos para la resolución de S-ketamina a partir de una mezcla racémica o enantioméricamente enriquecida de ketamina. La presente invención está dirigida, además, a una sal de (S)-CSA de S-ketamina, más particularmente, una forma monohidrato de la sal de (S)-CSA de S-ketamina; y a una sal de (R)-CSA de R-ketamina.</abstract>
+</ec-patent-document>

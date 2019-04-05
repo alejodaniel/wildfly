@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SDI18093858_20181228.xml' country='EC' doc-number='SDI18093858' kind='S' date-published='20181228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SDI18093858' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SDI18093858</doc-number><kind>S</kind><date>20181228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>09-03</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>SENADI201893858</doc-number><date>20181219</date></document-id></application-reference>
+<priority-claims>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>Fernando Enrique Martinez Villacreses</name><address><street>Av. Pampite S/n Edificio Officenter Oficina 206,</street><country>EC</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>Fernando Enrique Martinez Villacreses</name><address><street>Av. Pampite S/n Edificio Officenter Oficina 206,</street><country>EC</country></address></addressbook></inventor>
+</inventors><agents>
+</agents></parties>
+<invention-title lang='es'>Florana Caja #1</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Esta caja está creada para el transporte de rosas. Hemos actualizado el tipo de cajas que se utilizan para transportar rosas para que los compradores puedan colocar más tallos en cada caja y que la misma pese menos, ahorrando el costo de transporte.  La caja se crea con orificios de 40 mm y 30 mm (diámetro) en los lados y en el piso de la caja para permitir la aireación en el curso del transporte. La caja tiene 2 cortes grandes en los lados para la aireación y en caso de que las rosas necesiten ser ajustadas o estabilizadas, puede pasar tirantes, candados de cables o algún material similar aquí. La caja tiene pestañas que salen de la parte superior de la misma que nos permite apilar varias cajas y poder transportar varias cajas con un paquete completo.</abstract>
+</ec-patent-document>

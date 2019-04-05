@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP16061758_20180228.xml' country='EC' doc-number='SP16061758' kind='A' date-published='20180228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP16061758' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP16061758</doc-number><kind>A</kind><date>20180228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C07D471/04(2006.01),A61P25/16(2006.01),A61K31/4985(2006.01)</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201661758</doc-number><date>20160720</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>61/919,661</doc-number><date>20131220</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>Sun, Hukai</name><address><street>10410 Science Center Drive San Diego, California 92121, Estados Unidos</street><country>US</country></address></addressbook></applicant>
+<applicant sequence='2' designation='all' app-type='applicant'><addressbook><name>Schleicher, Kristin</name><address><street>10410 Science Center Drive, San Diego, California, Inc., 10410 Science Center Drive, San Diego California 92121</street><country>US</country></address></addressbook></applicant>
+<applicant sequence='3' designation='all' app-type='applicant'><addressbook><name>BROWN, Jason, W.</name><address><street>Takeda California, Inc., 10410 Science Center Drive, San Diego, CA 92121, Estados Unidos de América </street><country>US</country></address></addressbook></applicant>
+<applicant sequence='4' designation='all' app-type='applicant'><addressbook><name>HOPKINS, Maria </name><address><street>10410 Science Center Drive San Diego, California 92121, Estados Unidos</street><country>US</country></address></addressbook></applicant>
+<applicant sequence='5' designation='all' app-type='applicant'><addressbook><name>REICHARD, Holly</name><address><street>c/o Takeda California, Inc., 10410 Science Center Drive, San Diego, California 92121, Estados Unidos</street><country>US</country></address></addressbook></applicant>
+<applicant sequence='6' designation='all' app-type='applicant'><addressbook><name>HITCHCOCK, Stephen</name><address><street>10410 Science Center Drive San Diego, California 92121, Estados Unidos</street><country>US</country></address></addressbook></applicant>
+<applicant sequence='7' designation='all' app-type='applicant'><addressbook><name>MACKLIN, Todd </name><address><street>Blaisell Ave S, Unit 1E, Bloomington, Minnesota 55420, Estados Unidos</street><country>CA</country></address></addressbook></applicant>
+<applicant sequence='8' designation='all' app-type='applicant'><addressbook><name>KIKUCHI, Shota</name><address><street>10410 Science Center Drive San Diego, California 92121, Estados Unidos</street><country>JP</country></address></addressbook></applicant>
+<applicant sequence='9' designation='all' app-type='applicant'><addressbook><name>MONENSCHEIN, Holger</name><address><street>c/o Takeda California, Inc., 10410 Science Center Drive, San Diego, California 92121, Estados Unidos</street><country>DE</country></address></addressbook></applicant>
+<applicant sequence='10' designation='all' app-type='applicant'><addressbook><name>EH EUROPE GMBH</name><address><street>Lowenstrasse 32, 8001 Zurich Switzerland</street><country>CH</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>KIKUCHI, Shota</name><address><street>10410 Science Center Drive San Diego, California 92121, Estados Unidos</street><country>JP</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>Sun, Hukai</name><address><street>10410 Science Center Drive San Diego, California 92121, Estados Unidos</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>Schleicher, Kristin</name><address><street>10410 Science Center Drive, San Diego, California, Inc., 10410 Science Center Drive, San Diego California 92121</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>BROWN, Jason, W.</name><address><street>Takeda California, Inc., 10410 Science Center Drive, San Diego, CA 92121, Estados Unidos de América </street><country>US</country></address></addressbook></inventor>
+<inventor sequence='5' designation='all'><addressbook><name>HOPKINS, Maria </name><address><street>10410 Science Center Drive San Diego, California 92121, Estados Unidos</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='6' designation='all'><addressbook><name>REICHARD, Holly</name><address><street>c/o Takeda California, Inc., 10410 Science Center Drive, San Diego, California 92121, Estados Unidos</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='7' designation='all'><addressbook><name>HITCHCOCK, Stephen</name><address><street>10410 Science Center Drive San Diego, California 92121, Estados Unidos</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='8' designation='all'><addressbook><name>MACKLIN, Todd </name><address><street>Blaisell Ave S, Unit 1E, Bloomington, Minnesota 55420, Estados Unidos</street><country>CA</country></address></addressbook></inventor>
+<inventor sequence='9' designation='all'><addressbook><name>MONENSCHEIN, Holger</name><address><street>c/o Takeda California, Inc., 10410 Science Center Drive, San Diego, California 92121, Estados Unidos</street><country>DE</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>Zambrano Albuja, Margarita Rosa</name><address><street>Av. 6 de Diciembre No. 2816 y Paúl Rivet, Edificio Josueth González 10mo. Piso, Quito - Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>MODULADORES DE TETRAHIDROPIRIDOPIRAZINAS DE GPR6</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La presente invención proporciona compuestos de fórmula I (en imagen anexa) que son útiles como moduladores de GPR6, sus composiciones farmacéuticas, los métodos para el tratamiento de afecciones asociadas con GPR6, los procesos para realizar los compuestos y sus intermediarios.
+</abstract>
+</ec-patent-document>

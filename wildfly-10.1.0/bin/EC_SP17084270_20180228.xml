@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17084270_20180228.xml' country='EC' doc-number='SP17084270' kind='A' date-published='20180228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17084270' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17084270</doc-number><kind>A</kind><date>20180228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>A61K39/395,A61P35/00,C07K16/18,C07K16/28</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201784270</doc-number><date>20171221</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>62/182,699</doc-number><date>20150622</date><country>US</country></priority-claim>
+<priority-claim sequence='2' kind='National'><doc-number>62/319,036</doc-number><date>20160406</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>JANSSEN BIOTECH, INC.</name><address><street>800/850 Ridgeview Drive, Horsham, Pennsylvania 19044, Estados Unidos de America</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>MUTIS, Tuna</name><address><street>VU University Medical Center, Department of Hematology, Room PK.X. 076 De Boelelaan 1117, HV-1081 Amsterdam, Paises Bajos</street><country>NL</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>DOSHI, Parul</name><address><street>937 Dewees Lane, Chester Springs, PA 19425, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>LOKHORST, Henk M.</name><address><street>VU University Medical Center, Department of Hematology, Room PK.X. 076 De Boelelaan 1117, HV-1081 Amsterdam, Paises Bajos</street><country>NL</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>DR. JUAN M. QUEVEDO</name><address><street>Av. 12 de Octubre N26-97 y Lincoln, Quito, Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>TERAPIAS DE COMBINACIÓN PARA ENFERMEDADES MALIGNAS HEMATOLÓGICAS CON ANTICUERPOS ANTI-CD38 E INHIBIDORES DE SURVIVINA</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La presente invención se relaciona con terapias de combinación para enfermedades malignas hematológicas con anticuerpos anti-CD38 e inhibidores de survivina.</abstract>
+</ec-patent-document>

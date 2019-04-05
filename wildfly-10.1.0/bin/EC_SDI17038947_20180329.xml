@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SDI17038947_20180329.xml' country='EC' doc-number='SDI17038947' kind='S' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SDI17038947' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SDI17038947</doc-number><kind>S</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>06-09</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201738947</doc-number><date>20170621</date></document-id></application-reference>
+<priority-claims>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>RIVERA IÑIGUEZ MARIO VICENTE ENRIQUE</name><address><street>Quito</street><country>EC</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>RIVERA IÑIGUEZ MARIO VICENTE ENRIQUE</name><address><street>Quito</street><country>EC</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>Dr. Pablo Santiago Mora Suárez</name><address><street>Av. Rep. del Salvador N34-399 e Irlanda Edif. rosania PB of. 08 </street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>ALMOHADA A-BRAZO</invention-title>
+</bibliographic-data>
+<abstract lang='es'>ES UNA ALMOHADA SUAVE DE APOYO DE CABEZA CON ARQUITECTURA QUE PERMITE SER USADA SOBRE EL BRAZO SIN QUE ESTE MIEMBRO SEA COMPRIMIDO; SIRVE PARA APOYARSE, DORMIR, DESCANSAR, CUYAS DIMENSIONES IDEALES Y FORMATO ERGONÓMICO POSIBILITA EXCELENTE ALINEAMIENTO PARA CABEZA Y CUELLO.</abstract>
+</ec-patent-document>

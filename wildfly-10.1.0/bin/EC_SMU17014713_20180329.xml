@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SMU17014713_20180329.xml' country='EC' doc-number='SMU17014713' kind='U' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SMU17014713' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SMU17014713</doc-number><kind>U</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>A61F9/08</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201714713</doc-number><date>20170323</date></document-id></application-reference>
+<priority-claims>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>FABRICIO REYES MORENO</name><address><street>AV. RUMIÑAHUI - URB LA COLINA CAS 57.</street><country>EC</country></address></addressbook></applicant>
+<applicant sequence='2' designation='all' app-type='applicant'><addressbook><name>CARLOS CANACUAN RAMOS</name><address><street>URB LA COLINA CASA 57</street><country>EC</country></address></addressbook></applicant>
+<applicant sequence='3' designation='all' app-type='applicant'><addressbook><name>Aguinsaca, Diego</name><address><street>Av. General Rumiñahui Urb. La Colina casa 57(Frente a la Universidad ESPE)</street><country>EC</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>CARLOS CANACUAN RAMOS</name><address><street>URB LA COLINA CASA 57</street><country>EC</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>FABRICIO REYES MORENO</name><address><street>AV. RUMIÑAHUI - URB LA COLINA CAS 57.</street><country>EC</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>Aguinsaca, Diego</name><address><street>Av. General Rumiñahui Urb. La Colina casa 57(Frente a la Universidad ESPE)</street><country>EC</country></address></addressbook></inventor>
+</inventors><agents>
+</agents></parties>
+<invention-title lang='es'>Dispositivo electrónico versátil de ayuda a personas invidentes</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Dispositivo electrónico versátil de ayuda a personas invidentes, desarrollado con la finalidad de evitar accidentes a través de la detección y ubicación de obstáculos que pueden golpear al invidente en la parte superior de su cuerpo, de la cintura hacia la cabeza. El dispositivo consiste de una unidad de procesamiento (UP), un sensor ultrasónico (SU), un sistema de sonido compuesto de un zumbador (SSZ), un sistema de vibraciones compuesto de un micromotor (SVM), todos dentro de una carcasa que se puede colocar sobre la vestimenta a través de un sistema de acoples con imanes de neodimio (SAI), el dispositivo se energiza con una batería LIPO. El SU ubicado a una altura determinada, detecta un objeto, luego en la UP, se calcula la distancia a la cual se encuentra dicho objeto; se generan sonidos en el SSZ y vibraciones en el SVM cuyas frecuencias son proporcionales a la distancia calculada; el rango de medida es de 1.5 metros y entre más cercano se calcule el objeto la frecuencia será mayor tanto para el sonido y la vibración. El invidente elije el tipo de aviso: sólo SSZ, sólo SVM o los dos simultáneamente. Para el SSZ se puede seleccionar el tipo de sonido y el volumen, con la finalidad de que el usuario se adapte al sonido que más le agrade.</abstract>
+</ec-patent-document>

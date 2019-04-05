@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17070315_20180228.xml' country='EC' doc-number='SP17070315' kind='A' date-published='20180228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17070315' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17070315</doc-number><kind>A</kind><date>20180228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>A01K63/04(2006.01),F01B15/04(2006.01)</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201770315</doc-number><date>20171023</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>14/699,638 (US)</doc-number><date>20150429</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>O2 WATERATOR LTD.</name><address><street>Hazoran st. 8a 42506 Netanya (IL) </street><country>IL</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>MICHAELI, Miki</name><address><street>Kibutz Kfar Ruppin, 10850 Bait Shean Valley (IL)</street><country>IL</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>YEMINI, Zvi</name><address><street>Yeffet St. 38, Andromeda Hill, 6813011 Tel Aviv (IL)</street><country>IL</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>NAGLER, Ehud</name><address><street>Hadeganiot St. 73, 36054 Kiryat Tivon (IL)</street><country>IL</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>ROMERO ROSALES, ANA MARGARITA</name><address><street>Av. La Coruña E25-58 y Av. 12 de Octubre, Edificio Altana Plaza, Piso 3, Oficina 304</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>DISPOSITIVO, SISTEMA Y MÉTODO ACTIVADOS POR AGUA PARA AIREAR O MEZCLAR UN CUERPO DE AGUA</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Un dispositivo para airear o mezclar un cuerpo de agua tiene un desplazador mecánico activado por conexión a un motor hidráulico de tal manera un flujo de líquido suministrado a la entrada mueve el desplazador mecánico para desplazar agua del cuerpo de agua. El dispositivo puede estar soportado por flotadores o montado sobre una estructura fija. El dispositivo se activa preferiblemente por un flujo de agua que se suministra a través de una tubería de una bomba situada remotamente del cuerpo de agua, evitando así el riesgo de descarga en entorno húmedo de los aireadores y mezcladores activados eléctricamente. </abstract>
+</ec-patent-document>

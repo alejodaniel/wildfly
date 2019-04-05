@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17014972_20180329.xml' country='EC' doc-number='SP17014972' kind='A' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17014972' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17014972</doc-number><kind>A</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C07D401/14_C07D403/14_A61K31/4439_A61K31/497_A61K31/506_A61P13/10</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201714972</doc-number><date>20170314</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>62/049,485</doc-number><date>20140912</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>ELI LILLY AND COMPANY</name><address><street>Lilly Corporate Center, Indianapolis, Indiana 46285, Estados Unidos de America</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>ODINGO, Joshua O.</name><address><street>c/o Eli Lilly Company, Indianapolis, IN 46206-6288, US</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>HUANG, Danwen</name><address><street>c/o Eli Lilly Company, Indianapolis, IN 46206-6288, US</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>DENG, Gary G</name><address><street>c/o Eli Lilly Company, Indianapolis, IN 46206-6288, US</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>GRAZIANI ROBERTO E F.LLI   C. S.a.s.</name><address><street>Via del Macero 9, 47025 BORA DI MERCATO SARACENO (FC), Italy</street><country>IT</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>DR. JUAN M. QUEVEDO</name><address><street>Av. 12 de Octubre N26-97 y Lincoln, Quito, Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>COMPUESTOS DE AZETIDINILOXIFENILPIRROLIDINA</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Favor ver adjunto</abstract>
+</ec-patent-document>

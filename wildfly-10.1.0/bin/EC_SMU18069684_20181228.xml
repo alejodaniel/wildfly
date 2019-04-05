@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SMU18069684_20181228.xml' country='EC' doc-number='SMU18069684' kind='U' date-published='20181228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SMU18069684' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SMU18069684</doc-number><kind>U</kind><date>20181228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>B65D5/00</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>SENADI201869684</doc-number><date>20180927</date></document-id></application-reference>
+<priority-claims>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>QUIMICA COMERCIAL QUIMICIAL CIA. LTDA. </name><address><street>Juan Severino E8-38 y 6 de diciembre. Edif. Argentina Plaza Piso 10</street><country>EC</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>Santiago José Nieto Albuja</name><address><street>Manuel Samaniego S3-123 y Juan León Mera</street><country>EC</country></address></addressbook></inventor>
+</inventors><agents>
+</agents></parties>
+<invention-title lang='es'>Caja autoarmable de Polipropileno corrugado sin agujeros </invention-title>
+</bibliographic-data>
+<abstract lang='es'>Nombre de la invención: Caja Autoarmable de Polipropileno Corrugado sin Agujeros
+
+Descripción de la invención: Caja corrugada de polipropileno, 100% reciclable, en las que se deposita el camarón congelado al salir de la línea de congelamiento, que mantiene el aire encapsulado, manteniendo un aislamiento térmico del producto.
+
+Aplicaciones/ solución técnica que aporta la invención: En caso de romperse la cadena de frío en el transporte del producto, el contenido de la caja se conservará en temperaturas más adecuadas durante más tiempo. Por tanto, el camarón o el producto a almacenarse, puede congelarse en varios procesos y ser después traspasado a nuestra caja para su posterior almacenamiento y transporte.</abstract>
+</ec-patent-document>

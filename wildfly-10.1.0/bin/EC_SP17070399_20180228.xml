@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17070399_20180228.xml' country='EC' doc-number='SP17070399' kind='A' date-published='20180228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17070399' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17070399</doc-number><kind>A</kind><date>20180228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>A61K39/395,C07K16/28,C07K16/46,C12P21/08</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201770399</doc-number><date>20171023</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>62/137034</doc-number><date>20150323</date><country>US</country></priority-claim>
+<priority-claim sequence='2' kind='National'><doc-number>62/147484</doc-number><date>20150414</date><country>US</country></priority-claim>
+<priority-claim sequence='3' kind='National'><doc-number>62/156588</doc-number><date>20150504</date><country>US</country></priority-claim>
+<priority-claim sequence='4' kind='National'><doc-number>62/242489</doc-number><date>20151016</date><country>US</country></priority-claim>
+<priority-claim sequence='5' kind='National'><doc-number>62/255635</doc-number><date>20151116</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>JOUNCE THERAPEUTICS, INC.</name><address><street>1030 Massachusetts Avenue, Cambridge, Massachusetts 02138, Estados Unidos de America</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>ELPEK, Kutlu Goksu</name><address><street>1030 Massachusetts Avenue, Cambridge, Massachusetts 02138, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>MICHAELSON, Jennifer S.</name><address><street>1030 Massachusetts Avenue, Cambridge, Massachusetts 02138, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>SAZINSKY, Stephen</name><address><street>1030 Massachusetts Avenue, Cambridge, Massachusetts 02138, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>SATHYANARAYANAN, Sriram</name><address><street>1030 Massachusetts Avenue, Cambridge, Massachusetts 02138, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>PONCE MARTINEZ, ALEJANDRO</name><address><street>AV. 12 DE OCTUBRE Y LINCOLN, TORRE 1492</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>ANTICUERPOS CONTRA ICOS</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Se proveen en la presente invención diversas realizaciones relacionadas con anticuerpos. Algunas de las realizaciones incluyen anticuerpos agonistas que se unen a ICOS. Dichos anticuerpos pueden ser utilizados en métodos para tratar, por ejemplo, un cáncer</abstract>
+</ec-patent-document>

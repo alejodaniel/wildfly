@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17067530_20180228.xml' country='EC' doc-number='SP17067530' kind='A' date-published='20180228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17067530' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17067530</doc-number><kind>A</kind><date>20180228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>B41M5/50(2006.01),B41M5/52(2006.01),C04B41/00(2006.01),C04B41/48(2006.01),C04B41/52(2006.01)</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201767530</doc-number><date>20171011</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>15159046.0</doc-number><date>20150313</date><country>EF</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>ETERNIT GMBH</name><address><street>Im Breitspiel 20, 69126, Heidelberg, DE</street><country>DE</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>SCHMIDT, Gerhard</name><address><street>Ewald Renz Strasse 27A, 76669 Bad Schonhborn</street><country>DE</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>HOQUE CHOWDHURY, Raphael</name><address><street>Goethestrasse 10, 69181 Leimen, DE</street><country>DE</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>LUDERS, Nicolas</name><address><street>Badeniaplatz 5, 76189 Karlsruhe, DE</street><country>DE</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>FABARA VERA, MARIA ROSA </name><address><street>AV. DIEGO DE ALMAGRO N30-118 Y AV. REPUBLICA. QUITO - ECUADOR </street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>IMPRESIÓN DE INYECCIÓN DE TINTA EN PRODUCTOS DE FIBROCEMENTO</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La presente invención se refiere a procesos para producir productos de fibrocemento así como a los productos de fibrocemento que se pueden obtener a través de ellos. Más específicamente, la presente invención se refiere a productos de fibrocemento adecuados para someterse a la impresión de inyección de tinta, donde los productos de fibrocemento al menos comprenden sobre su superficie exterior una o más capas curadas de una primera composición de recubrimiento, que comprende al menos un aglutinante y un pigmento y que se caracteriza por una concentración de volumen de pigmento de más de alrededor de 40 %, La invención además proporciona procesos para producir esos productos de fibrocemento. Además, la presente invención proporciona procesos para producir productos de fibrocemento impresos por inyección de tinta y productos de fibrocemento impresos por inyección de tinta que se pueden obtener a través de ellos. La presente invención se refiere además a diversos usos de estos productos de fibrocemento, en particular como materiales de construcción.</abstract>
+</ec-patent-document>

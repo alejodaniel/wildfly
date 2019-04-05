@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17078433_20180228.xml' country='EC' doc-number='SP17078433' kind='A' date-published='20180228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17078433' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17078433</doc-number><kind>A</kind><date>20180228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C07J9/00(2006.01),A61K31/575(2006.01),A61K9/14(2006.01),A61K9/20(2006.01)</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201778433</doc-number><date>20171124</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>62/153,040</doc-number><date>20150427</date><country>US</country></priority-claim>
+<priority-claim sequence='2' kind='National'><doc-number>62/317,933</doc-number><date>20160404</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>Sumitomo Dainippon Pharma Co., Ltd.</name><address><street>6-8,  Dosho-machi 2-chome, Chuo-ku, Osaka-shi, Osaka, 541-8524, Japón</street><country>JP</country></address></addressbook></applicant>
+<applicant sequence='2' designation='all' app-type='applicant'><addressbook><name>Intercept Pharmaceuticals, Inc.</name><address><street>10 Hudson Yards, 37th Floor New York, NY 10001, Estados Unidos de América</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>SHAPIRO, David</name><address><street>5110 Via Avante Rancho, Santa Fe, CA 92067, Estados Unidos de América</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>LANCASTER, Richard G.</name><address><street>4436 Coronado Avenue, San Diego, CA 92107, Estados Unidos de América</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>ELIOT, Lise</name><address><street>4760 Eastgate Mall, San Diego, CA 92121, Estados Unidos de América</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>EDWARDS, Jeffrey</name><address><street>4760 Eastgate Mall, San Diego, CA 92121, Estados Unidos de América</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='5' designation='all'><addressbook><name>MARMON, Tonya</name><address><street>11417 Volans Street, San Diego, CA 92126, Estados Unidos de América</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='6' designation='all'><addressbook><name>MACCONELL, Leigh A.</name><address><street>773, Corinia Court, Encinitas, CA 92024, Estados Unidos de América</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='7' designation='all'><addressbook><name>HOOSHMAND-RAD, Roya</name><address><street>4760 Eastgate Mall, San Diego, CA 92121, Estados Unidos de América</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='8' designation='all'><addressbook><name>MATONO, Mitsuhiro</name><address><street>3-45, Kasugadenaka 1-chome, Ibaraki-shi, Osaka, 567-0878, Japón</street><country>JP</country></address></addressbook></inventor>
+<inventor sequence='9' designation='all'><addressbook><name>SCIACCA, Cathi</name><address><street>4760 Eastgate Mall, San Diego, CA 92121, Estados Unidos de América</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='10' designation='all'><addressbook><name>TAOKA, Ikuko</name><address><street>1-98, Kasugadenaka 3-chome, Konohana-ku Osaka-shi, Osaka, 554-0022, Japón</street><country>JP</country></address></addressbook></inventor>
+<inventor sequence='11' designation='all'><addressbook><name>PENCEK, Richard</name><address><street>4760 Eastgate Mall, San Diego, CA 92121, Estados Unidos de América</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='12' designation='all'><addressbook><name>PRUZANSKI, Mark</name><address><street>421 Hudson Street, New York, NY 10014, Estados Unidos de América</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='13' designation='all'><addressbook><name>OLMSTEAD, Kay K.</name><address><street>1435 Logan Court, Escondido, CA 92027, Estados Unidos de América</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='14' designation='all'><addressbook><name>KAGIHIRO, Masashi</name><address><street>1-98, Kasugadenaka 3-chome, Konohana-ku Osaka-shi, Osaka, 554-0022, Japón</street><country>JP</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>Teodomiro Ribadeneira Molestina</name><address><street>Av. De los Shyris N32-40 y Av. 6 de Diciembre- Edif. Aveiro- Piso 5- Oficina 501</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>COMPOSICIONES DE ÁCIDO OBETICÓLICO Y MÉTODOS DE USO</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La divulgación se refiere a formulaciones de ácido obeticólico con estabilidad, disolución y/o solubilidad mejoradas, a métodos para preparar las mismas para su uso y a métodos para tratar diversas enfermedades y afecciones.</abstract>
+</ec-patent-document>

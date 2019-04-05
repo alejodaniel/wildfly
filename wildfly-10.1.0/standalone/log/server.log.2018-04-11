@@ -1,0 +1,53 @@
+2018-04-11 08:35:06,628 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2018-04-11 08:35:17,191 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0010: Unbound data source [java:jboss/datasources/secobSeguimientoDs]
+2018-04-11 08:35:17,143 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepidepurar
+2018-04-11 08:35:20,848 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/datasources/jBossJaasPostgres]
+2018-04-11 08:35:21,956 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/modificacionesDs]
+2018-04-11 08:35:22,023 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepiCasilleros
+2018-04-11 08:35:22,048 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = postgresql-9.3-1102-jdbc41.jar
+2018-04-11 08:35:24,343 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:/datasources/MSSQLDS]
+2018-04-11 08:35:24,344 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepiFormularios
+2018-04-11 08:35:24,365 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/auth]
+2018-04-11 08:35:24,387 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/obtencionesVegetales]
+2018-04-11 08:35:24,388 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepi_sipigaceta2
+2018-04-11 08:35:24,451 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/cpi]
+2018-04-11 08:35:24,453 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepiProcesos
+2018-04-11 08:35:24,479 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/iepi]
+2018-04-11 08:35:24,480 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepi_sipigaceta
+2018-04-11 08:35:24,480 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/OMPI]
+2018-04-11 08:35:24,480 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepiadmin
+2018-04-11 08:35:24,481 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/secretaria-tramites]
+2018-04-11 08:35:28,680 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 70) WFLYUT0022: Unregistered web context: /captcha-web
+2018-04-11 08:35:28,680 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 72) WFLYUT0022: Unregistered web context: /files
+2018-04-11 08:35:28,835 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 73) WFLYUT0022: Unregistered web context: /busquedas-titular-web
+2018-04-11 08:35:28,870 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = sqlserver
+2018-04-11 08:35:29,046 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = mysql
+2018-04-11 08:35:32,105 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment postgresql-9.3-1102-jdbc41.jar (runtime-name: postgresql-9.3-1102-jdbc41.jar) in 16974ms
+2018-04-11 08:35:32,727 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment files.war (runtime-name: files.war) in 16012ms
+2018-04-11 08:35:33,214 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0019: Host default-host stopping
+2018-04-11 08:35:34,693 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2018-04-11 08:35:35,387 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 72) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'busquedas-titular.ear/busquedas-titular-ejb.jar#iepiPU2'
+2018-04-11 08:35:35,387 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 80) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'busquedas-titular.ear/busquedas-titular-ejb.jar#iepiUsuarioPU'
+2018-04-11 08:35:35,387 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 78) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'captcha.ear/captcha-ejb.jar#primary'
+2018-04-11 08:35:36,171 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 78) HHH000227: Running hbm2ddl schema export
+2018-04-11 08:35:37,397 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 72) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'busquedas-titular.ear/busquedas-titular-ejb.jar#iepiUsuarioPU'
+2018-04-11 08:35:37,397 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 80) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'busquedas-titular.ear/busquedas-titular-ejb.jar#iepiPU2'
+2018-04-11 08:35:37,479 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/datasources/iepi3]
+2018-04-11 08:35:37,479 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:jboss/datasources/autenticacion]
+2018-04-11 08:35:38,272 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0208: Stopped subdeployment (runtime-name: busquedas-titular-ejb.jar) in 21526ms
+2018-04-11 08:35:38,989 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = postgres
+2018-04-11 08:35:39,792 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 76) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2018-04-11 08:35:41,435 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 78) HHH000230: Schema export complete
+2018-04-11 08:35:41,494 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 78) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'captcha.ear/captcha-ejb.jar#primary'
+2018-04-11 08:35:41,799 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2018-04-11 08:35:41,927 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0208: Stopped subdeployment (runtime-name: captcha-ejb.jar) in 25190ms
+2018-04-11 08:35:41,940 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0208: Stopped subdeployment (runtime-name: captcha-web.war) in 25204ms
+2018-04-11 08:35:41,941 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment captcha.ear (runtime-name: captcha.ear) in 25314ms
+2018-04-11 08:35:42,191 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0008: Undertow HTTP listener default suspending
+2018-04-11 08:35:42,233 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0008: Undertow HTTPS listener https suspending
+2018-04-11 08:35:42,321 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2018-04-11 08:35:42,321 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2018-04-11 08:35:42,583 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0004: Undertow 1.4.0.Final stopping
+2018-04-11 08:35:43,606 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0208: Stopped subdeployment (runtime-name: busquedas-titular-web.war) in 26869ms
+2018-04-11 08:35:43,606 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment busquedas-titular.ear (runtime-name: busquedas-titular.ear) in 28462ms
+2018-04-11 08:35:43,949 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 27726ms

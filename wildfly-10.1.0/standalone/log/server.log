@@ -1,0 +1,912 @@
+2019-04-05 12:09:35,620 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2019-04-05 12:09:38,278 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2019-04-05 12:09:38,336 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2019-04-05 12:09:38,337 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	http.nonProxyHosts = localhost,127.0.0.1,DESKTOP-JI10U55
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Iepiadm\Documents\wildfly-10.1.0\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_201\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_201\jre
+	java.io.tmpdir = C:\Users\Iepiadm\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_201-b09
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_201
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.201-b09
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = C:\Users\Iepiadm\Documents\wildfly-10.1.0
+	jboss.host.name = desktop-ji10u55
+	jboss.http.port = 8080
+	jboss.management.http.port = 9990
+	jboss.modules.dir = C:\Users\Iepiadm\Documents\wildfly-10.1.0\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-ji10u55
+	jboss.qualified.host.name = desktop-ji10u55
+	jboss.server.base.dir = C:\Users\Iepiadm\Documents\wildfly-10.1.0\standalone
+	jboss.server.config.dir = C:\Users\Iepiadm\Documents\wildfly-10.1.0\standalone\configuration
+	jboss.server.data.dir = C:\Users\Iepiadm\Documents\wildfly-10.1.0\standalone\data
+	jboss.server.deploy.dir = C:\Users\Iepiadm\Documents\wildfly-10.1.0\standalone\data\content
+	jboss.server.log.dir = C:\Users\Iepiadm\Documents\wildfly-10.1.0\standalone\log
+	jboss.server.name = desktop-ji10u55
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Iepiadm\Documents\wildfly-10.1.0\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Iepiadm\Documents\wildfly-10.1.0\standalone\configuration/logging.properties
+	module.path = C:\Users\Iepiadm\Documents\wildfly-10.1.0\modules
+	org.jboss.boot.log.file = C:\Users\Iepiadm\Documents\wildfly-10.1.0\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_201\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_201\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\Iepiadm\Documents\wildfly-10.1.0\jboss-modules.jar -mp C:\Users\Iepiadm\Documents\wildfly-10.1.0\modules org.jboss.as.standalone -Djboss.home.dir=C:\Users\Iepiadm\Documents\wildfly-10.1.0 -c standalone.xml
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = EC
+	user.dir = C:\Users\Iepiadm\Documents\wildfly-10.1.0\bin
+	user.home = C:\Users\Iepiadm
+	user.language = es
+	user.name = Iepiadm
+	user.script = 
+	user.timezone = America/Bogota
+	user.variant = 
+2019-04-05 12:09:38,338 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Dprogram.name=standalone.bat -Xms128m -Xmx512m -Dhttp.nonProxyHosts=localhost,127.0.0.1,DESKTOP-JI10U55 -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Djboss.management.http.port=9990 -Djboss.http.port=8080 -Dorg.jboss.boot.log.file=C:\Users\Iepiadm\Documents\wildfly-10.1.0\standalone\log\server.log -Dlogging.configuration=file:C:\Users\Iepiadm\Documents\wildfly-10.1.0\standalone\configuration/logging.properties 
+2019-04-05 12:09:50,853 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found empresa-version1.0.war in deployment directory. To trigger deployment create a file called empresa-version1.0.war.dodeploy
+2019-04-05 12:09:50,893 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2019-04-05 12:09:50,903 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.4.0.Final
+2019-04-05 12:09:50,909 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.4.0.Final
+2019-04-05 12:09:50,945 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2019-04-05 12:09:50,954 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2019-04-05 12:09:50,962 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2019-04-05 12:09:50,964 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2019-04-05 12:09:50,964 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2019-04-05 12:09:50,978 INFO  [org.jboss.as.security] (MSC service thread 1-7) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2019-04-05 12:09:50,979 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2019-04-05 12:09:50,978 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2019-04-05 12:09:51,127 INFO  [org.jboss.as.connector] (MSC service thread 1-6) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2019-04-05 12:09:51,154 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0003: Undertow 1.4.0.Final starting
+2019-04-05 12:09:51,157 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2019-04-05 12:09:51,161 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = h2
+2019-04-05 12:09:51,232 INFO  [org.jboss.as.naming] (MSC service thread 1-6) WFLYNAM0003: Starting Naming Service
+2019-04-05 12:09:51,233 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2019-04-05 12:09:51,253 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2019-04-05 12:09:51,253 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 4.0.21.Final
+2019-04-05 12:09:51,264 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = mysql
+2019-04-05 12:09:51,325 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2019-04-05 12:09:51,325 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2019-04-05 12:09:51,464 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path 'C:\Users\Iepiadm\Documents\wildfly-10.1.0/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2019-04-05 12:09:51,475 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0012: Started server default-server.
+2019-04-05 12:09:51,504 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0018: Host default-host starting
+2019-04-05 12:09:51,529 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTP listener default listening on 0.0.0.0:8080
+2019-04-05 12:09:52,118 WARN  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0003: Unable to instantiate driver class "org.postgres.Driver": java.lang.ClassNotFoundException: org.postgres.Driver from [Module "org.postgres:main" from local module loader @33e5ccce (finder: local module finder @5a42bbf4 (roots: C:\Users\Iepiadm\Documents\wildfly-10.1.0\modules,C:\Users\Iepiadm\Documents\wildfly-10.1.0\modules\system\layers\base))]
+2019-04-05 12:09:52,119 ERROR [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 33) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "datasources"),
+    ("jdbc-driver" => "postgres")
+]) - failure description: "WFLYJCA0034: Unable to instantiate driver class \"org.postgres.Driver\". See log (WARN) for more details"
+2019-04-05 12:09:52,178 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class com.microsoft.sqlserver.jdbc.SQLServerDriver (version 3.0)
+2019-04-05 12:09:52,179 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = sqlserver
+2019-04-05 12:09:52,250 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2019-04-05 12:09:52,250 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/ProyectPU
+2019-04-05 12:09:52,522 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\Iepiadm\Documents\wildfly-10.1.0\standalone\deployments
+2019-04-05 12:09:52,524 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "empresa-version1.0.war" (runtime-name: "empresa-version1.0.war")
+2019-04-05 12:09:52,614 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-2) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2019-04-05 12:09:52,728 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2019-04-05 12:09:52,728 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 62) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2019-04-05 12:09:52,728 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 64) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2019-04-05 12:09:52,729 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2019-04-05 12:09:52,729 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 62) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2019-04-05 12:09:52,729 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 64) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2019-04-05 12:09:52,930 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTPS listener https listening on 0.0.0.0:8443
+2019-04-05 12:09:56,271 INFO  [org.jboss.ws.common.management] (MSC service thread 1-7) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2019-04-05 12:09:58,199 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for ProyectPU
+2019-04-05 12:09:59,265 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 64) WFLYJPA0003: Starting Persistence Unit Service 'empresa-version1.0.war#ProyectPU'
+2019-04-05 12:09:59,813 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 64) HV000001: Hibernate Validator 5.2.4.Final
+2019-04-05 12:09:59,851 INFO  [stdout] (ServerService Thread Pool -- 64) [EL Info]: 2019-04-05 12:09:59.847--ServerSession(1248817086)--EclipseLink, version: Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd
+2019-04-05 12:10:00,146 INFO  [stdout] (ServerService Thread Pool -- 64) [EL Info]: connection: 2019-04-05 12:10:00.146--ServerSession(1248817086)--vfs:/C:/Users/Iepiadm/Documents/wildfly-10.1.0/standalone/deployments/empresa-version1.0.war/WEB-INF/classes/_ProyectPU login successful
+2019-04-05 12:10:00,304 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment empresa-version1.0.war
+2019-04-05 12:10:01,941 INFO  [org.jboss.weld.Version] (MSC service thread 1-8) WELD-000900: 2.3.5 (Final)
+2019-04-05 12:10:02,809 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 87) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/empresa-version1.0'
+2019-04-05 12:10:03,584 INFO  [net.bootsfaces.listeners.AddResourcesListener] (ServerService Thread Pool -- 87) This application is running on BootsFaces1.4.0-
+2019-04-05 12:10:04,194 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 87) Running on PrimeFaces 6.2
+2019-04-05 12:10:04,195 INFO  [org.primefaces.extensions.application.PostConstructApplicationEventListener] (ServerService Thread Pool -- 87) Running on PrimeFaces Extensions 6.2.10
+2019-04-05 12:10:04,208 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 87) WFLYUT0021: Registered web context: /empresa-version1.0
+2019-04-05 12:10:07,694 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "empresa-version1.0.war" (runtime-name : "empresa-version1.0.war")
+2019-04-05 12:10:07,858 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2019-04-05 12:10:07,858 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2019-04-05 12:10:07,859 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 34786ms - Started 1117 of 1365 services (405 services are lazy, passive or on-demand)
+2019-04-05 12:10:08,299 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 87) WFLYUT0022: Unregistered web context: /empresa-version1.0
+2019-04-05 12:10:08,448 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 98) WFLYJPA0004: Stopping Persistence Unit Service 'empresa-version1.0.war#ProyectPU'
+2019-04-05 12:10:08,451 INFO  [stdout] (ServerService Thread Pool -- 98) [EL Info]: connection: 2019-04-05 12:10:08.45--ServerSession(1248817086)--vfs:/C:/Users/Iepiadm/Documents/wildfly-10.1.0/standalone/deployments/empresa-version1.0.war/WEB-INF/classes/_ProyectPU logout successful
+2019-04-05 12:10:08,570 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment empresa-version1.0.war (runtime-name: empresa-version1.0.war) in 279ms
+2019-04-05 12:10:08,641 WARN  [org.jboss.as.controller] (management-handler-thread - 1) WFLYCTL0357: Notification of type deployment-undeployed is not described for the resource at the address []
+2019-04-05 12:10:08,642 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "empresa-version1.0.war" (runtime-name: "empresa-version1.0.war")
+2019-04-05 12:10:12,749 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found empresa-version1.0.war in deployment directory. To trigger deployment create a file called empresa-version1.0.war.dodeploy
+2019-04-05 12:10:12,765 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "empresa-version1.0.war" (runtime-name: "empresa-version1.0.war")
+2019-04-05 12:10:15,013 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) WFLYJPA0002: Read persistence.xml for ProyectPU
+2019-04-05 12:10:15,076 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 98) WFLYJPA0003: Starting Persistence Unit Service 'empresa-version1.0.war#ProyectPU'
+2019-04-05 12:10:15,315 INFO  [stdout] (ServerService Thread Pool -- 98) [EL Info]: 2019-04-05 12:10:15.311--ServerSession(2139088781)--EclipseLink, version: Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd
+2019-04-05 12:10:15,361 INFO  [stdout] (ServerService Thread Pool -- 98) [EL Info]: connection: 2019-04-05 12:10:15.361--ServerSession(2139088781)--vfs:/C:/Users/Iepiadm/Documents/wildfly-10.1.0/standalone/deployments/empresa-version1.0.war/WEB-INF/classes/_ProyectPU login successful
+2019-04-05 12:10:15,410 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment empresa-version1.0.war
+2019-04-05 12:10:15,842 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 102) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/empresa-version1.0'
+2019-04-05 12:10:16,389 INFO  [net.bootsfaces.listeners.AddResourcesListener] (ServerService Thread Pool -- 102) This application is running on BootsFaces1.4.0-
+2019-04-05 12:10:16,702 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 102) Running on PrimeFaces 6.2
+2019-04-05 12:10:16,703 INFO  [org.primefaces.extensions.application.PostConstructApplicationEventListener] (ServerService Thread Pool -- 102) Running on PrimeFaces Extensions 6.2.10
+2019-04-05 12:10:16,703 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 102) WFLYUT0021: Registered web context: /empresa-version1.0
+2019-04-05 12:10:16,729 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0010: Deployed "empresa-version1.0.war" (runtime-name : "empresa-version1.0.war")
+2019-04-05 12:10:18,669 WARNING [javax.enterprise.resource.webcontainer.jsf.application] (default task-2) JSF1063: ADVERTENCIA Definiendo valor de atributo no serializable en HttpSession: (clave: accesoBean, clase de valor: com.mycompany.bean.AccesoBean).
+2019-04-05 12:10:26,995 INFO  [stdout] (default task-10) INICIO: senadi2019
+2019-04-05 12:10:27,055 WARNING [javax.faces] (default task-11) Definiendo valor de atributo no serializable en ViewMap: (clave: registerBean, clase de valor: com.mycompany.bean.RegisterBean)
+2019-04-05 12:10:35,031 INFO  [stdout] (default task-21) EJEMPLO EXITOSO
+2019-04-05 12:10:35,031 INFO  [stdout] (default task-21) user:dsadas
+2019-04-05 12:10:35,031 INFO  [stdout] (default task-21) pass:dasdasdas
+2019-04-05 12:10:35,032 INFO  [stdout] (default task-21) 63373b41cf913e9f9b3226b4a0452737
+2019-04-05 12:11:07,114 INFO  [stdout] (default task-24) user:dsadas
+2019-04-05 12:11:07,115 INFO  [stdout] (default task-24) pass:dasdasdas
+2019-04-05 12:11:07,115 INFO  [stdout] (default task-24) 63373b41cf913e9f9b3226b4a0452737
+2019-04-05 12:11:07,164 WARNING [javax.enterprise.resource.webcontainer.jsf.lifecycle] (default task-24) /registrar.xhtml @102,75 actionListener="#{registerBean.register}": java.lang.IllegalStateException: Attempting to execute an operation on a closed EntityManager.: javax.el.ELException: /registrar.xhtml @102,75 actionListener="#{registerBean.register}": java.lang.IllegalStateException: Attempting to execute an operation on a closed EntityManager.
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:111)
+	at javax.faces.event.MethodExpressionActionListener.processAction(MethodExpressionActionListener.java:147)
+	at javax.faces.event.ActionEvent.processListener(ActionEvent.java:88)
+	at javax.faces.component.UIComponentBase.broadcast(UIComponentBase.java:814)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:300)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:790)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1282)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:658)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at com.mycompany.filter.AuthorizationFilter.doFilter(AuthorizationFilter.java:53)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:805)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Attempting to execute an operation on a closed EntityManager.
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.verifyOpen(EntityManagerImpl.java:1913)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1599)
+	at com.mycompany.DAO.UsuarioDao.getUser(UsuarioDao.java:46)
+	at com.mycompany.bean.RegisterBean.register(RegisterBean.java:99)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.el.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:181)
+	at com.sun.el.parser.AstValue.invoke(AstValue.java:289)
+	at com.sun.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:304)
+	at org.jboss.weld.util.el.ForwardingMethodExpression.invoke(ForwardingMethodExpression.java:40)
+	at org.jboss.weld.el.WeldMethodExpression.invoke(WeldMethodExpression.java:50)
+	at org.jboss.weld.util.el.ForwardingMethodExpression.invoke(ForwardingMethodExpression.java:40)
+	at org.jboss.weld.el.WeldMethodExpression.invoke(WeldMethodExpression.java:50)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:105)
+	... 53 more
+
+2019-04-05 12:11:07,376 SEVERE [javax.enterprise.resource.webcontainer.jsf.context] (default task-24) java.lang.IllegalStateException: Attempting to execute an operation on a closed EntityManager.
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.verifyOpen(EntityManagerImpl.java:1913)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1599)
+	at com.mycompany.DAO.UsuarioDao.getUser(UsuarioDao.java:46)
+	at com.mycompany.bean.RegisterBean.register(RegisterBean.java:99)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.el.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:181)
+	at com.sun.el.parser.AstValue.invoke(AstValue.java:289)
+	at com.sun.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:304)
+	at org.jboss.weld.util.el.ForwardingMethodExpression.invoke(ForwardingMethodExpression.java:40)
+	at org.jboss.weld.el.WeldMethodExpression.invoke(WeldMethodExpression.java:50)
+	at org.jboss.weld.util.el.ForwardingMethodExpression.invoke(ForwardingMethodExpression.java:40)
+	at org.jboss.weld.el.WeldMethodExpression.invoke(WeldMethodExpression.java:50)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:105)
+	at javax.faces.event.MethodExpressionActionListener.processAction(MethodExpressionActionListener.java:147)
+	at javax.faces.event.ActionEvent.processListener(ActionEvent.java:88)
+	at javax.faces.component.UIComponentBase.broadcast(UIComponentBase.java:814)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:300)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:790)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1282)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:658)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at com.mycompany.filter.AuthorizationFilter.doFilter(AuthorizationFilter.java:53)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:805)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-04-05 12:11:41,928 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 103) WFLYUT0022: Unregistered web context: /empresa-version1.0
+2019-04-05 12:11:41,954 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 132) WFLYJPA0004: Stopping Persistence Unit Service 'empresa-version1.0.war#ProyectPU'
+2019-04-05 12:11:42,107 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment empresa-version1.0.war (runtime-name: empresa-version1.0.war) in 179ms
+2019-04-05 12:11:42,108 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "empresa-version1.0.war" (runtime-name: "empresa-version1.0.war")
+2019-04-05 12:11:43,906 INFO  [stdout] (Finalizer) [EL Info]: connection: 2019-04-05 12:11:43.906--ServerSession(2139088781)--vfs:/C:/Users/Iepiadm/Documents/wildfly-10.1.0/standalone/deployments/empresa-version1.0.war/WEB-INF/classes/_ProyectPU logout successful
+2019-04-05 12:11:44,479 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for ProyectPU
+2019-04-05 12:11:44,520 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 132) WFLYJPA0003: Starting Persistence Unit Service 'empresa-version1.0.war#ProyectPU'
+2019-04-05 12:11:44,712 INFO  [stdout] (ServerService Thread Pool -- 132) [EL Info]: 2019-04-05 12:11:44.709--ServerSession(1895786222)--EclipseLink, version: Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd
+2019-04-05 12:11:44,749 INFO  [stdout] (ServerService Thread Pool -- 132) [EL Info]: connection: 2019-04-05 12:11:44.749--ServerSession(1895786222)--vfs:/C:/Users/Iepiadm/Documents/wildfly-10.1.0/standalone/deployments/empresa-version1.0.war/WEB-INF/classes/_ProyectPU login successful
+2019-04-05 12:11:44,783 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment empresa-version1.0.war
+2019-04-05 12:11:45,207 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 135) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/empresa-version1.0'
+2019-04-05 12:11:45,799 INFO  [net.bootsfaces.listeners.AddResourcesListener] (ServerService Thread Pool -- 135) This application is running on BootsFaces1.4.0-
+2019-04-05 12:11:46,067 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 135) Running on PrimeFaces 6.2
+2019-04-05 12:11:46,067 INFO  [org.primefaces.extensions.application.PostConstructApplicationEventListener] (ServerService Thread Pool -- 135) Running on PrimeFaces Extensions 6.2.10
+2019-04-05 12:11:46,068 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 135) WFLYUT0021: Registered web context: /empresa-version1.0
+2019-04-05 12:11:46,099 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "empresa-version1.0.war" with deployment "empresa-version1.0.war"
+2019-04-05 12:11:51,050 INFO  [org.jboss.as.server] (management-handler-thread - 6) WFLYSRV0236: Suspending server with no timeout.
+2019-04-05 12:11:51,054 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2019-04-05 12:11:51,063 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 135) WFLYUT0022: Unregistered web context: /empresa-version1.0
+2019-04-05 12:11:51,068 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = sqlserver
+2019-04-05 12:11:51,079 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0019: Host default-host stopping
+2019-04-05 12:11:51,107 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2019-04-05 12:11:51,110 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 142) WFLYJPA0004: Stopping Persistence Unit Service 'empresa-version1.0.war#ProyectPU'
+2019-04-05 12:11:51,110 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2019-04-05 12:11:51,111 INFO  [stdout] (ServerService Thread Pool -- 142) [EL Info]: connection: 2019-04-05 12:11:51.111--ServerSession(1895786222)--vfs:/C:/Users/Iepiadm/Documents/wildfly-10.1.0/standalone/deployments/empresa-version1.0.war/WEB-INF/classes/_ProyectPU logout successful
+2019-04-05 12:11:51,112 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/ProyectPU
+2019-04-05 12:11:51,113 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0008: Undertow HTTP listener default suspending
+2019-04-05 12:11:51,113 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0008: Undertow HTTPS listener https suspending
+2019-04-05 12:11:51,114 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 0.0.0.0:8080
+2019-04-05 12:11:51,114 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 0.0.0.0:8443
+2019-04-05 12:11:51,115 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0004: Undertow 1.4.0.Final stopping
+2019-04-05 12:11:51,128 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = mysql
+2019-04-05 12:11:51,206 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment empresa-version1.0.war (runtime-name: empresa-version1.0.war) in 146ms
+2019-04-05 12:11:51,210 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0050: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 147ms
+2019-04-05 12:13:07,202 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2019-04-05 12:13:07,346 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2019-04-05 12:13:07,398 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2019-04-05 12:13:07,400 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	http.nonProxyHosts = localhost,127.0.0.1,DESKTOP-JI10U55
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Iepiadm\Documents\wildfly-10.1.0\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_201\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_201\jre
+	java.io.tmpdir = C:\Users\Iepiadm\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_201-b09
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_201
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.201-b09
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = C:\Users\Iepiadm\Documents\wildfly-10.1.0
+	jboss.host.name = desktop-ji10u55
+	jboss.http.port = 8080
+	jboss.management.http.port = 9990
+	jboss.modules.dir = C:\Users\Iepiadm\Documents\wildfly-10.1.0\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-ji10u55
+	jboss.qualified.host.name = desktop-ji10u55
+	jboss.server.base.dir = C:\Users\Iepiadm\Documents\wildfly-10.1.0\standalone
+	jboss.server.config.dir = C:\Users\Iepiadm\Documents\wildfly-10.1.0\standalone\configuration
+	jboss.server.data.dir = C:\Users\Iepiadm\Documents\wildfly-10.1.0\standalone\data
+	jboss.server.deploy.dir = C:\Users\Iepiadm\Documents\wildfly-10.1.0\standalone\data\content
+	jboss.server.log.dir = C:\Users\Iepiadm\Documents\wildfly-10.1.0\standalone\log
+	jboss.server.name = desktop-ji10u55
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Iepiadm\Documents\wildfly-10.1.0\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Iepiadm\Documents\wildfly-10.1.0\standalone\configuration/logging.properties
+	module.path = C:\Users\Iepiadm\Documents\wildfly-10.1.0\modules
+	org.jboss.boot.log.file = C:\Users\Iepiadm\Documents\wildfly-10.1.0\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_201\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_201\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\Iepiadm\Documents\wildfly-10.1.0\jboss-modules.jar -mp C:\Users\Iepiadm\Documents\wildfly-10.1.0\modules org.jboss.as.standalone -Djboss.home.dir=C:\Users\Iepiadm\Documents\wildfly-10.1.0 -c standalone.xml
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = EC
+	user.dir = C:\Users\Iepiadm\Documents\wildfly-10.1.0\bin
+	user.home = C:\Users\Iepiadm
+	user.language = es
+	user.name = Iepiadm
+	user.script = 
+	user.timezone = America/Bogota
+	user.variant = 
+2019-04-05 12:13:07,400 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -Dprogram.name=standalone.bat -Xms128m -Xmx512m -Dhttp.nonProxyHosts=localhost,127.0.0.1,DESKTOP-JI10U55 -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Djboss.management.http.port=9990 -Djboss.http.port=8080 -Dorg.jboss.boot.log.file=C:\Users\Iepiadm\Documents\wildfly-10.1.0\standalone\log\server.log -Dlogging.configuration=file:C:\Users\Iepiadm\Documents\wildfly-10.1.0\standalone\configuration/logging.properties 
+2019-04-05 12:13:08,098 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found empresa-version1.0.war in deployment directory. To trigger deployment create a file called empresa-version1.0.war.dodeploy
+2019-04-05 12:13:08,127 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2019-04-05 12:13:08,137 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.4.0.Final
+2019-04-05 12:13:08,142 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.4.0.Final
+2019-04-05 12:13:08,163 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2019-04-05 12:13:08,174 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2019-04-05 12:13:08,177 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2019-04-05 12:13:08,189 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2019-04-05 12:13:08,189 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2019-04-05 12:13:08,194 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2019-04-05 12:13:08,195 INFO  [org.jboss.as.security] (MSC service thread 1-8) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2019-04-05 12:13:08,195 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2019-04-05 12:13:08,305 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2019-04-05 12:13:08,308 INFO  [org.jboss.as.connector] (MSC service thread 1-3) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2019-04-05 12:13:08,310 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2019-04-05 12:13:08,313 WARN  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0003: Unable to instantiate driver class "org.postgres.Driver": java.lang.ClassNotFoundException: org.postgres.Driver from [Module "org.postgres:main" from local module loader @33e5ccce (finder: local module finder @5a42bbf4 (roots: C:\Users\Iepiadm\Documents\wildfly-10.1.0\modules,C:\Users\Iepiadm\Documents\wildfly-10.1.0\modules\system\layers\base))]
+2019-04-05 12:13:08,314 ERROR [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 33) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "datasources"),
+    ("jdbc-driver" => "postgres")
+]) - failure description: "WFLYJCA0034: Unable to instantiate driver class \"org.postgres.Driver\". See log (WARN) for more details"
+2019-04-05 12:13:08,321 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = mysql
+2019-04-05 12:13:08,323 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0003: Undertow 1.4.0.Final starting
+2019-04-05 12:13:08,321 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = h2
+2019-04-05 12:13:08,377 INFO  [org.jboss.as.naming] (MSC service thread 1-3) WFLYNAM0003: Starting Naming Service
+2019-04-05 12:13:08,380 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2019-04-05 12:13:08,403 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path 'C:\Users\Iepiadm\Documents\wildfly-10.1.0/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2019-04-05 12:13:08,422 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0012: Started server default-server.
+2019-04-05 12:13:08,424 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0018: Host default-host starting
+2019-04-05 12:13:08,430 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 4.0.21.Final
+2019-04-05 12:13:08,487 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2019-04-05 12:13:08,487 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2019-04-05 12:13:08,511 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class com.microsoft.sqlserver.jdbc.SQLServerDriver (version 3.0)
+2019-04-05 12:13:08,512 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = sqlserver
+2019-04-05 12:13:08,515 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTP listener default listening on 0.0.0.0:8080
+2019-04-05 12:13:08,592 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/ProyectPU
+2019-04-05 12:13:08,592 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2019-04-05 12:13:08,672 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\Iepiadm\Documents\wildfly-10.1.0\standalone\deployments
+2019-04-05 12:13:08,673 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "empresa-version1.0.war" (runtime-name: "empresa-version1.0.war")
+2019-04-05 12:13:08,776 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-3) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2019-04-05 12:13:08,812 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2019-04-05 12:13:08,812 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2019-04-05 12:13:08,812 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 64) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2019-04-05 12:13:08,813 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2019-04-05 12:13:08,813 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2019-04-05 12:13:08,813 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 64) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2019-04-05 12:13:08,921 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTPS listener https listening on 0.0.0.0:8443
+2019-04-05 12:13:08,986 INFO  [org.jboss.ws.common.management] (MSC service thread 1-4) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2019-04-05 12:13:11,522 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) WFLYJPA0002: Read persistence.xml for ProyectPU
+2019-04-05 12:13:11,646 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 64) WFLYJPA0003: Starting Persistence Unit Service 'empresa-version1.0.war#ProyectPU'
+2019-04-05 12:13:11,858 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 64) HV000001: Hibernate Validator 5.2.4.Final
+2019-04-05 12:13:11,903 INFO  [stdout] (ServerService Thread Pool -- 64) [EL Info]: 2019-04-05 12:13:11.896--ServerSession(2083011091)--EclipseLink, version: Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd
+2019-04-05 12:13:12,173 INFO  [stdout] (ServerService Thread Pool -- 64) [EL Info]: connection: 2019-04-05 12:13:12.173--ServerSession(2083011091)--vfs:/C:/Users/Iepiadm/Documents/wildfly-10.1.0/standalone/deployments/empresa-version1.0.war/WEB-INF/classes/_ProyectPU login successful
+2019-04-05 12:13:12,337 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment empresa-version1.0.war
+2019-04-05 12:13:12,772 INFO  [org.jboss.weld.Version] (MSC service thread 1-6) WELD-000900: 2.3.5 (Final)
+2019-04-05 12:13:13,645 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 88) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/empresa-version1.0'
+2019-04-05 12:13:14,419 INFO  [net.bootsfaces.listeners.AddResourcesListener] (ServerService Thread Pool -- 88) This application is running on BootsFaces1.4.0-
+2019-04-05 12:13:14,927 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 88) Running on PrimeFaces 6.2
+2019-04-05 12:13:14,927 INFO  [org.primefaces.extensions.application.PostConstructApplicationEventListener] (ServerService Thread Pool -- 88) Running on PrimeFaces Extensions 6.2.10
+2019-04-05 12:13:14,938 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 88) WFLYUT0021: Registered web context: /empresa-version1.0
+2019-04-05 12:13:14,965 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "empresa-version1.0.war" (runtime-name : "empresa-version1.0.war")
+2019-04-05 12:13:15,131 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2019-04-05 12:13:15,132 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2019-04-05 12:13:15,132 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 8154ms - Started 1117 of 1365 services (405 services are lazy, passive or on-demand)
+2019-04-05 12:13:15,330 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 88) WFLYUT0022: Unregistered web context: /empresa-version1.0
+2019-04-05 12:13:15,374 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 21) WFLYJPA0004: Stopping Persistence Unit Service 'empresa-version1.0.war#ProyectPU'
+2019-04-05 12:13:15,378 INFO  [stdout] (ServerService Thread Pool -- 21) [EL Info]: connection: 2019-04-05 12:13:15.377--ServerSession(2083011091)--vfs:/C:/Users/Iepiadm/Documents/wildfly-10.1.0/standalone/deployments/empresa-version1.0.war/WEB-INF/classes/_ProyectPU logout successful
+2019-04-05 12:13:15,489 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment empresa-version1.0.war (runtime-name: empresa-version1.0.war) in 166ms
+2019-04-05 12:13:15,544 WARN  [org.jboss.as.controller] (management-handler-thread - 1) WFLYCTL0357: Notification of type deployment-undeployed is not described for the resource at the address []
+2019-04-05 12:13:15,545 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "empresa-version1.0.war" (runtime-name: "empresa-version1.0.war")
+2019-04-05 12:13:20,000 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found empresa-version1.0.war in deployment directory. To trigger deployment create a file called empresa-version1.0.war.dodeploy
+2019-04-05 12:13:20,018 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "empresa-version1.0.war" (runtime-name: "empresa-version1.0.war")
+2019-04-05 12:13:22,186 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for ProyectPU
+2019-04-05 12:13:22,250 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 21) WFLYJPA0003: Starting Persistence Unit Service 'empresa-version1.0.war#ProyectPU'
+2019-04-05 12:13:22,612 INFO  [stdout] (ServerService Thread Pool -- 21) [EL Info]: 2019-04-05 12:13:22.609--ServerSession(1853263091)--EclipseLink, version: Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd
+2019-04-05 12:13:22,651 INFO  [stdout] (ServerService Thread Pool -- 21) [EL Info]: connection: 2019-04-05 12:13:22.65--ServerSession(1853263091)--vfs:/C:/Users/Iepiadm/Documents/wildfly-10.1.0/standalone/deployments/empresa-version1.0.war/WEB-INF/classes/_ProyectPU login successful
+2019-04-05 12:13:22,688 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment empresa-version1.0.war
+2019-04-05 12:13:23,150 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 107) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/empresa-version1.0'
+2019-04-05 12:13:23,719 INFO  [net.bootsfaces.listeners.AddResourcesListener] (ServerService Thread Pool -- 107) This application is running on BootsFaces1.4.0-
+2019-04-05 12:13:24,008 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 107) Running on PrimeFaces 6.2
+2019-04-05 12:13:24,008 INFO  [org.primefaces.extensions.application.PostConstructApplicationEventListener] (ServerService Thread Pool -- 107) Running on PrimeFaces Extensions 6.2.10
+2019-04-05 12:13:24,009 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 107) WFLYUT0021: Registered web context: /empresa-version1.0
+2019-04-05 12:13:24,040 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0010: Deployed "empresa-version1.0.war" (runtime-name : "empresa-version1.0.war")
+2019-04-05 12:13:25,035 WARNING [javax.enterprise.resource.webcontainer.jsf.application] (default task-2) JSF1063: ADVERTENCIA Definiendo valor de atributo no serializable en HttpSession: (clave: accesoBean, clase de valor: com.mycompany.bean.AccesoBean).
+2019-04-05 12:13:35,035 INFO  [stdout] (default task-10) INICIO: senadi2019
+2019-04-05 12:13:35,090 WARNING [javax.faces] (default task-11) Definiendo valor de atributo no serializable en ViewMap: (clave: registerBean, clase de valor: com.mycompany.bean.RegisterBean)
+2019-04-05 12:14:13,244 INFO  [stdout] (default task-21) EJEMPLO EXITOSO
+2019-04-05 12:14:13,244 INFO  [stdout] (default task-21) user:asdasdas
+2019-04-05 12:14:13,244 INFO  [stdout] (default task-21) pass:dasdasdas
+2019-04-05 12:14:13,245 INFO  [stdout] (default task-21) 63373b41cf913e9f9b3226b4a0452737
+2019-04-05 12:14:13,382 WARNING [javax.enterprise.resource.webcontainer.jsf.lifecycle] (default task-21) /registrar.xhtml @102,75 actionListener="#{registerBean.register}": java.lang.IllegalStateException: Attempting to execute an operation on a closed EntityManager.: javax.el.ELException: /registrar.xhtml @102,75 actionListener="#{registerBean.register}": java.lang.IllegalStateException: Attempting to execute an operation on a closed EntityManager.
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:111)
+	at javax.faces.event.MethodExpressionActionListener.processAction(MethodExpressionActionListener.java:147)
+	at javax.faces.event.ActionEvent.processListener(ActionEvent.java:88)
+	at javax.faces.component.UIComponentBase.broadcast(UIComponentBase.java:814)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:300)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:790)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1282)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:658)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at com.mycompany.filter.AuthorizationFilter.doFilter(AuthorizationFilter.java:53)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:805)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Attempting to execute an operation on a closed EntityManager.
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.verifyOpen(EntityManagerImpl.java:1913)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1599)
+	at com.mycompany.DAO.UsuarioDao.getUser(UsuarioDao.java:46)
+	at com.mycompany.bean.RegisterBean.register(RegisterBean.java:99)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.el.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:181)
+	at com.sun.el.parser.AstValue.invoke(AstValue.java:289)
+	at com.sun.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:304)
+	at org.jboss.weld.util.el.ForwardingMethodExpression.invoke(ForwardingMethodExpression.java:40)
+	at org.jboss.weld.el.WeldMethodExpression.invoke(WeldMethodExpression.java:50)
+	at org.jboss.weld.util.el.ForwardingMethodExpression.invoke(ForwardingMethodExpression.java:40)
+	at org.jboss.weld.el.WeldMethodExpression.invoke(WeldMethodExpression.java:50)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:105)
+	... 53 more
+
+2019-04-05 12:14:13,452 SEVERE [javax.enterprise.resource.webcontainer.jsf.context] (default task-21) java.lang.IllegalStateException: Attempting to execute an operation on a closed EntityManager.
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.verifyOpen(EntityManagerImpl.java:1913)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1599)
+	at com.mycompany.DAO.UsuarioDao.getUser(UsuarioDao.java:46)
+	at com.mycompany.bean.RegisterBean.register(RegisterBean.java:99)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.el.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:181)
+	at com.sun.el.parser.AstValue.invoke(AstValue.java:289)
+	at com.sun.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:304)
+	at org.jboss.weld.util.el.ForwardingMethodExpression.invoke(ForwardingMethodExpression.java:40)
+	at org.jboss.weld.el.WeldMethodExpression.invoke(WeldMethodExpression.java:50)
+	at org.jboss.weld.util.el.ForwardingMethodExpression.invoke(ForwardingMethodExpression.java:40)
+	at org.jboss.weld.el.WeldMethodExpression.invoke(WeldMethodExpression.java:50)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:105)
+	at javax.faces.event.MethodExpressionActionListener.processAction(MethodExpressionActionListener.java:147)
+	at javax.faces.event.ActionEvent.processListener(ActionEvent.java:88)
+	at javax.faces.component.UIComponentBase.broadcast(UIComponentBase.java:814)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:300)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:790)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1282)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:658)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at com.mycompany.filter.AuthorizationFilter.doFilter(AuthorizationFilter.java:53)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:805)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-04-05 12:14:56,898 INFO  [org.jboss.as.server] (management-handler-thread - 5) WFLYSRV0236: Suspending server with no timeout.
+2019-04-05 12:14:56,901 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2019-04-05 12:14:56,918 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 113) WFLYUT0022: Unregistered web context: /empresa-version1.0
+2019-04-05 12:14:56,922 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = sqlserver
+2019-04-05 12:14:56,937 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0019: Host default-host stopping
+2019-04-05 12:14:56,948 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2019-04-05 12:14:56,950 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 124) WFLYJPA0004: Stopping Persistence Unit Service 'empresa-version1.0.war#ProyectPU'
+2019-04-05 12:14:56,950 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2019-04-05 12:14:56,951 INFO  [stdout] (ServerService Thread Pool -- 124) [EL Info]: connection: 2019-04-05 12:14:56.951--ServerSession(1853263091)--vfs:/C:/Users/Iepiadm/Documents/wildfly-10.1.0/standalone/deployments/empresa-version1.0.war/WEB-INF/classes/_ProyectPU logout successful
+2019-04-05 12:14:56,951 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/ProyectPU
+2019-04-05 12:14:56,953 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0008: Undertow HTTP listener default suspending
+2019-04-05 12:14:56,953 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0008: Undertow HTTPS listener https suspending
+2019-04-05 12:14:56,953 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 0.0.0.0:8080
+2019-04-05 12:14:56,953 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 0.0.0.0:8443
+2019-04-05 12:14:56,955 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0004: Undertow 1.4.0.Final stopping
+2019-04-05 12:14:56,955 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = mysql
+2019-04-05 12:14:57,571 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment empresa-version1.0.war (runtime-name: empresa-version1.0.war) in 656ms
+2019-04-05 12:14:57,575 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0050: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 654ms
+2019-04-05 12:18:16,092 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2019-04-05 12:18:16,246 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2019-04-05 12:18:16,301 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2019-04-05 12:18:16,302 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	http.nonProxyHosts = localhost,127.0.0.1,DESKTOP-JI10U55
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Iepiadm\Documents\wildfly-10.1.0\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_201\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_201\jre
+	java.io.tmpdir = C:\Users\Iepiadm\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_201-b09
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_201
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.201-b09
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = C:\Users\Iepiadm\Documents\wildfly-10.1.0
+	jboss.host.name = desktop-ji10u55
+	jboss.http.port = 8080
+	jboss.management.http.port = 9990
+	jboss.modules.dir = C:\Users\Iepiadm\Documents\wildfly-10.1.0\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-ji10u55
+	jboss.qualified.host.name = desktop-ji10u55
+	jboss.server.base.dir = C:\Users\Iepiadm\Documents\wildfly-10.1.0\standalone
+	jboss.server.config.dir = C:\Users\Iepiadm\Documents\wildfly-10.1.0\standalone\configuration
+	jboss.server.data.dir = C:\Users\Iepiadm\Documents\wildfly-10.1.0\standalone\data
+	jboss.server.deploy.dir = C:\Users\Iepiadm\Documents\wildfly-10.1.0\standalone\data\content
+	jboss.server.log.dir = C:\Users\Iepiadm\Documents\wildfly-10.1.0\standalone\log
+	jboss.server.name = desktop-ji10u55
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Iepiadm\Documents\wildfly-10.1.0\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Iepiadm\Documents\wildfly-10.1.0\standalone\configuration/logging.properties
+	module.path = C:\Users\Iepiadm\Documents\wildfly-10.1.0\modules
+	org.jboss.boot.log.file = C:\Users\Iepiadm\Documents\wildfly-10.1.0\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_201\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_201\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\Iepiadm\Documents\wildfly-10.1.0\jboss-modules.jar -mp C:\Users\Iepiadm\Documents\wildfly-10.1.0\modules org.jboss.as.standalone -Djboss.home.dir=C:\Users\Iepiadm\Documents\wildfly-10.1.0 -c standalone.xml
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = EC
+	user.dir = C:\Users\Iepiadm\Documents\wildfly-10.1.0\bin
+	user.home = C:\Users\Iepiadm
+	user.language = es
+	user.name = Iepiadm
+	user.script = 
+	user.timezone = America/Bogota
+	user.variant = 
+2019-04-05 12:18:16,303 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -Dprogram.name=standalone.bat -Xms128m -Xmx512m -Dhttp.nonProxyHosts=localhost,127.0.0.1,DESKTOP-JI10U55 -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Djboss.management.http.port=9990 -Djboss.http.port=8080 -Dorg.jboss.boot.log.file=C:\Users\Iepiadm\Documents\wildfly-10.1.0\standalone\log\server.log -Dlogging.configuration=file:C:\Users\Iepiadm\Documents\wildfly-10.1.0\standalone\configuration/logging.properties 
+2019-04-05 12:18:17,086 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found empresa-version1.0.war in deployment directory. To trigger deployment create a file called empresa-version1.0.war.dodeploy
+2019-04-05 12:18:17,107 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2019-04-05 12:18:17,117 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.4.0.Final
+2019-04-05 12:18:17,123 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.4.0.Final
+2019-04-05 12:18:17,155 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2019-04-05 12:18:17,165 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2019-04-05 12:18:17,166 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2019-04-05 12:18:17,168 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2019-04-05 12:18:17,170 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2019-04-05 12:18:17,172 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2019-04-05 12:18:17,173 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2019-04-05 12:18:17,180 INFO  [org.jboss.as.security] (MSC service thread 1-6) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2019-04-05 12:18:17,275 INFO  [org.jboss.as.connector] (MSC service thread 1-7) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2019-04-05 12:18:17,282 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0003: Undertow 1.4.0.Final starting
+2019-04-05 12:18:17,287 INFO  [org.jboss.as.naming] (MSC service thread 1-4) WFLYNAM0003: Starting Naming Service
+2019-04-05 12:18:17,289 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2019-04-05 12:18:17,299 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2019-04-05 12:18:17,308 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = h2
+2019-04-05 12:18:17,314 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2019-04-05 12:18:17,315 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = mysql
+2019-04-05 12:18:17,319 WARN  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0003: Unable to instantiate driver class "org.postgres.Driver": java.lang.ClassNotFoundException: org.postgres.Driver from [Module "org.postgres:main" from local module loader @33e5ccce (finder: local module finder @5a42bbf4 (roots: C:\Users\Iepiadm\Documents\wildfly-10.1.0\modules,C:\Users\Iepiadm\Documents\wildfly-10.1.0\modules\system\layers\base))]
+2019-04-05 12:18:17,320 ERROR [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 33) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "datasources"),
+    ("jdbc-driver" => "postgres")
+]) - failure description: "WFLYJCA0034: Unable to instantiate driver class \"org.postgres.Driver\". See log (WARN) for more details"
+2019-04-05 12:18:17,381 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 4.0.21.Final
+2019-04-05 12:18:17,419 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path 'C:\Users\Iepiadm\Documents\wildfly-10.1.0/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2019-04-05 12:18:17,427 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0012: Started server default-server.
+2019-04-05 12:18:17,428 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0018: Host default-host starting
+2019-04-05 12:18:17,455 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2019-04-05 12:18:17,456 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2019-04-05 12:18:17,485 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class com.microsoft.sqlserver.jdbc.SQLServerDriver (version 3.0)
+2019-04-05 12:18:17,486 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = sqlserver
+2019-04-05 12:18:17,504 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTP listener default listening on 0.0.0.0:8080
+2019-04-05 12:18:17,572 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/ProyectPU
+2019-04-05 12:18:17,573 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2019-04-05 12:18:17,682 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\Iepiadm\Documents\wildfly-10.1.0\standalone\deployments
+2019-04-05 12:18:17,685 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "empresa-version1.0.war" (runtime-name: "empresa-version1.0.war")
+2019-04-05 12:18:17,821 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-6) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2019-04-05 12:18:17,854 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 60) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2019-04-05 12:18:17,855 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 62) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2019-04-05 12:18:17,856 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 60) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2019-04-05 12:18:17,856 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 62) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2019-04-05 12:18:17,857 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2019-04-05 12:18:17,858 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2019-04-05 12:18:17,924 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTPS listener https listening on 0.0.0.0:8443
+2019-04-05 12:18:17,987 INFO  [org.jboss.ws.common.management] (MSC service thread 1-3) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2019-04-05 12:18:20,518 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for ProyectPU
+2019-04-05 12:18:20,628 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 66) WFLYJPA0003: Starting Persistence Unit Service 'empresa-version1.0.war#ProyectPU'
+2019-04-05 12:18:21,091 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 66) HV000001: Hibernate Validator 5.2.4.Final
+2019-04-05 12:18:21,140 INFO  [stdout] (ServerService Thread Pool -- 66) [EL Info]: 2019-04-05 12:18:21.136--ServerSession(381158628)--EclipseLink, version: Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd
+2019-04-05 12:18:21,410 INFO  [stdout] (ServerService Thread Pool -- 66) [EL Info]: connection: 2019-04-05 12:18:21.41--ServerSession(381158628)--vfs:/C:/Users/Iepiadm/Documents/wildfly-10.1.0/standalone/deployments/empresa-version1.0.war/WEB-INF/classes/_ProyectPU login successful
+2019-04-05 12:18:21,567 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment empresa-version1.0.war
+2019-04-05 12:18:21,968 INFO  [org.jboss.weld.Version] (MSC service thread 1-2) WELD-000900: 2.3.5 (Final)
+2019-04-05 12:18:22,852 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 91) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/empresa-version1.0'
+2019-04-05 12:18:24,007 INFO  [net.bootsfaces.listeners.AddResourcesListener] (ServerService Thread Pool -- 91) This application is running on BootsFaces1.4.0-
+2019-04-05 12:18:24,652 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 91) Running on PrimeFaces 6.2
+2019-04-05 12:18:24,652 INFO  [org.primefaces.extensions.application.PostConstructApplicationEventListener] (ServerService Thread Pool -- 91) Running on PrimeFaces Extensions 6.2.10
+2019-04-05 12:18:24,665 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 91) WFLYUT0021: Registered web context: /empresa-version1.0
+2019-04-05 12:18:24,692 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "empresa-version1.0.war" (runtime-name : "empresa-version1.0.war")
+2019-04-05 12:18:24,875 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2019-04-05 12:18:24,876 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2019-04-05 12:18:24,876 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 9015ms - Started 1117 of 1365 services (405 services are lazy, passive or on-demand)
+2019-04-05 12:18:25,106 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 91) WFLYUT0022: Unregistered web context: /empresa-version1.0
+2019-04-05 12:18:25,153 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 17) WFLYJPA0004: Stopping Persistence Unit Service 'empresa-version1.0.war#ProyectPU'
+2019-04-05 12:18:25,156 INFO  [stdout] (ServerService Thread Pool -- 17) [EL Info]: connection: 2019-04-05 12:18:25.155--ServerSession(381158628)--vfs:/C:/Users/Iepiadm/Documents/wildfly-10.1.0/standalone/deployments/empresa-version1.0.war/WEB-INF/classes/_ProyectPU logout successful
+2019-04-05 12:18:25,275 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment empresa-version1.0.war (runtime-name: empresa-version1.0.war) in 175ms
+2019-04-05 12:18:25,326 WARN  [org.jboss.as.controller] (management-handler-thread - 1) WFLYCTL0357: Notification of type deployment-undeployed is not described for the resource at the address []
+2019-04-05 12:18:25,326 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "empresa-version1.0.war" (runtime-name: "empresa-version1.0.war")
+2019-04-05 12:18:29,715 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found empresa-version1.0.war in deployment directory. To trigger deployment create a file called empresa-version1.0.war.dodeploy
+2019-04-05 12:18:29,724 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "empresa-version1.0.war" (runtime-name: "empresa-version1.0.war")
+2019-04-05 12:18:32,061 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) WFLYJPA0002: Read persistence.xml for ProyectPU
+2019-04-05 12:18:32,133 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 17) WFLYJPA0003: Starting Persistence Unit Service 'empresa-version1.0.war#ProyectPU'
+2019-04-05 12:18:32,497 INFO  [stdout] (ServerService Thread Pool -- 17) [EL Info]: 2019-04-05 12:18:32.494--ServerSession(786129195)--EclipseLink, version: Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd
+2019-04-05 12:18:32,537 INFO  [stdout] (ServerService Thread Pool -- 17) [EL Info]: connection: 2019-04-05 12:18:32.537--ServerSession(786129195)--vfs:/C:/Users/Iepiadm/Documents/wildfly-10.1.0/standalone/deployments/empresa-version1.0.war/WEB-INF/classes/_ProyectPU login successful
+2019-04-05 12:18:32,576 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment empresa-version1.0.war
+2019-04-05 12:18:33,055 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 17) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/empresa-version1.0'
+2019-04-05 12:18:33,718 INFO  [net.bootsfaces.listeners.AddResourcesListener] (ServerService Thread Pool -- 17) This application is running on BootsFaces1.4.0-
+2019-04-05 12:18:34,027 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 17) Running on PrimeFaces 6.2
+2019-04-05 12:18:34,027 INFO  [org.primefaces.extensions.application.PostConstructApplicationEventListener] (ServerService Thread Pool -- 17) Running on PrimeFaces Extensions 6.2.10
+2019-04-05 12:18:34,028 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 17) WFLYUT0021: Registered web context: /empresa-version1.0
+2019-04-05 12:18:34,055 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "empresa-version1.0.war" (runtime-name : "empresa-version1.0.war")
+2019-04-05 12:18:35,720 WARNING [javax.enterprise.resource.webcontainer.jsf.application] (default task-2) JSF1063: ADVERTENCIA Definiendo valor de atributo no serializable en HttpSession: (clave: accesoBean, clase de valor: com.mycompany.bean.AccesoBean).
+2019-04-05 12:22:48,570 INFO  [stdout] (default task-10) INICIO: senadi2019
+2019-04-05 12:22:48,624 WARNING [javax.faces] (default task-11) Definiendo valor de atributo no serializable en ViewMap: (clave: registerBean, clase de valor: com.mycompany.bean.RegisterBean)
+2019-04-05 12:22:56,961 INFO  [stdout] (default task-21) EJEMPLO EXITOSO
+2019-04-05 12:22:56,961 INFO  [stdout] (default task-21) user:dsadas
+2019-04-05 12:22:56,961 INFO  [stdout] (default task-21) pass:dsadsadas
+2019-04-05 12:22:56,962 INFO  [stdout] (default task-21) 53224d4d49a298554e228466c25dc7c8
+2019-04-05 12:22:57,098 INFO  [stdout] (default task-21) EJEMPLO EXITOSO
+2019-04-05 12:58:57,767 WARNING [javax.enterprise.resource.webcontainer.jsf.application] (default task-31) JSF1063: ADVERTENCIA Definiendo valor de atributo no serializable en HttpSession: (clave: accesoBean, clase de valor: com.mycompany.bean.AccesoBean).
+2019-04-05 12:59:05,973 INFO  [stdout] (default task-40) INICIO: senadi2019
+2019-04-05 12:59:06,159 WARNING [javax.faces] (default task-41) Definiendo valor de atributo no serializable en ViewMap: (clave: registerBean, clase de valor: com.mycompany.bean.RegisterBean)
+2019-04-05 12:59:11,826 INFO  [stdout] (default task-51) user:adasd
+2019-04-05 12:59:11,826 INFO  [stdout] (default task-51) pass:asdasdas
+2019-04-05 12:59:11,827 INFO  [stdout] (default task-51) bff149a0b87f5b0e00d9dd364e9ddaa0
+2019-04-05 12:59:11,827 INFO  [stdout] (default task-51) mala cedula
+2019-04-05 12:59:12,923 INFO  [stdout] (default task-54) user:adasd
+2019-04-05 12:59:12,923 INFO  [stdout] (default task-54) pass:asdasdas
+2019-04-05 12:59:12,923 INFO  [stdout] (default task-54) bff149a0b87f5b0e00d9dd364e9ddaa0
+2019-04-05 12:59:12,923 INFO  [stdout] (default task-54) mala cedula

@@ -1,0 +1,1473 @@
+2018-04-17 08:42:16,116 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 130) WFLYUT0022: Unregistered web context: /ov-web
+2018-04-17 08:42:16,153 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 130) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-17 08:42:16,154 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 130) HHH000227: Running hbm2ddl schema export
+2018-04-17 08:42:16,159 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 130) HHH000230: Schema export complete
+2018-04-17 08:42:16,159 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 130) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-17 08:42:16,161 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/datasources/ovDS]
+2018-04-17 08:42:16,164 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0208: Stopped subdeployment (runtime-name: ov-web.war) in 49ms
+2018-04-17 08:42:16,164 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0208: Stopped subdeployment (runtime-name: ov-ejb.jar) in 50ms
+2018-04-17 08:42:16,165 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment ov.ear (runtime-name: ov.ear) in 51ms
+2018-04-17 08:42:16,165 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "ov.ear" (runtime-name: "ov.ear")
+2018-04-17 08:42:16,172 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0207: Starting subdeployment (runtime-name: "ov-web.war")
+2018-04-17 08:42:16,172 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0207: Starting subdeployment (runtime-name: "ov-ejb.jar")
+2018-04-17 08:42:16,178 WARN  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2018-04-17 08:42:16,185 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment ovconsultas-web.war (runtime-name: ovconsultas-web.war) in 19ms
+2018-04-17 08:42:16,185 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "ovconsultas-web.war" (runtime-name: "ovconsultas-web.war")
+2018-04-17 08:42:16,208 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for primary
+2018-04-17 08:42:16,211 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment ovconsultas-web.war
+2018-04-17 08:42:16,222 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:jboss/datasources/ovDS]
+2018-04-17 08:42:16,222 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 133) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-17 08:42:16,222 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 133) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2018-04-17 08:42:16,223 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment ov.ear
+2018-04-17 08:42:16,239 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment ov-web.war
+2018-04-17 08:42:16,253 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment ov-ejb.jar
+2018-04-17 08:42:16,255 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'MemberRegistration' in deployment unit 'subdeployment "ov-ejb.jar" of deployment "ov.ear"' are as follows:
+
+	java:global/ov/ov-ejb/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:app/ov-ejb/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:module/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:global/ov/ov-ejb/MemberRegistration
+	java:app/ov-ejb/MemberRegistration
+	java:module/MemberRegistration
+
+2018-04-17 08:42:16,324 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 2) WELD-000119: Not generating any bean definitions from ec.gob.iepi.controller.MemberController because of underlying class loading error: Type ec.gob.iepi.service.MemberRegistration from [Module "deployment.ovconsultas-web.war:main" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2018-04-17 08:42:16,328 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 4) WELD-000119: Not generating any bean definitions from ec.gob.iepi.rest.MemberResourceRESTService because of underlying class loading error: Type ec.gob.iepi.data.MemberRepository from [Module "deployment.ovconsultas-web.war:main" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2018-04-17 08:42:16,329 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 133) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-17 08:42:16,331 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 133) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-04-17 08:42:16,331 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 133) HHH000431: Unable to determine H2 database version, certain features may not work
+2018-04-17 08:42:16,334 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 133) Envers integration enabled? : true
+2018-04-17 08:42:16,358 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 133) HHH000227: Running hbm2ddl schema export
+2018-04-17 08:42:16,359 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 133) HHH000476: Executing import script '/import.sql'
+2018-04-17 08:42:16,360 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 133) HHH000230: Schema export complete
+2018-04-17 08:42:16,505 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 133) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/ovconsultas-web'
+2018-04-17 08:42:16,591 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 132) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/ov-web'
+2018-04-17 08:42:16,656 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 133) RESTEASY002225: Deploying javax.ws.rs.core.Application: class ec.gob.iepi.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2018-04-17 08:42:16,657 ERROR [org.jboss.msc.service.fail] (ServerService Thread Pool -- 133) MSC000001: Failed to start service jboss.undertow.deployment.default-server.default-host./ovconsultas-web: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./ovconsultas-web: java.lang.NoClassDefFoundError: ec/gob/iepi/model/Member
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:85)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:320)
+Caused by: java.lang.NoClassDefFoundError: ec/gob/iepi/model/Member
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.privateGetPublicMethods(Class.java:2902)
+	at java.lang.Class.getMethods(Class.java:1615)
+	at org.jboss.resteasy.spi.metadata.ResourceBuilder.fromAnnotations(ResourceBuilder.java:756)
+	at org.jboss.resteasy.spi.metadata.ResourceBuilder.rootResourceFromAnnotations(ResourceBuilder.java:709)
+	at org.jboss.resteasy.plugins.server.resourcefactory.POJOResourceFactory.<init>(POJOResourceFactory.java:30)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addPerRequestResource(ResourceMethodRegistry.java:76)
+	at org.jboss.resteasy.spi.ResteasyDeployment.registration(ResteasyDeployment.java:409)
+	at org.jboss.resteasy.spi.ResteasyDeployment.start(ResteasyDeployment.java:250)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.init(ServletContainerDispatcher.java:113)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.init(HttpServletDispatcher.java:36)
+	at io.undertow.servlet.core.LifecyleInterceptorInvocation.proceed(LifecyleInterceptorInvocation.java:117)
+	at org.wildfly.extension.undertow.security.RunAsLifecycleInterceptor.init(RunAsLifecycleInterceptor.java:78)
+	at io.undertow.servlet.core.LifecyleInterceptorInvocation.proceed(LifecyleInterceptorInvocation.java:103)
+	at io.undertow.servlet.core.ManagedServlet$DefaultInstanceStrategy.start(ManagedServlet.java:250)
+	at io.undertow.servlet.core.ManagedServlet.createServlet(ManagedServlet.java:133)
+	at io.undertow.servlet.core.DeploymentManagerImpl$2.call(DeploymentManagerImpl.java:546)
+	at io.undertow.servlet.core.DeploymentManagerImpl$2.call(DeploymentManagerImpl.java:517)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:42)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.core.DeploymentManagerImpl.start(DeploymentManagerImpl.java:559)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:101)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:82)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: ec.gob.iepi.model.Member from [Module "deployment.ovconsultas-web.war:main" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:198)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:363)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:351)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:93)
+	... 35 more
+
+2018-04-17 08:42:16,727 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 132) RESTEASY002225: Deploying javax.ws.rs.core.Application: class ec.gob.iepi.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2018-04-17 08:42:16,735 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 132) WFLYUT0021: Registered web context: /ov-web
+2018-04-17 08:42:16,736 ERROR [org.jboss.as.controller.management-operation] (DeploymentScanner-threads - 1) WFLYCTL0013: Operation ("full-replace-deployment") failed - address: ([]) - failure description: {
+    "WFLYCTL0080: Failed services" => {"jboss.undertow.deployment.default-server.default-host./ovconsultas-web" => "org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./ovconsultas-web: java.lang.NoClassDefFoundError: ec/gob/iepi/model/Member
+    Caused by: java.lang.NoClassDefFoundError: ec/gob/iepi/model/Member
+    Caused by: java.lang.ClassNotFoundException: ec.gob.iepi.model.Member from [Module \"deployment.ovconsultas-web.war:main\" from Service Module Loader]"},
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.undertow.deployment.default-server.default-host./ovconsultas-web"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => undefined
+}
+2018-04-17 08:42:16,789 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "ovconsultas-web.war" with deployment "ovconsultas-web.war"
+2018-04-17 08:42:16,789 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "ov.ear" with deployment "ov.ear"
+2018-04-17 08:42:16,790 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 1) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service jboss.undertow.deployment.default-server.default-host./ovconsultas-web: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./ovconsultas-web: java.lang.NoClassDefFoundError: ec/gob/iepi/model/Member
+      service jboss.undertow.deployment.default-server.default-host./ovconsultas-web
+
+2018-04-17 08:42:51,828 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 135) WFLYUT0022: Unregistered web context: /ov-web
+2018-04-17 08:42:51,847 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 136) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-17 08:42:51,847 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 136) HHH000227: Running hbm2ddl schema export
+2018-04-17 08:42:51,850 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 136) HHH000230: Schema export complete
+2018-04-17 08:42:51,851 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 136) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-17 08:42:51,853 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:jboss/datasources/ovDS]
+2018-04-17 08:42:51,855 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0208: Stopped subdeployment (runtime-name: ov-web.war) in 27ms
+2018-04-17 08:42:51,855 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0208: Stopped subdeployment (runtime-name: ov-ejb.jar) in 28ms
+2018-04-17 08:42:51,855 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment ov.ear (runtime-name: ov.ear) in 28ms
+2018-04-17 08:42:51,858 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "ov.ear" (runtime-name: "ov.ear")
+2018-04-17 08:42:51,863 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0207: Starting subdeployment (runtime-name: "ov-web.war")
+2018-04-17 08:42:51,863 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0207: Starting subdeployment (runtime-name: "ov-ejb.jar")
+2018-04-17 08:42:51,866 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment ovconsultas-web.war (runtime-name: ovconsultas-web.war) in 8ms
+2018-04-17 08:42:51,866 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "ovconsultas-web.war" (runtime-name: "ovconsultas-web.war")
+2018-04-17 08:42:51,866 WARN  [org.jboss.as.connector] (MSC service thread 1-1) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2018-04-17 08:42:51,879 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment ovconsultas-web.war
+2018-04-17 08:42:51,879 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for primary
+2018-04-17 08:42:51,892 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment ov.ear
+2018-04-17 08:42:51,893 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/ovDS]
+2018-04-17 08:42:51,893 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 138) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-17 08:42:51,893 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 138) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2018-04-17 08:42:51,911 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment ov-web.war
+2018-04-17 08:42:51,916 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment ov-ejb.jar
+2018-04-17 08:42:51,919 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'MemberRegistration' in deployment unit 'subdeployment "ov-ejb.jar" of deployment "ov.ear"' are as follows:
+
+	java:global/ov/ov-ejb/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:app/ov-ejb/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:module/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:global/ov/ov-ejb/MemberRegistration
+	java:app/ov-ejb/MemberRegistration
+	java:module/MemberRegistration
+
+2018-04-17 08:42:51,959 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 138) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-17 08:42:51,969 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 138) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-04-17 08:42:51,969 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 138) HHH000431: Unable to determine H2 database version, certain features may not work
+2018-04-17 08:42:51,976 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 138) Envers integration enabled? : true
+2018-04-17 08:42:51,977 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 2) WELD-000119: Not generating any bean definitions from ec.gob.iepi.controller.MemberController because of underlying class loading error: Type ec.gob.iepi.service.MemberRegistration from [Module "deployment.ovconsultas-web.war:main" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2018-04-17 08:42:51,978 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 1) WELD-000119: Not generating any bean definitions from ec.gob.iepi.rest.MemberResourceRESTService because of underlying class loading error: Type ec.gob.iepi.data.MemberRepository from [Module "deployment.ovconsultas-web.war:main" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2018-04-17 08:42:51,998 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 138) HHH000227: Running hbm2ddl schema export
+2018-04-17 08:42:51,999 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 138) HHH000476: Executing import script '/import.sql'
+2018-04-17 08:42:51,999 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 138) HHH000230: Schema export complete
+2018-04-17 08:42:52,077 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 138) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/ovconsultas-web'
+2018-04-17 08:42:52,191 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 137) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/ov-web'
+2018-04-17 08:42:52,307 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 138) RESTEASY002225: Deploying javax.ws.rs.core.Application: class ec.gob.iepi.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2018-04-17 08:42:52,308 ERROR [org.jboss.msc.service.fail] (ServerService Thread Pool -- 138) MSC000001: Failed to start service jboss.undertow.deployment.default-server.default-host./ovconsultas-web: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./ovconsultas-web: java.lang.NoClassDefFoundError: ec/gob/iepi/model/Member
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:85)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:320)
+Caused by: java.lang.NoClassDefFoundError: ec/gob/iepi/model/Member
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.privateGetPublicMethods(Class.java:2902)
+	at java.lang.Class.getMethods(Class.java:1615)
+	at org.jboss.resteasy.spi.metadata.ResourceBuilder.fromAnnotations(ResourceBuilder.java:756)
+	at org.jboss.resteasy.spi.metadata.ResourceBuilder.rootResourceFromAnnotations(ResourceBuilder.java:709)
+	at org.jboss.resteasy.plugins.server.resourcefactory.POJOResourceFactory.<init>(POJOResourceFactory.java:30)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addPerRequestResource(ResourceMethodRegistry.java:76)
+	at org.jboss.resteasy.spi.ResteasyDeployment.registration(ResteasyDeployment.java:409)
+	at org.jboss.resteasy.spi.ResteasyDeployment.start(ResteasyDeployment.java:250)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.init(ServletContainerDispatcher.java:113)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.init(HttpServletDispatcher.java:36)
+	at io.undertow.servlet.core.LifecyleInterceptorInvocation.proceed(LifecyleInterceptorInvocation.java:117)
+	at org.wildfly.extension.undertow.security.RunAsLifecycleInterceptor.init(RunAsLifecycleInterceptor.java:78)
+	at io.undertow.servlet.core.LifecyleInterceptorInvocation.proceed(LifecyleInterceptorInvocation.java:103)
+	at io.undertow.servlet.core.ManagedServlet$DefaultInstanceStrategy.start(ManagedServlet.java:250)
+	at io.undertow.servlet.core.ManagedServlet.createServlet(ManagedServlet.java:133)
+	at io.undertow.servlet.core.DeploymentManagerImpl$2.call(DeploymentManagerImpl.java:546)
+	at io.undertow.servlet.core.DeploymentManagerImpl$2.call(DeploymentManagerImpl.java:517)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:42)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.core.DeploymentManagerImpl.start(DeploymentManagerImpl.java:559)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:101)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:82)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: ec.gob.iepi.model.Member from [Module "deployment.ovconsultas-web.war:main" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:198)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:363)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:351)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:93)
+	... 35 more
+
+2018-04-17 08:42:52,388 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 137) RESTEASY002225: Deploying javax.ws.rs.core.Application: class ec.gob.iepi.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2018-04-17 08:42:52,392 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 137) WFLYUT0021: Registered web context: /ov-web
+2018-04-17 08:42:52,394 ERROR [org.jboss.as.controller.management-operation] (DeploymentScanner-threads - 1) WFLYCTL0013: Operation ("full-replace-deployment") failed - address: ([]) - failure description: {
+    "WFLYCTL0080: Failed services" => {"jboss.undertow.deployment.default-server.default-host./ovconsultas-web" => "org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./ovconsultas-web: java.lang.NoClassDefFoundError: ec/gob/iepi/model/Member
+    Caused by: java.lang.NoClassDefFoundError: ec/gob/iepi/model/Member
+    Caused by: java.lang.ClassNotFoundException: ec.gob.iepi.model.Member from [Module \"deployment.ovconsultas-web.war:main\" from Service Module Loader]"},
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.undertow.deployment.default-server.default-host./ovconsultas-web"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => undefined
+}
+2018-04-17 08:42:52,400 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "ovconsultas-web.war" with deployment "ovconsultas-web.war"
+2018-04-17 08:42:52,400 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "ov.ear" with deployment "ov.ear"
+2018-04-17 08:42:52,400 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 1) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service jboss.undertow.deployment.default-server.default-host./ovconsultas-web
+      service jboss.undertow.deployment.default-server.default-host./ovconsultas-web: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./ovconsultas-web: java.lang.NoClassDefFoundError: ec/gob/iepi/model/Member
+
+2018-04-17 08:48:17,754 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 140) WFLYUT0022: Unregistered web context: /ov-web
+2018-04-17 08:48:17,766 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 142) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-17 08:48:17,766 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 142) HHH000227: Running hbm2ddl schema export
+2018-04-17 08:48:17,768 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 142) HHH000230: Schema export complete
+2018-04-17 08:48:17,769 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 142) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-17 08:48:17,771 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/ovDS]
+2018-04-17 08:48:17,773 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0208: Stopped subdeployment (runtime-name: ov-web.war) in 21ms
+2018-04-17 08:48:17,773 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0208: Stopped subdeployment (runtime-name: ov-ejb.jar) in 21ms
+2018-04-17 08:48:17,773 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment ov.ear (runtime-name: ov.ear) in 21ms
+2018-04-17 08:48:17,774 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "ov.ear" (runtime-name: "ov.ear")
+2018-04-17 08:48:17,778 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0207: Starting subdeployment (runtime-name: "ov-ejb.jar")
+2018-04-17 08:48:17,778 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0207: Starting subdeployment (runtime-name: "ov-web.war")
+2018-04-17 08:48:17,782 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment ovconsultas-web.war (runtime-name: ovconsultas-web.war) in 7ms
+2018-04-17 08:48:17,782 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "ovconsultas-web.war" (runtime-name: "ovconsultas-web.war")
+2018-04-17 08:48:17,782 WARN  [org.jboss.as.connector] (MSC service thread 1-3) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2018-04-17 08:48:17,787 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) WFLYJPA0002: Read persistence.xml for primary
+2018-04-17 08:48:17,797 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/ovDS]
+2018-04-17 08:48:17,797 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment ovconsultas-web.war
+2018-04-17 08:48:17,798 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment ov.ear
+2018-04-17 08:48:17,799 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 143) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-17 08:48:17,799 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 143) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2018-04-17 08:48:17,809 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment ov-ejb.jar
+2018-04-17 08:48:17,810 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'MemberRegistration' in deployment unit 'subdeployment "ov-ejb.jar" of deployment "ov.ear"' are as follows:
+
+	java:global/ov/ov-ejb/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:app/ov-ejb/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:module/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:global/ov/ov-ejb/MemberRegistration
+	java:app/ov-ejb/MemberRegistration
+	java:module/MemberRegistration
+
+2018-04-17 08:48:17,815 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment ov-web.war
+2018-04-17 08:48:17,850 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 1) WELD-000119: Not generating any bean definitions from ec.gob.iepi.controller.MemberController because of underlying class loading error: Type ec.gob.iepi.service.MemberRegistration from [Module "deployment.ovconsultas-web.war:main" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2018-04-17 08:48:17,850 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 3) WELD-000119: Not generating any bean definitions from ec.gob.iepi.rest.MemberResourceRESTService because of underlying class loading error: Type ec.gob.iepi.data.MemberRepository from [Module "deployment.ovconsultas-web.war:main" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2018-04-17 08:48:17,877 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 143) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-17 08:48:17,887 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 143) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-04-17 08:48:17,887 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 143) HHH000431: Unable to determine H2 database version, certain features may not work
+2018-04-17 08:48:17,892 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 143) Envers integration enabled? : true
+2018-04-17 08:48:17,906 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 143) HHH000227: Running hbm2ddl schema export
+2018-04-17 08:48:17,922 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 143) HHH000476: Executing import script '/import.sql'
+2018-04-17 08:48:17,936 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 143) HHH000230: Schema export complete
+2018-04-17 08:48:17,963 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 143) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/ovconsultas-web'
+2018-04-17 08:48:18,219 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 139) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/ov-web'
+2018-04-17 08:48:18,253 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 143) RESTEASY002225: Deploying javax.ws.rs.core.Application: class ec.gob.iepi.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2018-04-17 08:48:18,256 ERROR [org.jboss.msc.service.fail] (ServerService Thread Pool -- 143) MSC000001: Failed to start service jboss.undertow.deployment.default-server.default-host./ovconsultas-web: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./ovconsultas-web: java.lang.NoClassDefFoundError: ec/gob/iepi/model/Member
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:85)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:320)
+Caused by: java.lang.NoClassDefFoundError: ec/gob/iepi/model/Member
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.privateGetPublicMethods(Class.java:2902)
+	at java.lang.Class.getMethods(Class.java:1615)
+	at org.jboss.resteasy.spi.metadata.ResourceBuilder.fromAnnotations(ResourceBuilder.java:756)
+	at org.jboss.resteasy.spi.metadata.ResourceBuilder.rootResourceFromAnnotations(ResourceBuilder.java:709)
+	at org.jboss.resteasy.plugins.server.resourcefactory.POJOResourceFactory.<init>(POJOResourceFactory.java:30)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addPerRequestResource(ResourceMethodRegistry.java:76)
+	at org.jboss.resteasy.spi.ResteasyDeployment.registration(ResteasyDeployment.java:409)
+	at org.jboss.resteasy.spi.ResteasyDeployment.start(ResteasyDeployment.java:250)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.init(ServletContainerDispatcher.java:113)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.init(HttpServletDispatcher.java:36)
+	at io.undertow.servlet.core.LifecyleInterceptorInvocation.proceed(LifecyleInterceptorInvocation.java:117)
+	at org.wildfly.extension.undertow.security.RunAsLifecycleInterceptor.init(RunAsLifecycleInterceptor.java:78)
+	at io.undertow.servlet.core.LifecyleInterceptorInvocation.proceed(LifecyleInterceptorInvocation.java:103)
+	at io.undertow.servlet.core.ManagedServlet$DefaultInstanceStrategy.start(ManagedServlet.java:250)
+	at io.undertow.servlet.core.ManagedServlet.createServlet(ManagedServlet.java:133)
+	at io.undertow.servlet.core.DeploymentManagerImpl$2.call(DeploymentManagerImpl.java:546)
+	at io.undertow.servlet.core.DeploymentManagerImpl$2.call(DeploymentManagerImpl.java:517)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:42)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.core.DeploymentManagerImpl.start(DeploymentManagerImpl.java:559)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:101)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:82)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: ec.gob.iepi.model.Member from [Module "deployment.ovconsultas-web.war:main" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:198)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:363)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:351)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:93)
+	... 35 more
+
+2018-04-17 08:48:18,340 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 139) RESTEASY002225: Deploying javax.ws.rs.core.Application: class ec.gob.iepi.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2018-04-17 08:48:18,351 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 139) WFLYUT0021: Registered web context: /ov-web
+2018-04-17 08:48:18,353 ERROR [org.jboss.as.controller.management-operation] (DeploymentScanner-threads - 1) WFLYCTL0013: Operation ("full-replace-deployment") failed - address: ([]) - failure description: {
+    "WFLYCTL0080: Failed services" => {"jboss.undertow.deployment.default-server.default-host./ovconsultas-web" => "org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./ovconsultas-web: java.lang.NoClassDefFoundError: ec/gob/iepi/model/Member
+    Caused by: java.lang.NoClassDefFoundError: ec/gob/iepi/model/Member
+    Caused by: java.lang.ClassNotFoundException: ec.gob.iepi.model.Member from [Module \"deployment.ovconsultas-web.war:main\" from Service Module Loader]"},
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.undertow.deployment.default-server.default-host./ovconsultas-web"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => undefined
+}
+2018-04-17 08:48:18,393 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "ovconsultas-web.war" with deployment "ovconsultas-web.war"
+2018-04-17 08:48:18,393 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "ov.ear" with deployment "ov.ear"
+2018-04-17 08:48:18,393 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 1) WFLYCTL0183: Service status report
+WFLYCTL0185:    Newly corrected services:
+      service jboss.deployment.unit."ovconsultas-web.war".component."javax.faces.webapp.FacetTag".START (new available)
+      service jboss.deployment.unit."ovconsultas-web.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (new available)
+      service jboss.deployment.unit."ovconsultas-web.war".component."org.jboss.weld.servlet.WeldInitialListener".START (new available)
+      service jboss.deployment.unit."ovconsultas-web.war".component."org.jboss.weld.servlet.WeldTerminalListener".START (new available)
+WFLYCTL0186:   Services which failed to start:      service jboss.undertow.deployment.default-server.default-host./ovconsultas-web
+      service jboss.undertow.deployment.default-server.default-host./ovconsultas-web: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./ovconsultas-web: java.lang.NoClassDefFoundError: ec/gob/iepi/model/Member
+
+2018-04-17 08:49:13,449 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 148) WFLYUT0022: Unregistered web context: /ov-web
+2018-04-17 08:49:13,462 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 150) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-17 08:49:13,462 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 150) HHH000227: Running hbm2ddl schema export
+2018-04-17 08:49:13,464 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 150) HHH000230: Schema export complete
+2018-04-17 08:49:13,465 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 149) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-17 08:49:13,467 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/datasources/ovDS]
+2018-04-17 08:49:13,476 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0208: Stopped subdeployment (runtime-name: ov-web.war) in 33ms
+2018-04-17 08:49:13,477 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0208: Stopped subdeployment (runtime-name: ov-ejb.jar) in 33ms
+2018-04-17 08:49:13,477 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment ov.ear (runtime-name: ov.ear) in 33ms
+2018-04-17 08:49:13,477 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "ov.ear" (runtime-name: "ov.ear")
+2018-04-17 08:49:13,487 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0207: Starting subdeployment (runtime-name: "ov-web.war")
+2018-04-17 08:49:13,487 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0207: Starting subdeployment (runtime-name: "ov-ejb.jar")
+2018-04-17 08:49:13,491 WARN  [org.jboss.as.connector] (MSC service thread 1-7) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2018-04-17 08:49:13,494 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment ovconsultas-web.war (runtime-name: ovconsultas-web.war) in 16ms
+2018-04-17 08:49:13,494 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "ovconsultas-web.war" (runtime-name: "ovconsultas-web.war")
+2018-04-17 08:49:13,497 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for primary
+2018-04-17 08:49:13,514 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment ovconsultas-web.war
+2018-04-17 08:49:13,515 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/ovDS]
+2018-04-17 08:49:13,516 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 150) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-17 08:49:13,517 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 150) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2018-04-17 08:49:13,518 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment ov.ear
+2018-04-17 08:49:13,524 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment ov-ejb.jar
+2018-04-17 08:49:13,524 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment ov-web.war
+2018-04-17 08:49:13,524 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'MemberRegistration' in deployment unit 'subdeployment "ov-ejb.jar" of deployment "ov.ear"' are as follows:
+
+	java:global/ov/ov-ejb/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:app/ov-ejb/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:module/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:global/ov/ov-ejb/MemberRegistration
+	java:app/ov-ejb/MemberRegistration
+	java:module/MemberRegistration
+
+2018-04-17 08:49:13,556 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 150) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-17 08:49:13,564 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 150) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-04-17 08:49:13,564 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 150) HHH000431: Unable to determine H2 database version, certain features may not work
+2018-04-17 08:49:13,567 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 150) Envers integration enabled? : true
+2018-04-17 08:49:13,579 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 2) WELD-000119: Not generating any bean definitions from ec.gob.iepi.controller.MemberController because of underlying class loading error: Type ec.gob.iepi.service.MemberRegistration from [Module "deployment.ovconsultas-web.war:main" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2018-04-17 08:49:13,579 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 4) WELD-000119: Not generating any bean definitions from ec.gob.iepi.rest.MemberResourceRESTService because of underlying class loading error: Type ec.gob.iepi.data.MemberRepository from [Module "deployment.ovconsultas-web.war:main" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2018-04-17 08:49:13,588 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 150) HHH000227: Running hbm2ddl schema export
+2018-04-17 08:49:13,590 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 150) HHH000476: Executing import script '/import.sql'
+2018-04-17 08:49:13,590 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 150) HHH000230: Schema export complete
+2018-04-17 08:49:13,742 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 150) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/ovconsultas-web'
+2018-04-17 08:49:13,788 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 151) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/ov-web'
+2018-04-17 08:49:13,891 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 150) RESTEASY002225: Deploying javax.ws.rs.core.Application: class ec.gob.iepi.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2018-04-17 08:49:13,892 ERROR [org.jboss.msc.service.fail] (ServerService Thread Pool -- 150) MSC000001: Failed to start service jboss.undertow.deployment.default-server.default-host./ovconsultas-web: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./ovconsultas-web: java.lang.NoClassDefFoundError: ec/gob/iepi/model/Member
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:85)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:320)
+Caused by: java.lang.NoClassDefFoundError: ec/gob/iepi/model/Member
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.privateGetPublicMethods(Class.java:2902)
+	at java.lang.Class.getMethods(Class.java:1615)
+	at org.jboss.resteasy.spi.metadata.ResourceBuilder.fromAnnotations(ResourceBuilder.java:756)
+	at org.jboss.resteasy.spi.metadata.ResourceBuilder.rootResourceFromAnnotations(ResourceBuilder.java:709)
+	at org.jboss.resteasy.plugins.server.resourcefactory.POJOResourceFactory.<init>(POJOResourceFactory.java:30)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addPerRequestResource(ResourceMethodRegistry.java:76)
+	at org.jboss.resteasy.spi.ResteasyDeployment.registration(ResteasyDeployment.java:409)
+	at org.jboss.resteasy.spi.ResteasyDeployment.start(ResteasyDeployment.java:250)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.init(ServletContainerDispatcher.java:113)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.init(HttpServletDispatcher.java:36)
+	at io.undertow.servlet.core.LifecyleInterceptorInvocation.proceed(LifecyleInterceptorInvocation.java:117)
+	at org.wildfly.extension.undertow.security.RunAsLifecycleInterceptor.init(RunAsLifecycleInterceptor.java:78)
+	at io.undertow.servlet.core.LifecyleInterceptorInvocation.proceed(LifecyleInterceptorInvocation.java:103)
+	at io.undertow.servlet.core.ManagedServlet$DefaultInstanceStrategy.start(ManagedServlet.java:250)
+	at io.undertow.servlet.core.ManagedServlet.createServlet(ManagedServlet.java:133)
+	at io.undertow.servlet.core.DeploymentManagerImpl$2.call(DeploymentManagerImpl.java:546)
+	at io.undertow.servlet.core.DeploymentManagerImpl$2.call(DeploymentManagerImpl.java:517)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:42)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.core.DeploymentManagerImpl.start(DeploymentManagerImpl.java:559)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:101)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:82)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: ec.gob.iepi.model.Member from [Module "deployment.ovconsultas-web.war:main" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:198)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:363)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:351)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:93)
+	... 35 more
+
+2018-04-17 08:49:13,936 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 151) RESTEASY002225: Deploying javax.ws.rs.core.Application: class ec.gob.iepi.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2018-04-17 08:49:13,943 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 151) WFLYUT0021: Registered web context: /ov-web
+2018-04-17 08:49:13,945 ERROR [org.jboss.as.controller.management-operation] (DeploymentScanner-threads - 1) WFLYCTL0013: Operation ("full-replace-deployment") failed - address: ([]) - failure description: {
+    "WFLYCTL0080: Failed services" => {"jboss.undertow.deployment.default-server.default-host./ovconsultas-web" => "org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./ovconsultas-web: java.lang.NoClassDefFoundError: ec/gob/iepi/model/Member
+    Caused by: java.lang.NoClassDefFoundError: ec/gob/iepi/model/Member
+    Caused by: java.lang.ClassNotFoundException: ec.gob.iepi.model.Member from [Module \"deployment.ovconsultas-web.war:main\" from Service Module Loader]"},
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.undertow.deployment.default-server.default-host./ovconsultas-web"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => undefined
+}
+2018-04-17 08:49:13,961 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "ovconsultas-web.war" with deployment "ovconsultas-web.war"
+2018-04-17 08:49:13,961 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "ov.ear" with deployment "ov.ear"
+2018-04-17 08:49:13,961 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 1) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.deployment.unit."ovconsultas-web.war".component."javax.faces.webapp.FacetTag".START (unavailable) dependents: [service jboss.deployment.unit."ovconsultas-web.war".deploymentCompleteService] 
+      service jboss.deployment.unit."ovconsultas-web.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (unavailable) dependents: [service jboss.deployment.unit."ovconsultas-web.war".deploymentCompleteService] 
+      service jboss.deployment.unit."ovconsultas-web.war".component."org.jboss.weld.servlet.WeldInitialListener".START (unavailable) dependents: [service jboss.deployment.unit."ovconsultas-web.war".deploymentCompleteService] 
+      service jboss.deployment.unit."ovconsultas-web.war".component."org.jboss.weld.servlet.WeldTerminalListener".START (unavailable) dependents: [service jboss.deployment.unit."ovconsultas-web.war".deploymentCompleteService] 
+WFLYCTL0186:   Services which failed to start:      service jboss.undertow.deployment.default-server.default-host./ovconsultas-web
+      service jboss.undertow.deployment.default-server.default-host./ovconsultas-web: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./ovconsultas-web: java.lang.NoClassDefFoundError: ec/gob/iepi/model/Member
+
+2018-04-17 08:49:57,340 INFO  [org.jboss.as.server] (management-handler-thread - 6) WFLYSRV0236: Suspending server with no timeout.
+2018-04-17 08:49:57,353 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2018-04-17 08:49:57,364 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0010: Unbound data source [java:jboss/datasources/secobSeguimientoDs]
+2018-04-17 08:49:57,365 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepidepurar
+2018-04-17 08:49:57,403 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0019: Stopped Driver service with driver-name = postgresql-9.3-1102-jdbc41.jar
+2018-04-17 08:49:57,404 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepiCasilleros
+2018-04-17 08:49:57,413 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/datasources/secretaria-tramites]
+2018-04-17 08:49:57,413 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0010: Unbound data source [java:jboss/datasources/modificacionesDs]
+2018-04-17 08:49:57,413 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0010: Unbound data source [java:jboss/datasources/jBossJaasPostgres]
+2018-04-17 08:49:57,426 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:/datasources/MSSQLDS]
+2018-04-17 08:49:57,427 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepiFormularios
+2018-04-17 08:49:57,430 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:jboss/datasources/auth]
+2018-04-17 08:49:57,431 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:jboss/datasources/obtencionesVegetales]
+2018-04-17 08:49:57,442 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepiProcesos
+2018-04-17 08:49:57,455 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/datasources/iepi]
+2018-04-17 08:49:57,455 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepi_sipigaceta
+2018-04-17 08:49:57,455 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:jboss/datasources/OMPI]
+2018-04-17 08:49:57,455 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepiadmin
+2018-04-17 08:49:57,483 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepi_sipigaceta2
+2018-04-17 08:49:57,484 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:jboss/datasources/cpi]
+2018-04-17 08:49:57,460 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 152) WFLYUT0022: Unregistered web context: /ov-web
+2018-04-17 08:49:57,495 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 164) WFLYUT0022: Unregistered web context: /files
+2018-04-17 08:49:57,508 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 165) WFLYUT0022: Unregistered web context: /captcha-web
+2018-04-17 08:49:57,509 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 161) WFLYUT0022: Unregistered web context: /ovconsulta-1.0-SNAPSHOT
+2018-04-17 08:49:57,529 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 158) WFLYUT0022: Unregistered web context: /busquedas-titular-web
+2018-04-17 08:49:57,537 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = sqlserver
+2018-04-17 08:49:57,539 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = mysql
+2018-04-17 08:49:57,559 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 154) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'captcha.ear/captcha-ejb.jar#primary'
+2018-04-17 08:49:57,559 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 154) HHH000227: Running hbm2ddl schema export
+2018-04-17 08:49:57,566 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment ovconsulta-1.0-SNAPSHOT.war (runtime-name: ovconsulta-1.0-SNAPSHOT.war) in 202ms
+2018-04-17 08:49:57,566 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment files.war (runtime-name: files.war) in 202ms
+2018-04-17 08:49:57,571 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 154) HHH000230: Schema export complete
+2018-04-17 08:49:57,573 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 154) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'captcha.ear/captcha-ejb.jar#primary'
+2018-04-17 08:49:57,580 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 169) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-17 08:49:57,581 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 169) HHH000227: Running hbm2ddl schema export
+2018-04-17 08:49:57,582 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0208: Stopped subdeployment (runtime-name: captcha-ejb.jar) in 217ms
+2018-04-17 08:49:57,584 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment ovconsultas-web.war (runtime-name: ovconsultas-web.war) in 220ms
+2018-04-17 08:49:57,586 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 169) HHH000230: Schema export complete
+2018-04-17 08:49:57,589 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 163) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'busquedas-titular.ear/busquedas-titular-ejb.jar#iepiUsuarioPU'
+2018-04-17 08:49:57,589 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2018-04-17 08:49:57,590 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 163) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'busquedas-titular.ear/busquedas-titular-ejb.jar#iepiUsuarioPU'
+2018-04-17 08:49:57,590 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:jboss/datasources/autenticacion]
+2018-04-17 08:49:57,591 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 161) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'busquedas-titular.ear/busquedas-titular-ejb.jar#iepiPU2'
+2018-04-17 08:49:57,596 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0208: Stopped subdeployment (runtime-name: captcha-web.war) in 231ms
+2018-04-17 08:49:57,596 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 161) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'busquedas-titular.ear/busquedas-titular-ejb.jar#iepiPU2'
+2018-04-17 08:49:57,596 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment captcha.ear (runtime-name: captcha.ear) in 232ms
+2018-04-17 08:49:57,596 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/datasources/iepi3]
+2018-04-17 08:49:57,598 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0019: Host default-host stopping
+2018-04-17 08:49:57,599 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 169) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-17 08:49:57,601 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0208: Stopped subdeployment (runtime-name: busquedas-titular-ejb.jar) in 236ms
+2018-04-17 08:49:57,602 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = postgres
+2018-04-17 08:49:57,614 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment postgresql-9.3-1102-jdbc41.jar (runtime-name: postgresql-9.3-1102-jdbc41.jar) in 250ms
+2018-04-17 08:49:57,620 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2018-04-17 08:49:57,633 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0208: Stopped subdeployment (runtime-name: ov-web.war) in 269ms
+2018-04-17 08:49:57,634 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0208: Stopped subdeployment (runtime-name: ov-ejb.jar) in 269ms
+2018-04-17 08:49:57,635 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0008: Undertow HTTPS listener https suspending
+2018-04-17 08:49:57,635 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment ov.ear (runtime-name: ov.ear) in 269ms
+2018-04-17 08:49:57,636 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2018-04-17 08:49:57,649 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0008: Undertow HTTP listener default suspending
+2018-04-17 08:49:57,649 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2018-04-17 08:49:57,652 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 155) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2018-04-17 08:49:57,656 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0004: Undertow 1.4.0.Final stopping
+2018-04-17 08:49:57,674 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0208: Stopped subdeployment (runtime-name: busquedas-titular-web.war) in 310ms
+2018-04-17 08:49:57,674 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment busquedas-titular.ear (runtime-name: busquedas-titular.ear) in 310ms
+2018-04-17 08:49:57,695 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0050: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 329ms
+2018-04-17 08:49:58,629 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2018-04-17 08:49:58,960 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2018-04-17 08:49:59,043 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2018-04-17 08:49:59,044 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/lparedes/Documentos/wildfly-10.1.0.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-8-openjdk-amd64/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 1.8.0_162-8u162-b12-0ubuntu0.16.04.2-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_162
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.162-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final
+	jboss.host.name = iepi
+	jboss.modules.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = iepi
+	jboss.qualified.host.name = iepi
+	jboss.server.base.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone
+	jboss.server.config.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/configuration
+	jboss.server.data.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/data
+	jboss.server.deploy.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/data/content
+	jboss.server.log.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/log
+	jboss.server.name = iepi
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/configuration/logging.properties
+	module.path = /home/lparedes/Documentos/wildfly-10.1.0.Final/modules
+	org.jboss.boot.log.file = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.4.0-119-generic
+	path.separator = :
+	program.name = JBossTools: WildFly 10.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp /home/lparedes/Documentos/wildfly-10.1.0.Final/modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=/home/lparedes/Documentos/wildfly-10.1.0.Final/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = EC
+	user.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/bin
+	user.home = /home/lparedes
+	user.language = es
+	user.name = lparedes
+	user.timezone = America/Guayaquil
+2018-04-17 08:49:59,045 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Dprogram.name=JBossTools: WildFly 10.x -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=/home/lparedes/Documentos/wildfly-10.1.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 
+2018-04-17 08:50:00,425 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0015: Re-attempting failed deployment ovconsultas-web.war
+2018-04-17 08:50:00,436 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ov.ear in deployment directory. To trigger deployment create a file called ov.ear.dodeploy
+2018-04-17 08:50:00,436 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found busquedas-titular.ear in deployment directory. To trigger deployment create a file called busquedas-titular.ear.dodeploy
+2018-04-17 08:50:00,436 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found files.war in deployment directory. To trigger deployment create a file called files.war.dodeploy
+2018-04-17 08:50:00,437 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ovconsultas-web.war in deployment directory. To trigger deployment create a file called ovconsultas-web.war.dodeploy
+2018-04-17 08:50:00,437 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ovconsulta-1.0-SNAPSHOT.war in deployment directory. To trigger deployment create a file called ovconsulta-1.0-SNAPSHOT.war.dodeploy
+2018-04-17 08:50:00,437 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found captcha.ear in deployment directory. To trigger deployment create a file called captcha.ear.dodeploy
+2018-04-17 08:50:00,491 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-04-17 08:50:00,510 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.4.0.Final
+2018-04-17 08:50:00,521 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.4.0.Final
+2018-04-17 08:50:00,590 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-04-17 08:50:00,607 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2018-04-17 08:50:00,630 INFO  [org.jboss.as.connector] (MSC service thread 1-4) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2018-04-17 08:50:00,634 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-04-17 08:50:00,656 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2018-04-17 08:50:00,663 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2018-04-17 08:50:00,670 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2018-04-17 08:50:00,797 INFO  [org.jboss.as.security] (MSC service thread 1-4) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2018-04-17 08:50:00,808 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2018-04-17 08:50:00,809 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2018-04-17 08:50:00,817 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-04-17 08:50:00,848 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0003: Undertow 1.4.0.Final starting
+2018-04-17 08:50:00,910 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 4.0.21.Final
+2018-04-17 08:50:00,922 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2018-04-17 08:50:00,917 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-04-17 08:50:00,917 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
+2018-04-17 08:50:00,929 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = mysql
+2018-04-17 08:50:00,935 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.3)
+2018-04-17 08:50:00,936 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = postgres
+2018-04-17 08:50:01,011 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path '/home/lparedes/Documentos/wildfly-10.1.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-04-17 08:50:01,038 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0012: Started server default-server.
+2018-04-17 08:50:01,044 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0018: Host default-host starting
+2018-04-17 08:50:01,161 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2018-04-17 08:50:01,161 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2018-04-17 08:50:01,204 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class com.microsoft.sqlserver.jdbc.SQLServerDriver (version 3.0)
+2018-04-17 08:50:01,211 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = sqlserver
+2018-04-17 08:50:01,247 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2018-04-17 08:50:01,327 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2018-04-17 08:50:01,328 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepiProcesos
+2018-04-17 08:50:01,335 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/secobSeguimientoDs]
+2018-04-17 08:50:01,335 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepiFormularios
+2018-04-17 08:50:01,335 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepi_sipigaceta2
+2018-04-17 08:50:01,335 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/autenticacion]
+2018-04-17 08:50:01,336 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/cpi]
+2018-04-17 08:50:01,336 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/secretaria-tramites]
+2018-04-17 08:50:01,336 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepi_sipigaceta
+2018-04-17 08:50:01,337 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/OMPI]
+2018-04-17 08:50:01,337 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/iepi]
+2018-04-17 08:50:01,337 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepidepurar
+2018-04-17 08:50:01,337 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/modificacionesDs]
+2018-04-17 08:50:01,339 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepiCasilleros
+2018-04-17 08:50:01,339 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/auth]
+2018-04-17 08:50:01,340 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/obtencionesVegetales]
+2018-04-17 08:50:01,340 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepiadmin
+2018-04-17 08:50:01,340 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/jBossJaasPostgres]
+2018-04-17 08:50:01,341 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/iepi3]
+2018-04-17 08:50:01,341 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:/datasources/MSSQLDS]
+2018-04-17 08:50:01,503 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-5) WFLYDM0111: Keystore /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-04-17 08:50:01,515 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-4) WFLYDS0013: Started FileSystemDeploymentService for directory /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/deployments
+2018-04-17 08:50:01,517 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "postgresql-9.3-1102-jdbc41.jar" (runtime-name: "postgresql-9.3-1102-jdbc41.jar")
+2018-04-17 08:50:01,518 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "captcha.ear" (runtime-name: "captcha.ear")
+2018-04-17 08:50:01,518 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "ovconsulta-1.0-SNAPSHOT.war" (runtime-name: "ovconsulta-1.0-SNAPSHOT.war")
+2018-04-17 08:50:01,523 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "ov.ear" (runtime-name: "ov.ear")
+2018-04-17 08:50:01,524 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "ovconsultas-web.war" (runtime-name: "ovconsultas-web.war")
+2018-04-17 08:50:01,524 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "files.war" (runtime-name: "files.war")
+2018-04-17 08:50:01,525 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "busquedas-titular.ear" (runtime-name: "busquedas-titular.ear")
+2018-04-17 08:50:01,724 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0207: Starting subdeployment (runtime-name: "captcha-ejb.jar")
+2018-04-17 08:50:01,724 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0207: Starting subdeployment (runtime-name: "captcha-web.war")
+2018-04-17 08:50:01,769 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0207: Starting subdeployment (runtime-name: "ov-web.war")
+2018-04-17 08:50:01,774 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0207: Starting subdeployment (runtime-name: "ov-ejb.jar")
+2018-04-17 08:50:01,783 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-3) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2018-04-17 08:50:01,787 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2018-04-17 08:50:01,790 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0207: Starting subdeployment (runtime-name: "busquedas-titular-web.war")
+2018-04-17 08:50:01,791 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0207: Starting subdeployment (runtime-name: "busquedas-titular-ejb.jar")
+2018-04-17 08:50:01,860 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-04-17 08:50:01,864 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-04-17 08:50:01,872 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-04-17 08:50:01,873 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-04-17 08:50:01,879 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-04-17 08:50:01,880 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-04-17 08:50:02,083 INFO  [org.jboss.ws.common.management] (MSC service thread 1-8) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2018-04-17 08:50:02,216 WARN  [org.jboss.as.connector] (MSC service thread 1-4) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2018-04-17 08:50:02,217 WARN  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2018-04-17 08:50:02,707 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment ovconsulta-1.0-SNAPSHOT.war
+2018-04-17 08:50:02,904 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-3) HV000001: Hibernate Validator 5.2.4.Final
+2018-04-17 08:50:03,025 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.3)
+2018-04-17 08:50:03,212 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for primary
+2018-04-17 08:50:03,214 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for primary
+2018-04-17 08:50:03,250 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = postgresql-9.3-1102-jdbc41.jar
+2018-04-17 08:50:03,348 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment ovconsultas-web.war
+2018-04-17 08:50:03,422 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/captchaDS]
+2018-04-17 08:50:03,427 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/ovDS]
+2018-04-17 08:50:03,462 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment ov.ear
+2018-04-17 08:50:03,468 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 63) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-17 08:50:03,475 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment captcha.ear
+2018-04-17 08:50:03,478 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 62) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'captcha.ear/captcha-ejb.jar#primary'
+2018-04-17 08:50:03,505 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment ov-web.war
+2018-04-17 08:50:03,527 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment ov-ejb.jar
+2018-04-17 08:50:03,529 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'MemberRegistration' in deployment unit 'subdeployment "ov-ejb.jar" of deployment "ov.ear"' are as follows:
+
+	java:global/ov/ov-ejb/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:app/ov-ejb/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:module/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:global/ov/ov-ejb/MemberRegistration
+	java:app/ov-ejb/MemberRegistration
+	java:module/MemberRegistration
+
+2018-04-17 08:50:03,530 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment captcha-ejb.jar
+2018-04-17 08:50:03,532 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'MemberRegistration' in deployment unit 'subdeployment "captcha-ejb.jar" of deployment "captcha.ear"' are as follows:
+
+	java:global/captcha/captcha-ejb/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:app/captcha-ejb/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:module/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:global/captcha/captcha-ejb/MemberRegistration
+	java:app/captcha-ejb/MemberRegistration
+	java:module/MemberRegistration
+
+2018-04-17 08:50:03,576 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment captcha-web.war
+2018-04-17 08:50:03,619 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 62) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2018-04-17 08:50:03,619 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 63) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2018-04-17 08:50:03,672 INFO  [org.jboss.weld.Version] (MSC service thread 1-3) WELD-000900: 2.3.5 (Final)
+2018-04-17 08:50:03,983 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 62) HHH000412: Hibernate Core {5.0.10.Final}
+2018-04-17 08:50:03,984 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 62) HHH000206: hibernate.properties not found
+2018-04-17 08:50:03,993 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 62) HHH000021: Bytecode provider name : javassist
+2018-04-17 08:50:04,037 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-04-17 08:50:04,037 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-04-17 08:50:04,106 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 64) WFLYUT0021: Registered web context: /files
+2018-04-17 08:50:04,180 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 63) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-17 08:50:04,347 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 64) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-17 08:50:04,347 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 62) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'captcha.ear/captcha-ejb.jar#primary'
+2018-04-17 08:50:04,479 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 1) WELD-000119: Not generating any bean definitions from ec.gob.iepi.controller.MemberController because of underlying class loading error: Type MemberRegistration from [Module "deployment.ovconsulta-1.0-SNAPSHOT.war:main" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2018-04-17 08:50:04,503 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 2) WELD-000119: Not generating any bean definitions from ec.gob.iepi.rest.MemberResourceRESTService because of underlying class loading error: Type ec.gob.iepi.data.MemberRepository from [Module "deployment.ovconsultas-web.war:main" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2018-04-17 08:50:04,501 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 3) WELD-000119: Not generating any bean definitions from ec.gob.iepi.controller.MemberController because of underlying class loading error: Type ec.gob.iepi.service.MemberRegistration from [Module "deployment.ovconsultas-web.war:main" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2018-04-17 08:50:05,109 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 58) WFLYCLINF0002: Started client-mappings cache from ejb container
+2018-04-17 08:50:05,124 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 64) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-04-17 08:50:05,125 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 62) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-04-17 08:50:05,159 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 62) HHH000431: Unable to determine H2 database version, certain features may not work
+2018-04-17 08:50:05,162 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 64) HHH000431: Unable to determine H2 database version, certain features may not work
+2018-04-17 08:50:05,300 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 62) Envers integration enabled? : true
+2018-04-17 08:50:05,307 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 64) Envers integration enabled? : true
+2018-04-17 08:50:05,400 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0021: Registered web context: /ovconsulta-1.0-SNAPSHOT
+2018-04-17 08:50:05,474 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 59) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/ovconsultas-web'
+2018-04-17 08:50:06,609 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 64) HHH000227: Running hbm2ddl schema export
+2018-04-17 08:50:06,617 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 62) HHH000227: Running hbm2ddl schema export
+2018-04-17 08:50:06,626 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 62) HHH000476: Executing import script '/import.sql'
+2018-04-17 08:50:06,628 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 64) HHH000476: Executing import script '/import.sql'
+2018-04-17 08:50:06,630 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 64) HHH000230: Schema export complete
+2018-04-17 08:50:06,630 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 62) HHH000230: Schema export complete
+2018-04-17 08:50:07,455 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 58) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/ov-web'
+2018-04-17 08:50:07,468 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 64) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/captcha-web'
+2018-04-17 08:50:07,766 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 59) RESTEASY002225: Deploying javax.ws.rs.core.Application: class ec.gob.iepi.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2018-04-17 08:50:07,781 ERROR [org.jboss.msc.service.fail] (ServerService Thread Pool -- 59) MSC000001: Failed to start service jboss.undertow.deployment.default-server.default-host./ovconsultas-web: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./ovconsultas-web: java.lang.NoClassDefFoundError: ec/gob/iepi/model/Member
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:85)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:320)
+Caused by: java.lang.NoClassDefFoundError: ec/gob/iepi/model/Member
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.privateGetPublicMethods(Class.java:2902)
+	at java.lang.Class.getMethods(Class.java:1615)
+	at org.jboss.resteasy.spi.metadata.ResourceBuilder.fromAnnotations(ResourceBuilder.java:756)
+	at org.jboss.resteasy.spi.metadata.ResourceBuilder.rootResourceFromAnnotations(ResourceBuilder.java:709)
+	at org.jboss.resteasy.plugins.server.resourcefactory.POJOResourceFactory.<init>(POJOResourceFactory.java:30)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addPerRequestResource(ResourceMethodRegistry.java:76)
+	at org.jboss.resteasy.spi.ResteasyDeployment.registration(ResteasyDeployment.java:409)
+	at org.jboss.resteasy.spi.ResteasyDeployment.start(ResteasyDeployment.java:250)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.init(ServletContainerDispatcher.java:113)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.init(HttpServletDispatcher.java:36)
+	at io.undertow.servlet.core.LifecyleInterceptorInvocation.proceed(LifecyleInterceptorInvocation.java:117)
+	at org.wildfly.extension.undertow.security.RunAsLifecycleInterceptor.init(RunAsLifecycleInterceptor.java:78)
+	at io.undertow.servlet.core.LifecyleInterceptorInvocation.proceed(LifecyleInterceptorInvocation.java:103)
+	at io.undertow.servlet.core.ManagedServlet$DefaultInstanceStrategy.start(ManagedServlet.java:250)
+	at io.undertow.servlet.core.ManagedServlet.createServlet(ManagedServlet.java:133)
+	at io.undertow.servlet.core.DeploymentManagerImpl$2.call(DeploymentManagerImpl.java:546)
+	at io.undertow.servlet.core.DeploymentManagerImpl$2.call(DeploymentManagerImpl.java:517)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:42)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.core.DeploymentManagerImpl.start(DeploymentManagerImpl.java:559)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:101)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:82)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: ec.gob.iepi.model.Member from [Module "deployment.ovconsultas-web.war:main" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:198)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:363)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:351)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:93)
+	... 35 more
+
+2018-04-17 08:50:07,904 WARN  [org.jboss.as.connector] (MSC service thread 1-1) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2018-04-17 08:50:07,939 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for iepiPU2
+2018-04-17 08:50:07,939 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for iepiUsuarioPU
+2018-04-17 08:50:07,989 WARN  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0081: The deployment busquedas-titular-web.war will not be distributable because this feature is disabled in web-fragment.xml of the module omnifaces-2.0.jar.
+2018-04-17 08:50:07,995 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 58) RESTEASY002225: Deploying javax.ws.rs.core.Application: class ec.gob.iepi.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2018-04-17 08:50:08,011 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 64) RESTEASY002225: Deploying javax.ws.rs.core.Application: class ec.gob.iepi.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2018-04-17 08:50:08,100 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 58) WFLYUT0021: Registered web context: /ov-web
+2018-04-17 08:50:08,101 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 64) WFLYUT0021: Registered web context: /captcha-web
+2018-04-17 08:50:08,237 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/busquedas-titularDS]
+2018-04-17 08:50:08,238 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 64) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'busquedas-titular.ear/busquedas-titular-ejb.jar#iepiPU2'
+2018-04-17 08:50:08,238 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 64) HHH000204: Processing PersistenceUnitInfo [
+	name: iepiPU2
+	...]
+2018-04-17 08:50:08,238 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 58) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'busquedas-titular.ear/busquedas-titular-ejb.jar#iepiUsuarioPU'
+2018-04-17 08:50:08,238 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 58) HHH000204: Processing PersistenceUnitInfo [
+	name: iepiUsuarioPU
+	...]
+2018-04-17 08:50:08,417 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment busquedas-titular.ear
+2018-04-17 08:50:08,444 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment busquedas-titular-ejb.jar
+2018-04-17 08:50:08,456 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'ServicioPpdiResolucion' in deployment unit 'subdeployment "busquedas-titular-ejb.jar" of deployment "busquedas-titular.ear"' are as follows:
+
+	java:global/busquedas-titular/busquedas-titular-ejb/ServicioPpdiResolucion!ec.gob.iepi.interfaces.IPpdiResolucion
+	java:app/busquedas-titular-ejb/ServicioPpdiResolucion!ec.gob.iepi.interfaces.IPpdiResolucion
+	java:module/ServicioPpdiResolucion!ec.gob.iepi.interfaces.IPpdiResolucion
+	java:global/busquedas-titular/busquedas-titular-ejb/ServicioPpdiResolucion
+	java:app/busquedas-titular-ejb/ServicioPpdiResolucion
+	java:module/ServicioPpdiResolucion
+
+2018-04-17 08:50:08,457 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'ServicioPpdiSolicitudSignoDistintivo' in deployment unit 'subdeployment "busquedas-titular-ejb.jar" of deployment "busquedas-titular.ear"' are as follows:
+
+	java:global/busquedas-titular/busquedas-titular-ejb/ServicioPpdiSolicitudSignoDistintivo!ec.gob.iepi.interfaces.IPpdiSolicitudSignoDistintivo
+	java:app/busquedas-titular-ejb/ServicioPpdiSolicitudSignoDistintivo!ec.gob.iepi.interfaces.IPpdiSolicitudSignoDistintivo
+	java:module/ServicioPpdiSolicitudSignoDistintivo!ec.gob.iepi.interfaces.IPpdiSolicitudSignoDistintivo
+	java:global/busquedas-titular/busquedas-titular-ejb/ServicioPpdiSolicitudSignoDistintivo
+	java:app/busquedas-titular-ejb/ServicioPpdiSolicitudSignoDistintivo
+	java:module/ServicioPpdiSolicitudSignoDistintivo
+
+2018-04-17 08:50:08,457 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'ServicioPpdiPersonaSolicitudSignoDistintivo1' in deployment unit 'subdeployment "busquedas-titular-ejb.jar" of deployment "busquedas-titular.ear"' are as follows:
+
+	java:global/busquedas-titular/busquedas-titular-ejb/ServicioPpdiPersonaSolicitudSignoDistintivo1!ec.gob.iepi.interfaces.IPpdiPersonaSolicitudSignoDistintivo1
+	java:app/busquedas-titular-ejb/ServicioPpdiPersonaSolicitudSignoDistintivo1!ec.gob.iepi.interfaces.IPpdiPersonaSolicitudSignoDistintivo1
+	java:module/ServicioPpdiPersonaSolicitudSignoDistintivo1!ec.gob.iepi.interfaces.IPpdiPersonaSolicitudSignoDistintivo1
+	java:global/busquedas-titular/busquedas-titular-ejb/ServicioPpdiPersonaSolicitudSignoDistintivo1
+	java:app/busquedas-titular-ejb/ServicioPpdiPersonaSolicitudSignoDistintivo1
+	java:module/ServicioPpdiPersonaSolicitudSignoDistintivo1
+
+2018-04-17 08:50:08,457 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'ServicioPpdiTituloSignoDistintivo' in deployment unit 'subdeployment "busquedas-titular-ejb.jar" of deployment "busquedas-titular.ear"' are as follows:
+
+	java:global/busquedas-titular/busquedas-titular-ejb/ServicioPpdiTituloSignoDistintivo!ec.gob.iepi.interfaces.IPpdiTituloSignoDistintivo
+	java:app/busquedas-titular-ejb/ServicioPpdiTituloSignoDistintivo!ec.gob.iepi.interfaces.IPpdiTituloSignoDistintivo
+	java:module/ServicioPpdiTituloSignoDistintivo!ec.gob.iepi.interfaces.IPpdiTituloSignoDistintivo
+	java:global/busquedas-titular/busquedas-titular-ejb/ServicioPpdiTituloSignoDistintivo
+	java:app/busquedas-titular-ejb/ServicioPpdiTituloSignoDistintivo
+	java:module/ServicioPpdiTituloSignoDistintivo
+
+2018-04-17 08:50:08,457 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'ServicioUsuario' in deployment unit 'subdeployment "busquedas-titular-ejb.jar" of deployment "busquedas-titular.ear"' are as follows:
+
+	java:global/busquedas-titular/busquedas-titular-ejb/ServicioUsuario!ec.gob.iepi.interfaces.autenticacion.IUsuario
+	java:app/busquedas-titular-ejb/ServicioUsuario!ec.gob.iepi.interfaces.autenticacion.IUsuario
+	java:module/ServicioUsuario!ec.gob.iepi.interfaces.autenticacion.IUsuario
+	java:global/busquedas-titular/busquedas-titular-ejb/ServicioUsuario
+	java:app/busquedas-titular-ejb/ServicioUsuario
+	java:module/ServicioUsuario
+
+2018-04-17 08:50:08,457 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'ServicioPpdiPersona' in deployment unit 'subdeployment "busquedas-titular-ejb.jar" of deployment "busquedas-titular.ear"' are as follows:
+
+	java:global/busquedas-titular/busquedas-titular-ejb/ServicioPpdiPersona!ec.gob.iepi.interfaces.IPpdiPersona
+	java:app/busquedas-titular-ejb/ServicioPpdiPersona!ec.gob.iepi.interfaces.IPpdiPersona
+	java:module/ServicioPpdiPersona!ec.gob.iepi.interfaces.IPpdiPersona
+	java:global/busquedas-titular/busquedas-titular-ejb/ServicioPpdiPersona
+	java:app/busquedas-titular-ejb/ServicioPpdiPersona
+	java:module/ServicioPpdiPersona
+
+2018-04-17 08:50:08,457 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'ServicioPpdiPersonaSolicitudSignoDistintivo' in deployment unit 'subdeployment "busquedas-titular-ejb.jar" of deployment "busquedas-titular.ear"' are as follows:
+
+	java:global/busquedas-titular/busquedas-titular-ejb/ServicioPpdiPersonaSolicitudSignoDistintivo!ec.gob.iepi.interfaces.IPpdiPersonaSolicitudSignoDistintivo
+	java:app/busquedas-titular-ejb/ServicioPpdiPersonaSolicitudSignoDistintivo!ec.gob.iepi.interfaces.IPpdiPersonaSolicitudSignoDistintivo
+	java:module/ServicioPpdiPersonaSolicitudSignoDistintivo!ec.gob.iepi.interfaces.IPpdiPersonaSolicitudSignoDistintivo
+	java:global/busquedas-titular/busquedas-titular-ejb/ServicioPpdiPersonaSolicitudSignoDistintivo
+	java:app/busquedas-titular-ejb/ServicioPpdiPersonaSolicitudSignoDistintivo
+	java:module/ServicioPpdiPersonaSolicitudSignoDistintivo
+
+2018-04-17 08:50:08,483 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment busquedas-titular-web.war
+2018-04-17 08:50:08,712 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 58) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'busquedas-titular.ear/busquedas-titular-ejb.jar#iepiUsuarioPU'
+2018-04-17 08:50:08,713 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 64) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'busquedas-titular.ear/busquedas-titular-ejb.jar#iepiPU2'
+2018-04-17 08:50:08,835 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 58) IJ000407: No lazy enlistment available for autenticacion
+2018-04-17 08:50:08,839 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 64) IJ000407: No lazy enlistment available for iepi3
+2018-04-17 08:50:08,847 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 58) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+2018-04-17 08:50:08,847 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 64) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2018-04-17 08:50:09,020 WARN  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0003: Unable to instantiate driver class "org.olap4j.driver.xmla.XmlaOlap4jDriver": java.lang.NoSuchMethodException: org.olap4j.driver.xmla.XmlaOlap4jDriver.<init>()
+2018-04-17 08:50:09,030 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 58) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-04-17 08:50:09,032 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 58) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@323098ca
+2018-04-17 08:50:09,037 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 58) Envers integration enabled? : true
+2018-04-17 08:50:09,520 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 58) HHH000397: Using ASTQueryTranslatorFactory
+2018-04-17 08:50:09,938 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 64) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-04-17 08:50:09,939 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 64) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@323098ca
+2018-04-17 08:50:09,939 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 64) Envers integration enabled? : true
+2018-04-17 08:50:10,099 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 64) HHH000397: Using ASTQueryTranslatorFactory
+2018-04-17 08:50:10,301 INFO  [org.jboss.weld.Event] (MSC service thread 1-4) WELD-000411: Observer method [BackedAnnotatedMethod] public org.omnifaces.VetoAnnotatedTypeExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+2018-04-17 08:50:10,752 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 66) Initializing AtmosphereFramework
+2018-04-17 08:50:10,759 INFO  [org.omnifaces.ApplicationInitializer] (ServerService Thread Pool -- 66) Using OmniFaces version 2.0
+2018-04-17 08:50:10,773 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 66) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/busquedas-titular-web'
+2018-04-17 08:50:11,778 INFO  [net.bootsfaces.listeners.AddResourcesListener] (ServerService Thread Pool -- 66) This application is running on BootsFaces1.1.1-
+2018-04-17 08:50:11,851 WARNING [javax.enterprise.resource.webcontainer.jsf.managedbean] (ServerService Thread Pool -- 66) JSF1074: ya se ha registrado el bean administrado denominado 'now'.  Sustituyendo el tipo de clase de bean administrado java.util.Date existente por java.util.Date.
+2018-04-17 08:50:12,799 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 66) Running on PrimeFaces 6.1
+2018-04-17 08:50:12,799 INFO  [org.primefaces.extensions.application.PostConstructApplicationEventListener] (ServerService Thread Pool -- 66) Running on PrimeFaces Extensions 3.2.0
+2018-04-17 08:50:12,807 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 66) WFLYUT0021: Registered web context: /busquedas-titular-web
+2018-04-17 08:50:12,814 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "ovconsultas-web.war")]) - failure description: {
+    "WFLYCTL0080: Failed services" => {"jboss.undertow.deployment.default-server.default-host./ovconsultas-web" => "org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./ovconsultas-web: java.lang.NoClassDefFoundError: ec/gob/iepi/model/Member
+    Caused by: java.lang.NoClassDefFoundError: ec/gob/iepi/model/Member
+    Caused by: java.lang.ClassNotFoundException: ec.gob.iepi.model.Member from [Module \"deployment.ovconsultas-web.war:main\" from Service Module Loader]"},
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.undertow.deployment.default-server.default-host./ovconsultas-web"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => undefined
+}
+2018-04-17 08:50:12,896 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "files.war" (runtime-name : "files.war")
+2018-04-17 08:50:12,896 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "ovconsultas-web.war" (runtime-name : "ovconsultas-web.war")
+2018-04-17 08:50:12,896 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "ovconsulta-1.0-SNAPSHOT.war" (runtime-name : "ovconsulta-1.0-SNAPSHOT.war")
+2018-04-17 08:50:12,896 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "postgresql-9.3-1102-jdbc41.jar" (runtime-name : "postgresql-9.3-1102-jdbc41.jar")
+2018-04-17 08:50:12,896 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "ov.ear" (runtime-name : "ov.ear")
+2018-04-17 08:50:12,896 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "busquedas-titular.ear" (runtime-name : "busquedas-titular.ear")
+2018-04-17 08:50:12,897 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "captcha.ear" (runtime-name : "captcha.ear")
+2018-04-17 08:50:12,898 INFO  [org.jboss.as.controller] (Controller Boot Thread) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service jboss.undertow.deployment.default-server.default-host./ovconsultas-web: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./ovconsultas-web: java.lang.NoClassDefFoundError: ec/gob/iepi/model/Member
+
+2018-04-17 08:50:13,087 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-04-17 08:50:13,088 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-04-17 08:50:13,088 ERROR [org.jboss.as] (Controller Boot Thread) WFLYSRV0026: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started (with errors) in 15178ms - Started 1612 of 1923 services (2 services failed or missing dependencies, 537 services are lazy, passive or on-demand)
+2018-04-17 08:50:13,197 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment ovconsultas-web.war (runtime-name: ovconsultas-web.war) in 32ms
+2018-04-17 08:50:13,248 WARN  [org.jboss.as.controller] (DeploymentScanner-threads - 2) WFLYCTL0357: Notification of type deployment-undeployed is not described for the resource at the address []
+2018-04-17 08:50:13,249 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0009: Undeployed "ovconsultas-web.war" (runtime-name: "ovconsultas-web.war")
+2018-04-17 08:50:13,249 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.deployment.unit."ovconsultas-web.war".component."com.sun.faces.config.ConfigureListener".START (missing) dependents: [service jboss.deployment.unit."ovconsultas-web.war".deploymentCompleteService] 
+      service jboss.deployment.unit."ovconsultas-web.war".component."javax.faces.webapp.FacetTag".START (missing) dependents: [service jboss.deployment.unit."ovconsultas-web.war".deploymentCompleteService] 
+      service jboss.deployment.unit."ovconsultas-web.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (missing) dependents: [service jboss.deployment.unit."ovconsultas-web.war".deploymentCompleteService] 
+      service jboss.deployment.unit."ovconsultas-web.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (missing) dependents: [service jboss.deployment.unit."ovconsultas-web.war".deploymentCompleteService] 
+      service jboss.deployment.unit."ovconsultas-web.war".component."org.jboss.weld.servlet.WeldInitialListener".START (missing) dependents: [service jboss.deployment.unit."ovconsultas-web.war".deploymentCompleteService] 
+      service jboss.deployment.unit."ovconsultas-web.war".component."org.jboss.weld.servlet.WeldTerminalListener".START (missing) dependents: [service jboss.deployment.unit."ovconsultas-web.war".deploymentCompleteService] 
+      service jboss.undertow.deployment.default-server.default-host./ovconsultas-web (missing) dependents: [service jboss.deployment.unit."ovconsultas-web.war".deploymentCompleteService] 
+WFLYCTL0186:   Services which failed to start:      service jboss.undertow.deployment.default-server.default-host./ovconsultas-web
+
+2018-04-17 08:50:17,972 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found ovconsultas-web.war in deployment directory. To trigger deployment create a file called ovconsultas-web.war.dodeploy
+2018-04-17 08:51:27,452 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-9) HHH000397: Using ASTQueryTranslatorFactory
+2018-04-17 09:08:34,357 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 72) WFLYUT0022: Unregistered web context: /ov-web
+2018-04-17 09:08:34,377 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 68) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-17 09:08:34,378 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 68) HHH000227: Running hbm2ddl schema export
+2018-04-17 09:08:34,382 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 68) HHH000230: Schema export complete
+2018-04-17 09:08:34,386 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 68) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-17 09:08:34,396 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/datasources/ovDS]
+2018-04-17 09:08:34,399 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0208: Stopped subdeployment (runtime-name: ov-web.war) in 47ms
+2018-04-17 09:08:34,399 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0208: Stopped subdeployment (runtime-name: ov-ejb.jar) in 47ms
+2018-04-17 09:08:34,399 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment ov.ear (runtime-name: ov.ear) in 48ms
+2018-04-17 09:08:34,400 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "ov.ear" (runtime-name: "ov.ear")
+2018-04-17 09:08:34,402 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "ovconsultas-web.war" (runtime-name: "ovconsultas-web.war")
+2018-04-17 09:08:34,406 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0207: Starting subdeployment (runtime-name: "ov-web.war")
+2018-04-17 09:08:34,408 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0207: Starting subdeployment (runtime-name: "ov-ejb.jar")
+2018-04-17 09:08:34,410 WARN  [org.jboss.as.connector] (MSC service thread 1-1) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2018-04-17 09:08:34,421 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for primary
+2018-04-17 09:08:34,435 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment ov.ear
+2018-04-17 09:08:34,441 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/ovDS]
+2018-04-17 09:08:34,441 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 68) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-17 09:08:34,441 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 68) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2018-04-17 09:08:34,444 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment ov-web.war
+2018-04-17 09:08:34,447 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment ovconsultas-web.war
+2018-04-17 09:08:34,450 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment ov-ejb.jar
+2018-04-17 09:08:34,451 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'MemberRegistration' in deployment unit 'subdeployment "ov-ejb.jar" of deployment "ov.ear"' are as follows:
+
+	java:global/ov/ov-ejb/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:app/ov-ejb/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:module/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:global/ov/ov-ejb/MemberRegistration
+	java:app/ov-ejb/MemberRegistration
+	java:module/MemberRegistration
+
+2018-04-17 09:08:34,477 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 68) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-17 09:08:34,481 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 68) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-04-17 09:08:34,487 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 68) HHH000431: Unable to determine H2 database version, certain features may not work
+2018-04-17 09:08:34,491 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 68) Envers integration enabled? : true
+2018-04-17 09:08:34,519 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 2) WELD-000119: Not generating any bean definitions from ec.gob.iepi.rest.MemberResourceRESTService because of underlying class loading error: Type ec.gob.iepi.data.MemberRepository from [Module "deployment.ovconsultas-web.war:main" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2018-04-17 09:08:34,520 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 5) WELD-000119: Not generating any bean definitions from ec.gob.iepi.controller.MemberController because of underlying class loading error: Type ec.gob.iepi.service.MemberRegistration from [Module "deployment.ovconsultas-web.war:main" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2018-04-17 09:08:34,527 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 68) HHH000227: Running hbm2ddl schema export
+2018-04-17 09:08:34,529 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 68) HHH000476: Executing import script '/import.sql'
+2018-04-17 09:08:34,529 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 68) HHH000230: Schema export complete
+2018-04-17 09:08:34,762 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 70) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/ovconsultas-web'
+2018-04-17 09:08:34,832 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 71) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/ov-web'
+2018-04-17 09:08:34,992 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 71) RESTEASY002225: Deploying javax.ws.rs.core.Application: class ec.gob.iepi.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2018-04-17 09:08:35,006 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 70) RESTEASY002225: Deploying javax.ws.rs.core.Application: class ec.gob.iepi.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2018-04-17 09:08:35,011 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 71) WFLYUT0021: Registered web context: /ov-web
+2018-04-17 09:08:35,008 ERROR [org.jboss.msc.service.fail] (ServerService Thread Pool -- 70) MSC000001: Failed to start service jboss.undertow.deployment.default-server.default-host./ovconsultas-web: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./ovconsultas-web: java.lang.NoClassDefFoundError: ec/gob/iepi/model/Member
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:85)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:320)
+Caused by: java.lang.NoClassDefFoundError: ec/gob/iepi/model/Member
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.privateGetPublicMethods(Class.java:2902)
+	at java.lang.Class.getMethods(Class.java:1615)
+	at org.jboss.resteasy.spi.metadata.ResourceBuilder.fromAnnotations(ResourceBuilder.java:756)
+	at org.jboss.resteasy.spi.metadata.ResourceBuilder.rootResourceFromAnnotations(ResourceBuilder.java:709)
+	at org.jboss.resteasy.plugins.server.resourcefactory.POJOResourceFactory.<init>(POJOResourceFactory.java:30)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.addPerRequestResource(ResourceMethodRegistry.java:76)
+	at org.jboss.resteasy.spi.ResteasyDeployment.registration(ResteasyDeployment.java:409)
+	at org.jboss.resteasy.spi.ResteasyDeployment.start(ResteasyDeployment.java:250)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.init(ServletContainerDispatcher.java:113)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.init(HttpServletDispatcher.java:36)
+	at io.undertow.servlet.core.LifecyleInterceptorInvocation.proceed(LifecyleInterceptorInvocation.java:117)
+	at org.wildfly.extension.undertow.security.RunAsLifecycleInterceptor.init(RunAsLifecycleInterceptor.java:78)
+	at io.undertow.servlet.core.LifecyleInterceptorInvocation.proceed(LifecyleInterceptorInvocation.java:103)
+	at io.undertow.servlet.core.ManagedServlet$DefaultInstanceStrategy.start(ManagedServlet.java:250)
+	at io.undertow.servlet.core.ManagedServlet.createServlet(ManagedServlet.java:133)
+	at io.undertow.servlet.core.DeploymentManagerImpl$2.call(DeploymentManagerImpl.java:546)
+	at io.undertow.servlet.core.DeploymentManagerImpl$2.call(DeploymentManagerImpl.java:517)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:42)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.core.DeploymentManagerImpl.start(DeploymentManagerImpl.java:559)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:101)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:82)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: ec.gob.iepi.model.Member from [Module "deployment.ovconsultas-web.war:main" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:198)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:363)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:351)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:93)
+	... 35 more
+
+2018-04-17 09:08:35,017 ERROR [org.jboss.as.controller.management-operation] (DeploymentScanner-threads - 1) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "ovconsultas-web.war")]) - failure description: {
+    "WFLYCTL0080: Failed services" => {"jboss.undertow.deployment.default-server.default-host./ovconsultas-web" => "org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./ovconsultas-web: java.lang.NoClassDefFoundError: ec/gob/iepi/model/Member
+    Caused by: java.lang.NoClassDefFoundError: ec/gob/iepi/model/Member
+    Caused by: java.lang.ClassNotFoundException: ec.gob.iepi.model.Member from [Module \"deployment.ovconsultas-web.war:main\" from Service Module Loader]"},
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.undertow.deployment.default-server.default-host./ovconsultas-web"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => undefined
+}
+2018-04-17 09:08:35,031 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "ovconsultas-web.war" (runtime-name : "ovconsultas-web.war")
+2018-04-17 09:08:35,032 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "ov.ear" with deployment "ov.ear"
+2018-04-17 09:08:35,032 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 1) WFLYCTL0183: Service status report
+WFLYCTL0185:    Newly corrected services:
+      service jboss.deployment.unit."ovconsultas-web.war".component."com.sun.faces.config.ConfigureListener".START (new available)
+      service jboss.deployment.unit."ovconsultas-web.war".component."javax.faces.webapp.FacetTag".START (new available)
+      service jboss.deployment.unit."ovconsultas-web.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (new available)
+      service jboss.deployment.unit."ovconsultas-web.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (new available)
+      service jboss.deployment.unit."ovconsultas-web.war".component."org.jboss.weld.servlet.WeldInitialListener".START (new available)
+      service jboss.deployment.unit."ovconsultas-web.war".component."org.jboss.weld.servlet.WeldTerminalListener".START (new available)
+      service jboss.undertow.deployment.default-server.default-host./ovconsultas-web (new available)
+WFLYCTL0186:   Services which failed to start:      service jboss.undertow.deployment.default-server.default-host./ovconsultas-web: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./ovconsultas-web: java.lang.NoClassDefFoundError: ec/gob/iepi/model/Member
+
+2018-04-17 09:14:05,399 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 73) WFLYUT0022: Unregistered web context: /ovconsulta-1.0-SNAPSHOT
+2018-04-17 09:14:05,423 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment ovconsulta-1.0-SNAPSHOT.war (runtime-name: ovconsulta-1.0-SNAPSHOT.war) in 37ms
+2018-04-17 09:14:05,436 WARN  [org.jboss.as.controller] (DeploymentScanner-threads - 1) WFLYCTL0357: Notification of type deployment-undeployed is not described for the resource at the address []
+2018-04-17 09:14:05,445 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "ovconsulta-1.0-SNAPSHOT.war" (runtime-name: "ovconsulta-1.0-SNAPSHOT.war")
+2018-04-17 09:14:05,448 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 1) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service jboss.undertow.deployment.default-server.default-host./ovconsultas-web: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./ovconsultas-web: java.lang.NoClassDefFoundError: ec/gob/iepi/model/Member
+
+2018-04-17 09:14:06,995 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2018-04-17 09:14:06,998 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/datasources/secobSeguimientoDs]
+2018-04-17 09:14:07,005 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepidepurar
+2018-04-17 09:14:07,013 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepiCasilleros
+2018-04-17 09:14:07,016 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:/datasources/MSSQLDS]
+2018-04-17 09:14:07,016 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:jboss/datasources/secretaria-tramites]
+2018-04-17 09:14:07,017 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/datasources/modificacionesDs]
+2018-04-17 09:14:07,026 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0010: Unbound data source [java:jboss/datasources/jBossJaasPostgres]
+2018-04-17 09:14:07,035 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepi_sipigaceta
+2018-04-17 09:14:07,035 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:jboss/datasources/iepi]
+2018-04-17 09:14:07,041 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 77) WFLYUT0022: Unregistered web context: /ov-web
+2018-04-17 09:14:07,043 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/OMPI]
+2018-04-17 09:14:07,045 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepiadmin
+2018-04-17 09:14:07,045 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/auth]
+2018-04-17 09:14:07,046 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepi_sipigaceta2
+2018-04-17 09:14:07,046 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepiProcesos
+2018-04-17 09:14:07,046 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/cpi]
+2018-04-17 09:14:07,046 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepiFormularios
+2018-04-17 09:14:07,046 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = postgresql-9.3-1102-jdbc41.jar
+2018-04-17 09:14:07,046 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0010: Unbound data source [java:jboss/datasources/obtencionesVegetales]
+2018-04-17 09:14:07,052 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/datasources/busquedas-titularDS]
+2018-04-17 09:14:07,066 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0022: Unregistered web context: /busquedas-titular-web
+2018-04-17 09:14:07,067 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 73) WFLYUT0022: Unregistered web context: /captcha-web
+2018-04-17 09:14:07,073 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = sqlserver
+2018-04-17 09:14:07,080 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 88) WFLYUT0022: Unregistered web context: /files
+2018-04-17 09:14:07,083 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = mysql
+2018-04-17 09:14:07,117 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0019: Host default-host stopping
+2018-04-17 09:14:07,121 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment files.war (runtime-name: files.war) in 114ms
+2018-04-17 09:14:07,122 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment postgresql-9.3-1102-jdbc41.jar (runtime-name: postgresql-9.3-1102-jdbc41.jar) in 115ms
+2018-04-17 09:14:07,124 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 87) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'captcha.ear/captcha-ejb.jar#primary'
+2018-04-17 09:14:07,125 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 87) HHH000227: Running hbm2ddl schema export
+2018-04-17 09:14:07,128 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 88) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-17 09:14:07,128 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 88) HHH000227: Running hbm2ddl schema export
+2018-04-17 09:14:07,130 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 73) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'busquedas-titular.ear/busquedas-titular-ejb.jar#iepiUsuarioPU'
+2018-04-17 09:14:07,131 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2018-04-17 09:14:07,130 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 75) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'busquedas-titular.ear/busquedas-titular-ejb.jar#iepiPU2'
+2018-04-17 09:14:07,142 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment ovconsultas-web.war (runtime-name: ovconsultas-web.war) in 136ms
+2018-04-17 09:14:07,149 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 80) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2018-04-17 09:14:07,149 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 88) HHH000230: Schema export complete
+2018-04-17 09:14:07,156 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 75) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'busquedas-titular.ear/busquedas-titular-ejb.jar#iepiPU2'
+2018-04-17 09:14:07,157 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:jboss/datasources/iepi3]
+2018-04-17 09:14:07,157 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 87) HHH000230: Schema export complete
+2018-04-17 09:14:07,157 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 73) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'busquedas-titular.ear/busquedas-titular-ejb.jar#iepiUsuarioPU'
+2018-04-17 09:14:07,157 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0010: Unbound data source [java:jboss/datasources/autenticacion]
+2018-04-17 09:14:07,161 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 88) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'ov.ear/ov-ejb.jar#primary'
+2018-04-17 09:14:07,162 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = postgres
+2018-04-17 09:14:07,165 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0208: Stopped subdeployment (runtime-name: busquedas-titular-ejb.jar) in 147ms
+2018-04-17 09:14:07,166 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 87) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'captcha.ear/captcha-ejb.jar#primary'
+2018-04-17 09:14:07,186 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2018-04-17 09:14:07,191 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0208: Stopped subdeployment (runtime-name: captcha-ejb.jar) in 176ms
+2018-04-17 09:14:07,191 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0208: Stopped subdeployment (runtime-name: captcha-web.war) in 177ms
+2018-04-17 09:14:07,192 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment captcha.ear (runtime-name: captcha.ear) in 185ms
+2018-04-17 09:14:07,195 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0208: Stopped subdeployment (runtime-name: ov-web.war) in 180ms
+2018-04-17 09:14:07,195 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0008: Undertow HTTP listener default suspending
+2018-04-17 09:14:07,195 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0008: Undertow HTTPS listener https suspending
+2018-04-17 09:14:07,196 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2018-04-17 09:14:07,196 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2018-04-17 09:14:07,197 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0208: Stopped subdeployment (runtime-name: ov-ejb.jar) in 182ms
+2018-04-17 09:14:07,196 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0004: Undertow 1.4.0.Final stopping
+2018-04-17 09:14:07,203 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment ov.ear (runtime-name: ov.ear) in 196ms
+2018-04-17 09:14:07,212 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0208: Stopped subdeployment (runtime-name: busquedas-titular-web.war) in 194ms
+2018-04-17 09:14:07,212 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment busquedas-titular.ear (runtime-name: busquedas-titular.ear) in 206ms
+2018-04-17 09:14:07,220 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 179ms
+2018-04-17 10:24:47,627 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2018-04-17 10:24:47,821 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2018-04-17 10:24:47,907 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2018-04-17 10:24:47,908 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/lparedes/Documentos/wildfly-10.1.0.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-8-openjdk-amd64/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 1.8.0_162-8u162-b12-0ubuntu0.16.04.2-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_162
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.162-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final
+	jboss.host.name = iepi
+	jboss.modules.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = iepi
+	jboss.qualified.host.name = iepi
+	jboss.server.base.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone
+	jboss.server.config.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/configuration
+	jboss.server.data.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/data
+	jboss.server.deploy.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/data/content
+	jboss.server.log.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/log
+	jboss.server.name = iepi
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/configuration/logging.properties
+	module.path = /home/lparedes/Documentos/wildfly-10.1.0.Final/modules
+	org.jboss.boot.log.file = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.4.0-119-generic
+	path.separator = :
+	program.name = JBossTools: WildFly 10.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp /home/lparedes/Documentos/wildfly-10.1.0.Final/modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=/home/lparedes/Documentos/wildfly-10.1.0.Final/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = EC
+	user.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/bin
+	user.home = /home/lparedes
+	user.language = es
+	user.name = lparedes
+	user.timezone = America/Guayaquil
+2018-04-17 10:24:47,909 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Dprogram.name=JBossTools: WildFly 10.x -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=/home/lparedes/Documentos/wildfly-10.1.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 
+2018-04-17 10:24:49,024 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found files.war in deployment directory. To trigger deployment create a file called files.war.dodeploy
+2018-04-17 10:24:49,135 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-04-17 10:24:49,156 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.4.0.Final
+2018-04-17 10:24:49,163 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.4.0.Final
+2018-04-17 10:24:49,228 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-04-17 10:24:49,234 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2018-04-17 10:24:49,250 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2018-04-17 10:24:49,257 INFO  [org.jboss.as.connector] (MSC service thread 1-3) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2018-04-17 10:24:49,264 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-04-17 10:24:49,267 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2018-04-17 10:24:49,273 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-04-17 10:24:49,277 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2018-04-17 10:24:49,278 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = mysql
+2018-04-17 10:24:49,284 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2018-04-17 10:24:49,406 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2018-04-17 10:24:49,408 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 4.0.21.Final
+2018-04-17 10:24:49,411 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2018-04-17 10:24:49,433 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.3)
+2018-04-17 10:24:49,439 INFO  [org.jboss.as.security] (MSC service thread 1-1) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2018-04-17 10:24:49,443 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = postgres
+2018-04-17 10:24:49,444 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-04-17 10:24:49,451 INFO  [org.jboss.as.naming] (MSC service thread 1-5) WFLYNAM0003: Starting Naming Service
+2018-04-17 10:24:49,452 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0003: Undertow 1.4.0.Final starting
+2018-04-17 10:24:49,624 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path '/home/lparedes/Documentos/wildfly-10.1.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-04-17 10:24:49,626 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2018-04-17 10:24:49,627 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2018-04-17 10:24:49,646 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
+2018-04-17 10:24:49,674 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0018: Host default-host starting
+2018-04-17 10:24:49,690 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class com.microsoft.sqlserver.jdbc.SQLServerDriver (version 3.0)
+2018-04-17 10:24:49,693 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = sqlserver
+2018-04-17 10:24:49,818 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2018-04-17 10:24:49,885 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepiadmin
+2018-04-17 10:24:49,890 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepiFormularios
+2018-04-17 10:24:49,891 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepi_sipigaceta
+2018-04-17 10:24:49,891 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepidepurar
+2018-04-17 10:24:49,891 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepiCasilleros
+2018-04-17 10:24:49,891 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepiProcesos
+2018-04-17 10:24:49,892 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepi_sipigaceta2
+2018-04-17 10:24:49,950 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/obtencionesVegetales]
+2018-04-17 10:24:49,950 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:jboss/datasources/OMPI]
+2018-04-17 10:24:49,951 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/secretaria-tramites]
+2018-04-17 10:24:49,951 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:jboss/datasources/auth]
+2018-04-17 10:24:49,951 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:jboss/datasources/iepi3]
+2018-04-17 10:24:49,951 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:jboss/datasources/cpi]
+2018-04-17 10:24:49,951 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/iepi]
+2018-04-17 10:24:49,952 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/autenticacion]
+2018-04-17 10:24:49,952 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/modificacionesDs]
+2018-04-17 10:24:49,952 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/jBossJaasPostgres]
+2018-04-17 10:24:49,959 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/secobSeguimientoDs]
+2018-04-17 10:24:49,960 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2018-04-17 10:24:49,961 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:/datasources/MSSQLDS]
+2018-04-17 10:24:50,123 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-1) WFLYDM0111: Keystore /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-04-17 10:24:50,141 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "files.war" (runtime-name: "files.war")
+2018-04-17 10:24:50,142 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "postgresql-9.3-1102-jdbc41.jar" (runtime-name: "postgresql-9.3-1102-jdbc41.jar")
+2018-04-17 10:24:50,150 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) WFLYDS0013: Started FileSystemDeploymentService for directory /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/deployments
+2018-04-17 10:24:50,336 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-5) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2018-04-17 10:24:50,377 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2018-04-17 10:24:50,377 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 63) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-04-17 10:24:50,379 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 63) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-04-17 10:24:50,392 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-04-17 10:24:50,401 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-04-17 10:24:50,399 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 60) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-04-17 10:24:50,413 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 60) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-04-17 10:24:50,584 INFO  [org.jboss.ws.common.management] (MSC service thread 1-7) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2018-04-17 10:24:50,764 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.3)
+2018-04-17 10:24:50,787 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = postgresql-9.3-1102-jdbc41.jar
+2018-04-17 10:24:51,527 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 58) WFLYUT0021: Registered web context: /files
+2018-04-17 10:24:51,551 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "files.war" (runtime-name : "files.war")
+2018-04-17 10:24:51,551 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "postgresql-9.3-1102-jdbc41.jar" (runtime-name : "postgresql-9.3-1102-jdbc41.jar")
+2018-04-17 10:24:51,668 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-04-17 10:24:51,669 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-04-17 10:24:51,673 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 4370ms - Started 567 of 823 services (431 services are lazy, passive or on-demand)
+2018-04-17 10:25:46,696 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found ov.ear in deployment directory. To trigger deployment create a file called ov.ear.dodeploy
+2018-04-17 10:25:46,696 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found ovconsultas-web.war in deployment directory. To trigger deployment create a file called ovconsultas-web.war.dodeploy
+2018-04-17 10:26:16,727 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found test.ear in deployment directory. To trigger deployment create a file called test.ear.dodeploy
+2018-04-17 10:26:16,798 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "test.ear" (runtime-name: "test.ear")
+2018-04-17 10:26:16,857 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0207: Starting subdeployment (runtime-name: "test-web.war")
+2018-04-17 10:26:16,858 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0207: Starting subdeployment (runtime-name: "test-ejb.jar")
+2018-04-17 10:26:16,885 WARN  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2018-04-17 10:26:17,076 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for primary
+2018-04-17 10:26:17,135 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:jboss/datasources/testDS]
+2018-04-17 10:26:17,160 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment test.ear
+2018-04-17 10:26:17,165 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 69) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'test.ear/test-ejb.jar#primary'
+2018-04-17 10:26:17,195 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 69) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2018-04-17 10:26:17,241 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-8) HV000001: Hibernate Validator 5.2.4.Final
+2018-04-17 10:26:17,323 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 69) HHH000412: Hibernate Core {5.0.10.Final}
+2018-04-17 10:26:17,325 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 69) HHH000206: hibernate.properties not found
+2018-04-17 10:26:17,326 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 69) HHH000021: Bytecode provider name : javassist
+2018-04-17 10:26:17,371 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment test-web.war
+2018-04-17 10:26:17,408 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 69) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-17 10:26:17,408 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment test-ejb.jar
+2018-04-17 10:26:17,413 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'MemberRegistration' in deployment unit 'subdeployment "test-ejb.jar" of deployment "test.ear"' are as follows:
+
+	java:global/test/test-ejb/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:app/test-ejb/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:module/MemberRegistration!ec.gob.iepi.service.MemberRegistration
+	java:global/test/test-ejb/MemberRegistration
+	java:app/test-ejb/MemberRegistration
+	java:module/MemberRegistration
+
+2018-04-17 10:26:17,491 INFO  [org.jboss.weld.Version] (MSC service thread 1-3) WELD-000900: 2.3.5 (Final)
+2018-04-17 10:26:17,741 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 69) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-04-17 10:26:17,742 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 69) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-04-17 10:26:17,908 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 70) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'test.ear/test-ejb.jar#primary'
+2018-04-17 10:26:18,296 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 69) WFLYCLINF0002: Started client-mappings cache from ejb container
+2018-04-17 10:26:18,346 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 70) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-04-17 10:26:18,350 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 70) HHH000431: Unable to determine H2 database version, certain features may not work
+2018-04-17 10:26:18,412 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 70) Envers integration enabled? : true
+2018-04-17 10:26:18,836 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 70) HHH000227: Running hbm2ddl schema export
+2018-04-17 10:26:18,841 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 70) HHH000476: Executing import script '/import.sql'
+2018-04-17 10:26:18,844 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 70) HHH000230: Schema export complete
+2018-04-17 10:26:19,363 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 71) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/test-web'
+2018-04-17 10:26:20,253 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 71) RESTEASY002225: Deploying javax.ws.rs.core.Application: class ec.gob.iepi.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2018-04-17 10:26:20,299 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 71) WFLYUT0021: Registered web context: /test-web
+2018-04-17 10:26:20,335 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0010: Deployed "test.ear" (runtime-name : "test.ear")
+2018-04-17 10:26:37,383 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-4) HHH000397: Using ASTQueryTranslatorFactory
+2018-04-17 10:29:00,532 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found prueba-ear.ear in deployment directory. To trigger deployment create a file called prueba-ear.ear.dodeploy
+2018-04-17 10:29:00,536 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "prueba-ear.ear" (runtime-name: "prueba-ear.ear")
+2018-04-17 10:29:00,543 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0207: Starting subdeployment (runtime-name: "prueba-web.war")
+2018-04-17 10:29:00,543 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0207: Starting subdeployment (runtime-name: "prueba-ejb.jar")
+2018-04-17 10:29:00,568 WARN  [org.jboss.as.connector] (MSC service thread 1-1) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2018-04-17 10:29:00,580 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for primary
+2018-04-17 10:29:00,596 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/pruebaDS]
+2018-04-17 10:29:00,597 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 72) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'prueba-ear.ear/prueba-ejb.jar#primary'
+2018-04-17 10:29:00,597 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 72) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2018-04-17 10:29:00,608 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment prueba-ear.ear
+2018-04-17 10:29:00,614 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment prueba-web.war
+2018-04-17 10:29:00,619 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment prueba-ejb.jar
+2018-04-17 10:29:00,620 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'MemberRegistration' in deployment unit 'subdeployment "prueba-ejb.jar" of deployment "prueba-ear.ear"' are as follows:
+
+	java:global/prueba-ear/prueba-ejb/MemberRegistration!fer.service.MemberRegistration
+	java:app/prueba-ejb/MemberRegistration!fer.service.MemberRegistration
+	java:module/MemberRegistration!fer.service.MemberRegistration
+	java:global/prueba-ear/prueba-ejb/MemberRegistration
+	java:app/prueba-ejb/MemberRegistration
+	java:module/MemberRegistration
+
+2018-04-17 10:29:00,675 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 72) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'prueba-ear.ear/prueba-ejb.jar#primary'
+2018-04-17 10:29:00,689 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 72) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-04-17 10:29:00,689 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 72) HHH000431: Unable to determine H2 database version, certain features may not work
+2018-04-17 10:29:00,710 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 72) Envers integration enabled? : true
+2018-04-17 10:29:00,738 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 72) HHH000227: Running hbm2ddl schema export
+2018-04-17 10:29:00,741 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 72) HHH000476: Executing import script '/import.sql'
+2018-04-17 10:29:00,741 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 72) HHH000230: Schema export complete
+2018-04-17 10:29:01,066 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 73) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/prueba-web'
+2018-04-17 10:29:01,282 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 73) RESTEASY002225: Deploying javax.ws.rs.core.Application: class fer.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2018-04-17 10:29:01,287 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 73) WFLYUT0021: Registered web context: /prueba-web
+2018-04-17 10:29:01,302 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "prueba-ear.ear" (runtime-name : "prueba-ear.ear")
+2018-04-17 10:29:22,888 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-11) HHH000397: Using ASTQueryTranslatorFactory
+2018-04-17 10:29:38,036 INFO  [javax.enterprise.resource.webcontainer.jsf.renderkit] (default task-18) ADVERTENCIA: FacesMessage(s) se han puesto en la cola, pero es posible que no se muestren.
+sourceId=reg:phoneNumber[severity=(ERROR 2), summary=(valor numérico fuera de los límites (se esperaba <12 dígitos>.<0 dígitos)), detail=(valor numérico fuera de los límites (se esperaba <12 dígitos>.<0 dígitos))]
+2018-04-17 10:32:06,505 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0022: Unregistered web context: /prueba-web
+2018-04-17 10:32:06,524 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 79) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'prueba-ear.ear/prueba-ejb.jar#primary'
+2018-04-17 10:32:06,525 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 79) HHH000227: Running hbm2ddl schema export
+2018-04-17 10:32:06,528 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 79) HHH000230: Schema export complete
+2018-04-17 10:32:06,531 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 79) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'prueba-ear.ear/prueba-ejb.jar#primary'
+2018-04-17 10:32:06,538 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:jboss/datasources/pruebaDS]
+2018-04-17 10:32:06,543 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0208: Stopped subdeployment (runtime-name: prueba-web.war) in 48ms
+2018-04-17 10:32:06,543 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0208: Stopped subdeployment (runtime-name: prueba-ejb.jar) in 49ms
+2018-04-17 10:32:06,545 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment prueba-ear.ear (runtime-name: prueba-ear.ear) in 50ms
+2018-04-17 10:32:06,546 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "prueba-ear.ear" (runtime-name: "prueba-ear.ear")
+2018-04-17 10:32:06,551 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0207: Starting subdeployment (runtime-name: "prueba-web.war")
+2018-04-17 10:32:06,553 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0207: Starting subdeployment (runtime-name: "prueba-ejb.jar")
+2018-04-17 10:32:06,557 WARN  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2018-04-17 10:32:06,563 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for primary
+2018-04-17 10:32:06,588 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/pruebaDS]
+2018-04-17 10:32:06,588 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 79) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'prueba-ear.ear/prueba-ejb.jar#primary'
+2018-04-17 10:32:06,589 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 79) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2018-04-17 10:32:06,589 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment prueba-ear.ear
+2018-04-17 10:32:06,597 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment prueba-ejb.jar
+2018-04-17 10:32:06,598 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'MemberRegistration' in deployment unit 'subdeployment "prueba-ejb.jar" of deployment "prueba-ear.ear"' are as follows:
+
+	java:global/prueba-ear/prueba-ejb/MemberRegistration!fer.service.MemberRegistration
+	java:app/prueba-ejb/MemberRegistration!fer.service.MemberRegistration
+	java:module/MemberRegistration!fer.service.MemberRegistration
+	java:global/prueba-ear/prueba-ejb/MemberRegistration
+	java:app/prueba-ejb/MemberRegistration
+	java:module/MemberRegistration
+
+2018-04-17 10:32:06,600 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment prueba-web.war
+2018-04-17 10:32:06,643 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 79) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'prueba-ear.ear/prueba-ejb.jar#primary'
+2018-04-17 10:32:06,647 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 79) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-04-17 10:32:06,648 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 79) HHH000431: Unable to determine H2 database version, certain features may not work
+2018-04-17 10:32:06,667 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 79) Envers integration enabled? : true
+2018-04-17 10:32:06,706 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 79) HHH000227: Running hbm2ddl schema export
+2018-04-17 10:32:06,708 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 79) HHH000476: Executing import script '/import.sql'
+2018-04-17 10:32:06,709 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 79) HHH000230: Schema export complete
+2018-04-17 10:32:06,926 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 79) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/prueba-web'
+2018-04-17 10:32:07,027 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 79) RESTEASY002225: Deploying javax.ws.rs.core.Application: class fer.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2018-04-17 10:32:07,032 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 79) WFLYUT0021: Registered web context: /prueba-web
+2018-04-17 10:32:07,043 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "prueba-ear.ear" with deployment "prueba-ear.ear"
+2018-04-17 10:32:19,886 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-22) HHH000397: Using ASTQueryTranslatorFactory
+2018-04-17 10:43:44,975 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2018-04-17 10:43:44,979 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:jboss/datasources/secobSeguimientoDs]
+2018-04-17 10:43:44,980 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepidepurar
+2018-04-17 10:43:45,000 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:jboss/datasources/autenticacion]
+2018-04-17 10:43:45,001 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:/datasources/MSSQLDS]
+2018-04-17 10:43:45,007 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:jboss/datasources/secretaria-tramites]
+2018-04-17 10:43:45,009 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:jboss/datasources/modificacionesDs]
+2018-04-17 10:43:45,010 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:jboss/datasources/jBossJaasPostgres]
+2018-04-17 10:43:45,019 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = postgresql-9.3-1102-jdbc41.jar
+2018-04-17 10:43:45,020 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepiCasilleros
+2018-04-17 10:43:45,023 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:jboss/datasources/iepi]
+2018-04-17 10:43:45,025 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepiFormularios
+2018-04-17 10:43:45,026 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/datasources/auth]
+2018-04-17 10:43:45,026 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/datasources/iepi3]
+2018-04-17 10:43:45,026 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/datasources/obtencionesVegetales]
+2018-04-17 10:43:45,027 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepi_sipigaceta2
+2018-04-17 10:43:45,027 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0010: Unbound data source [java:jboss/datasources/cpi]
+2018-04-17 10:43:45,027 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepiProcesos
+2018-04-17 10:43:45,028 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepi_sipigaceta
+2018-04-17 10:43:45,028 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0010: Unbound data source [java:jboss/datasources/OMPI]
+2018-04-17 10:43:45,028 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepiadmin
+2018-04-17 10:43:45,029 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 80) WFLYUT0022: Unregistered web context: /prueba-web
+2018-04-17 10:43:45,031 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 85) WFLYUT0022: Unregistered web context: /test-web
+2018-04-17 10:43:45,046 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 93) WFLYUT0022: Unregistered web context: /files
+2018-04-17 10:43:45,054 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = sqlserver
+2018-04-17 10:43:45,056 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = postgres
+2018-04-17 10:43:45,056 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = mysql
+2018-04-17 10:43:45,079 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 80) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'test.ear/test-ejb.jar#primary'
+2018-04-17 10:43:45,079 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 80) HHH000227: Running hbm2ddl schema export
+2018-04-17 10:43:45,083 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 80) HHH000230: Schema export complete
+2018-04-17 10:43:45,084 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0019: Host default-host stopping
+2018-04-17 10:43:45,085 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment files.war (runtime-name: files.war) in 104ms
+2018-04-17 10:43:45,086 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 80) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'test.ear/test-ejb.jar#primary'
+2018-04-17 10:43:45,088 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0208: Stopped subdeployment (runtime-name: test-web.war) in 107ms
+2018-04-17 10:43:45,089 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0208: Stopped subdeployment (runtime-name: test-ejb.jar) in 108ms
+2018-04-17 10:43:45,089 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment test.ear (runtime-name: test.ear) in 108ms
+2018-04-17 10:43:45,091 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 80) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'prueba-ear.ear/prueba-ejb.jar#primary'
+2018-04-17 10:43:45,091 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 80) HHH000227: Running hbm2ddl schema export
+2018-04-17 10:43:45,093 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2018-04-17 10:43:45,094 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 80) HHH000230: Schema export complete
+2018-04-17 10:43:45,096 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 80) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'prueba-ear.ear/prueba-ejb.jar#primary'
+2018-04-17 10:43:45,098 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2018-04-17 10:43:45,102 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0208: Stopped subdeployment (runtime-name: prueba-web.war) in 121ms
+2018-04-17 10:43:45,103 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0208: Stopped subdeployment (runtime-name: prueba-ejb.jar) in 122ms
+2018-04-17 10:43:45,103 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0008: Undertow HTTPS listener https suspending
+2018-04-17 10:43:45,104 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2018-04-17 10:43:45,104 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment prueba-ear.ear (runtime-name: prueba-ear.ear) in 123ms
+2018-04-17 10:43:45,112 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0008: Undertow HTTP listener default suspending
+2018-04-17 10:43:45,112 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2018-04-17 10:43:45,115 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0004: Undertow 1.4.0.Final stopping
+2018-04-17 10:43:45,117 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 83) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2018-04-17 10:43:45,118 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment postgresql-9.3-1102-jdbc41.jar (runtime-name: postgresql-9.3-1102-jdbc41.jar) in 137ms
+2018-04-17 10:43:45,125 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0050: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 126ms

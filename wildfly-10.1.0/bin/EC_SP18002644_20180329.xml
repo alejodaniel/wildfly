@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP18002644_20180329.xml' country='EC' doc-number='SP18002644' kind='A' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP18002644' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP18002644</doc-number><kind>A</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>A61K39/395_C07K16/18_G01N33/68_A61P25/28_A61K49/00_A61K39/00</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI20182644</doc-number><date>20180112</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>1512211.2</doc-number><date>20150713</date><country>GB</country></priority-claim>
+<priority-claim sequence='2' kind='National'><doc-number>1518375.9</doc-number><date>20151016</date><country>GB</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>H. LUNDBECK A/S</name><address><street>Ottiliavej 9, DK-2500 Valby, Dinamarca</street><country>DK</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>PEDERSEN, Jan Torleif</name><address><street>Holcks Plads 14, 2700 Brønshøj, Dinamarca</street><country>DK</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>ABDUR-RASHEED ASUNI, Ayodeji</name><address><street>Karin Nellemoses Vej 12 2500 Valby, Dinamarca</street><country>DK</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>ROSENQVIST, Nina</name><address><street>Rudbecksgatan 112, 21620 Malmö, Suecia</street><country>SE</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>PEDERSEN, Lars Østergaard</name><address><street>Østerbrogade 122, 2100 Copenhagen Ø, Dinamarca</street><country>DK</country></address></addressbook></inventor>
+<inventor sequence='5' designation='all'><addressbook><name>DÄCHSEL, Justus Claus Alfred</name><address><street>Alter Bahnhofplatz 23, 83646 Bad Tölz, Alemania</street><country>DE</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>FALCONI PUIG CIA LTDA</name><address><street>Av. Amazonas N21-147 y Roca, Edif. Río Amazonas, of. 900, Quito, Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>ANTICUERPOS ESPECÍFICOS PARA TAU HIPERFOSFORILADA Y MÉTODOS DE USO DE LOS MISMOS</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La presente invención se relaciona con una nueva clase de anticuerpo monoclonal que se une de forma específica al resto fosforilado de serina 396 en la tau patológica hiperfosforilada (PHF) (pS396), así como a métodos de uso de estas moléculas y sus fragmentos de unión tau en el tratamiento de la enfermedad de Alzheimer y de las taupatías. </abstract>
+</ec-patent-document>

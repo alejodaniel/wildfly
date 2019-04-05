@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP16072728_20180329.xml' country='EC' doc-number='SP16072728' kind='A' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP16072728' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP16072728</doc-number><kind>A</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>E04G5/16</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201672728</doc-number><date>20160909</date></document-id></application-reference>
+<priority-claims>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>ARCELORMITTAL BRASIL S.A.</name><address><street>Av. Carandai No. 1.115, piso 24, Barrio Funcionarios, CEP 30.110-915, Belo Horizonte, Minas Gerais, BRAZIL</street><country>BR</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>CARLOS ALBERTO FERNANDES MOTTA</name><address><street>Calle Jovino Ribeiro No. 387 Bairu - Juiz de Fora. Minas Gerais - BRAZIL</street><country>BR</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>JULIO C. GUERRERO B. S.A.</name><address><street>Mariano Aguilera E7-262 y Av. Diego de Almagro, Doctorados FLACSO, piso 2, Quito - Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>VARILLA DE ACERO PARA ESTRIBOS CON PERFIL OCTOGONAL</invention-title>
+</bibliographic-data>
+<abstract lang='es'>El objeto de esta Patente consiste en una varilla de acero (3) con sección transversal octogonal para permitir la obtención de coplanaridad cuando doblados para la fabricación de estribos, pudiendo o no contener en cualesquier números, frisos (6) en alto relieve así como en cualesquier números, ranuras (7), en bajo relieve, siendo esos frisos y ranuras recursos para aumentar el área de contacto de las varillas de acero con el hormigón circundante para aumento de la seguridad del hormigón.
+El concepto básico de la "VARILLA DE ACERO PARA ESTRIBOS CON PERFIL OCTOGONAL" (5), objeto de esta Patente, tiene origen en la forma octogonal de su sección transversal, la cual no pierde la coplanaridad al ser doblada ni manualmente ni por máquinas automáticas industriales de alta producción, conforme investigaciones del fabricante, generando, por eso, gran economía de costos en el hormigonado.</abstract>
+</ec-patent-document>

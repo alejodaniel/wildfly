@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17069696_20180228.xml' country='EC' doc-number='SP17069696' kind='A' date-published='20180228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17069696' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17069696</doc-number><kind>A</kind><date>20180228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C07D471/047(2006.01),C07D487/04(2006.01),A61K31/437(2006.01),A61K31/519(2006.01),A61P13/12(2006.01),A61P9/10(2006.01)</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201769696</doc-number><date>20171018</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>1504565.1</doc-number><date>20150318</date><country>GB</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>RICH PRODUCTS CORPORATION</name><address><street>1150 NIAGARA STREET, BUFFALO, NEW YORK 14213, ESTADOS UNIDOS DE AMERICA.</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>JENKINS, Kerry</name><address><street>c/o Takeda Cambridge Limited, 418 Cambridge Science PArk, Cambridge, CB4 0PZ (GB)</street><country>GB</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>WRIGHT, Susanne</name><address><street>c/o Takeda Cambridge Limited, 418 Cambridge Science PArk, Cambridge, CB4 0PZ (GB)</street><country>GB</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>CANNING, Hannah</name><address><street>c/o Takeda Cambridge Limited, 418 Cambridge Science PArk, Cambridge, CB4 0PZ (GB)</street><country>GB</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>HARRISON, David</name><address><street>c/o Takeda Cambridge Limited, 418 Cambridge Science PArk, Cambridge, CB4 0PZ (GB)</street><country>GB</country></address></addressbook></inventor>
+<inventor sequence='5' designation='all'><addressbook><name>DAVENPORT, Richard</name><address><street>c/o Takeda Cambridge Limited, 418 Cambridge Science PArk, Cambridge, CB4 0PZ (GB)</street><country>GB</country></address></addressbook></inventor>
+<inventor sequence='6' designation='all'><addressbook><name>LIVERMORE, David</name><address><street>c/o Takeda Cambridge Limited, 418 Cambridge Science PArk, Cambridge, CB4 0PZ (GB)</street><country>GB</country></address></addressbook></inventor>
+<inventor sequence='7' designation='all'><addressbook><name>AHMED, Saleh</name><address><street>c/o Takeda Cambridge Limited, 418 Cambridge Science PArk, Cambridge, CB4 0PZ (GB)</street><country>GB</country></address></addressbook></inventor>
+<inventor sequence='8' designation='all'><addressbook><name>BARKER, Gregory</name><address><street>c/o Takeda Cambridge Limited, 418 Cambridge Science PArk, Cambridge, CB4 0PZ (GB)</street><country>GB</country></address></addressbook></inventor>
+<inventor sequence='9' designation='all'><addressbook><name>KINSELLA, Natasha</name><address><street>6 Leyburn Close, Cambridge, CBI 9XR (GB)</street><country>GB</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>Zambrano Albuja, Margarita Rosa</name><address><street>Av. 6 de Diciembre No. 2816 y Paúl Rivet, Edificio Josueth González 10mo. Piso, Quito - Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>COMPUESTOS NOVEDOSOS</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La presente invención proporciona compuestos de la fórmula (I) y sales farmacéuticamente aceptables de estos, en la que X1, X2, X3, Y1, Y2, R1, R2 y R3 son tal como se define en la memoria descriptiva, procesos para su preparación, composiciones farmacéuticas que los contienen y su uso en terapia.</abstract>
+</ec-patent-document>

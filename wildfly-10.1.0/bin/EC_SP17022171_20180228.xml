@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17022171_20180228.xml' country='EC' doc-number='SP17022171' kind='A' date-published='20180228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17022171' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17022171</doc-number><kind>A</kind><date>20180228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>A01H5/00,C12N15/82,C07K14/195</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201722171</doc-number><date>20170411</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>60/064,343</doc-number><date>20141015</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>MONSANTO TECHNOLOGY LLC </name><address><street>800 N. Lindbergh Boulevard, Mail Zone E1NA, St. Louis, Missouri 63167, Estados Unidos de America </street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>Inversora Lumirt S.A.</name><address><street>Plaza Independencia 822, Piso 13, Montevideo, República Oriental del Uruguay</street><country>UY</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>FU, Xiaoran</name><address><street>800 N. Lindbergh Boulevard, Mail Zone E1NA, St. Louis, Missouri 63167, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>WOLLACOTT, Andrew M.</name><address><street>800 North Lindberg Blvd., St. Louis, Missouri 631367, US</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>SYNGENTA PARTICIPATIONS AG</name><address><street>Schwarzwaldallee 215, 4058 Basel, Suiza</street><country>CH</country></address></addressbook></inventor>
+<inventor sequence='5' designation='all'><addressbook><name>LARUE, Clayton T.</name><address><street>800 North Lindbergh Blvd., St. Louis, MO 63167, US</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='6' designation='all'><addressbook><name>DIGICEL CARIBBEAN LIMITED</name><address><street>Suite 1, 2nd Floor, No. 4 Bridge Street, Castries, St. Lucia</street><country>LC</country></address></addressbook></inventor>
+<inventor sequence='7' designation='all'><addressbook><name>ELLIS, Christine, M.</name><address><street>800 North Lindbergh Blvd., St. Louis, MO 63167, US</street><country>CA</country></address></addressbook></inventor>
+<inventor sequence='8' designation='all'><addressbook><name>EVDOKIMOV, Artem G.</name><address><street>800 North Lindberg Blvd., St. Louis, Missouri 631367, US</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='9' designation='all'><addressbook><name>WESTERN INTERTRADE LTD.</name><address><street>Road Town, Tortola - Islas Virgenes Britanicas</street><country>VG</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>ALFREDO PACÍFICO GALLEGOS BANDERAS</name><address><street>Av. 12 de Octubre y Lincoln</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>GENES DE TOLERANCIA A HERBICIDAS Y MÉTODOS PARA  USAR LOS MISMOS</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La presente invención se refiere a polipéptidos y moléculas de ADN recombinante útiles para conferir tolerancia a herbicidas de AOPP, herbicidas de fenoxiácido, y herbicidas de piridiniloxilácidos, así como también a plantas transgénicas, semillas, células, y partes de plantas tolerantes a herbicidas que contienen moléculas de ADN recombinante, así como también métodos para usar las mismas.</abstract>
+</ec-patent-document>

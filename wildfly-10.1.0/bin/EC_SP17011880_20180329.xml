@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17011880_20180329.xml' country='EC' doc-number='SP17011880' kind='A' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17011880' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17011880</doc-number><kind>A</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>B65D5/00</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201711880</doc-number><date>20170222</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>1413197.3</doc-number><date>20140725</date><country>GB</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>FRAUNHOFER-GESELLSCHAFT ZUR FÖRDERUNG DER ANGEWANDTEN FORSCHUNG E.V.</name><address><street>Hansastrasse 27 c, 80686 Munich (DE).</street><country>DE</country></address></addressbook></applicant>
+<applicant sequence='2' designation='all' app-type='applicant'><addressbook><name>HEWLETT­PACKARD DEVELOPMENT COMPANY, L.P.</name><address><street>11445 Compaq Center Drive West, Houston, Texas 77070, Estados
+Unidos de América</street><country>US</country></address></addressbook></applicant>
+<applicant sequence='3' designation='all' app-type='applicant'><addressbook><name>HEWLETT­-PACKARD DEVELOPMENT COMPANY L.P.</name><address><street>11445 Compaq Center Drive West, Houston, Texas 77070, Estados
+Unidos de América</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>HEMMETZBERGER, Johan-Dieter</name><address><street>Hansastrasse 27c, 80686 Munich (DE).</street><country>DE</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>HUTT, Douglas</name><address><street>SABMiller House, Church Street West, Woking Surrey GU21 6HS (GB).</street><country>GB</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>KLINK, Gerhard</name><address><street>Hansastrasse 27c, 80686 Munich (DE).</street><country>DE</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>Romoleroux Armijos, María Cecilia </name><address><street>Robles E4-136 y Av. Amazonas, Edif. Proinco Calisto, piso 11, Quito - Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>ENVASE</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Un método para formar envases para acomodar uno o más productos y envases producidos por el método.
+El método comprende proporcionar una pieza en bruto del envase plano de material plegable, la pieza en bruto estando configurada para permitir el ensamblaje en un envase (10) capaz de alojar uno o más productos (12). Un módulo electrónico flexible está previsto en dicha pieza en bruto del envase, comprendiendo el módulo electrónico uno o más dispositivos de medición de temperatura para medir una temperatura de al menos uno de dichos productos y un indicador de temperatura (18) configurado para mostrar la temperatura de uno o más de dichos productos. El posicionamiento de dicho módulo electrónico flexible con respecto a dicho envase es tal que ambos se pueden plegar juntos para formar el envase ensamblado (10). 
+El envase (10) es plegable desde un primer estado sin ensamblar hasta un segundo estado ensamblado para permitir que uno o más de dichos productos se acomoden, y dicho módulo electrónico es al menos parcialmente flexible para permitir que se plegue con el envase. El envase puede contener 6 contenedores de bebida (12) y puede considerarse un envase de seis unidades. </abstract>
+</ec-patent-document>

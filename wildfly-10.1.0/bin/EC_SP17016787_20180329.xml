@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17016787_20180329.xml' country='EC' doc-number='SP17016787' kind='A' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17016787' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17016787</doc-number><kind>A</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C02F1/50_B82Y30/00</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201716787</doc-number><date>20170320</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>PCT/RU2014/000615</doc-number><date>20140819</date><country>RU</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>OBSHCHESTVO S OGRANICHENNOY OTVETSTVENNOSTYU "NANOBIOTEKH"</name><address><street>Altai Krai, Barnaul, Ul. Popova, d. 98A, Of. 6; Rusia.</street><country>RU</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>KLIMOV, Aleksey Igorevich</name><address><street>ul. Leningradskaya, 140a-86 Vologda, 160002, Rusia</street><country>RU</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>ZHEREBIN, Pavel Mikhailovich</name><address><street>Ul. Revolutsii, 5/V-86 Aleksin, Tulskaya, obl., 301369, Rusia</street><country>RU</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>DENISOV, Albert Nikolaevich</name><address><street>Ul. Lenskaya, 1/V-12 Altayskiy Kray, Barnaul, 656002, Rusia</street><country>RU</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>KRUTYAKOV, Yuriy Andreevich</name><address><street>Leningradskiy pr-kt, 77/4-61 Moscow, 125057, Rusia</street><country>RU</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>BERMEO   BERMEO C. LTDA.</name><address><street>Av. 12 de Octubre N24-528 y Cordero, Edf. World Trade Center, Torre B, Piso 12, Quito. P.O. BOX 17-12-881, Quito - Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>FORMULACIÓN ANTISÉPTICA Y SU USO</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Esta invención se encuentra dentro del campo sanitario y de la higiene, en particular se refiere a formulaciones antisépticas, incluyendo desinfectantes para la desinfección del agua de piscinas y otros reservorios artificiales, para el tratamiento sanitario e higiénico de habitaciones, equipos del hogar, muebles, electrodomésticos y equipos industriales, así como también para la desinfección de enjuagues y aguas residuales. Una formulación antiséptica contiene partículas nanométricas que contienen plata y cloruro de plata. Una formulación antiséptica puede contener adicionalmente al menos una sustancia tensioactiva anfótera. Con el fin de realizar la desinfección del agua, las partículas nanométricas que contienen plata y cloruro de plata se añaden al agua al menos una vez. 2 reivindicaciones independientes, 12 reivindicaciones dependientes.</abstract>
+</ec-patent-document>

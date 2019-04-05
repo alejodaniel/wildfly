@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SDI17066220_20181228.xml' country='EC' doc-number='SDI17066220' kind='S' date-published='20181228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SDI17066220' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SDI17066220</doc-number><kind>S</kind><date>20181228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>09-02</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201766220</doc-number><date>20171005</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>003844679-0001</doc-number><date>20170406</date><country>EF</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>TOTAL SA</name><address><street>2, place Jean Millier, La Défense 6,F-92400 Courbevoie, Francia.</street><country>FR</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>Beatrice SALOTTI</name><address><street>14, Avenue Felix Faure, 75015 Paris, Francia</street><country>FR</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>ALFREDO PACÍFICO GALLEGOS BANDERAS</name><address><street>Av. 12 de Octubre y Lincoln</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>ENVASE</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Un diseño de un envase como se muestra y se ha descrito. </abstract>
+</ec-patent-document>

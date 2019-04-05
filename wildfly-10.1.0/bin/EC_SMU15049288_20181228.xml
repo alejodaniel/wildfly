@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SMU15049288_20181228.xml' country='EC' doc-number='SMU15049288' kind='U' date-published='20181228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SMU15049288' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SMU15049288</doc-number><kind>U</kind><date>20181228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>E04B1/00</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201549288</doc-number><date>20151125</date></document-id></application-reference>
+<priority-claims>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>universidad de guayaquil</name><address><street>Av. Delta - Ciudadela Universitaria</street><country>EC</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>Rómulo Abelardo Rodríguez Castro</name><address><street>calle Padre Solano 2005 y Tungurahua</street><country>EC</country></address></addressbook></inventor>
+</inventors><agents>
+</agents></parties>
+<invention-title lang='es'>Uniones metálicas cuadradas para estructuras con bambú</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Es un elemento de acero laminado de 5100 kg/cm2 con 4 orificios de hasta 16 mm de diámetro, en los cuales se acoplan terminales metálicos roscados de hasta 16 mm acoplados a los elementos estructurales de bambú, que en conjunto conformarán las uniones estructurales de bambú</abstract>
+</ec-patent-document>

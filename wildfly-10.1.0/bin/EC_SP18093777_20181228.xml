@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP18093777_20181228.xml' country='EC' doc-number='SP18093777' kind='A' date-published='20181228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP18093777' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP18093777</doc-number><kind>A</kind><date>20181228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C07D487/04_C07D403/12_C07D403/14_C07D401/14_A61K31/519_A61K31/496</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>SENADI201893777</doc-number><date>20181218</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>10-2016-0083050 </doc-number><date>20160630</date><country>KR</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>DAEWOONG PHARMACEUTICAL CO., LTD.</name><address><street>35-14, Jeyakgongdan 4-gil, Hyangnam-eup, Hwaseong-si, Gyeonggi-do 18623 (KR).</street><country>KR</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>OH, Yun Ju</name><address><street>103, Osonggarak-ro, Osong-eup, Heungdeok-gu, Cheongju-si, Chungcheongbuk-do 28168 (KR).</street><country>KR</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>KIM, Nam Youn</name><address><street>403, 288, Pogok-ro, Pogok-eup, Cheoin-gu, Yongin-si, Gyeonggi-do 17028 (KR).</street><country>KR</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>KIM, In Woo</name><address><street>2-306, 231, Gamasan-ro, Guro-gu, Seoul 08284 (KR).</street><country>KR</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>LEE, Jun Hee</name><address><street>302, 45-3, Gwangnaru-ro 46-gil, Gwangjin-gu, Seoul 05036 (KR).</street><country>KR</country></address></addressbook></inventor>
+<inventor sequence='5' designation='all'><addressbook><name>PARK, Joon Seok</name><address><street>1403-302, 15, Dongbaekpyeongchon-ro, Giheung-gu, Yongin-si, Gyeonggi-do 17000 (KR).</street><country>KR</country></address></addressbook></inventor>
+<inventor sequence='6' designation='all'><addressbook><name>HAN, Mi Ryeong</name><address><street>128-1606, 135, Gwanak-daero , Dongan-gu, Anyang-si, Gyeonggi-do 13922 (KR).</street><country>KR</country></address></addressbook></inventor>
+<inventor sequence='7' designation='all'><addressbook><name>KIM, Ji Duck</name><address><street>101-2003, 172, Dongtanbanseok-ro, Hwaseong-si, Gyeonggi-do 18454 (KR).</street><country>KR</country></address></addressbook></inventor>
+<inventor sequence='8' designation='all'><addressbook><name>YOO, Jakyung</name><address><street>9-8, Giheungdanji-ro 155beon-gil, Giheung-gu, Yongin-si, Gyeonggi-do 17086 (KR).</street><country>KR</country></address></addressbook></inventor>
+<inventor sequence='9' designation='all'><addressbook><name>JUN, Sun Ah</name><address><street>201-603, 15, Hanteo-ro 152beon-gil, Cheoin-gu, Yongin-si, Gyeonggi-do 17149 (KR).</street><country>KR</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>Romoleroux Armijos, María Cecilia </name><address><street>Robles E4-136 y Av. Amazonas, Edif. Proinco Calisto, piso 11, Quito - Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>DERIVADOS DE PIRAZOLOPIRIMIDINA COMO INHIBIDOR DE QUINASA</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La presente invención se refiere a un derivado de pirazolopirimidina, o a una sal farmacéuticamente aceptable del mismo. El compuesto según la presente invención puede usarse de manera útil para la prevención o el tratamiento de enfermedades que están asociados con acciones inhibidoras de quinasas.</abstract>
+</ec-patent-document>

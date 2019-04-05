@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17014548_20180329.xml' country='EC' doc-number='SP17014548' kind='A' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17014548' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17014548</doc-number><kind>A</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C09K8/04_C09K8/10_C09K8/68_E21B21/00</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201714548</doc-number><date>20170309</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>20150100952</doc-number><date>20150330</date><country>AR</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>Oriental Industria Alimenticia O.I.A. Cia. Ltda.</name><address><street>Cdla. San José, Décima Sexta y Malecón, Quevedo - Ecuador.</street><country>EC</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>SUMITOMO CHEMICAL CO., LTD.    </name><address><street>27-1, Shinkawa 2-chome, Chuo-ku, Tokyo 104-8260, Japan</street><country>JP</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>MERENTIO S.A.</name><address><street>Montevideo, calle 25 de Mayo #455, Apt. P2</street><country>UY</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>Fluido de tratamiento entrecruzado y métodos de fracturación de formaciones subterráneas basados en agua de retorno, agua de producción, agua de mar, agua dulce y mezclas de las mismas</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La presente invención proporciona fluidos de fracturación entrecruzados que permiten la reutilización de agua de retorno sin ningún tratamiento, minimizando el impacto ambiental de la misma y reduciendo a niveles muy bajos el uso de agua dulce para estimular nuevos pozos o re-estimular pozos estimulados en el pasado. Se proveen métodos de preparación y uso de dichos fluidos en formaciones subterráneas de fracturación penetradas por pozos, basados en agua de retorno, agua de producción, agua de mar, agua dulce y mezclas de las mismas. Los fluidos se componen básicamente de: agua de retorno, agua de producción, agua de mar, agua dulce o mezclas de las mismas presentes en una cantidad suficiente para hidratar el agente gelificante y para formar un fluido acuoso gelificado; un agente gelificante; un agente de control de hierro; un buffer alcalino; un agente de entrecruzamiento retardado, y un sistema de ruptura para romper el fluido y mejorar la limpieza de la fractura.</abstract>
+</ec-patent-document>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP18073833_20181228.xml' country='EC' doc-number='SP18073833' kind='A' date-published='20181228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP18073833' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP18073833</doc-number><kind>A</kind><date>20181228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>A61K48/00_C07K14/705</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>SENADI201873833</doc-number><date>20181001</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>62/317,258 </doc-number><date>20160401</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>Kite Pharma, Inc.</name><address><street>2225 Colorado Avenue, Santa Monica, California 90404 (US).</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>WILTZIUS, Jed</name><address><street>2225 Colorado Avenue, Santa Monica, California 90404 (US).</street><country>US</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>Romoleroux Armijos, María Cecilia </name><address><street>Robles E4-136 y Av. Amazonas, Edif. Proinco Calisto, piso 11, Quito - Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>RECEPTORES DE ANTÍGENOS QUIMÉRICOS Y CÉLULAS T Y MÉTODOS DE USO</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La invención proporciona un receptor de antígeno quimérico (CAR) o un receptor de células T (TCR) que comprende un dominio extracelular divulgado en la presente. Algunos aspectos de la invención se refieren a un polinucleótido que codifica un receptor de antígeno quimérico (CAR) o un receptor de células T (TCR) que comprende el dominio extracelular divulgado en la presente. Otros aspectos de la invención se refieren a células que comprenden el CAR o el TCR y su uso en una terapia de células T. </abstract>
+</ec-patent-document>

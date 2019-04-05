@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17021897_20180228.xml' country='EC' doc-number='SP17021897' kind='A' date-published='20180228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17021897' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17021897</doc-number><kind>A</kind><date>20180228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C07D403/12(2006.01),C07D413/14(2006.01),C07D213/74(2006.01),C07D413/04(2006.01),A61K31/5377(2006.01),A61P35/00(2006.01)</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201721897</doc-number><date>20170407</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>62/049,469</doc-number><date>20140912</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>NOVARTIS AG</name><address><street>4002 BASEL, Switzerland</street><country>CH</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>GENERAL MOTORS LLC.</name><address><street>300 Renaissance Center, City of Detroit, State of Michigan
+48265-3000, Estados Unidos de América.</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>UNOX S.P.A.</name><address><street>via E. Majorana, 22 - 35010 CADONEGHE (Padova), Italy</street><country>IT</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>YIN Yong</name><address><street>800 N. Lindbergh Boulevard, Mail Zone E1NA, St. Louis, Missouri 63167, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>Esteban Riofrio Correa </name><address><street>Av. 12 de Octubre y Abrahan Lincoln</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>COMPUESTOS Y COMPOSICIONES COMO INHIBIDORES DE QUINASA RAF</invention-title>
+</bibliographic-data>
+<abstract lang='es'>RESUMEN
+
+	La presente invención proporciona un compuesto de Fórmula I: 
+ 
+	donde X, Y, Z, R1 y R2 son como se describen en el presente documento, y sales de los mismos y usos terapéuticos de estos compuestos para el tratamiento de trastornos asociados con la actividad de la quinasa RAF. La invención proporciona además composiciones farmacéuticas que comprenden estos compuestos, y composiciones que comprenden estos compuestos y un co-agente terapéutico. 
+</abstract>
+</ec-patent-document>

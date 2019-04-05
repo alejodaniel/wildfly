@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP18052850_20181228.xml' country='EC' doc-number='SP18052850' kind='A' date-published='20181228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP18052850' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP18052850</doc-number><kind>A</kind><date>20181228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C07D285/08_C07D417/12_C07D277/52_A61K31/4168_A61K31/4178_A61K31/4196_A61K31/551_A61P29/00_A61P11/14</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>SENADI201852850</doc-number><date>20180712</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>62/269,327</doc-number><date>20151218</date><country>US</country></priority-claim>
+<priority-claim sequence='2' kind='National'><doc-number>62/290,235</doc-number><date>20160202</date><country>US</country></priority-claim>
+<priority-claim sequence='3' kind='National'><doc-number>62/420,956</doc-number><date>20161111</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>MERCK SHARP   DOHME CORP.</name><address><street>126 East Lincoln Avenue, Rahway, New Jersey 07065-0907 (US)</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>James MULHEARN</name><address><street>770 Sumneytown Pike West Point, Pennsylvania 19486 (US)</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>Liangqin GUO</name><address><street>2000 Galloping Hill Road Kenilworth,  New Jersey 07033 (US)</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>Deping WANG</name><address><street>770 Sumneytown Pike West Point, Pennsylvania 19486 (US)</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>Gang ZHOU </name><address><street>111 Timothy Place Bridgewater, New Jersey 08807 (US)</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='5' designation='all'><addressbook><name>Philippe NANTERMET </name><address><street>770 Sumneytown Pike West Point, Pennsylvania 19486 (US)</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='6' designation='all'><addressbook><name>Rajan ANAND</name><address><street>22 Rainier Road Fanwood, New Jersey 07012 (US)</street><country>KE</country></address></addressbook></inventor>
+<inventor sequence='7' designation='all'><addressbook><name>Walter WON</name><address><street>950 Closter Rock Road, Alpine, New Jersey 08820 (US)</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='8' designation='all'><addressbook><name>Anthony J. ROECKER</name><address><street>770 Sumneytown Pike West Point, Pennsylvania 19486 (US)</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='9' designation='all'><addressbook><name>Ting ZHANG</name><address><street>126 East Lincoln Avenue, Rahway, New Jersey 07065-0907 (US)</street><country>CN</country></address></addressbook></inventor>
+<inventor sequence='10' designation='all'><addressbook><name>Ronald M. KIM</name><address><street>2000 Galloping Hill Road Kenilworth,  New Jersey 07033 (US)</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='11' designation='all'><addressbook><name>Junying ZHENG</name><address><street>31 Newcomb Drive New Providence, New Jersey 07074 (US)</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='12' designation='all'><addressbook><name>Thomas J. GRESHOCK</name><address><street>770 Sumneytown Pike West Point, Pennsylvania 19486 (US)</street><country>US</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>Zambrano Albuja, Margarita Rosa</name><address><street>6 de Diciembre No. 2816 y Paúl Rivet, Edificio Josueth González 10mo. Piso, Quito - Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>COMPUESTOS DE DIAMINA-ARILSULFONAMIDA SUSTITUIDOS CON HIDROXIALQUILAMINA E HIDROXICICLOALQUILAMINA CON ACTIVIDAD SELECTIVA EN CANALES DE SODIO ACTIVADOS POR VOLTAJE</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Se divulgan compuestos de fórmula A, o una sal del mismo (la fórmula se describe por la imagen adjunta) en la que R1, R2 y E se definen en el presente documento, compuestos que tienen propiedades para inhibir los canales de iones Nav1.7 encontrados en neuronas periféricas y simpáticas.  También se describen formulaciones farmacéuticas que comprenden los compuestos de fórmula A o sus sales, y procedimientos de tratamiento de trastornos de dolor, tos, y picazón usando las mismas.</abstract>
+</ec-patent-document>

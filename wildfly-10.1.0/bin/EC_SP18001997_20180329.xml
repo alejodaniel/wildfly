@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP18001997_20180329.xml' country='EC' doc-number='SP18001997' kind='A' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP18001997' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP18001997</doc-number><kind>A</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>E04B</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI20181997</doc-number><date>20180110</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>1619-2015</doc-number><date>20150610</date><country>CL</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>Ricardo Jovino Valenzuela Bravo</name><address><street>AVENIDA POCURO 2990, PROVIDENCIA</street><country>EC</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>Ricardo Jovino Valenzuela Bravo</name><address><street>AVENIDA POCURO 2990, PROVIDENCIA</street><country>EC</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>Pedro Manuel Córdova Balda</name><address><street>Av 12 de octubre N26-48 y lincoln edificio Mirage piso 16</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>MURO ESTRUCTURAL CON UNA ESTRUCTURA EXÓGENA A SU EJE LONGITUDINAL PARA POSIBILITAR SU RELLENO INTERIOR EN OBRA</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La presente invención está referida a un muro estructural con elementos reticulados, exógenos o no al eje longitudinal del muro, lo que permite el vertido de su relleno interior en obra. Esto es aplicable a un gran número de variantes, espesores y materiales. La utilización de la presente invención permite industrializar la colocación de rellenos en obra a muros que antes no podían ser rellenados debido a los elementos estructurales  internos.</abstract>
+</ec-patent-document>

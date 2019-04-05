@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SMU17072825_20180329.xml' country='EC' doc-number='SMU17072825' kind='U' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SMU17072825' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SMU17072825</doc-number><kind>U</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>B65D7/00</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201772825</doc-number><date>20171031</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>MX/u/2016/000504</doc-number><date>20161031</date><country>MX</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>ENVASES UNIVERSALES DE MÉXICO S.A. P.I. DE C.V</name><address><street>CALZ. GUADALUPE 504, COL. CUAUTITL?N CENTRO, CUAUTITL?N, ESTADO DE M?XICO, 54800 (MX) </street><country>MX</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>ALVAREZ ZAVALA, Alberto</name><address><street>CALZ. GUADALUPE 504, COL. CUAUTITL?N CENTRO, CUAUTITL?N, ESTADO DE M?XICO, 54800 (MX) </street><country>MX</country></address></addressbook></inventor>
+</inventors><agents>
+</agents></parties>
+<invention-title lang='es'>SISTEMA MODULAR DE RECIPIENTE METÁLICO PARA HORNO DE MICROONDAS CON TAPA Y UTENSILIO PARA COMER</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La presente invención se refiere a un sistema modular que comprende: a) un recipiente metálico moldeado de manera integral para contener alimento, que por sus características de diseño y dimensiones específicas, es adecuado para calentar el alimento mediante un horno de microondas sin reflejar las microondas, evitando así dañar el horno; b) una tapa acoplable al recipiente que cuenta con un medio de sujeción para sostener un utensilio para comer; y c) un utensilio para comer acoplable al medio de sujeción de la tapa. Dicho sistema modular es adecuado para la conservación, almacenamiento, transporte y consumo inmediato de alimentos. </abstract>
+</ec-patent-document>

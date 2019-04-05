@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17083779_20180228.xml' country='EC' doc-number='SP17083779' kind='A' date-published='20180228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17083779' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17083779</doc-number><kind>A</kind><date>20180228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C07K14/47,C07K16/18</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201783779</doc-number><date>20171221</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>62/167,582</doc-number><date>20150528</date><country>US</country></priority-claim>
+<priority-claim sequence='2' kind='National'><doc-number>62/205,279</doc-number><date>20150814</date><country>US</country></priority-claim>
+<priority-claim sequence='3' kind='National'><doc-number>62/313,487</doc-number><date>20160325</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>ONCOMED PHARMACEUTICALS, INC.</name><address><street>800 Chesapeake Drive, Redwood City, California 94063, Estados Unidos de America</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>GURNEY, Austin</name><address><street>946 Diamond Street, San Francisco, CA 94114, USA</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>XIE, Ming-Hong</name><address><street>416 Biscayne Avenue, Foster City, CA  94404, USA</street><country>US</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>ROQUE ALBUJA IZURIETA</name><address><street>AV. 12 DE OCTUBRE Y LINCOLN, TORRE 1492</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>AGENTES DE UNIÓN A INMUNORRECEPTOR DE CÉLULAS T CON DOMINIOS IG Y MOTIVO DE INHIBICIÓN BASADO EN TIROSINA DE INMUNORRECEPTOR (TIGIT) Y USOS DE LOS MISMOS</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Se describen agentes que unen específicamente TIGIT.  Los agentes de unión de TIGIT pueden incluir polipéptidos, anticuerpos, y/o agentes biespecíficos. También se describen métodos para usar los agentes para mejorar la respuesta inmunitaria y/o enfermedades tal como cáncer.
+
+</abstract>
+</ec-patent-document>

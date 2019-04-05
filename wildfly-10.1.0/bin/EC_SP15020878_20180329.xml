@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP15020878_20180329.xml' country='EC' doc-number='SP15020878' kind='A' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP15020878' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP15020878</doc-number><kind>A</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C08J5/00</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201520878</doc-number><date>20150526</date></document-id></application-reference>
+<priority-claims>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>Universidad Laica VICENTE ROCAFUERTE de Guayaquil</name><address><street>Av. de las Américas 70</street><country>EC</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>LINDA CELESTE MALDONADO GUERRERO </name><address><street>Parroquia Tarqui</street><country>EC</country></address></addressbook></inventor>
+</inventors><agents>
+</agents></parties>
+<invention-title lang='es'>PROCEDIMIENTO Y  OBTENCIÓN DE ESTRUCTURAS DE AGLOMERADO A PARTIR DE PARTÍCULAS DE FIBRAS DE MUSÁCEAS.</invention-title>
+</bibliographic-data>
+<abstract lang='es'>PROCEDIMIENTO Y  OBTENCIÓN DE ESTRUCTURAS DE AGLOMERADO A PARTIR DE PARTÍCULAS DE FIBRAS DE MUSÁCEAS de densidad baja, media y alta, cuya utilidad estriba en construir tableros aplicables en  la construcción y carpintería, en sustitución del tablero de aglomerado convencional.
+La invención provee de un elemento constructivo ligero, aprovechando las partículas de fibras de Musáceas, las mismas que constituyen un residuo de la industria del banano y plátano especialmente.
+</abstract>
+</ec-patent-document>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17011672_20180329.xml' country='EC' doc-number='SP17011672' kind='A' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17011672' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17011672</doc-number><kind>A</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C07D487/04_A61J3/06_A61J3/10_A61K31/4985_A61P35/00(2006.01)</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201711672</doc-number><date>20170224</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>62/028,865</doc-number><date>20140725</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>NOVARTIS AG</name><address><street>4002 BASEL, Switzerland</street><country>CH</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>BEIGHT, Douglas W.</name><address><street>c/o Eli Lilly and Company, P.O.Box 6288, Indianapolis, Indiana 46206-6288, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>INSUMOS ACUICOLAS S.A. INSUAQUA</name><address><street>LOT. INMACONSA KM. 9 1/2 VIA DAULE NO. 58 MZ. 7</street><country>EC</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>ELI LILLY AND COMPANY</name><address><street>Lilly Corporate Center, Indianapolis, Indiana 46285, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>FINANCIAL TREASURER REPRESENTATIVES, S.A.</name><address><street>Av 5 norte Enrique Geenzier el cangrejo numero 17 140</street><country>PA</country></address></addressbook></inventor>
+<inventor sequence='5' designation='all'><addressbook><name>JOSEPH, Sajan</name><address><street>c/o Eli Lilly and Company, P.O.Box 6288, Indianapolis, Indiana 46206-6288, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>Esteban Riofrio Correa </name><address><street>Av. 12 de Octubre y Abrahan Lincoln</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>FORMULACIÓN EN FORMA DE TABLETA DE 2-FLUOR-N-METIL-4-[7-(QUINOLIN-6-YLMETIL)IMIDAZO[1,2-B][1,2,4]TRIAZIN-2-IL]BENZAMIDA</invention-title>
+</bibliographic-data>
+<abstract lang='es'>RESUMEN
+	La presente invención se relaciona con tabletas que comprenden 2-fluoro-N-metil-4-[7- (quinolin-6-ilmetil)imidazo[1,2-b][1,2,4]triazin-2-il]benzamida, procesos para la producción de los mismos, y usos en el tratamiento de ciertos tipos de cáncer.
+</abstract>
+</ec-patent-document>

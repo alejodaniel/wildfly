@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SDI17052035_20181228.xml' country='EC' doc-number='SDI17052035' kind='S' date-published='20181228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SDI17052035' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SDI17052035</doc-number><kind>S</kind><date>20181228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>09-07</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201752035</doc-number><date>20170818</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>29/594,569</doc-number><date>20170221</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>DART INDUSTRIES INC.</name><address><street>14901 S. Orange Blossom Trail, Orlando, Florida 32837, EE.UU.</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>Lee A. Cooper</name><address><street>Disenador Industrial en 14901 S. Orange Blossom Trail, Orlando, Florida  32837, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>Yessin, Julie L.</name><address><street>Disenador Industrial en 14901 S. Orange Blossom Trail, Orlando, Florida  32837, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>BERMEO   BERMEO C. LTDA.</name><address><street>Av. 12 de Octubre N24-528 y Cordero, Edf. World Trade Center, Torre B, Piso 12, Quito. P.O. BOX 17-12-881, Quito - Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>TAPA PARA CANTIMPLORA</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Diseño de una tapa para cantimplora</abstract>
+</ec-patent-document>

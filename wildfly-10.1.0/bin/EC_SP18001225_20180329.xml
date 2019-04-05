@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP18001225_20180329.xml' country='EC' doc-number='SP18001225' kind='A' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP18001225' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP18001225</doc-number><kind>A</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C07D405/14_C07D401/10_C07D235/16_C07D403/10_C07D405/10_C07D471/04_C07D487/04_C07D491/10_C07D209/14_C07D209/18_A61K31/404_A61K31/416_A61P29/00_A61P37/00</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI20181225</doc-number><date>20180108</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>PCT/IB2015/001693</doc-number><date>20150609</date><country>EF</country></priority-claim>
+<priority-claim sequence='2' kind='National'><doc-number>62/257,806</doc-number><date>20151120</date><country>US</country></priority-claim>
+<priority-claim sequence='3' kind='National'><doc-number>62/343,905</doc-number><date>20160601</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>AbbVie Inc.</name><address><street>1 North Waukegan Road, North Chicago, IL 60064, USA</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>POUPARDIN Olivia</name><address><street>11 promenade du fort, 21490 Varios et Chaignot, Francia</street><country>FR</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>BREINLINGER Eric C.</name><address><street>54 Hanson Road, Charlton, Massachusetts 01507, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>BARTH Martine</name><address><street>20 rue Claude deschault, 21380 Asnieres les Dijon, Francia</street><country>FR</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>AMAUDRUT Jérôme</name><address><street>30 boulevard Rembrandt, 21000 Dijon, Francia</street><country>FR</country></address></addressbook></inventor>
+<inventor sequence='5' designation='all'><addressbook><name>ARGIRIADI Maria A.</name><address><street>15 Sadie Hutt Lane, Southborough, MA 01772, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='6' designation='all'><addressbook><name>MOUNIER Laurent</name><address><street>3 Route de Savigny, 21380 Marsannay le Bois, Francia</street><country>FR</country></address></addressbook></inventor>
+<inventor sequence='7' designation='all'><addressbook><name>HOBSON Adrian D.</name><address><street>25 Holman Street, Shrewsbury, Massachusetts 01545, US</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='8' designation='all'><addressbook><name>KORT Michael E.</name><address><street>507 Green Avenue, Lake Bluff, Illinois 60044, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='9' designation='all'><addressbook><name>CUSACK Kevin P.</name><address><street>115 Jennifer Drive, Holden, Massachusetts 01520, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='10' designation='all'><addressbook><name>POTIN Dominique</name><address><street>23 Chemin de Daix, 21240 Talant, Francia</street><country>FR</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>DR. SANTIAGO GUARDERAS IZQUIERDO</name><address><street>Ave. 12 de Octubre N26-97 y Lincoln</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>MODULADORES DE RECEPTOR NUCLEAR.</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La invención proporciona compuestos de Fórmula (I) (ver archivo de imágenes) sales farmacéuticamente aceptables de los mismos, en la que la variable se define en el presente documento. Los compuestos de la invención son útiles para tratar afecciones inmunológicas.</abstract>
+</ec-patent-document>

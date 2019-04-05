@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP18054606_20181228.xml' country='EC' doc-number='SP18054606' kind='A' date-published='20181228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP18054606' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP18054606</doc-number><kind>A</kind><date>20181228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C07D487/04_A61K31/519_A61P9/00_A61P9/10_A61P9/12_A61P904</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>SENADI201854606</doc-number><date>20180719</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>PCT/CN2015/098251</doc-number><date>20151222</date><country>CN</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>MERCK SHARP   DOHME CORP.</name><address><street>126 East Lincoln Avenue, Rahway, New Jersey 07065-0907 (US)</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>Gang JI</name><address><street>6 Tai-He Road, BDA Beijing 100176 (CN)</street><country>CN</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>Falong JIANG</name><address><street>6 Tai-He Road, BDA Beijing 100176 (CN)</street><country>CN</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>Rui ZHANG</name><address><street>2000 Galloping Hill Road Kenilworth,  New Jersey 07033 (US)</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>John STELMACH</name><address><street>228 Seneca Place Westfield, New Jersey 07090 (US)</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='5' designation='all'><addressbook><name>Alan WHITEHEAD</name><address><street>126 East Lincoln Avenue, Rahway, New Jersey 07065-0907 (US)</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='6' designation='all'><addressbook><name>Yong Zhang</name><address><street>126 East Lincoln Avenue, Rahway, New Jersey 07065-0907 (US)</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='7' designation='all'><addressbook><name>Subharekha RAGHAVAN</name><address><street>2000 Galloping Hill Road Kenilworth,  New Jersey 07033 (US)</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='8' designation='all'><addressbook><name>Joie GARFUNKLE</name><address><street>600 Coporate Drive Lebanon, New Jersey 08833 (US)</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='9' designation='all'><addressbook><name>Yi-Heng CHEN</name><address><street>126 East Lincoln Avenue, Rahway, New Jersey 07065-0907 (US)</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='10' designation='all'><addressbook><name>Raphelle BERGER</name><address><street>126 East Lincoln Avenue, Rahway, New Jersey 07065-0907 (US)</street><country>FR</country></address></addressbook></inventor>
+<inventor sequence='11' designation='all'><addressbook><name>Guoqing LI</name><address><street>2000 Galloping Hill Road Kenilworth,  New Jersey 07033 (US)</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='12' designation='all'><addressbook><name>Cameron J. SMITH</name><address><street>9004 Snowford Court Montgomery, Village, Maryland 20886-4017 (US)</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='13' designation='all'><addressbook><name>Hong LI</name><address><street>126 East Lincoln Avenue, Rahway, New Jersey 07065-0907 (US)</street><country>CN</country></address></addressbook></inventor>
+<inventor sequence='14' designation='all'><addressbook><name>Shouwu MIAO</name><address><street>295 Prestwick Way Edison, New Jersey 08820 (US)</street><country>CN</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>Zambrano Albuja, Margarita Rosa</name><address><street>6 de Diciembre No. 2816 y Paúl Rivet, Edificio Josueth González 10mo. Piso, Quito - Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>DERIVADOS DE 4-AMINO-2- (1H-PIRAZOLO[3,4-B]PIRIDIN-3-IL) -6-OXO-6,7-DIHIDRO-5H-PIRROLO [2,3-D] PIRIMIDINA Y LOS RESPECTIVOS (1H-INDAZOL-3-IL) DERIVADOS COMO MODULADORES CGMP PARA EL TRATAMIENTO DE ENFERMEDADES CARDIOVASCULARES</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La invención proporciona compuestos de la Fórmula (I), o una sal farmacéuticamente aceptable de los mismos, en la que X, Y, Z, R1, R2, R4, Ra y los subíndices m, p y q son tal como se describen en el presente documento. Los compuestos o sus sales farmacéuticamente aceptables pueden modular la producción corporal de guanosín monofosfato cíclico ("GMPc") y son generalmente adecuados para el tratamiento y la prevención de enfermedades que están asociadas con un equilibrio de GMPc perturbado. La invención también proporciona composiciones farmacéuticas que comprenden compuestos de Fórmula (I) o sales farmacéuticamente aceptables de los mismos. La invención también se refiere a procedimientos para el uso de los compuestos o sus sales farmacéuticamente aceptables en el tratamiento y la prevención de las enfermedades mencionadas anteriormente y para la preparación de productos farmacéuticos para este fin.</abstract>
+</ec-patent-document>

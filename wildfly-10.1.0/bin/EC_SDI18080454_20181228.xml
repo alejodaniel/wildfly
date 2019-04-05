@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SDI18080454_20181228.xml' country='EC' doc-number='SDI18080454' kind='S' date-published='20181228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SDI18080454' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SDI18080454</doc-number><kind>S</kind><date>20181228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>12-99</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>SENADI201880454</doc-number><date>20181026</date></document-id></application-reference>
+<priority-claims>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>CEPOLFI Industrial C.A</name><address><street>Santa Rosa</street><country>EC</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>Leonardo Sebastián López Jaramillo</name><address><street>Santa rosa</street><country>EC</country></address></addressbook></inventor>
+</inventors><agents>
+</agents></parties>
+<invention-title lang='es'>Apoya cabeza premium</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Apoya cabeza de esponja de poliuretano viscoelástica grado automotriz proveniente de una mezcla de isocianato con poliol para asientos de buses</abstract>
+</ec-patent-document>

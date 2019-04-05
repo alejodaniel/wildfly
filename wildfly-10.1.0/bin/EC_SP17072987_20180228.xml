@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17072987_20180228.xml' country='EC' doc-number='SP17072987' kind='A' date-published='20180228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17072987' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17072987</doc-number><kind>A</kind><date>20180228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C07D487/04,A61K31/519,A61P35/00</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201772987</doc-number><date>20171101</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>15382225.9</doc-number><date>20150504</date><country>EF</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>ELI LILLY AND COMPANY</name><address><street>Lilly Corporate Center, Indianapolis, Indiana 46285, Estados Unidos de America</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>CORTEZ, Guillermo S.</name><address><street>c/o Eli Lilly and Company, P.O.Box 6288, Indianapolis, Indiana 46206-6288, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>DAHNKE, Karl Robert</name><address><street>c/o Eli Lilly and Company, P.O. Box 6288, Indianapolis, Indiana 46206-6288, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>GROGAN, Michael John</name><address><street>c/o Eli Lilly and Company, P.O. Box 6288, Indianapolis, Indiana 46206-6288, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>BONDAY, Zahid Quyoom</name><address><street>c/o Eli Lilly and Company, P.O. Box 6288, Indianapolis, Indiana 46206-6288, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='5' designation='all'><addressbook><name>JAMISON, James Andrew</name><address><street>c/o Eli Lilly and Company, P.O. Box 6288, Indianapolis, Indiana 46206-6288, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='6' designation='all'><addressbook><name>HERGUETA, Antonio Rodriguez</name><address><street>c/o Eli Lilly and Company, P.O. Box 6288, Indianapolis, Indiana 46206-6288, Estados Unidos de America</street><country>ES</country></address></addressbook></inventor>
+<inventor sequence='7' designation='all'><addressbook><name>WOODS, Timothy Andrew</name><address><street>c/o Eli Lilly and Company, P.O. Box 6288, Indianapolis, Indiana 46206-6288, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='8' designation='all'><addressbook><name>WATSON, Brian Morgan</name><address><street>c/o Eli Lilly and Company, P.O. Box 6288, Indianapolis, Indiana 46206-6288, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>DR. JUAN M. QUEVEDO</name><address><street>Av. 12 de Octubre N26-97 y Lincoln, Quito, Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>COMPUESTOS NUCLEÓSIDOS 5-SUSTITUIDOS</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La presente invención se refiere a compuestos nucleósidos 5'-sustituidos novedosos, composiciones farmacéuticas que comprenden los compuestos, y métodos de  utilización de los compuestos para tratar el cáncer, más particularmente para el tratamiento del cáncer, en particular los glioblastomas, melanoma, sarcomas, cáncer gástrico, cáncer de páncreas , colangiocarcinoma, cáncer de vejiga, cáncer de mama, cáncer de pulmón de células no pequeñas, leucemias, incluyendo leucemia mieloide aguda y los linfomas .</abstract>
+</ec-patent-document>

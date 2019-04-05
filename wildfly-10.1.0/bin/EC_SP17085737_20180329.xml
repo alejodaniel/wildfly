@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17085737_20180329.xml' country='EC' doc-number='SP17085737' kind='A' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17085737' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17085737</doc-number><kind>A</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>A61K47/12_A61K9/20_A61K9/28_A61K31/519</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201785737</doc-number><date>20171230</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>62/171,177</doc-number><date>20150604</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>PFIZER INC. </name><address><street>235 East 42nd. Street, New York, NY 10017, (US)</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>SPONG, Barbara Rodriguez</name><address><street>172 Turkey Hill Road, Haddam, CT 06348 US)</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>SHANKER, Ravi Mysore</name><address><street>24 Lambs Way, Stonington, CT 06378 (US)</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>WANG, Jian</name><address><street>12 Lafata Lane, Killingworth, CT 06419 (US)</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>MULLARNEY, Matthew Patrick</name><address><street>9 Valley View Drive, Niantic, CT 06357 (US)</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='5' designation='all'><addressbook><name>IBRAHIM, Fady Makram Louiz</name><address><street>32 Upper Patagansett Road, #19, Easy Lyme, CT 06333 (US)</street><country>US</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>Zambrano Albuja, Margarita Rosa</name><address><street>6 de Diciembre No. 2816 y Paúl Rivet, Edificio Josueth González 10mo. Piso, Quito - Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>FORMAS DE DOSIFICACIÓN SÓLIDAS DE PALBOCICLIB</invention-title>
+</bibliographic-data>
+<abstract lang='es'>Formas de dosificación sólidas de palbociclib que comprenden un ácido hidrosoluble. Las formas de dosificación tienen características farmacocinéticas deseadas.</abstract>
+</ec-patent-document>

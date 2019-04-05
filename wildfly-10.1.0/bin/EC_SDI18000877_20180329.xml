@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SDI18000877_20180329.xml' country='EC' doc-number='SDI18000877' kind='S' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SDI18000877' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SDI18000877</doc-number><kind>S</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>15-99</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI2018877</doc-number><date>20180105</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>BR 30 2017 002832-2</doc-number><date>20170707</date><country>BR</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>CAFÉ TRÊS CORAÇÕES S.A.</name><address><street>Avenida Brasilia, 5145, Galpão, São Benedito - Santa Luzia/MG - Brasil.</street><country>BR</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>Lennart Behrmann</name><address><street>Laendliweg 20 - 5400 - Baden </street><country>EC</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>Rivera Canales, Alfonso Luis </name><address><street>Av. 12 de Octubre N26-97 y Lincoln, Torre 1492, Piso 15, Of. 1505, Quito - Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>CONFIGURACIÓN APLICADA A MÁQUINAS DE BEBIDAS</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La máquina de bebidas comprende un cuerpo principal sustancialmente cilíndrico, en el que la parte central presenta un área transversal más grande que las partes superior e inferior. El cuerpo principal presenta una cara inferior plana y una cara superior redondeada.
+En referencia a la parte frontal del cuerpo principal, presenta un hueco cóncavo, que se extiende desde la parte inferior a la parte superior con dos estructuras sustancialmente cilíndricas que sobresalen de la misma: una en la parte inferior y otra en la parte superior. La primera estructura cilíndrica, que sobresale de la parte inferior, presenta el fondo plano y las caras superiores. Dicha cara inferior coincide con la cara inferior plana del cuerpo principal. Dicha cara superior presenta una abertura central circular y hendiduras distribuidas uniformemente, doce específicamente, que se extienden radialmente desde el borde exterior hasta cerca de la abertura central. La segunda estructura cilíndrica, que sobresale de la parte superior, presenta una cara superior redondeada, que coincide con la cara superior del cuerpo principal. (VER ANEXO)</abstract>
+</ec-patent-document>

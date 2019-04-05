@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17072984_20180228.xml' country='EC' doc-number='SP17072984' kind='A' date-published='20180228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17072984' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17072984</doc-number><kind>A</kind><date>20180228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>A61K31/4439(2006.01),A61K31/506(2006.01),A61K31/4184(2006.01),A61K31/5025(2006.01),A61P1/04(2006.01)</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201772984</doc-number><date>20171031</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>1505526.2</doc-number><date>20170331</date><country>GB</country></priority-claim>
+<priority-claim sequence='2' kind='National'><doc-number>1521015.6</doc-number><date>20151127</date><country>GB</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>RICH PRODUCTS CORPORATION</name><address><street>1150 NIAGARA STREET, BUFFALO, NEW YORK 14213, ESTADOS UNIDOS DE AMERICA.</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>HIBBERD, Mark</name><address><street>Takeda Development Centre Europe Ltd, 61 Aldwych, London, WC2B 4AE (GB)</street><country>GB</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>JENKINS, Richard</name><address><street>Takeda Development Centre Europe Ltd, 61 Aldwych, London, WC2B 4AE (GB)</street><country>GB</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>BERMEO   BERMEO C. LTDA.</name><address><street>Av. 12 de Octubre N24-528 y Cordero, Edf. World Trade Center, Torre B, Piso 12, Quito. P.O. BOX 17-12-881, Quito - Ecuador</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>PROCESOS FARMACÉUTICOS NOVEDOSOS</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La invención proporciona un bloqueador de ácido competitivo con potasio (P-CAB) para usarse en el tratamiento, prevención y/o reducción de síntomas de la enfermedad por reflujo gastroesofágico (ERGE) en pacientes que responden de manera parcial a un inhibidor de la bomba de protones (IBP). El P-CAB puede, por ejemplo, seleccionarse de 1-[5- (2-fluorofenil)- 1-(piridin- 3-ilsulfonil)- 1H-pirrol- 3-il]- N-metilmetanamina (vonoprazan), revaprazan (YH1855), YH4808, RQ-4 y CS-526, o una sal de los mismos.</abstract>
+</ec-patent-document>

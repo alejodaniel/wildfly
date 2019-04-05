@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP18004134_20180329.xml' country='EC' doc-number='SP18004134' kind='A' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP18004134' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP18004134</doc-number><kind>A</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>A01N25/28_A01N25/30_A01N33/18_;A01P13/00</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI20184134</doc-number><date>20180118</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>15172817.7</doc-number><date>20150619</date><country>EF</country></priority-claim>
+<priority-claim sequence='2' kind='National'><doc-number>15184367.9</doc-number><date>20150909</date><country>EF</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>BASF SE </name><address><street>Carl-Bosch-Strasse 38, Ludwigshafen am Rhein, Germany</street><country>DE</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>PARRA RAPADO, Liliana</name><address><street>Walther-Blumenstock- Str. 22, 77654 Offenburg DE</street><country>DE</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>STEINBRENNER, Ulrich</name><address><street>Mueller-Thurgau-Weg 20, 67435 Neustadt DE</street><country>DE</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>GREGORI, Wolfgang</name><address><street>Koenigsbacher Str. 58, 67067 Ludwigshafen, DE</street><country>DE</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>KOLB, Klaus</name><address><street>Speyerer Str. 93, 67105 Schifferstadt, DE</street><country>DE</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>FABARA VERA, MARIA ROSA </name><address><street>AV. REPUBLICA 481 Y PASAJE CARRIÓN. QUITO, ECUADOR</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>MICROCÁPSULAS DE PENDIMETHALIN CON UN REVESTIMIENTO DE DIISOCIANATO DE TETRAMETILXILILENO Y UNA POLIAMINA CON AL MENOS TRES GRUPOS AMINA</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La presente invención se refiere a una composición que comprende microcápsulas, que comprenden un revestimiento de poliurea y un núcleo, en donde el núcleo comprende pendimethalin y el revestimiento comprende un producto de polimerización de un diisocianato de tetrametilxilileno y una poliamina con al menos tres grupos amina, y en donde el producto de polimerización comprende menos de 5 % en peso de otros monómeros de isocianato en forma polimerizada, en función del peso del diisocianato de tetrametilxilileno; un método para preparar la composición, que comprende las etapas de poner en contacto agua, el pendimethalin, el diisocianato de tetrametilxilileno y la poliamina; y un método para controlar el crecimiento de plantas no deseadas, en donde la composición se permite que actúe sobre el suelo y/o sobre plantas no deseadas y/o sobre las plantas de cultivo y/o sobre su entorno. </abstract>
+</ec-patent-document>

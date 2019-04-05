@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SMU15049293_20181228.xml' country='EC' doc-number='SMU15049293' kind='U' date-published='20181228' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SMU15049293' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SMU15049293</doc-number><kind>U</kind><date>20181228</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>E04B1/00
+</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI201549293</doc-number><date>20151125</date></document-id></application-reference>
+<priority-claims>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>UNIVERSIDAD DE GUAYAQUIL</name><address><street>Ciudadela Universitaria</street><country>EC</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>Rómulo Abelardo Rodríguez Castro</name><address><street>calle Padre Solano 2005 y Tungurahua</street><country>EC</country></address></addressbook></inventor>
+</inventors><agents>
+</agents></parties>
+<invention-title lang='es'>Union metálica circular simple multiuso</invention-title>
+</bibliographic-data>
+<abstract lang='es'>En el mundo millones de personas habitan en casas hechas con bambú, de ellas hay un muy buen porcentaje que son de ingresos económicos limitados que las construyen mediante autogestión y autoconstrucción; no tienen conocimientos técnicos de ninguna índole, pero aspiran una vivienda económica, durable, confortable.
+Construidas correctamente las viviendas con bambú bien pueden satisfacer estas necesidades, siendo la prefabricación y standarización muy importantes para ejercer un buen control de calidad; se las puede construir masivamente y hacer las partes de manera previa para disminuir el trabajo en el sitio de construcción, sin que sean necesarios mayores conocimientos técnicos.
+Para ello se propone el uso de elementos metálicos laminados multiuso y de formas diferentes, que aseguren uniones estructurales sólidas y estables que permitan absorber los diferentes esfuerzos a que serán sometidos.
+Se contará con elementos metálicos auxiliares que permitan un empalme completo entre sus extremos, caracterizados por un gancho fijo colocado al interior del bambú, acoplado a un perno roscado sinfin que permite establecer la longitud exacta que se requiere para cada uno de dichos elementos, que igualmente será objeto de ser patentado.</abstract>
+</ec-patent-document>

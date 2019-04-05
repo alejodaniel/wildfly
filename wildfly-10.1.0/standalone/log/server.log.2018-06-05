@@ -1,0 +1,421 @@
+2018-06-05 16:17:24,240 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2018-06-05 16:17:24,985 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2018-06-05 16:17:25,466 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2018-06-05 16:17:25,469 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/lparedes/Documentos/wildfly-10.1.0.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-8-openjdk-amd64/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 1.8.0_171-8u171-b11-0ubuntu0.16.04.1-b11
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_171
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.171-b11
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final
+	jboss.host.name = iepi
+	jboss.modules.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = iepi
+	jboss.qualified.host.name = iepi
+	jboss.server.base.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone
+	jboss.server.config.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/configuration
+	jboss.server.data.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/data
+	jboss.server.deploy.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/data/content
+	jboss.server.log.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/log
+	jboss.server.name = iepi
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/configuration/logging.properties
+	module.path = /home/lparedes/Documentos/wildfly-10.1.0.Final/modules
+	org.jboss.boot.log.file = /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.4.0-127-generic
+	path.separator = :
+	program.name = JBossTools: WildFly 8.x
+	rebel.base = /home/lparedes/.jrebel
+	rebel.env.ide = eclipse
+	rebel.env.ide.plugin.version = 7.1.2
+	rebel.env.ide.product = JBoss_Developer_Studio
+	rebel.env.ide.version = 8.1.0
+	rebel.native.image = /home/lparedes/jbdevstudio/studio/plugins/org.zeroturnaround.eclipse.embedder_7.1.2.RELEASE/jrebel/lib/libjrebel64.so
+	rebel.notification.url = http://localhost:17434
+	rebel.properties = /home/lparedes/.jrebel/jrebel.properties
+	rebel.workspace.path = /home/lparedes/Documentos/WORKSPACES/gaceta
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/lparedes/jbdevstudio/studio/plugins/org.zeroturnaround.eclipse.embedder_7.1.2.RELEASE/jrebel/jrebel.jar
+	sun.boot.library.path = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp /home/lparedes/Documentos/wildfly-10.1.0.Final/modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=/home/lparedes/Documentos/wildfly-10.1.0.Final/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = EC
+	user.dir = /home/lparedes/Documentos/wildfly-10.1.0.Final/bin
+	user.home = /home/lparedes
+	user.language = es
+	user.name = lparedes
+	user.timezone = America/Guayaquil
+2018-06-05 16:17:25,469 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -Drebel.base=/home/lparedes/.jrebel -Drebel.env.ide.plugin.version=7.1.2 -Drebel.env.ide.version=8.1.0 -Drebel.env.ide.product=JBoss_Developer_Studio -Drebel.env.ide=eclipse -Drebel.notification.url=http://localhost:17434 -Drebel.workspace.path=/home/lparedes/Documentos/WORKSPACES/gaceta -Drebel.properties=/home/lparedes/.jrebel/jrebel.properties -agentpath:/home/lparedes/jbdevstudio/studio/plugins/org.zeroturnaround.eclipse.embedder_7.1.2.RELEASE/jrebel/lib/libjrebel64.so -Dprogram.name=JBossTools: WildFly 8.x -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=/home/lparedes/Documentos/wildfly-10.1.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 
+2018-06-05 16:17:29,163 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ShoppingCart-ear-0.0.1-SNAPSHOT.ear in deployment directory. To trigger deployment create a file called ShoppingCart-ear-0.0.1-SNAPSHOT.ear.dodeploy
+2018-06-05 16:17:29,164 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found WebApplication2.war in deployment directory. To trigger deployment create a file called WebApplication2.war.dodeploy
+2018-06-05 16:17:29,165 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found files.war in deployment directory. To trigger deployment create a file called files.war.dodeploy
+2018-06-05 16:17:29,165 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found EnterpriseApplicationWS-war.war in deployment directory. To trigger deployment create a file called EnterpriseApplicationWS-war.war.dodeploy
+2018-06-05 16:17:29,165 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found gaceta-ear.ear in deployment directory. To trigger deployment create a file called gaceta-ear.ear.dodeploy
+2018-06-05 16:17:29,165 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found hospital-ear.ear in deployment directory. To trigger deployment create a file called hospital-ear.ear.dodeploy
+2018-06-05 16:17:29,165 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ovcon-web.war in deployment directory. To trigger deployment create a file called ovcon-web.war.dodeploy
+2018-06-05 16:17:29,340 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-06-05 16:17:29,400 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.4.0.Final
+2018-06-05 16:17:29,434 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.4.0.Final
+2018-06-05 16:17:29,574 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 4.0.21.Final
+2018-06-05 16:17:29,633 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2018-06-05 16:17:29,628 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2018-06-05 16:17:29,847 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-06-05 16:17:29,886 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2018-06-05 16:17:29,911 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-06-05 16:17:29,925 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2018-06-05 16:17:29,897 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2018-06-05 16:17:29,957 INFO  [org.jboss.as.security] (MSC service thread 1-5) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2018-06-05 16:17:30,100 INFO  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2018-06-05 16:17:30,166 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2018-06-05 16:17:30,192 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-06-05 16:17:30,231 INFO  [org.jboss.as.naming] (MSC service thread 1-1) WFLYNAM0003: Starting Naming Service
+2018-06-05 16:17:30,231 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-06-05 16:17:30,245 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2018-06-05 16:17:30,246 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = mysql
+2018-06-05 16:17:30,358 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.3)
+2018-06-05 16:17:30,359 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = postgres
+2018-06-05 16:17:30,466 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0003: Undertow 1.4.0.Final starting
+2018-06-05 16:17:30,582 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class com.microsoft.sqlserver.jdbc.SQLServerDriver (version 3.0)
+2018-06-05 16:17:30,642 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = sqlserver
+2018-06-05 16:17:31,521 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path '/home/lparedes/Documentos/wildfly-10.1.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-06-05 16:17:31,801 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2018-06-05 16:17:31,801 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2018-06-05 16:17:31,803 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepidepurar
+2018-06-05 16:17:31,868 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepi_sipigaceta2
+2018-06-05 16:17:31,868 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepi_sipigaceta
+2018-06-05 16:17:31,868 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepiCasilleros
+2018-06-05 16:17:31,869 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepiFormularios
+2018-06-05 16:17:31,870 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepiadmin
+2018-06-05 16:17:31,894 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0098: Bound non-transactional data source: java:jboss/datasources/iepiProcesos
+2018-06-05 16:17:31,956 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0012: Started server default-server.
+2018-06-05 16:17:31,965 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0018: Host default-host starting
+2018-06-05 16:17:32,078 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/obtencionesVegetales]
+2018-06-05 16:17:32,081 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2018-06-05 16:17:32,081 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/auth]
+2018-06-05 16:17:32,082 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/OMPI]
+2018-06-05 16:17:32,080 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/iepi3]
+2018-06-05 16:17:32,080 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/secretaria-tramites]
+2018-06-05 16:17:32,079 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:jboss/datasources/jBossJaasPostgres]
+2018-06-05 16:17:32,078 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/autenticacion]
+2018-06-05 16:17:32,121 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/secobSeguimientoDs]
+2018-06-05 16:17:32,122 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/cpi]
+2018-06-05 16:17:32,122 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/iepi]
+2018-06-05 16:17:32,122 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:jboss/datasources/modificacionesDs]
+2018-06-05 16:17:32,123 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:/datasources/MSSQLDS]
+2018-06-05 16:17:32,374 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2018-06-05 16:17:32,688 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-5) WFLYDM0111: Keystore /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-06-05 16:17:33,010 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "postgresql-9.3-1102-jdbc41.jar" (runtime-name: "postgresql-9.3-1102-jdbc41.jar")
+2018-06-05 16:17:33,022 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "EnterpriseApplicationWS-war.war" (runtime-name: "EnterpriseApplicationWS-war.war")
+2018-06-05 16:17:33,022 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "hospital-ear.ear" (runtime-name: "hospital-ear.ear")
+2018-06-05 16:17:33,022 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "ShoppingCart-ear-0.0.1-SNAPSHOT.ear" (runtime-name: "ShoppingCart-ear-0.0.1-SNAPSHOT.ear")
+2018-06-05 16:17:33,045 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "gaceta-ear.ear" (runtime-name: "gaceta-ear.ear")
+2018-06-05 16:17:33,046 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "ovcon-web.war" (runtime-name: "ovcon-web.war")
+2018-06-05 16:17:33,047 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "files.war" (runtime-name: "files.war")
+2018-06-05 16:17:33,049 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "WebApplication2.war" (runtime-name: "WebApplication2.war")
+2018-06-05 16:17:33,103 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) WFLYDS0013: Started FileSystemDeploymentService for directory /home/lparedes/Documentos/wildfly-10.1.0.Final/standalone/deployments
+2018-06-05 16:17:33,269 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2018-06-05 16:17:33,343 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-1) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2018-06-05 16:17:33,711 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0207: Starting subdeployment (runtime-name: "ShoppingCart-web-0.0.1-SNAPSHOT.war")
+2018-06-05 16:17:33,712 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0207: Starting subdeployment (runtime-name: "ShoppingCart-ejb-0.0.1-SNAPSHOT.jar")
+2018-06-05 16:17:33,735 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 60) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-06-05 16:17:33,706 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-06-05 16:17:33,711 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-06-05 16:17:33,739 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-06-05 16:17:33,740 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 60) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-06-05 16:17:33,742 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-06-05 16:17:33,743 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0207: Starting subdeployment (runtime-name: "hospital-web.war")
+2018-06-05 16:17:33,744 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0207: Starting subdeployment (runtime-name: "hospital-ejb.jar")
+2018-06-05 16:17:33,756 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0207: Starting subdeployment (runtime-name: "gaceta-web.war")
+2018-06-05 16:17:33,756 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0207: Starting subdeployment (runtime-name: "gaceta-ejb.jar")
+2018-06-05 16:17:34,211 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2018-06-05 16:17:34,466 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) WFLYJPA0002: Read persistence.xml for EnterpriseApplicationWS-warPU
+2018-06-05 16:17:34,508 WARN  [org.jboss.as.connector] (MSC service thread 1-7) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2018-06-05 16:17:34,508 WARN  [org.jboss.as.connector] (MSC service thread 1-4) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2018-06-05 16:17:34,965 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 61) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'EnterpriseApplicationWS-war.war#EnterpriseApplicationWS-warPU'
+2018-06-05 16:17:35,029 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.3)
+2018-06-05 16:17:35,089 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 61) HHH000204: Processing PersistenceUnitInfo [
+	name: EnterpriseApplicationWS-warPU
+	...]
+2018-06-05 16:17:35,709 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = postgresql-9.3-1102-jdbc41.jar
+2018-06-05 16:17:35,948 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 61) HHH000412: Hibernate Core {5.0.10.Final}
+2018-06-05 16:17:35,956 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 61) HHH000206: hibernate.properties not found
+2018-06-05 16:17:35,968 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 61) HHH000021: Bytecode provider name : javassist
+2018-06-05 16:17:36,005 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for ejbSipiGaceta
+2018-06-05 16:17:36,015 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) WFLYJPA0002: Read persistence.xml for primary
+2018-06-05 16:17:36,090 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 59) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'gaceta-ear.ear/gaceta-ejb.jar#ejbSipiGaceta'
+2018-06-05 16:17:36,091 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 59) HHH000204: Processing PersistenceUnitInfo [
+	name: ejbSipiGaceta
+	...]
+2018-06-05 16:17:36,119 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment hospital-ear.ear
+2018-06-05 16:17:36,126 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/gacetaDS]
+2018-06-05 16:17:36,126 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/hospitalDS]
+2018-06-05 16:17:36,126 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 60) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'hospital-ear.ear/hospital-ejb.jar#primary'
+2018-06-05 16:17:36,126 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 60) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2018-06-05 16:17:36,122 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment gaceta-ear.ear
+2018-06-05 16:17:36,148 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment ovcon-web.war
+2018-06-05 16:17:36,348 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 61) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-05 16:17:36,529 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-3) HV000001: Hibernate Validator 5.2.4.Final
+2018-06-05 16:17:36,777 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 61) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'EnterpriseApplicationWS-war.war#EnterpriseApplicationWS-warPU'
+2018-06-05 16:17:37,041 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment hospital-web.war
+2018-06-05 16:17:37,067 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 62) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/ShoppingCart-web'
+2018-06-05 16:17:37,119 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-8) MSC000001: Failed to start service jboss.deployment.subunit."gaceta-ear.ear"."gaceta-web.war".POST_MODULE: org.jboss.msc.service.StartException in service jboss.deployment.subunit."gaceta-ear.ear"."gaceta-web.war".POST_MODULE: WFLYSRV0153: Failed to process phase POST_MODULE of subdeployment "gaceta-web.war" of deployment "gaceta-ear.ear"
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:154)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.RuntimeException: WFLYSRV0177: Error getting reflective information for class ec.gob.iepi.controller.PatentFormControlador with ClassLoader ModuleClassLoader for Module "deployment.gaceta-ear.ear.gaceta-web.war:main" from Service Module Loader
+	at org.jboss.as.server.deployment.reflect.DeploymentReflectionIndex.getClassIndex(DeploymentReflectionIndex.java:70)
+	at org.jboss.as.ee.metadata.MethodAnnotationAggregator.runtimeAnnotationInformation(MethodAnnotationAggregator.java:57)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.handleAnnotations(InterceptorAnnotationProcessor.java:106)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.processComponentConfig(InterceptorAnnotationProcessor.java:91)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.deploy(InterceptorAnnotationProcessor.java:76)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:147)
+	... 5 more
+Caused by: java.lang.NoClassDefFoundError: org/primefaces/event/FileUploadEvent
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.jboss.as.server.deployment.reflect.DeploymentReflectionIndex.jrGetDeclaredMethods(DeploymentReflectionIndex.java)
+	at org.jboss.as.server.deployment.reflect.ClassReflectionIndex.<init>(ClassReflectionIndex.java:80)
+	at org.jboss.as.server.deployment.reflect.DeploymentReflectionIndex.getClassIndex(DeploymentReflectionIndex.java:66)
+	... 10 more
+Caused by: java.lang.ClassNotFoundException: org.primefaces.event.FileUploadEvent from [Module "deployment.gaceta-ear.ear.gaceta-web.war:main" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:198)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:363)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:351)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:93)
+	... 16 more
+
+2018-06-05 16:17:37,265 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment gaceta-ejb.jar
+2018-06-05 16:17:37,268 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment hospital-ejb.jar
+2018-06-05 16:17:37,344 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 66) WFLYUT0021: Registered web context: /files
+2018-06-05 16:17:37,346 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 64) WFLYUT0021: Registered web context: /WebApplication2
+2018-06-05 16:17:37,367 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'ServicioPatentForm' in deployment unit 'subdeployment "gaceta-ejb.jar" of deployment "gaceta-ear.ear"' are as follows:
+
+	java:global/gaceta-ear/gaceta-ejb/ServicioPatentForm!ec.gob.iepi.interfaces.IPatentForm
+	java:app/gaceta-ejb/ServicioPatentForm!ec.gob.iepi.interfaces.IPatentForm
+	java:module/ServicioPatentForm!ec.gob.iepi.interfaces.IPatentForm
+	java:global/gaceta-ear/gaceta-ejb/ServicioPatentForm
+	java:app/gaceta-ejb/ServicioPatentForm
+	java:module/ServicioPatentForm
+
+2018-06-05 16:17:37,367 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'ServicioOfficial' in deployment unit 'subdeployment "gaceta-ejb.jar" of deployment "gaceta-ear.ear"' are as follows:
+
+	java:global/gaceta-ear/gaceta-ejb/ServicioOfficial!ec.gob.iepi.interfaces.IOfficial
+	java:app/gaceta-ejb/ServicioOfficial!ec.gob.iepi.interfaces.IOfficial
+	java:module/ServicioOfficial!ec.gob.iepi.interfaces.IOfficial
+	java:global/gaceta-ear/gaceta-ejb/ServicioOfficial
+	java:app/gaceta-ejb/ServicioOfficial
+	java:module/ServicioOfficial
+
+2018-06-05 16:17:37,394 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'MemberRegistration' in deployment unit 'subdeployment "hospital-ejb.jar" of deployment "hospital-ear.ear"' are as follows:
+
+	java:global/hospital-ear/hospital-ejb/MemberRegistration!ec.gov.iepi.service.MemberRegistration
+	java:app/hospital-ejb/MemberRegistration!ec.gov.iepi.service.MemberRegistration
+	java:module/MemberRegistration!ec.gov.iepi.service.MemberRegistration
+	java:global/hospital-ear/hospital-ejb/MemberRegistration
+	java:app/hospital-ejb/MemberRegistration
+	java:module/MemberRegistration
+
+2018-06-05 16:17:37,573 INFO  [org.jboss.weld.Version] (MSC service thread 1-4) WELD-000900: 2.3.5 (Final)
+2018-06-05 16:17:38,056 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 61) IJ000407: No lazy enlistment available for iepi
+2018-06-05 16:17:38,162 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 61) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+2018-06-05 16:17:38,173 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 66) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-06-05 16:17:38,173 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 66) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-06-05 16:17:38,884 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 64) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'hospital-ear.ear/hospital-ejb.jar#primary'
+2018-06-05 16:17:39,111 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 61) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-06-05 16:17:39,121 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 61) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@76f26802
+2018-06-05 16:17:39,178 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 61) Envers integration enabled? : true
+2018-06-05 16:17:39,657 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 1) WELD-000119: Not generating any bean definitions from ec.gob.iepi.controller.MemberController because of underlying class loading error: Type ec.gob.iepi.service.MemberRegistration from [Module "deployment.ovcon-web.war:main" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2018-06-05 16:17:40,267 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 64) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-06-05 16:17:40,289 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 64) HHH000431: Unable to determine H2 database version, certain features may not work
+2018-06-05 16:17:40,371 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 64) Envers integration enabled? : true
+2018-06-05 16:17:40,876 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 62) WFLYUT0021: Registered web context: /ShoppingCart-web
+2018-06-05 16:17:40,987 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 66) WFLYCLINF0002: Started client-mappings cache from ejb container
+2018-06-05 16:17:41,615 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 62) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/ovcon-web'
+2018-06-05 16:17:42,231 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 62) WFLYUT0021: Registered web context: /ovcon-web
+2018-06-05 16:17:43,073 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 64) HHH000227: Running hbm2ddl schema export
+2018-06-05 16:17:43,126 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 64) HHH000476: Executing import script '/import.sql'
+2018-06-05 16:17:43,131 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 64) HHH000230: Schema export complete
+2018-06-05 16:17:43,161 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 61) HHH000397: Using ASTQueryTranslatorFactory
+2018-06-05 16:17:43,993 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 64) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para el contexto '/hospital-web'
+2018-06-05 16:17:44,307 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0021: Registered web context: /EnterpriseApplicationWS-war
+2018-06-05 16:17:45,392 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 64) RESTEASY002225: Deploying javax.ws.rs.core.Application: class ec.gov.iepi.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2018-06-05 16:17:45,562 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 64) WFLYUT0021: Registered web context: /hospital-web
+2018-06-05 16:17:45,575 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "gaceta-ear.ear")]) - failure description: {
+    "WFLYCTL0080: Failed services" => {"jboss.deployment.subunit.\"gaceta-ear.ear\".\"gaceta-web.war\".POST_MODULE" => "org.jboss.msc.service.StartException in service jboss.deployment.subunit.\"gaceta-ear.ear\".\"gaceta-web.war\".POST_MODULE: WFLYSRV0153: Failed to process phase POST_MODULE of subdeployment \"gaceta-web.war\" of deployment \"gaceta-ear.ear\"
+    Caused by: java.lang.RuntimeException: WFLYSRV0177: Error getting reflective information for class ec.gob.iepi.controller.PatentFormControlador with ClassLoader ModuleClassLoader for Module \"deployment.gaceta-ear.ear.gaceta-web.war:main\" from Service Module Loader
+    Caused by: java.lang.NoClassDefFoundError: org/primefaces/event/FileUploadEvent
+    Caused by: java.lang.ClassNotFoundException: org.primefaces.event.FileUploadEvent from [Module \"deployment.gaceta-ear.ear.gaceta-web.war:main\" from Service Module Loader]"},
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "jboss.deployment.subunit.\"gaceta-ear.ear\".\"gaceta-web.war\".POST_MODULE",
+        "jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioPatentForm",
+        "jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioOfficial",
+        "jboss.deployment.subunit.\"gaceta-ear.ear\".\"gaceta-ejb.jar\".beanmanager",
+        "jboss.deployment.unit.\"gaceta-ear.ear\".beanmanager"
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => [
+        "jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioPatentForm.ValidatorFactory is missing [jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioPatentForm]",
+        "jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioPatentForm.InstanceName is missing [jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioPatentForm]",
+        "jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioOfficial.ValidatorFactory is missing [jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioOfficial]",
+        "jboss.deployment.subunit.\"gaceta-ear.ear\".\"gaceta-ejb.jar\".batch.environment is missing [jboss.deployment.subunit.\"gaceta-ear.ear\".\"gaceta-ejb.jar\".beanmanager]",
+        "jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioOfficial.Validator is missing [jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioOfficial]",
+        "jboss.deployment.unit.\"gaceta-ear.ear\".batch.environment is missing [jboss.deployment.unit.\"gaceta-ear.ear\".beanmanager]",
+        "jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioOfficial.InstanceName is missing [jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioOfficial]",
+        "jboss.deployment.subunit.\"gaceta-ear.ear\".\"gaceta-ejb.jar\".weld.weldClassIntrospector is missing [jboss.deployment.subunit.\"gaceta-ear.ear\".\"gaceta-ejb.jar\".beanmanager]",
+        "jboss.deployment.unit.\"gaceta-ear.ear\".weld.weldClassIntrospector is missing [jboss.deployment.unit.\"gaceta-ear.ear\".beanmanager]",
+        "jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioOfficial.InAppClientContainer is missing [jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioOfficial]",
+        "jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioPatentForm.InAppClientContainer is missing [jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioPatentForm]",
+        "jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioPatentForm.Validator is missing [jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioPatentForm]"
+    ]
+}
+2018-06-05 16:17:45,626 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "EnterpriseApplicationWS-war.war" (runtime-name : "EnterpriseApplicationWS-war.war")
+2018-06-05 16:17:45,627 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "ovcon-web.war" (runtime-name : "ovcon-web.war")
+2018-06-05 16:17:45,627 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "files.war" (runtime-name : "files.war")
+2018-06-05 16:17:45,627 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "hospital-ear.ear" (runtime-name : "hospital-ear.ear")
+2018-06-05 16:17:45,627 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "ShoppingCart-ear-0.0.1-SNAPSHOT.ear" (runtime-name : "ShoppingCart-ear-0.0.1-SNAPSHOT.ear")
+2018-06-05 16:17:45,627 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "gaceta-ear.ear" (runtime-name : "gaceta-ear.ear")
+2018-06-05 16:17:45,627 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "postgresql-9.3-1102-jdbc41.jar" (runtime-name : "postgresql-9.3-1102-jdbc41.jar")
+2018-06-05 16:17:45,627 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "WebApplication2.war" (runtime-name : "WebApplication2.war")
+2018-06-05 16:17:45,629 INFO  [org.jboss.as.controller] (Controller Boot Thread) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.deployment.subunit."gaceta-ear.ear"."gaceta-ejb.jar".beanmanager (missing) dependents: [service jboss.deployment.subunit."gaceta-ear.ear"."gaceta-ejb.jar".batch.environment, service jboss.deployment.subunit."gaceta-ear.ear"."gaceta-ejb.jar".weld.weldClassIntrospector] 
+      service jboss.deployment.unit."gaceta-ear.ear".beanmanager (missing) dependents: [service jboss.deployment.unit."gaceta-ear.ear".weld.weldClassIntrospector, service jboss.deployment.unit."gaceta-ear.ear".batch.environment] 
+      service jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioOfficial (missing) dependents: [service jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioOfficial.ValidatorFactory, service jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioOfficial.InAppClientContainer, service jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioOfficial.Validator, service jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioOfficial.InstanceName] 
+      service jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioPatentForm (missing) dependents: [service jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioPatentForm.InstanceName, service jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioPatentForm.Validator, service jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioPatentForm.ValidatorFactory, service jboss.naming.context.java.comp.gaceta-ear.gaceta-ejb.ServicioPatentForm.InAppClientContainer] 
+WFLYCTL0186:   Services which failed to start:      service jboss.deployment.subunit."gaceta-ear.ear"."gaceta-web.war".POST_MODULE: org.jboss.msc.service.StartException in service jboss.deployment.subunit."gaceta-ear.ear"."gaceta-web.war".POST_MODULE: WFLYSRV0153: Failed to process phase POST_MODULE of subdeployment "gaceta-web.war" of deployment "gaceta-ear.ear"
+
+2018-06-05 16:17:45,824 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-06-05 16:17:45,825 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-06-05 16:17:45,825 ERROR [org.jboss.as] (Controller Boot Thread) WFLYSRV0026: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started (with errors) in 22962ms - Started 1196 of 1507 services (15 services failed or missing dependencies, 526 services are lazy, passive or on-demand)
+2018-06-05 16:17:45,936 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 64) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'gaceta-ear.ear/gaceta-ejb.jar#ejbSipiGaceta'
+2018-06-05 16:17:45,956 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/datasources/gacetaDS]
+2018-06-05 16:17:45,973 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0208: Stopped subdeployment (runtime-name: gaceta-ejb.jar) in 47ms
+2018-06-05 16:17:45,974 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0208: Stopped subdeployment (runtime-name: gaceta-web.war) in 48ms
+2018-06-05 16:17:45,975 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment gaceta-ear.ear (runtime-name: gaceta-ear.ear) in 50ms
+2018-06-05 16:17:46,077 WARN  [org.jboss.as.controller] (DeploymentScanner-threads - 1) WFLYCTL0357: Notification of type deployment-undeployed is not described for the resource at the address []
+2018-06-05 16:17:46,080 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "gaceta-ear.ear" (runtime-name: "gaceta-ear.ear")
+2018-06-05 16:17:46,081 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 1) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.naming.context.java.module.gaceta-ear.gaceta-ejb (missing) dependents: [service jboss.deployment.subunit."gaceta-ear.ear"."gaceta-ejb.jar".INSTALL] 
+WFLYCTL0186:   Services which failed to start:      service jboss.deployment.subunit."gaceta-ear.ear"."gaceta-web.war".POST_MODULE
+
+2018-06-05 16:17:50,744 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found gaceta-ear.ear in deployment directory. To trigger deployment create a file called gaceta-ear.ear.dodeploy
+2018-06-05 16:48:21,813 INFO  [org.jboss.as.server] (Thread-16) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2018-06-05 16:48:21,882 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:jboss/datasources/secobSeguimientoDs]
+2018-06-05 16:48:21,885 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepidepurar
+2018-06-05 16:48:21,917 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0010: Unbound data source [java:jboss/datasources/autenticacion]
+2018-06-05 16:48:21,941 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/modificacionesDs]
+2018-06-05 16:48:21,946 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/datasources/secretaria-tramites]
+2018-06-05 16:48:21,948 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:/datasources/MSSQLDS]
+2018-06-05 16:48:21,950 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepiCasilleros
+2018-06-05 16:48:21,956 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/datasources/jBossJaasPostgres]
+2018-06-05 16:48:21,962 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepi_sipigaceta
+2018-06-05 16:48:21,969 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/auth]
+2018-06-05 16:48:21,969 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = postgresql-9.3-1102-jdbc41.jar
+2018-06-05 16:48:21,979 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepiProcesos
+2018-06-05 16:48:21,979 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/datasources/OMPI]
+2018-06-05 16:48:21,979 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepiadmin
+2018-06-05 16:48:21,984 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepiFormularios
+2018-06-05 16:48:21,985 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:jboss/datasources/iepi3]
+2018-06-05 16:48:21,985 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/datasources/obtencionesVegetales]
+2018-06-05 16:48:21,986 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0099: Unbound non-transactional data source: java:jboss/datasources/iepi_sipigaceta2
+2018-06-05 16:48:21,987 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/datasources/cpi]
+2018-06-05 16:48:21,988 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 71) WFLYUT0022: Unregistered web context: /ovcon-web
+2018-06-05 16:48:21,989 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 72) WFLYUT0022: Unregistered web context: /WebApplication2
+2018-06-05 16:48:21,996 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 77) WFLYUT0022: Unregistered web context: /files
+2018-06-05 16:48:21,996 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 76) WFLYUT0022: Unregistered web context: /EnterpriseApplicationWS-war
+2018-06-05 16:48:22,003 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 79) WFLYUT0022: Unregistered web context: /hospital-web
+2018-06-05 16:48:22,006 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 81) WFLYUT0022: Unregistered web context: /ShoppingCart-web
+2018-06-05 16:48:22,007 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0019: Stopped Driver service with driver-name = sqlserver
+2018-06-05 16:48:22,024 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = mysql
+2018-06-05 16:48:22,122 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 79) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'EnterpriseApplicationWS-war.war#EnterpriseApplicationWS-warPU'
+2018-06-05 16:48:22,126 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0019: Host default-host stopping
+2018-06-05 16:48:22,145 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment files.war (runtime-name: files.war) in 262ms
+2018-06-05 16:48:22,147 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment WebApplication2.war (runtime-name: WebApplication2.war) in 263ms
+2018-06-05 16:48:22,150 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 79) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'EnterpriseApplicationWS-war.war#EnterpriseApplicationWS-warPU'
+2018-06-05 16:48:22,151 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/iepi]
+2018-06-05 16:48:22,151 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment postgresql-9.3-1102-jdbc41.jar (runtime-name: postgresql-9.3-1102-jdbc41.jar) in 268ms
+2018-06-05 16:48:22,152 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0208: Stopped subdeployment (runtime-name: ShoppingCart-ejb-0.0.1-SNAPSHOT.jar) in 267ms
+2018-06-05 16:48:22,152 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0208: Stopped subdeployment (runtime-name: ShoppingCart-web-0.0.1-SNAPSHOT.war) in 273ms
+2018-06-05 16:48:22,152 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment ShoppingCart-ear-0.0.1-SNAPSHOT.ear (runtime-name: ShoppingCart-ear-0.0.1-SNAPSHOT.ear) in 269ms
+2018-06-05 16:48:22,161 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment EnterpriseApplicationWS-war.war (runtime-name: EnterpriseApplicationWS-war.war) in 278ms
+2018-06-05 16:48:22,167 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = postgres
+2018-06-05 16:48:22,208 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 79) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'hospital-ear.ear/hospital-ejb.jar#primary'
+2018-06-05 16:48:22,209 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 79) HHH000227: Running hbm2ddl schema export
+2018-06-05 16:48:22,215 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2018-06-05 16:48:22,216 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment ovcon-web.war (runtime-name: ovcon-web.war) in 332ms
+2018-06-05 16:48:22,223 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 79) HHH000230: Schema export complete
+2018-06-05 16:48:22,226 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 79) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'hospital-ear.ear/hospital-ejb.jar#primary'
+2018-06-05 16:48:22,231 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2018-06-05 16:48:22,237 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0208: Stopped subdeployment (runtime-name: hospital-web.war) in 352ms
+2018-06-05 16:48:22,237 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0208: Stopped subdeployment (runtime-name: hospital-ejb.jar) in 352ms
+2018-06-05 16:48:22,238 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0008: Undertow HTTP listener default suspending
+2018-06-05 16:48:22,238 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment hospital-ear.ear (runtime-name: hospital-ear.ear) in 354ms
+2018-06-05 16:48:22,238 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0008: Undertow HTTPS listener https suspending
+2018-06-05 16:48:22,242 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2018-06-05 16:48:22,246 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2018-06-05 16:48:22,248 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0004: Undertow 1.4.0.Final stopping
+2018-06-05 16:48:22,245 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 81) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2018-06-05 16:48:22,289 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 390ms

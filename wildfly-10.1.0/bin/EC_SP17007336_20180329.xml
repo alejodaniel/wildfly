@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<ec-patent-document file='EC_SP17007336_20180329.xml' country='EC' doc-number='SP17007336' kind='A' date-published='20180329' lang='ES' date-produced='20190116'>
+<bibliographic-data id='bibl' doc-number='SP17007336' country='EC' lang='es'>
+<publication-reference><document-id ><country>EC</country><doc-number>SP17007336</doc-number><kind>A</kind><date>20180329</date></document-id></publication-reference>
+<classification-ipcr><classification-ipc sequence='1'><section> </section><class> </class><subclass> </subclass><main-group> </main-group><subgroup> </subgroup><edition> </edition><ipc-version-indicator><date> </date></ipc-version-indicator><classification-level>C07D487/04_A61K31/5025_A61P9/00_A61P11/00_A61P25/00,_A61P27/02</classification-level><symbol-position> </symbol-position><classification-value> </classification-value></classification-ipc></classification-ipcr>
+<application-reference> <document-id><country>EC</country><doc-number>IEPI20177336</doc-number><date>20170203</date></document-id></application-reference>
+<priority-claims>
+<priority-claim sequence='1' kind='National'><doc-number>62/033,684</doc-number><date>20140806</date><country>US</country></priority-claim>
+<priority-claim sequence='2' kind='National'><doc-number>62/157,129</doc-number><date>20150505</date><country>US</country></priority-claim>
+</priority-claims>
+<parties><applicants>
+<applicant sequence='1' designation='all' app-type='applicant'><addressbook><name>PFIZER INC</name><address><street>235 East 42nd Street, New York, NY 10017, U.S.A.</street><country>US</country></address></addressbook></applicant>
+</applicants>
+<inventors>
+<inventor sequence='1' designation='all'><addressbook><name>HELAL, Christopher John</name><address><street>18 Elm Street, Mystic, Connecticut, 06355, Estados Unidos de America</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='2' designation='all'><addressbook><name>CHAPPIE, Thomas Allen</name><address><street>59 Hemlock Hill Road, Carlisle, Massachusetts, 01741, (US)</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='3' designation='all'><addressbook><name>LACHAPELLE, Erik Alphie</name><address><street>69 Richard Brown Drive, Uncasville, Connecticut 06382, (US)</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='4' designation='all'><addressbook><name>SCIABOLA, Simone</name><address><street>109 River Street, Cambridge, Massachusetts 02139, (US)</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='5' designation='all'><addressbook><name>PATEL, Nandini Chaturbhai </name><address><street>34 Mary Ellen Road, Waban, Massachusetts 02468, (US)</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='6' designation='all'><addressbook><name>YOUNG, Joseph Michael</name><address><street>1 Hampshire Road, Madison, Connecticut 06443, US</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='7' designation='all'><addressbook><name>VERHOEST, Patrick Robert </name><address><street>23 Calvin Road, Newton, Massachusetts, 02460, Estados Unidos de América</street><country>US</country></address></addressbook></inventor>
+<inventor sequence='8' designation='all'><addressbook><name>HAYWARD, Matthew Merrill </name><address><street>3 Pyrus Court, Old Lyme,  Connecticut 06371  United States of America.</street><country>US</country></address></addressbook></inventor>
+</inventors><agents>
+<agent sequence='1' rep-type='agent'><addressbook><name>ALFREDO PACÍFICO GALLEGOS BANDERAS</name><address><street>Av. 12 de Octubre y Lincoln</street><country>EC</country></address></addressbook></agent>
+</agents></parties>
+<invention-title lang='es'>COMPUESTOS DE IMIDAZOPIRIDAZINA</invention-title>
+</bibliographic-data>
+<abstract lang='es'>La presente invención está dirigida a compuestos de Fórmula I:
+o una sal farmacéuticamente aceptable de los mismos, en donde los sustitutos R1, R3, R6, R7 y b son como se define en la presente. La invención también está dirigida a composiciones farmacéuticas que comprenden los compuestos, métodos de tratamiento usando los compuestos, y métodos de preparar los compuestos.</abstract>
+</ec-patent-document>
